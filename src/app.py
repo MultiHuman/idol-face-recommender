@@ -1,7 +1,14 @@
 from __future__ import annotations
 
 import csv
+import sys
 from pathlib import Path
+
+# Streamlit Cloud 는 src/app.py 를 직접 실행해서 sys.path[0] 가 src/ 가 된다.
+# repo 루트를 path 앞에 넣어야 `from src.recommend import ...` 가 해결됨.
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
 import pandas as pd
 import streamlit as st
