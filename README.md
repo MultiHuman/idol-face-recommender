@@ -29,10 +29,13 @@ streamlit run src/app.py
 ## 파이프라인 (크롤/추출/집계) 로컬 실행용
 
 ```bash
-conda env create -f environment.yml
+conda env create -f environment-pipeline.yml
 conda activate idol-face-rec
 pip install -r requirements-pipeline.txt
 ```
+
+> `environment.yml` 이 아니라 `environment-pipeline.yml` 로 둔 이유는 Streamlit Community Cloud 가
+> repo 에 `environment.yml` 이 있으면 requirements.txt 대신 conda 로 환경을 구성하려다 멈추기 때문.
 
 ## MVP 정의
 
