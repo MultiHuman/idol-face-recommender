@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import csv
+import re
 import sys
 from pathlib import Path
 
@@ -34,6 +35,15 @@ def _load_members_farl():
     return []
 
 
+def _clean_label(text: str) -> str:
+    """'"뉴진스" 민지' 처럼 쿼리용 따옴표가 섞인 표기를 '뉴진스 민지' 로 다듬는다."""
+    if not text:
+        return text
+    cleaned = re.sub(r'["“”]', "", text)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip()
+    return cleaned
+
+
 def _load_korean_labels(members_csv: Path) -> dict[str, str]:
     labels: dict[str, str] = {}
     if not members_csv.exists():
@@ -41,101 +51,109 @@ def _load_korean_labels(members_csv: Path) -> dict[str, str]:
     with members_csv.open(encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
             mid = (row.get("member_id") or "").strip()
-            hint = (row.get("search_hint") or "").strip()
+            hint = _clean_label(row.get("search_hint") or "")
             if mid and hint:
                 labels[mid] = hint
     return labels
 
 
 def main() -> None:
-    st.set_page_config(page_title="아이돌 얼굴 추천", page_icon=":sparkles:", layout="wide")
-    st.title("아이돌 얼굴 추천")
-    st.caption("좋아하는 멤버를 검색하면 얼굴이 비슷한 아이돌을 추천해준다.")
+    st.set_page_config(page_title="아이돌 얼굴 추천기", page_icon="✨", layout="wide")
+    st.title("아이돌 얼굴 추천기")
+    st.caption("좋아하는 멤버를 고르면 비슷한 느낌의 다른 아이돌을 찾아드립니다.")
 
     arcface_members = _load_members_arcface()
     farl_members = _load_members_farl()
 
     if not arcface_members:
-        st.warning("`data/member_vectors.csv`가 아직 없다. 템플릿을 참고해서 데이터를 만든 뒤 다시 실행해줘.")
-        st.code(
-            "python -m src.build_member_vectors --input data/image_embeddings.csv --output data/member_vectors.csv",
-            language="bash",
-        )
+        st.warning("추천에 필요한 데이터 파일이 아직 준비되지 않았어요.")
         return
-
-    # 추천 방식 선택
-    mode_options = ["동일 인물 느낌 (ArcFace)"]
-    if farl_members:
-        mode_options.extend(["비슷한 분위기 (FaRL)", "혼합 (ArcFace + FaRL z-score 융합)"])
-    engine = st.radio("추천 방식", mode_options, horizontal=True)
-
-    if engine.startswith("혼합") and farl_members:
-        primary = arcface_members
-        secondary = farl_members
-    elif engine.startswith("비슷한") and farl_members:
-        primary = farl_members
-        secondary = None
-    else:
-        primary = arcface_members
-        secondary = None
 
     ko_labels = _load_korean_labels(DEFAULT_MEMBERS_PATH)
 
     def _label_for(member_id: str, fallback_group: str = "", fallback_name: str = "") -> str:
         if member_id in ko_labels:
             return ko_labels[member_id]
-        if fallback_group or fallback_name:
-            return f"{fallback_group} {fallback_name}".strip()
-        return member_id
+        fallback = f"{fallback_group} {fallback_name}".strip()
+        return _clean_label(fallback) or member_id
 
     labels = {
         _label_for(member.member_id, member.group_name, member.member_name): member.member_id
-        for member in primary
+        for member in arcface_members
     }
-    sorted_label_keys = sorted(labels.keys())
+    sorted_labels = sorted(labels.keys())
 
-    mode = st.radio("모드 선택", ["1명 검색", "여러 명 조합"], horizontal=True)
+    selected_labels = st.multiselect(
+        "좋아하는 멤버 (여러 명 선택 가능)",
+        options=sorted_labels,
+        placeholder="그룹명이나 멤버 이름을 입력해 보세요",
+    )
+    selected_ids = [labels[lbl] for lbl in selected_labels]
 
-    if mode == "1명 검색":
-        selected_label = st.selectbox(
-            "좋아하는 멤버를 검색해봐",
-            options=[None] + sorted_label_keys,
-            format_func=lambda x: "멤버 이름이나 그룹명을 입력해봐" if x is None else x,
-        )
-        selected_ids = [labels[selected_label]] if selected_label else []
-    else:
-        selected_labels = st.multiselect(
-            "좋아하는 멤버를 여러 명 골라봐",
-            options=sorted_label_keys,
-            placeholder="멤버를 선택하면 추천이 계산된다.",
-        )
-        selected_ids = [labels[label] for label in selected_labels]
+    with st.expander("설정 바꾸기", expanded=False):
+        engine_options = ["얼굴 + 분위기 섞어서 (추천)"]
+        if farl_members:
+            engine_options.append("얼굴만 (닮은 사람)")
+            engine_options.append("분위기만 (이미지 톤)")
+        else:
+            engine_options = ["얼굴만 (닮은 사람)"]
 
-    with st.expander("고급 옵션", expanded=False):
-        top_k = st.slider("추천 인원 수", min_value=3, max_value=20, value=10)
-        mmr_lambda = st.slider(
-            "MMR 균형 (1.0 = 유사도 순, 0.5 = 다양성 강조)",
-            min_value=0.3, max_value=1.0, value=0.8, step=0.05,
+        engine_label = st.radio(
+            "추천 기준",
+            options=engine_options,
+            index=0,
+            help=(
+                "· 얼굴 + 분위기: 얼굴 생김새와 분위기를 모두 고려 (기본)\n"
+                "· 얼굴만: 눈·코·입 배치 등 골격이 닮은 사람 위주\n"
+                "· 분위기만: 이미지 톤·스타일이 비슷한 사람 위주"
+            ),
         )
+
+        top_k = st.slider("추천할 인원 수", min_value=3, max_value=20, value=10)
         max_per_group = st.slider(
-            "같은 그룹 최대 N명 (0 = 무제한)",
-            min_value=0, max_value=5, value=2, step=1,
+            "같은 그룹에서 최대 몇 명",
+            min_value=0, max_value=5, value=2,
+            help="0이면 제한 없음. 기본 2명으로 다양성 확보.",
         )
-        arcface_weight = st.slider("ArcFace 가중치", 0.0, 2.0, 1.0, 0.1)
-        farl_weight = st.slider("FaRL 가중치", 0.0, 2.0, 1.0, 0.1) if secondary else 0.0
-        gender_mode = st.radio(
-            "성별 필터",
-            options=["auto", "off", "F", "M"],
+        mmr_lambda = st.slider(
+            "닮음 ↔ 다양성",
+            min_value=0.3, max_value=1.0, value=0.8, step=0.05,
+            help="오른쪽일수록 닮은 순, 왼쪽일수록 여러 인상이 섞임",
+        )
+
+        gender_display = st.radio(
+            "성별 제한",
+            options=["자동 (고른 사람과 같은 성별)", "제한 없음", "여성만", "남성만"],
             index=0,
             horizontal=True,
-            help="auto = 좋아하는 멤버 다수 성별만, off = 필터 없음, F/M = 명시 강제.",
         )
 
+    # 설정 → 내부 옵션 변환
+    gender_map = {
+        "자동 (고른 사람과 같은 성별)": "auto",
+        "제한 없음": "off",
+        "여성만": "F",
+        "남성만": "M",
+    }
+    gender_mode = gender_map[gender_display]
+
+    if engine_label.startswith("얼굴 + 분위기"):
+        primary = arcface_members
+        secondary = farl_members if farl_members else None
+        weights = (1.0, 0.5) if farl_members else (1.0,)
+    elif engine_label.startswith("얼굴만"):
+        primary = arcface_members
+        secondary = None
+        weights = (1.0,)
+    else:
+        primary = farl_members if farl_members else arcface_members
+        secondary = None
+        weights = (1.0,)
+
     if not selected_ids:
-        st.info("멤버를 선택하면 비슷한 얼굴의 아이돌이 추천된다.")
+        st.info("👈 멤버를 고르면 비슷한 아이돌이 여기에 나타납니다.")
         return
 
-    weights = (arcface_weight, farl_weight) if secondary else (1.0,)
     rows = recommend_from_members(
         primary,
         liked_member_ids=selected_ids,
@@ -149,7 +167,7 @@ def main() -> None:
     )
 
     if not rows:
-        st.error("추천 결과를 만들지 못했다. 데이터 차원이나 입력 멤버를 확인해줘.")
+        st.error("조건에 맞는 추천 결과가 없어요. 설정을 바꾸거나 다른 멤버를 골라 보세요.")
         return
 
     st.subheader("추천 결과")
@@ -160,13 +178,17 @@ def main() -> None:
             {
                 "순위": index,
                 "멤버": _label_for(mid, str(row.get("group_name", "")), str(row.get("member_name", ""))),
-                "점수(z)": round(float(row.get("score", 0.0)), 3),
-                "신뢰도": round(float(row.get("confidence", 0.0)), 2),
-                "사진": int(row.get("image_count", 0)),
+                "유사도": round(float(row.get("score", 0.0)), 3),
+                "사진 수": int(row.get("image_count", 0)),
             }
         )
     dataframe = pd.DataFrame(display_rows)
     st.dataframe(dataframe, use_container_width=True, hide_index=True)
+
+    st.caption(
+        "유사도는 상대값 (z-score)이에요. 양수일수록 선택한 멤버들과 더 비슷한 쪽이고, "
+        "그룹/성별 필터로 걸러낸 뒤 다양성까지 고려해서 순위를 매깁니다."
+    )
 
 
 if __name__ == "__main__":
