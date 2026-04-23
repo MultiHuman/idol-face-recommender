@@ -1,0 +1,52 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 모델/캐시 (375MB FaRL weights + insightface onnx 포함)
+.cache/
+*.onnx
+*.pth
+
+# 원본 이미지 및 크롭 (저작권 + 용량)
+data/raw_images/
+data/face_crops/
+data/embeddings/
+!data/raw_images/.gitkeep
+!data/face_crops/.gitkeep
+!data/embeddings/.gitkeep
+
+# 중간 산출물 (추천 런타임에 불필요, 파일당 50MB+)
+data/image_embeddings.csv
+data/image_farl.csv
+data/image_landmarks.csv
+
+# 로그/통계 (배포 불필요)
+data/anchor_log.csv
+data/curation_log.csv
+data/embedding_similarity_report.csv
+data/kprofiles_add_log.csv
+data/cluster_*.csv
+data/face_clusters*.png
+
+# 앵커 ArcFace/FaRL 중간 캐시
+data/member_anchors_*.csv
+
+# 나무위키 파싱 중간 산출물
+data/namu_4gen_groups.csv
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini

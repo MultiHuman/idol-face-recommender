@@ -1,0 +1,203 @@
+"""image_farl.csv 의 per-image FaRL 임베딩을 멤버별로 집계.
+
+개선점:
+- spherical mean (Karcher) + IQR outlier trimming
+- intra-member pairwise consistency (confidence) 저장
+- kept_count, image_count 모두 기록
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+from collections import defaultdict
+from pathlib import Path
+
+import numpy as np
+
+from src.build_member_vectors import spherical_mean, trim_outliers, _load_group_gender_map
+
+
+def _parse_vector(vec_json: str) -> np.ndarray:
+    vals = json.loads(vec_json)
+    v = np.asarray(vals, dtype=np.float32)
+    if v.ndim != 1 or v.size == 0:
+        raise ValueError("Embedding vector must be a non-empty 1D array.")
+    return v
+
+
+def _normalize_rows(matrix: np.ndarray) -> np.ndarray:
+    norms = np.linalg.norm(matrix, axis=1, keepdims=True)
+    return matrix / np.clip(norms, 1e-12, None)
+
+
+def _member_confidence(normalized: np.ndarray) -> float:
+    n = normalized.shape[0]
+    if n < 2:
+        return 0.5
+    sims = normalized @ normalized.T
+    iu = np.triu_indices(n, k=1)
+    return float(np.clip(sims[iu].mean(), 0.0, 1.0))
+
+
+def build_farl_vectors(
+    farl_csv: Path,
+    embeddings_csv: Path,
+    output_csv: Path,
+    min_images: int = 5,
+    trim_fraction: float = 0.15,
+    min_keep_after_trim: int = 3,
+    aggregator: str = "spherical",
+    group_gender_csv: Path | None = None,
+) -> int:
+    if not farl_csv.exists():
+        raise FileNotFoundError(f"FaRL CSV not found: {farl_csv}")
+    if not embeddings_csv.exists():
+        raise FileNotFoundError(f"Embeddings CSV not found: {embeddings_csv}")
+
+    meta: dict[tuple[str, str], dict[str, str]] = {}
+    with embeddings_csv.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            mid = (row.get("member_id") or "").strip()
+            img = (row.get("image_path") or "").strip()
+            if not mid or not img:
+                continue
+            # is_valid_face=false 는 앵커 필터 등으로 제거된 이미지. 절대 포함 X.
+            is_valid = (row.get("is_valid_face") or "").strip().lower() in {"1", "true", "yes", "y"}
+            if not is_valid:
+                continue
+            meta[(mid, img)] = {
+                "group_name": (row.get("group_name") or "").strip(),
+                "member_name": (row.get("member_name") or "").strip(),
+                "quality_score": row.get("quality_score") or "0.0",
+                "gender": (row.get("gender") or "").strip(),
+            }
+
+    grouped: dict[str, dict[str, object]] = defaultdict(
+        lambda: {"group_name": "", "member_name": "", "genders": [], "vectors": []}
+    )
+    with farl_csv.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            mid = (row.get("member_id") or "").strip()
+            img = (row.get("image_path") or "").strip()
+            vec_json = (row.get("farl_vector_json") or "").strip()
+            if not mid or not vec_json:
+                continue
+
+            m = meta.get((mid, img))
+            if m is None:
+                continue
+            try:
+                quality = float(m["quality_score"])
+            except ValueError:
+                quality = 0.0
+
+            try:
+                vec = _parse_vector(vec_json)
+            except ValueError:
+                continue
+
+            entry = grouped[mid]
+            entry["group_name"] = m["group_name"]
+            entry["member_name"] = m["member_name"]
+            if m.get("gender"):
+                entry["genders"].append(m["gender"])
+            entry["vectors"].append((vec, quality))
+
+    rows_to_write: list[dict[str, object]] = []
+    for mid, entry in grouped.items():
+        vecs: list[tuple[np.ndarray, float]] = entry["vectors"]  # type: ignore[assignment]
+        if len(vecs) < min_images:
+            continue
+        matrix = np.vstack([v for v, _ in vecs])
+        normalized = _normalize_rows(matrix)
+        weights = np.array([max(w, 1e-6) for _, w in vecs], dtype=np.float32)
+
+        normalized_trim, weights_trim = trim_outliers(
+            normalized, weights, trim_fraction=trim_fraction, min_keep=min_keep_after_trim
+        )
+
+        if aggregator == "mean":
+            w = weights_trim / weights_trim.sum()
+            avg = (normalized_trim * w[:, None]).sum(axis=0)
+            avg = avg / max(np.linalg.norm(avg), 1e-12)
+        else:
+            avg = spherical_mean(normalized_trim)
+
+        confidence = _member_confidence(normalized_trim)
+
+        genders = entry["genders"]  # type: ignore[assignment]
+        if genders:
+            from collections import Counter
+            dominant_gender = Counter(genders).most_common(1)[0][0]
+        else:
+            dominant_gender = ""
+
+        rows_to_write.append({
+            "member_id": mid,
+            "group_name": str(entry["group_name"]),
+            "member_name": str(entry["member_name"]),
+            "image_count": len(vecs),
+            "kept_count": int(normalized_trim.shape[0]),
+            "confidence": f"{confidence:.4f}",
+            "gender": dominant_gender,
+            "vector_json": json.dumps(avg.tolist(), separators=(",", ":")),
+        })
+
+    # 그룹 성별 확정: external ground truth 우선, 없으면 다수결
+    from collections import Counter
+    external_gender = _load_group_gender_map(group_gender_csv) if group_gender_csv else {}
+    group_votes: dict[str, Counter] = defaultdict(Counter)
+    for row in rows_to_write:
+        g = row["group_name"]
+        if g and row.get("gender"):
+            group_votes[g][row["gender"]] += 1
+    group_gender: dict[str, str] = {}
+    for g, counter in group_votes.items():
+        total = sum(counter.values())
+        top_gender, top_count = counter.most_common(1)[0]
+        if total > 0 and top_count / total >= 0.5:
+            group_gender[g] = top_gender
+    group_gender.update(external_gender)
+    for row in rows_to_write:
+        g = row["group_name"]
+        if g in group_gender:
+            row["gender"] = group_gender[g]
+
+    output_csv.parent.mkdir(parents=True, exist_ok=True)
+    with output_csv.open("w", encoding="utf-8", newline="") as f:
+        fieldnames = ["member_id", "group_name", "member_name", "image_count", "kept_count", "confidence", "gender", "vector_json"]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows_to_write)
+
+    return len(rows_to_write)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Aggregate per-image FaRL embeddings into member-level vectors.")
+    parser.add_argument("--farl", default="data/image_farl.csv")
+    parser.add_argument("--embeddings", default="data/image_embeddings.csv")
+    parser.add_argument("--output", default="data/member_vectors_farl.csv")
+    parser.add_argument("--min-images", type=int, default=5)
+    parser.add_argument("--trim-fraction", type=float, default=0.15)
+    parser.add_argument("--min-keep-after-trim", type=int, default=3)
+    parser.add_argument("--aggregator", choices=["spherical", "mean"], default="spherical")
+    parser.add_argument("--group-gender", default="data/group_genders.csv")
+    args = parser.parse_args()
+
+    count = build_farl_vectors(
+        farl_csv=Path(args.farl),
+        embeddings_csv=Path(args.embeddings),
+        output_csv=Path(args.output),
+        min_images=args.min_images,
+        trim_fraction=args.trim_fraction,
+        min_keep_after_trim=args.min_keep_after_trim,
+        aggregator=args.aggregator,
+        group_gender_csv=Path(args.group_gender) if args.group_gender else None,
+    )
+    print(f"Wrote {count} member FaRL vectors to {args.output}")
+
+
+if __name__ == "__main__":
+    main()

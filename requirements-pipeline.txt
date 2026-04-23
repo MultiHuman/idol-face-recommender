@@ -1,0 +1,27 @@
+numpy>=2.0.0
+pandas>=2.2.0
+streamlit>=1.44.0
+
+# Pipeline
+selenium>=4.0.0
+insightface>=0.7.3
+onnxruntime>=1.19.0
+opencv-python-headless>=4.11.0.0
+Pillow>=11.0.0
+scikit-learn>=1.5.0
+
+# Crawler dedup / quality
+imagehash>=4.3.0
+
+# YouTube fancam collector
+yt-dlp>=2025.1.0
+
+# FaRL / CLIP style embeddings
+torch>=2.1.0
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+
+# Graph-based clustering
+networkx>=3.0
+umap-learn>=0.5.6
