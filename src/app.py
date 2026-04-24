@@ -72,18 +72,16 @@ def main() -> None:
     ko_labels = _load_korean_labels(DEFAULT_MEMBERS_PATH)
 
     def _label_for(member_id: str, fallback_group: str = "", fallback_name: str = "") -> str:
-        """한글 힌트와 영문 그룹·멤버명을 함께 담아서 어느 쪽 키워드로도 검색되게 한다."""
-        ko = ko_labels.get(member_id, "").strip()
-        en = _clean_label(f"{fallback_group} {fallback_name}".strip())
-        if ko and en and ko.lower() != en.lower():
-            return f"{ko} · {en}"
-        return ko or en or member_id
+        if member_id in ko_labels:
+            return ko_labels[member_id]
+        fallback = f"{fallback_group} {fallback_name}".strip()
+        return _clean_label(fallback) or member_id
 
     labels = {
         _label_for(member.member_id, member.group_name, member.member_name): member.member_id
         for member in arcface_members
     }
-    sorted_labels = sorted(labels.keys(), key=lambda s: s.lower())
+    sorted_labels = sorted(labels.keys())
 
     selected_labels = st.multiselect(
         "좋아하는 멤버 (여러 명 선택 가능)",
