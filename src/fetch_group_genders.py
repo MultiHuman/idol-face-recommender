@@ -54,6 +54,11 @@ MANUAL_OVERRIDES: dict[str, str] = {
     "BTS": "M",
     "TXT": "M",
     "TWICE": "F",
+    "Stray Kids": "M",
+    "Red Velvet": "F",
+    "ITZY": "F",
+    "IU": "F",
+    "INFINITE": "M",
 }
 
 
