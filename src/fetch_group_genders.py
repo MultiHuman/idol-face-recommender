@@ -59,6 +59,20 @@ MANUAL_OVERRIDES: dict[str, str] = {
     "ITZY": "F",
     "IU": "F",
     "INFINITE": "M",
+    "EXO": "M",
+    "GOT7": "M",
+    "WINNER": "M",
+    "iKON": "M",
+    "ASTRO": "M",
+    "Pentagon": "M",
+    "Highlight": "M",
+    "SF9": "M",
+    "ONF": "M",
+    "The Boyz": "M",
+    "BLACKPINK": "F",
+    "MAMAMOO": "F",
+    "Girls' Generation": "F",
+    "OH MY GIRL": "F",
 }
 
 

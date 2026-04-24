@@ -14,6 +14,7 @@ AND2BLE,M,downloaded
 ARISE,F,downloaded
 ARTMS,F,downloaded
 ARrC,M,downloaded
+ASTRO,M,manual_override
 AtHeart,F,downloaded
 AxMxP,M,downloaded
 B.D.U,M,downloaded
@@ -22,6 +23,7 @@ BADVILLAIN,F,downloaded
 BAE173,M,downloaded
 BE BOYS,M,downloaded
 BEWAVE,F,downloaded
+BLACKPINK,F,manual_override
 BLITZERS,M,downloaded
 BOYNEXTDOOR,M,downloaded
 BTOB,M,manual_override
@@ -46,15 +48,19 @@ EL7Z UP,F,downloaded
 ENHYPEN,M,downloaded
 EPEX,M,downloaded
 EVNNE,M,downloaded
+EXO,M,manual_override
 FANTASY BOYS,M,downloaded
 FIFTY FIFTY,F,downloaded
 GHOST9,M,downloaded
+GOT7,M,manual_override
 Geenius,F,downloaded
+Girls' Generation,F,manual_override
 H1-KEY,F,downloaded
 HEART OF WOMAN,F,downloaded
 HORI7ON,M,downloaded
 Hearts2Hearts,F,downloaded
 Hi-Fi Un!corn,M,manual_override
+Highlight,M,manual_override
 I.MET.U,F,downloaded
 ICHILLIN',F,downloaded
 IDID,M,downloaded
@@ -79,6 +85,7 @@ LNGSHOT,M,downloaded
 LUCY,M,downloaded
 LUN8,M,downloaded
 MADEIN,F,downloaded
+MAMAMOO,F,manual_override
 MCND,M,downloaded
 MEOVV,F,downloaded
 MIMIIROSE,F,downloaded
@@ -100,13 +107,16 @@ NewJeans,F,downloaded
 NiziU,F,downloaded
 NouerA,M,downloaded
 ODD YOUTH,F,downloaded
+OH MY GIRL,F,manual_override
 OMEGA X,M,downloaded
 ONE PACT,M,downloaded
+ONF,M,manual_override
 OWIS,F,downloaded
 P1Harmony,M,downloaded
 POLARIX,M,downloaded
 POW,M,downloaded
 PRIKIL,F,manual_override
+Pentagon,M,manual_override
 QWER,F,downloaded
 Queenz Eye,F,downloaded
 RESCENE,F,downloaded
@@ -117,6 +127,7 @@ SAY MY NAME,F,downloaded
 SECRET NUMBER,F,downloaded
 SEVENTEEN,M,manual_override
 SEVENUS,M,manual_override
+SF9,M,manual_override
 STAYC,F,manual_override
 SUPER JUNIOR,M,manual_override
 Stray Kids,M,manual_override
@@ -131,6 +142,7 @@ TUNEXX,M,downloaded
 TWICE,F,manual_override
 TWS,M,downloaded
 TXT,M,manual_override
+The Boyz,M,manual_override
 The KingDom,M,downloaded
 The Wind,M,downloaded
 UDTT,F,downloaded
@@ -146,6 +158,7 @@ VVUP,F,downloaded
 WAKER,M,downloaded
 WEi,M,downloaded
 WHIB,M,downloaded
+WINNER,M,manual_override
 WOOAH,F,downloaded
 We;Na,F,manual_override
 X:IN,F,downloaded
@@ -159,6 +172,7 @@ YUHZ,M,downloaded
 ZEROBASEONE,M,downloaded
 aespa,F,downloaded
 hrtz.wav,M,downloaded
+iKON,M,manual_override
 idntt,M,downloaded
 iii,F,downloaded
 izna,F,downloaded
