@@ -52,6 +52,7 @@ MANUAL_OVERRIDES: dict[str, str] = {
     "BTOB": "M",
     "NCT": "M",
     "BTS": "M",
+    "TXT": "M",
 }
 
 
