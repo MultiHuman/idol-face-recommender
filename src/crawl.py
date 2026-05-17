@@ -40,6 +40,7 @@ IMAGE_EXTENSIONS = {
 
 DOWNLOAD_BATCH_MULTIPLIER = 2
 PHASH_HAMMING_THRESHOLD = 6  # dHash/pHash 해밍거리 ≤ 6 이면 near-duplicate로 취급
+DEFAULT_MAX_BYTES = 15_000_000
 DEFAULT_QUERY_TEMPLATES: tuple[str, ...] = (
     "{hint}",
     "{hint} 고화질",
@@ -284,7 +285,12 @@ def _referer_for(url: str, source_page: str) -> str:
     return f"{parts.scheme}://{parts.netloc}/"
 
 
-def _download_bytes(url: str, referer: str, timeout_seconds: int) -> tuple[bytes, str | None]:
+def _download_bytes(
+    url: str,
+    referer: str,
+    timeout_seconds: int,
+    max_bytes: int,
+) -> tuple[bytes, str | None]:
     normalized_url = _normalize_url_for_request(url)
     headers = {
         "User-Agent": USER_AGENT,
@@ -293,7 +299,17 @@ def _download_bytes(url: str, referer: str, timeout_seconds: int) -> tuple[bytes
     }
     request = Request(normalized_url, headers=headers)
     with urlopen(request, timeout=timeout_seconds) as response:
-        return response.read(), response.headers.get_content_type()
+        chunks: list[bytes] = []
+        total = 0
+        while True:
+            chunk = response.read(64 * 1024)
+            if not chunk:
+                break
+            total += len(chunk)
+            if max_bytes > 0 and total > max_bytes:
+                raise ValueError(f"image larger than max_bytes {max_bytes}")
+            chunks.append(chunk)
+        return b"".join(chunks), response.headers.get_content_type()
 
 
 def _decode_image(image_bytes: bytes) -> Image.Image | None:
@@ -331,6 +347,7 @@ def _download_candidate(
     candidate: CandidateImage,
     timeout_seconds: int,
     min_bytes: int,
+    max_bytes: int,
     min_side: int,
     min_blur: float,
 ) -> DownloadResult:
@@ -344,7 +361,10 @@ def _download_candidate(
     for attempt_url in attempted_urls:
         try:
             image_bytes, content_type = _download_bytes(
-                attempt_url, referer, timeout_seconds=timeout_seconds
+                attempt_url,
+                referer,
+                timeout_seconds=timeout_seconds,
+                max_bytes=max_bytes,
             )
             if len(image_bytes) < min_bytes:
                 raise ValueError(f"too small: {len(image_bytes)} bytes")
@@ -480,6 +500,7 @@ def crawl_members(
     max_candidates: int,
     timeout_seconds: int,
     min_bytes: int,
+    max_bytes: int,
     min_side: int,
     min_blur: float,
     delay_ms: int,
@@ -567,6 +588,7 @@ def crawl_members(
                         candidate,
                         timeout_seconds,
                         min_bytes,
+                        max_bytes,
                         min_side,
                         min_blur,
                     ): candidate
@@ -691,6 +713,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--timeout-seconds", type=int, default=20)
     parser.add_argument("--min-bytes", type=int, default=10_000)
+    parser.add_argument("--max-bytes", type=int, default=DEFAULT_MAX_BYTES)
     parser.add_argument("--min-side", type=int, default=400, help="짧은 변이 이 값 미만인 이미지 거부.")
     parser.add_argument("--min-blur", type=float, default=80.0, help="Laplacian variance 하한 (0 이면 비활성).")
     parser.add_argument("--delay-ms", type=int, default=1000)
@@ -734,6 +757,7 @@ def main() -> None:
         max_candidates=args.max_candidates,
         timeout_seconds=args.timeout_seconds,
         min_bytes=args.min_bytes,
+        max_bytes=args.max_bytes,
         min_side=args.min_side,
         min_blur=args.min_blur,
         delay_ms=args.delay_ms,

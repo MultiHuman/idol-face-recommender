@@ -291,6 +291,8 @@ def recommend_from_members(
     max_per_group: int = 0,
     pool_size: int = 50,
     gender_filter: str = "auto",
+    min_image_count: int = 0,
+    min_confidence: float = 0.0,
 ) -> list[dict[str, str | int | float]]:
     """gender_filter: 'auto' = liked 멤버들의 다수 성별과 일치하는 멤버만, 'off' = 필터 없음, 'F'/'M' = 강제 지정."""
     if not members:
@@ -324,6 +326,10 @@ def recommend_from_members(
     rows: list[dict[str, float | str | int]] = []
     for member in members:
         if member.member_id in liked_ids:
+            continue
+        if min_image_count > 0 and member.image_count < min_image_count:
+            continue
+        if min_confidence > 0 and member.confidence < min_confidence:
             continue
         # gender 정보가 있는 멤버에 대해서만 필터 적용. 정보 없으면 통과.
         if allowed_gender and member.gender and member.gender != allowed_gender:
@@ -398,6 +404,8 @@ def main() -> None:
     parser.add_argument("--mmr-lambda", type=float, default=1.0,
                         help="1.0 = 순수 유사도, <1.0 이면 다양성 가산 (0.7 권장).")
     parser.add_argument("--max-per-group", type=int, default=0, help="같은 그룹에서 최대 N명까지 (0=무제한).")
+    parser.add_argument("--min-image-count", type=int, default=0, help="추천 후보에 필요한 최소 이미지 수.")
+    parser.add_argument("--min-confidence", type=float, default=0.0, help="추천 후보에 필요한 최소 confidence.")
     parser.add_argument("--no-confidence-weight", action="store_true",
                         help="멤버 confidence 로 점수 스케일 조정을 끈다.")
     parser.add_argument(
@@ -427,6 +435,8 @@ def main() -> None:
         max_per_group=args.max_per_group,
         pool_size=args.pool_size,
         gender_filter=args.gender_filter,
+        min_image_count=args.min_image_count,
+        min_confidence=args.min_confidence,
     )
     print(_format_rows(rows))
 

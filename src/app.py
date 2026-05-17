@@ -21,6 +21,8 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 DEFAULT_VECTORS_PATH = ROOT_DIR / "data" / "member_vectors.csv"
 FARL_VECTORS_PATH = ROOT_DIR / "data" / "member_vectors_farl.csv"
 DEFAULT_MEMBERS_PATH = ROOT_DIR / "data" / "members.csv"
+DEFAULT_MIN_IMAGE_COUNT = 5
+DEFAULT_MIN_CONFIDENCE = 0.35
 
 
 @st.cache_data
@@ -57,6 +59,10 @@ def _load_korean_labels(members_csv: Path) -> dict[str, str]:
     return labels
 
 
+def _is_low_quality(member, min_image_count: int, min_confidence: float) -> bool:
+    return member.image_count < min_image_count or member.confidence < min_confidence
+
+
 def main() -> None:
     st.set_page_config(page_title="아이돌 얼굴 추천기", page_icon="✨", layout="wide")
     st.title("아이돌 얼굴 추천기")
@@ -70,6 +76,7 @@ def main() -> None:
         return
 
     ko_labels = _load_korean_labels(DEFAULT_MEMBERS_PATH)
+    members_by_id = {member.member_id: member for member in arcface_members}
 
     def _label_for(member_id: str, fallback_group: str = "", fallback_name: str = "") -> str:
         if member_id in ko_labels:
@@ -77,18 +84,26 @@ def main() -> None:
         fallback = f"{fallback_group} {fallback_name}".strip()
         return _clean_label(fallback) or member_id
 
-    labels = {
-        _label_for(member.member_id, member.group_name, member.member_name): member.member_id
-        for member in arcface_members
-    }
-    sorted_labels = sorted(labels.keys())
+    def _label_for_member_id(member_id: str, mark_low_quality: bool = True) -> str:
+        member = members_by_id.get(member_id)
+        if member is None:
+            return member_id
+        label = _label_for(member.member_id, member.group_name, member.member_name)
+        if mark_low_quality and _is_low_quality(member, DEFAULT_MIN_IMAGE_COUNT, DEFAULT_MIN_CONFIDENCE):
+            return f"{label} (데이터 적음)"
+        return label
 
-    selected_labels = st.multiselect(
+    sorted_member_ids = sorted(
+        members_by_id,
+        key=lambda member_id: _label_for_member_id(member_id, mark_low_quality=False),
+    )
+
+    selected_ids = st.multiselect(
         "좋아하는 멤버 (여러 명 선택 가능)",
-        options=sorted_labels,
+        options=sorted_member_ids,
+        format_func=_label_for_member_id,
         placeholder="그룹명이나 멤버 이름을 입력해 보세요",
     )
-    selected_ids = [labels[lbl] for lbl in selected_labels]
 
     with st.expander("설정 바꾸기", expanded=False):
         engine_options = ["얼굴 + 분위기 섞어서 (추천)"]
@@ -114,6 +129,16 @@ def main() -> None:
             "같은 그룹에서 최대 몇 명",
             min_value=0, max_value=5, value=2,
             help="0이면 제한 없음. 기본 2명으로 다양성 확보.",
+        )
+        min_image_count = st.slider(
+            "최소 사진 수",
+            min_value=0, max_value=10, value=DEFAULT_MIN_IMAGE_COUNT,
+            help="추천 후보로 쓰려면 이만큼의 얼굴 이미지가 있어야 합니다.",
+        )
+        min_confidence = st.slider(
+            "최소 데이터 신뢰도",
+            min_value=0.0, max_value=0.8, value=DEFAULT_MIN_CONFIDENCE, step=0.05,
+            help="낮을수록 더 많이 추천하고, 높을수록 불안정한 멤버를 덜 보여줍니다.",
         )
         mmr_lambda = st.slider(
             "닮음 ↔ 다양성",
@@ -154,6 +179,24 @@ def main() -> None:
         st.info("👈 멤버를 고르면 비슷한 아이돌이 여기에 나타납니다.")
         return
 
+    low_quality_selected = [
+        member
+        for member_id in selected_ids
+        if (member := members_by_id.get(member_id)) is not None
+        and _is_low_quality(member, min_image_count, min_confidence)
+    ]
+    if low_quality_selected:
+        names = [
+            _label_for(member.member_id, member.group_name, member.member_name)
+            for member in low_quality_selected[:3]
+        ]
+        suffix = f" 외 {len(low_quality_selected) - 3}명" if len(low_quality_selected) > 3 else ""
+        st.warning(
+            "선택한 멤버 중 데이터가 적거나 불안정한 멤버가 있어 추천이 흔들릴 수 있어요: "
+            + ", ".join(names)
+            + suffix
+        )
+
     rows = recommend_from_members(
         primary,
         liked_member_ids=selected_ids,
@@ -164,6 +207,8 @@ def main() -> None:
         max_per_group=max_per_group,
         pool_size=max(50, top_k * 5),
         gender_filter=gender_mode,
+        min_image_count=min_image_count,
+        min_confidence=min_confidence,
     )
 
     if not rows:
