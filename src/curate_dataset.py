@@ -3,6 +3,8 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -182,12 +184,29 @@ def mark_low_quality_records(
             record.removal_reason = f"centroid_similarity<{min_centroid_similarity:.2f}"
 
 
+def _quarantine_or_delete(path: Path, quarantine_root: Path | None) -> bool:
+    if not path.exists():
+        return False
+    if quarantine_root is None:
+        path.unlink()
+        return True
+
+    rel = path.resolve().relative_to(ROOT_DIR.resolve())
+    destination = quarantine_root / rel
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    if destination.exists():
+        destination = destination.with_name(f"{destination.stem}_{os.getpid()}{destination.suffix}")
+    shutil.move(str(path), str(destination))
+    return True
+
+
 def delete_marked_files(
     records: list[EmbeddingRecord],
     raw_root: Path,
     crop_root: Path,
     manifest_path: Path,
     log_output: Path,
+    quarantine_root: Path | None = None,
 ) -> int:
     rows_to_log: list[dict[str, str]] = []
     deleted_count = 0
@@ -200,17 +219,16 @@ def delete_marked_files(
         crop_deleted = False
 
         try:
-            record.image_path.unlink()
-            raw_deleted = True
-            deleted_count += 1
-        except FileNotFoundError:
+            raw_deleted = _quarantine_or_delete(record.image_path, quarantine_root)
+            if raw_deleted:
+                deleted_count += 1
+        except (FileNotFoundError, ValueError):
             raw_deleted = False
 
         if record.crop_path is not None:
             try:
-                record.crop_path.unlink()
-                crop_deleted = True
-            except FileNotFoundError:
+                crop_deleted = _quarantine_or_delete(record.crop_path, quarantine_root)
+            except (FileNotFoundError, ValueError):
                 crop_deleted = False
 
         if raw_deleted:
@@ -336,6 +354,8 @@ def main() -> None:
         action="store_true",
         help="Do not delete rows marked as invalid face results.",
     )
+    parser.add_argument("--member-ids", nargs="*", help="Only curate these member IDs.")
+    parser.add_argument("--quarantine-dir", default=None, help="Move removed files here instead of deleting them.")
     parser.add_argument(
         "--dry-run",
         action="store_true",
@@ -344,6 +364,9 @@ def main() -> None:
     args = parser.parse_args()
 
     records = load_records(args.embeddings)
+    if args.member_ids:
+        selected = {mid.strip() for mid in args.member_ids if mid.strip()}
+        records = [record for record in records if record.member_id in selected]
     min_centroid_similarity = args.min_centroid_similarity if args.min_centroid_similarity > 0 else None
     mark_low_quality_records(
         records=records,
@@ -371,8 +394,10 @@ def main() -> None:
         crop_root=to_abs_path(args.crop_root),
         manifest_path=to_abs_path(args.manifest),
         log_output=to_abs_path(args.log_output),
+        quarantine_root=to_abs_path(args.quarantine_dir) if args.quarantine_dir else None,
     )
-    print(f"Deleted {deleted_count} raw images. Log: {args.log_output}")
+    action = "Quarantined" if args.quarantine_dir else "Deleted"
+    print(f"{action} {deleted_count} raw images. Log: {args.log_output}")
 
     # 삭제된 항목을 image_embeddings.csv에서 is_valid_face=false로 업데이트
     removed_paths = {r.image_path_text for r in records if r.removal_reason}

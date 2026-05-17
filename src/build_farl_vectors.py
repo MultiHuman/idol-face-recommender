@@ -49,6 +49,7 @@ def build_farl_vectors(
     min_keep_after_trim: int = 3,
     aggregator: str = "spherical",
     group_gender_csv: Path | None = None,
+    require_single_face: bool = True,
 ) -> int:
     if not farl_csv.exists():
         raise FileNotFoundError(f"FaRL CSV not found: {farl_csv}")
@@ -66,6 +67,13 @@ def build_farl_vectors(
             is_valid = (row.get("is_valid_face") or "").strip().lower() in {"1", "true", "yes", "y"}
             if not is_valid:
                 continue
+            if require_single_face:
+                try:
+                    face_count = int((row.get("face_count") or "1").strip() or "1")
+                except ValueError:
+                    face_count = 1
+                if face_count != 1:
+                    continue
             meta[(mid, img)] = {
                 "group_name": (row.get("group_name") or "").strip(),
                 "member_name": (row.get("member_name") or "").strip(),
@@ -167,7 +175,7 @@ def build_farl_vectors(
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     with output_csv.open("w", encoding="utf-8", newline="") as f:
         fieldnames = ["member_id", "group_name", "member_name", "image_count", "kept_count", "confidence", "gender", "vector_json"]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows_to_write)
 
@@ -184,6 +192,11 @@ def main() -> None:
     parser.add_argument("--min-keep-after-trim", type=int, default=3)
     parser.add_argument("--aggregator", choices=["spherical", "mean"], default="spherical")
     parser.add_argument("--group-gender", default="data/group_genders.csv")
+    parser.add_argument(
+        "--allow-multi-face",
+        action="store_true",
+        help="face_count > 1 row도 FaRL 멤버 벡터 집계에 포함한다.",
+    )
     args = parser.parse_args()
 
     count = build_farl_vectors(
@@ -195,6 +208,7 @@ def main() -> None:
         min_keep_after_trim=args.min_keep_after_trim,
         aggregator=args.aggregator,
         group_gender_csv=Path(args.group_gender) if args.group_gender else None,
+        require_single_face=not args.allow_multi_face,
     )
     print(f"Wrote {count} member FaRL vectors to {args.output}")
 

@@ -13,6 +13,7 @@ import argparse
 import csv
 import json
 import os
+import shutil
 import warnings
 from dataclasses import dataclass
 from pathlib import Path
@@ -227,26 +228,46 @@ def prune_empty_directories(start: Path, stop: Path) -> None:
         cur = cur.parent
 
 
-def delete_files(marked: list[tuple[ImageRecord, float]], raw_root: Path, crop_root: Path) -> int:
-    deleted = 0
+def _quarantine_or_delete(path: Path, quarantine_root: Path | None) -> bool:
+    if not path.exists():
+        return False
+    if quarantine_root is None:
+        path.unlink()
+        return True
+
+    rel = path.resolve().relative_to(ROOT_DIR.resolve())
+    destination = quarantine_root / rel
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    if destination.exists():
+        destination = destination.with_name(f"{destination.stem}_{os.getpid()}{destination.suffix}")
+    shutil.move(str(path), str(destination))
+    return True
+
+
+def delete_files(
+    marked: list[tuple[ImageRecord, float]],
+    raw_root: Path,
+    crop_root: Path,
+    quarantine_root: Path | None = None,
+) -> int:
+    removed = 0
     for rec, _ in marked:
         raw_path = ROOT_DIR / rec.image_path
-        if raw_path.exists():
-            try:
-                raw_path.unlink()
-                deleted += 1
+        try:
+            if _quarantine_or_delete(raw_path, quarantine_root):
+                removed += 1
                 prune_empty_directories(raw_path.parent, raw_root)
-            except OSError:
-                pass
+        except (OSError, ValueError):
+            pass
         crop_dir = crop_root / rec.member_id
         if crop_dir.exists():
             for cand in crop_dir.glob(f"{raw_path.stem}.*"):
                 try:
-                    cand.unlink()
+                    _quarantine_or_delete(cand, quarantine_root)
                 except OSError:
                     pass
             prune_empty_directories(crop_dir, crop_root)
-    return deleted
+    return removed
 
 
 def update_embeddings_csv(embeddings_csv: Path, removed_paths: set[str]) -> int:
@@ -298,6 +319,8 @@ def run(
     dry_run: bool,
     mode: str = "farl",
     anchor_arcface_csv: Path | None = None,
+    member_ids: set[str] | None = None,
+    quarantine_root: Path | None = None,
 ) -> None:
     if mode == "arcface":
         if anchor_arcface_csv is None:
@@ -313,6 +336,11 @@ def run(
         print(f"Loaded {len(anchors)} FaRL anchors.")
         records = load_image_records(image_farl_csv)
         print(f"Loaded {len(records)} image FaRL records.")
+
+    if member_ids:
+        records = [record for record in records if record.member_id in member_ids]
+        anchors = {mid: vector for mid, vector in anchors.items() if mid in member_ids}
+        print(f"Filtered to {len(records)} image records for {len(member_ids)} requested members.")
 
     marked = mark_below_threshold(records, anchors, min_similarity)
     print(f"Marked {len(marked)} images for removal (anchor cosine < {min_similarity}, mode={mode}).")
@@ -334,8 +362,9 @@ def run(
         return
 
     removed_paths = {rec.image_path for rec, _ in marked}
-    deleted = delete_files(marked, raw_root, crop_root)
-    print(f"Deleted {deleted} raw image files.")
+    removed = delete_files(marked, raw_root, crop_root, quarantine_root=quarantine_root)
+    action = "Quarantined" if quarantine_root is not None else "Deleted"
+    print(f"{action} {removed} raw image files.")
     emb_updated = update_embeddings_csv(embeddings_csv, removed_paths)
     print(f"Updated {emb_updated} rows in {embeddings_csv.name}.")
     farl_removed = update_farl_csv(image_farl_csv, removed_paths)
@@ -353,6 +382,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--min-similarity", type=float, default=0.75)
     parser.add_argument("--mode", choices=["farl", "arcface"], default="farl")
     parser.add_argument("--anchor-arcface-csv", default="data/member_anchors_arcface.csv")
+    parser.add_argument("--member-ids", nargs="*", help="Only curate these member IDs.")
+    parser.add_argument("--quarantine-dir", default=None, help="Move removed files here instead of deleting them.")
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()
 
@@ -370,6 +401,8 @@ def main() -> None:
         dry_run=args.dry_run,
         mode=args.mode,
         anchor_arcface_csv=ROOT_DIR / args.anchor_arcface_csv,
+        member_ids={mid.strip() for mid in args.member_ids if mid.strip()} if args.member_ids else None,
+        quarantine_root=ROOT_DIR / args.quarantine_dir if args.quarantine_dir else None,
     )
 
 

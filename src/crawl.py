@@ -532,7 +532,7 @@ def crawl_members(
             print(f"[skip] {member.member_id}: no query produced")
             continue
         print(
-            f"[crawl] {member.member_id}: {len(queries)} queries — "
+            f"[crawl] {member.member_id}: {len(queries)} queries - "
             f"{queries[0]!r}{' + ...' if len(queries) > 1 else ''}"
         )
 
