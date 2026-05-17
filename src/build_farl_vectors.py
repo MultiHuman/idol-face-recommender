@@ -15,7 +15,14 @@ from pathlib import Path
 
 import numpy as np
 
-from src.build_member_vectors import spherical_mean, trim_outliers, _load_group_gender_map
+from src.build_member_vectors import (
+    _load_group_gender_map,
+    _load_member_gender_map,
+    apply_gender_overrides,
+    resolve_group_gender_overrides,
+    spherical_mean,
+    trim_outliers,
+)
 
 
 def _parse_vector(vec_json: str) -> np.ndarray:
@@ -49,6 +56,7 @@ def build_farl_vectors(
     min_keep_after_trim: int = 3,
     aggregator: str = "spherical",
     group_gender_csv: Path | None = None,
+    member_gender_csv: Path | None = None,
     require_single_face: bool = True,
 ) -> int:
     if not farl_csv.exists():
@@ -153,24 +161,17 @@ def build_farl_vectors(
         })
 
     # 그룹 성별 확정: external ground truth 우선, 없으면 다수결
-    from collections import Counter
     external_gender = _load_group_gender_map(group_gender_csv) if group_gender_csv else {}
-    group_votes: dict[str, Counter] = defaultdict(Counter)
-    for row in rows_to_write:
-        g = row["group_name"]
-        if g and row.get("gender"):
-            group_votes[g][row["gender"]] += 1
-    group_gender: dict[str, str] = {}
-    for g, counter in group_votes.items():
-        total = sum(counter.values())
-        top_gender, top_count = counter.most_common(1)[0]
-        if total > 0 and top_count / total >= 0.5:
-            group_gender[g] = top_gender
-    group_gender.update(external_gender)
-    for row in rows_to_write:
-        g = row["group_name"]
-        if g in group_gender:
-            row["gender"] = group_gender[g]
+    group_gender = resolve_group_gender_overrides(
+        rows_to_write=[dict(row) for row in rows_to_write],
+        external_gender=external_gender,
+    )
+    member_gender = _load_member_gender_map(member_gender_csv) if member_gender_csv else {}
+    apply_gender_overrides(
+        rows_to_write=[row for row in rows_to_write],
+        group_gender=group_gender,
+        member_gender=member_gender,
+    )
 
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     with output_csv.open("w", encoding="utf-8", newline="") as f:
@@ -192,6 +193,7 @@ def main() -> None:
     parser.add_argument("--min-keep-after-trim", type=int, default=3)
     parser.add_argument("--aggregator", choices=["spherical", "mean"], default="spherical")
     parser.add_argument("--group-gender", default="data/group_genders.csv")
+    parser.add_argument("--member-gender", default="data/member_genders.csv")
     parser.add_argument(
         "--allow-multi-face",
         action="store_true",
@@ -208,6 +210,7 @@ def main() -> None:
         min_keep_after_trim=args.min_keep_after_trim,
         aggregator=args.aggregator,
         group_gender_csv=Path(args.group_gender) if args.group_gender else None,
+        member_gender_csv=Path(args.member_gender) if args.member_gender else None,
         require_single_face=not args.allow_multi_face,
     )
     print(f"Wrote {count} member FaRL vectors to {args.output}")

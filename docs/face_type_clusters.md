@@ -12,152 +12,159 @@ Known cross-group aliases are collapsed before clustering, and female/male membe
 
 ## F Clusters
 
-- Members: 389
+- Members: 392
 - Clusters: 10
-- Silhouette: 0.0304
+- Silhouette: 0.0297
 
-### F01 (52 members)
+### F01 (60 members)
 
-- Avg images/confidence: 7.1 / 0.606
-- Top groups: tripleS(4), NewJeans(3), MEOVV(3), iii(3), MIMIIROSE(3)
-- Representatives: UNCHILD Tina, iii Ahra, BABYMONSTER Ruka, USPEER Seoyu, ICHILLIN' Joonie, Hearts2Hearts Stella, tripleS JiYeon, Billlie Sheon
+- Avg images/confidence: 7.4 / 0.590
+- Top groups: LIGHTSUM(4), NMIXX(3), Kep1er(3), NiziU(3), MADEIN(3)
+- Representatives: NMIXX Jiwoo, NMIXX Sullyoon, LIGHTSUM Nayoung, RESCENE May, Baby DONT Cry Mia, EL7Z UP Yuki, IVE Liz, tripleS JooBin
 - Contact sheet: `.cache/face_type_clusters/F01.jpg`
 
 ### F02 (49 members)
 
-- Avg images/confidence: 7.7 / 0.579
-- Top groups: SECRET NUMBER(6), Lovelyz(4), BADVILLAIN(3), H1-KEY(2), SAY MY NAME(2)
-- Representatives: STAYC Sumin, LIMELIGHT Suhye, MADEIN Suhye, H1-KEY Hwiseo, iii Soobin, VVUP Kim, aespa Giselle, EL7Z UP Hwiseo
+- Avg images/confidence: 7.4 / 0.611
+- Top groups: USPEER(5), Kep1er(3), KiiiKiii(3), CRAXY(3), KIIRAS(3)
+- Representatives: BADVILLAIN YunSeo, USPEER Seoyu, USPEER Chaena, ARISE Alisa, GFRIEND Yerin, Kep1er Chaehyun, CLASS:y Chaewon, KIIRAS Kurumi
 - Contact sheet: `.cache/face_type_clusters/F02.jpg`
 
-### F03 (47 members)
+### F03 (49 members)
 
-- Avg images/confidence: 8.2 / 0.597
-- Top groups: Kep1er(4), Hearts2Hearts(3), Baby DONT Cry(3), LIGHTSUM(3), tripleS(3)
-- Representatives: ODD YOUTH Myah, NMIXX Jiwoo, Baby DONT Cry Mia, LIGHTSUM Nayoung, STAYC J, Hearts2Hearts Jiwoo, tripleS JooBin, Hearts2Hearts A-na
+- Avg images/confidence: 7.7 / 0.589
+- Top groups: FIFTY FIFTY(4), IVE(3), MEOVV(3), RESCENE(3), ILLIT(2)
+- Representatives: FIFTY FIFTY Athena, RESCENE Minami, Baby DONT Cry Beni, RESCENE Liv, Candy Shop Soram, tripleS JiYeon, tripleS Xinyu, IVE Wonyoung
 - Contact sheet: `.cache/face_type_clusters/F03.jpg`
 
-### F04 (45 members)
+### F04 (43 members)
 
-- Avg images/confidence: 7.8 / 0.610
-- Top groups: CLASS:y(3), QWER(2), KIIRAS(2), tripleS(2), USPEER(2)
-- Representatives: CLASS:y Chaewon, BADVILLAIN YunSeo, WJSN Luda, KIIRAS Kurumi, ARISE Alisa, BABYMONSTER Rora, USPEER Daon, CLASS:y Hyeju
+- Avg images/confidence: 7.1 / 0.581
+- Top groups: WJSN(3), ARTMS(2), Hearts2Hearts(2), ADYA(2), PRIKIL(2)
+- Representatives: ADYA Seowon, WJSN Seola, Hearts2Hearts Jiwoo, tripleS Kotone, MADEIN Suhye, LIMELIGHT Suhye, Hearts2Hearts Juun, ARISE Jihu
 - Contact sheet: `.cache/face_type_clusters/F04.jpg`
 
-### F05 (44 members)
+### F05 (41 members)
 
-- Avg images/confidence: 8.3 / 0.591
-- Top groups: NiziU(3), Queenz Eye(3), Kep1er(2), XG(2), KIIRAS(2)
-- Representatives: Kep1er Yujin, ICHILLIN' Chaerin, ITZY Yeji, ADYA Yeonsu, aespa Karina, Kep1er Chaehyun, NiziU Mako, SAY MY NAME Seungjoo
+- Avg images/confidence: 8.3 / 0.589
+- Top groups: VCHA(3), TWICE(3), LE SSERAFIM(2), Hearts2Hearts(2), XG(2)
+- Representatives: NewJeans Hanni, I.MET.U Lea, FIFTY FIFTY Hana, BEWAVE Jiun, ITZY Lia, UDTT Kwon Yejin, ITZY Yuna, AtHeart Nahyun
 - Contact sheet: `.cache/face_type_clusters/F05.jpg`
 
-### F06 (39 members)
+### F06 (36 members)
 
-- Avg images/confidence: 8.6 / 0.581
-- Top groups: Hearts2Hearts(2), NiziU(2), QWER(2), XG(2), AtHeart(2)
-- Representatives: NewJeans Hanni, I.MET.U Lea, FIFTY FIFTY Hana, UDTT Kwon Yejin, ITZY Yuna, SAY MY NAME Shuie, ITZY Lia, BEWAVE Jiun
+- Avg images/confidence: 8.1 / 0.602
+- Top groups: WJSN(4), Queenz Eye(3), KISS OF LIFE(2), QWER(2), BADVILLAIN(2)
+- Representatives: QWER Hina, BEWAVE Zena, BADVILLAIN INA, Billlie Sheon, WJSN Luda, Billlie Suhyeon, Candy Shop Yuina, CLASS:y Hyeju
 - Contact sheet: `.cache/face_type_clusters/F06.jpg`
 
-### F07 (38 members)
+### F07 (33 members)
 
-- Avg images/confidence: 7.8 / 0.597
-- Top groups: FIFTY FIFTY(4), IVE(3), TWICE(3), LE SSERAFIM(2), RESCENE(2)
-- Representatives: Baby DONT Cry Beni, FIFTY FIFTY Athena, FIFTY FIFTY Yewon, NMIXX Sullyoon, RESCENE Minami, FIFTY FIFTY Sio, Candy Shop Soram, BEWAVE Zena
+- Avg images/confidence: 8.2 / 0.599
+- Top groups: NiziU(2), XG(2), YOUNG POSSE(2), Girls' Generation(2), aespa(1)
+- Representatives: ARTMS JinSoul, ADYA Yeonsu, ITZY Yeji, FIFTY FIFTY Keena, aespa Karina, XG Juria, Red Velvet Wendy, KIIRAS LingLing
 - Contact sheet: `.cache/face_type_clusters/F07.jpg`
 
-### F08 (30 members)
+### F08 (29 members)
 
-- Avg images/confidence: 7.4 / 0.598
-- Top groups: WJSN(3), EL7Z UP(2), ICHILLIN'(2), Lovelyz(2), IVE(1)
-- Representatives: LIGHTSUM Juhyeon, BEWAVE Gowoon, STAYC Sieun, IVE Gaeul, KIIRAS Kylie, MADEIN MiU, NiziU Miihi, LIMELIGHT MiU
+- Avg images/confidence: 8.0 / 0.609
+- Top groups: NewJeans(3), VVUP(3), izna(2), BABYMONSTER(2), ICHILLIN'(2)
+- Representatives: Hearts2Hearts Stella, ICHILLIN' Joonie, UNCHILD Yeeun, NewJeans Haerin, ICHILLIN' Chaerin, BABYMONSTER Ruka, UNCHILD Tina, H1-KEY Yel
 - Contact sheet: `.cache/face_type_clusters/F08.jpg`
 
-### F09 (23 members)
+### F09 (27 members)
 
-- Avg images/confidence: 7.2 / 0.588
-- Top groups: ADYA(3), CRAXY(2), Lovelyz(2), WJSN(2), ARTMS(1)
-- Representatives: Lovelyz Mijoo, BADVILLAIN Vin, ARTMS Kim Lip, ADYA Seowon, Rocking doll Juri, CRAXY Wooah, CLASS:y Hyungseo, ADYA Chaeeun
+- Avg images/confidence: 8.6 / 0.572
+- Top groups: LE SSERAFIM(2), Red Velvet(2), OH MY GIRL(2), ALLDAY PROJECT(2), aespa(1)
+- Representatives: LE SSERAFIM Kim Chaewon, IU IU, STAYC Sumin, Candy Shop Sui, ALLDAY PROJECT Youngseo, CLASS:y Hyungseo, H1-KEY Seoi, LE SSERAFIM Kazuha
 - Contact sheet: `.cache/face_type_clusters/F09.jpg`
 
-### F10 (22 members)
+### F10 (25 members)
 
-- Avg images/confidence: 8.2 / 0.555
-- Top groups: NiziU(2), RESCENE(2), UDTT(2), Red Velvet(2), BLACKPINK(2)
-- Representatives: RESCENE May, GFRIEND Yuju, BLACKPINK Jennie, RESCENE Woni, MAMAMOO Moonbyul, Red Velvet Joy, PRIKIL Nana, TWICE Nayeon
+- Avg images/confidence: 8.3 / 0.570
+- Top groups: SECRET NUMBER(4), Lovelyz(3), ICHILLIN'(2), Girls' Generation(2), MOMOLAND(2)
+- Representatives: SECRET NUMBER Min C, SECRET NUMBER Minji, OH MY GIRL Jiho, BLACKPINK Rosé, MOMOLAND Nayun, ICHILLIN' Sohee, STAYC Sieun, ICHILLIN' Jackie
 - Contact sheet: `.cache/face_type_clusters/F10.jpg`
 
 ## M Clusters
 
-- Members: 686
-- Clusters: 10
-- Silhouette: 0.0308
+- Members: 688
+- Clusters: 11
+- Silhouette: 0.0307
 
-### M01 (84 members)
+### M01 (85 members)
 
-- Avg images/confidence: 11.2 / 0.666
-- Top groups: DKB(3), E'LAST(3), NINE.i(3), AHOF(2), ALPHA DRIVE ONE(2)
-- Representatives: NCHIVE HA.L, MCND Win, EPEX Yewang, CRAVITY Seongmin, EVNNE Park Jihoo, B.D.U Seunghun, NXD Jaemin, YUHZ Jaeil
+- Avg images/confidence: 10.2 / 0.650
+- Top groups: &TEAM(4), XLOV(3), BAE173(2), BLITZERS(2), BTOB(2)
+- Representatives: VIXX N, ENHYPEN Sunoo, WAKER Kohyeon, EVNNE Park Hanbin, idntt Nam JiWoon, NCT Jungwoo, ASTRO MJ, Xdinary Heroes Jungsu
 - Contact sheet: `.cache/face_type_clusters/M01.jpg`
 
-### M02 (83 members)
+### M02 (75 members)
 
-- Avg images/confidence: 10.4 / 0.669
-- Top groups: CRAVITY(4), XODIAC(3), BLITZERS(2), ENHYPEN(2), NCT(2)
-- Representatives: ONE PACT Yedam, idntt Nam JiWoon, EPEX Jeff, ALPHA DRIVE ONE Anxin, CRAVITY Jungmo, hrtz.wav Riaan, EVNNE Park Hanbin, ASTRO MJ
+- Avg images/confidence: 10.3 / 0.657
+- Top groups: CLOSE YOUR EYES(4), AHOF(3), YUHZ(3), ALL(H)OURS(2), ALPHA DRIVE ONE(2)
+- Representatives: CLOSE YOUR EYES Seo Kyoungbae, CLOSE YOUR EYES Song Seungho, CRAVITY Seongmin, MCND Win, TNX Junhyeok, NCT Jaemin, NCHIVE HA.L, CRAVITY Minhee
 - Contact sheet: `.cache/face_type_clusters/M02.jpg`
 
 ### M03 (71 members)
 
-- Avg images/confidence: 10.1 / 0.659
-- Top groups: idntt(5), The KingDom(3), ARrC(2), DAYCHILD(2), DKB(2)
-- Representatives: POW Jungbin, DAYCHILD Eden, TNX Sungjun, YOUNITE DEY, DRIPPIN Hyeop, The KingDom Dann, AIMERS Yoel, B.D.U Kim Minseo
+- Avg images/confidence: 10.6 / 0.653
+- Top groups: Pentagon(5), Hi-Fi Un!corn(3), IDID(3), idntt(3), Stray Kids(3)
+- Representatives: idntt Park NuRi, idntt Lee KyuHyuk, Stray Kids Han, DRIPPIN Hyeop, POW Jungbin, TNX Hwi, YOUNITE DEY, TNX Taehun
 - Contact sheet: `.cache/face_type_clusters/M03.jpg`
 
-### M04 (71 members)
+### M04 (70 members)
 
-- Avg images/confidence: 10.6 / 0.661
-- Top groups: idntt(3), P1Harmony(3), TAN(3), Stray Kids(3), B.A.P(3)
-- Representatives: idntt Lee KyuHyuk, idntt Park NuRi, P1Harmony Theo, Stray Kids Han, 8TURN Kyungmin, NOWZ Yeonwoo, NouerA Gihyeon, ZEROBASEONE Seok Matthew
+- Avg images/confidence: 11.1 / 0.674
+- Top groups: TREASURE(5), ALPHA DRIVE ONE(3), EPEX(3), KickFlip(3), NCT(3)
+- Representatives: Stray Kids Seungmin, GHOST9 Shin, DRIPPIN Dongyun, CRAVITY Allen, TEMPEST Taerae, xikers Yechan, ONF Hyojin, ALPHA DRIVE ONE Xinlong
 - Contact sheet: `.cache/face_type_clusters/M04.jpg`
 
-### M05 (70 members)
+### M05 (64 members)
 
-- Avg images/confidence: 10.3 / 0.673
-- Top groups: ALPHA DRIVE ONE(3), GHOST9(3), NCT(3), SEVENTEEN(3), TREASURE(3)
-- Representatives: 82MAJOR Dogyun, ALPHA DRIVE ONE Xinlong, EPEX Wish, GHOST9 Shin, ONF Hyojin, SEVENTEEN Dino, TREASURE Yoshi, NCT WISH Yushi
+- Avg images/confidence: 10.9 / 0.658
+- Top groups: JUSTB(3), MODYSSEY(3), xikers(3), BLITZERS(2), BOYNEXTDOOR(2)
+- Representatives: BOYNEXTDOOR Riwoo, TEMPEST Hyeongseop, KEYVITUP Hyunmin, AND2BLE Zhang Hao, BOYNEXTDOOR Jaehyun, JUSTB DY, VIXX Hyuk, CRAVITY Wonjin
 - Contact sheet: `.cache/face_type_clusters/M05.jpg`
 
-### M06 (69 members)
+### M06 (63 members)
 
-- Avg images/confidence: 10.3 / 0.649
-- Top groups: &TEAM(3), BOYNEXTDOOR(3), ENHYPEN(3), Pentagon(3), Hi-Fi Un!corn(2)
-- Representatives: BOYNEXTDOOR Sungho, ENHYPEN Sunoo, TNX Hwi, Xdinary Heroes Jungsu, TEMPEST Hyeongseop, WAKER Kohyeon, ENHYPEN Jay, LUN8 Chael
+- Avg images/confidence: 9.9 / 0.675
+- Top groups: XODIAC(4), HORI7ON(3), NCT(3), OMEGA X(3), CRAVITY(2)
+- Representatives: GHOST9 Woojin, EPEX Jeff, XODIAC Leo, KickFlip Donghwa, SEVENTEEN Jun, ARrC Rioto, ALPHA DRIVE ONE Anxin, ENHYPEN Jay
 - Contact sheet: `.cache/face_type_clusters/M06.jpg`
 
-### M07 (66 members)
+### M07 (55 members)
 
-- Avg images/confidence: 10.1 / 0.678
-- Top groups: FANTASY BOYS(4), AHOF(2), BAE173(2), DXMON(2), HORI7ON(2)
-- Representatives: VAY ONN Peng Jinyu, VAYONN Peng Jinyu, YUHZ Junseong, GHOST9 Jinwoo, n.SSign Sungyun, The Wind Jang Hyounjoon, FANTASY BOYS Hong Sungmin, FANTASY BOYS Kim Gyurae
+- Avg images/confidence: 10.3 / 0.655
+- Top groups: TAN(3), BTS(3), ALL(H)OURS(2), AMPERS&ONE(2), E'LAST(2)
+- Representatives: The Boyz Younghoon, AND2BLE Han Yujin, WEi Daehyeon, xikers Jinsik, MONSTA X Minhyuk, WHIB Leejeong, NOWZ Jinhyuk, 82MAJOR Seongbin
 - Contact sheet: `.cache/face_type_clusters/M07.jpg`
 
-### M08 (65 members)
+### M08 (54 members)
 
-- Avg images/confidence: 10.6 / 0.665
-- Top groups: NCT(5), HORI7ON(4), ARrC(3), XODIAC(3), AMPERS&ONE(2)
-- Representatives: TREASURE Junghwan, CRAVITY Allen, CRAVITY Serim, DRIPPIN Dongyun, XODIAC Gyumin, n.SSign Laurence, TREASURE Asahi, Stray Kids Seungmin
+- Avg images/confidence: 9.9 / 0.641
+- Top groups: SEVENTEEN(3), WINNER(3), Dragon Pony(2), NTX(2), OMEGA X(2)
+- Representatives: TNX Sungjun, AIMERS Seunghwan, BOYNEXTDOOR Woonhak, SEVENTEEN Wonwoo, DAYCHILD Siwoo, 82MAJOR Seongmo, MONSTA X Kihyun, WINNER Seunghoon
 - Contact sheet: `.cache/face_type_clusters/M08.jpg`
 
-### M09 (64 members)
+### M09 (53 members)
 
-- Avg images/confidence: 10.0 / 0.633
-- Top groups: MONSTA X(3), BTS(3), AHOF(2), AND2BLE(2), &TEAM(2)
-- Representatives: The Boyz Younghoon, CLOSE YOUR EYES Song Seungho, AND2BLE Han Yujin, VI'ENX Younghoon, 82MAJOR Seongbin, MONSTA X Minhyuk, IDID Baek Junhyuk, NOWZ Jinhyuk
+- Avg images/confidence: 9.7 / 0.674
+- Top groups: CORTIS(4), &TEAM(3), FANTASY BOYS(3), NCT(2), POLARIX(2)
+- Representatives: FANTASY BOYS Lee Hanbin, FANTASY BOYS Ling Qi, TWS Youngjae, SUPER JUNIOR Ryeowook, TREASURE Junghwan, NOWZ Yeonwoo, LUN8 Takuma, &TEAM Maki
 - Contact sheet: `.cache/face_type_clusters/M09.jpg`
 
-### M10 (43 members)
+### M10 (51 members)
 
-- Avg images/confidence: 8.5 / 0.652
-- Top groups: POLARIX(3), XLOV(3), CORTIS(2), MODYSSEY(2), NCT(2)
-- Representatives: POLARIX Zai, VAY ONN Sun Jiayang, Stray Kids Felix, TXT Yeonjun, VAYONN Sun Jiayang, POLARIX Shao Ziheng, CLOSE YOUR EYES Jeon Minwook, ALPHA DRIVE ONE Arno
+- Avg images/confidence: 10.4 / 0.669
+- Top groups: idntt(3), AHOF(2), AND2BLE(2), BOYNEXTDOOR(2), CLOSE YOUR EYES(2)
+- Representatives: YUHZ Jaeil, BAE173 Youngseo, FANTASY BOYS Hikari, Hi-Fi Un!corn Hyunyul, idntt Choi TaeIn, The Wind Kim Heesoo, OMEGA X Xen, The Boyz Juyeon
 - Contact sheet: `.cache/face_type_clusters/M10.jpg`
+
+### M11 (47 members)
+
+- Avg images/confidence: 9.6 / 0.674
+- Top groups: DXMON(2), FANTASY BOYS(2), HORI7ON(2), MCND(2), NCT(2)
+- Representatives: The Wind Jang Hyounjoon, VAY ONN Peng Jinyu, VAYONN Peng Jinyu, n.SSign Sungyun, TEMPEST Eunchan, GHOST9 Jinwoo, TREASURE Haruto, TRENDZ Yechan
+- Contact sheet: `.cache/face_type_clusters/M11.jpg`

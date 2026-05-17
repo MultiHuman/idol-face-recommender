@@ -86,10 +86,69 @@ def _load_group_gender_map(path: str | Path) -> dict[str, str]:
     with path.open(encoding="utf-8-sig", newline="") as f:
         for row in csv.DictReader(f):
             g = (row.get("group_name") or "").strip()
-            gender = (row.get("gender") or "").strip()
-            if g and gender in ("F", "M"):
+            gender = (row.get("gender") or "").strip().upper()
+            if g and gender in ("F", "M", "COED"):
                 result[g] = gender
     return result
+
+
+def _load_member_gender_map(path: str | Path) -> dict[str, str]:
+    path = Path(path)
+    if not path.exists():
+        return {}
+    result: dict[str, str] = {}
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            member_id = (row.get("member_id") or "").strip()
+            gender = (row.get("gender") or "").strip().upper()
+            if member_id and gender in ("F", "M"):
+                result[member_id] = gender
+    return result
+
+
+def resolve_group_gender_overrides(
+    rows_to_write: list[dict[str, object]],
+    external_gender: dict[str, str],
+) -> dict[str, str]:
+    coed_groups = {group for group, gender in external_gender.items() if gender == "COED"}
+    external_binary_gender = {
+        group: gender for group, gender in external_gender.items() if gender in ("F", "M")
+    }
+
+    from collections import Counter
+
+    group_votes: dict[str, Counter] = defaultdict(Counter)
+    for row in rows_to_write:
+        g = row["group_name"]
+        if g and row.get("gender"):
+            group_votes[str(g)][row["gender"]] += 1
+
+    group_gender: dict[str, str] = {}
+    for g, counter in group_votes.items():
+        if g in coed_groups:
+            continue
+        total = sum(counter.values())
+        top_gender, top_count = counter.most_common(1)[0]
+        if total > 0 and top_count / total >= 0.5:
+            group_gender[g] = top_gender
+
+    group_gender.update(external_binary_gender)
+    return group_gender
+
+
+def apply_gender_overrides(
+    rows_to_write: list[dict[str, object]],
+    group_gender: dict[str, str],
+    member_gender: dict[str, str],
+) -> None:
+    for row in rows_to_write:
+        group_name = str(row.get("group_name") or "")
+        if group_name in group_gender:
+            row["gender"] = group_gender[group_name]
+
+        member_id = str(row.get("member_id") or "")
+        if member_id in member_gender:
+            row["gender"] = member_gender[member_id]
 
 
 def build_member_vectors(
@@ -101,6 +160,7 @@ def build_member_vectors(
     min_keep_after_trim: int = 3,
     aggregator: str = "spherical",
     group_gender_csv: str | Path | None = None,
+    member_gender_csv: str | Path | None = None,
     require_single_face: bool = True,
 ) -> int:
     source = Path(input_csv)
@@ -189,25 +249,17 @@ def build_member_vectors(
     # 그룹 성별 확정 절차 (우선순위):
     # 1) group_gender_csv 가 있으면 외부 ground truth 로 덮어씀 (kprofiles "boy/girl group" 텍스트 기반)
     # 2) 그게 없으면 그룹 멤버들의 genderage 다수결로 덮어씀
-    from collections import Counter
     external_gender = _load_group_gender_map(group_gender_csv) if group_gender_csv else {}
-    group_votes: dict[str, Counter] = defaultdict(Counter)
-    for row in rows_to_write:
-        g = row["group_name"]
-        if g and row.get("gender"):
-            group_votes[g][row["gender"]] += 1
-    group_gender: dict[str, str] = {}
-    for g, counter in group_votes.items():
-        total = sum(counter.values())
-        top_gender, top_count = counter.most_common(1)[0]
-        if total > 0 and top_count / total >= 0.5:
-            group_gender[g] = top_gender
-    # external 이 우선
-    group_gender.update(external_gender)
-    for row in rows_to_write:
-        g = row["group_name"]
-        if g in group_gender:
-            row["gender"] = group_gender[g]
+    group_gender = resolve_group_gender_overrides(
+        rows_to_write=[dict(row) for row in rows_to_write],
+        external_gender=external_gender,
+    )
+    member_gender = _load_member_gender_map(member_gender_csv) if member_gender_csv else {}
+    apply_gender_overrides(
+        rows_to_write=[row for row in rows_to_write],
+        group_gender=group_gender,
+        member_gender=member_gender,
+    )
 
     destination.parent.mkdir(parents=True, exist_ok=True)
     with destination.open("w", encoding="utf-8", newline="") as handle:
@@ -249,6 +301,11 @@ def main() -> None:
         help="(선택) group_name → gender ground truth CSV. genderage 다수결을 덮어씀.",
     )
     parser.add_argument(
+        "--member-gender",
+        default="data/member_genders.csv",
+        help="(선택) member_id → gender ground truth CSV. group override보다 우선.",
+    )
+    parser.add_argument(
         "--allow-multi-face",
         action="store_true",
         help="face_count > 1 row도 멤버 벡터 집계에 포함한다.",
@@ -264,6 +321,7 @@ def main() -> None:
         min_keep_after_trim=args.min_keep_after_trim,
         aggregator=args.aggregator,
         group_gender_csv=args.group_gender,
+        member_gender_csv=args.member_gender,
         require_single_face=not args.allow_multi_face,
     )
     print(f"Wrote {count} member vectors to {args.output}")
