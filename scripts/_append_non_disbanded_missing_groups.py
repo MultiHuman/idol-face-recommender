@@ -16,6 +16,13 @@ GROUP_GENDERS_CSV = ROOT_DIR / "data" / "group_genders.csv"
 
 # (member_id, group_name, member_name, search_hint, include_terms, exclude_terms)
 NEW_ROWS: list[tuple[str, str, str, str, str, str]] = [
+    # B.A.P
+    ("b_a_p__yongguk", "B.A.P", "Yongguk", '"비에이피" 방용국', "B.A.P|BAP|비에이피", ""),
+    ("b_a_p__daehyun", "B.A.P", "Daehyun", '"비에이피" 정대현', "B.A.P|BAP|비에이피", ""),
+    ("b_a_p__youngjae", "B.A.P", "Youngjae", '"비에이피" 유영재', "B.A.P|BAP|비에이피", ""),
+    ("b_a_p__jongup", "B.A.P", "Jongup", '"비에이피" 문종업', "B.A.P|BAP|비에이피", ""),
+    ("b_a_p__zelo", "B.A.P", "Zelo", '"비에이피" 젤로', "B.A.P|BAP|비에이피", ""),
+
     # VIXX
     ("vixx__n", "VIXX", "N", '"빅스" 엔', "VIXX|빅스", ""),
     ("vixx__leo", "VIXX", "Leo", '"빅스" 레오', "VIXX|빅스", ""),
@@ -92,6 +99,7 @@ NEW_ROWS: list[tuple[str, str, str, str, str, str]] = [
 ]
 
 GROUP_GENDERS: dict[str, str] = {
+    "B.A.P": "M",
     "BBGIRLS": "F",
     "DAY6": "M",
     "EXID": "F",
