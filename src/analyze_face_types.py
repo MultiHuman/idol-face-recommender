@@ -3,7 +3,7 @@
 The analysis is intentionally exploratory:
 - collapse known cross-group aliases into one person
 - split by gender so clusters are not dominated by the obvious gender axis
-- combine ArcFace and FaRL vectors, matching the app's default weights
+- use ArcFace face-recognition vectors by default, extracted from aligned face crops
 - cluster with cosine agglomerative clustering
 - write a Markdown report, CSV assignments, and local contact sheets
 """
@@ -67,23 +67,54 @@ def quality_rank(member: MemberVector) -> tuple[float, int, str]:
     return (member.confidence, member.image_count, member.member_id)
 
 
+def build_feature(
+    member: MemberVector,
+    farl_member: MemberVector | None,
+    feature_mode: str,
+    farl_weight: float,
+) -> np.ndarray | None:
+    arcface = _normalize(member.vector.astype(np.float32))
+    if feature_mode == "arcface":
+        return arcface
+
+    if farl_member is None:
+        return None
+
+    farl = _normalize(farl_member.vector.astype(np.float32))
+    if feature_mode == "farl":
+        return farl
+
+    return _normalize(np.concatenate([arcface, farl_weight * farl]))
+
+
+def feature_description(feature_mode: str, farl_weight: float) -> str:
+    if feature_mode == "arcface":
+        return "normalized ArcFace face-recognition vector from aligned face crops"
+    if feature_mode == "farl":
+        return "normalized FaRL vector"
+    return f"normalized ArcFace vector concatenated with {farl_weight:g} * normalized FaRL vector"
+
+
 def load_face_type_members(
     arcface_csv: Path,
     farl_csv: Path,
     members_csv: Path,
     aliases_csv: Path,
+    feature_mode: str,
     farl_weight: float,
     min_image_count: int,
     min_confidence: float,
 ) -> list[FaceTypeMember]:
     arc_members = {member.member_id: member for member in load_member_vectors(arcface_csv)}
-    farl_members = {member.member_id: member for member in load_member_vectors(farl_csv)}
+    farl_members: dict[str, MemberVector] = {}
+    if feature_mode in {"arcface-farl", "farl"}:
+        farl_members = {member.member_id: member for member in load_member_vectors(farl_csv)}
     aliases = load_member_aliases(aliases_csv)
     labels = load_labels(members_csv)
 
     collapsed: dict[str, MemberVector] = {}
     for member in arc_members.values():
-        if member.member_id not in farl_members:
+        if feature_mode in {"arcface-farl", "farl"} and member.member_id not in farl_members:
             continue
         if member.image_count < min_image_count or member.confidence < min_confidence:
             continue
@@ -94,15 +125,14 @@ def load_face_type_members(
 
     out: list[FaceTypeMember] = []
     for alias_id, member in collapsed.items():
-        farl_member = farl_members[member.member_id]
-        feature = _normalize(
-            np.concatenate(
-                [
-                    _normalize(member.vector.astype(np.float32)),
-                    farl_weight * _normalize(farl_member.vector.astype(np.float32)),
-                ]
-            )
+        feature = build_feature(
+            member=member,
+            farl_member=farl_members.get(member.member_id),
+            feature_mode=feature_mode,
+            farl_weight=farl_weight,
         )
+        if feature is None:
+            continue
         label = labels.get(member.member_id) or f"{member.group_name} {member.member_name}".strip()
         out.append(
             FaceTypeMember(
@@ -251,6 +281,7 @@ def write_outputs(
     all_silhouettes: dict[str, float],
     reps_per_cluster: int,
     method: str,
+    feature_text: str,
 ) -> None:
     assignments_csv.parent.mkdir(parents=True, exist_ok=True)
     report_md.parent.mkdir(parents=True, exist_ok=True)
@@ -272,6 +303,7 @@ def write_outputs(
                 "x",
                 "y",
             ],
+            lineterminator="\n",
         )
         writer.writeheader()
         for gender in sorted(all_members):
@@ -312,7 +344,7 @@ def write_outputs(
     lines.append("")
     lines.append("## Method")
     lines.append("")
-    lines.append("- Feature: normalized ArcFace vector concatenated with 0.5 * normalized FaRL vector")
+    lines.append(f"- Feature: {feature_text}")
     lines.append("- Filter: member vectors with at least the requested minimum images/confidence")
     lines.append(f"- Clustering: {method}, cluster count selected near the target size by silhouette/balance")
     lines.append("- Contact sheets: local representative crops nearest to each cluster centroid")
@@ -361,7 +393,7 @@ def write_outputs(
             lines.append(f"- Contact sheet: `{sheet_display}`")
             lines.append("")
 
-    report_md.write_text("\n".join(lines), encoding="utf-8")
+    report_md.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def run(args: argparse.Namespace) -> None:
@@ -370,6 +402,7 @@ def run(args: argparse.Namespace) -> None:
         farl_csv=ROOT_DIR / args.farl,
         members_csv=ROOT_DIR / args.members,
         aliases_csv=ROOT_DIR / args.aliases,
+        feature_mode=args.feature_mode,
         farl_weight=args.farl_weight,
         min_image_count=args.min_image_count,
         min_confidence=args.min_confidence,
@@ -408,6 +441,7 @@ def run(args: argparse.Namespace) -> None:
         all_silhouettes=all_silhouettes,
         reps_per_cluster=args.representatives,
         method=args.method,
+        feature_text=feature_description(args.feature_mode, args.farl_weight),
     )
     print(f"Wrote {args.assignments_csv}")
     print(f"Wrote {args.report_md}")
@@ -424,6 +458,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--report-md", default="docs/face_type_clusters.md")
     parser.add_argument("--sheet-dir", default=".cache/face_type_clusters")
     parser.add_argument("--crop-root", default="data/face_crops")
+    parser.add_argument(
+        "--feature-mode",
+        choices=["arcface", "arcface-farl", "farl"],
+        default="arcface",
+        help="arcface is face-only and ignores styling/context; arcface-farl matches the older fused exploratory setup.",
+    )
     parser.add_argument("--farl-weight", type=float, default=0.5)
     parser.add_argument("--min-image-count", type=int, default=5)
     parser.add_argument("--min-confidence", type=float, default=0.35)

@@ -1,1077 +1,1076 @@
 face_type_id,gender,cluster_id,member_id,alias_id,label,group_name,member_name,image_count,confidence,x,y
-F06,F,2,aespa__giselle,aespa__giselle,에스파 지젤,aespa,Giselle,8,0.5859,0.1458,-0.0054
-F07,F,9,aespa__karina,aespa__karina,에스파 카리나,aespa,Karina,7,0.5784,-0.2658,-0.1679
-F01,F,7,aespa__ningning,aespa__ningning,에스파 닝닝,aespa,Ningning,8,0.5786,-0.1709,-0.0584
-F08,F,6,aespa__winter,aespa__winter,에스파 윈터,aespa,Winter,8,0.6580,-0.0049,-0.1817
-F10,F,0,ive__gaeul,ive__gaeul,아이브 가을,IVE,Gaeul,8,0.5997,0.1732,0.0479
-F05,F,3,ive__leeseo,ive__leeseo,아이브 이서,IVE,Leeseo,8,0.7052,0.1695,0.1626
-F06,F,2,ive__liz,ive__liz,아이브 리즈,IVE,Liz,18,0.6385,-0.0194,0.1208
-F01,F,7,ive__rei,ive__rei,아이브 레이,IVE,Rei,8,0.6388,0.0797,0.0557
-F02,F,1,ive__wonyoung,ive__wonyoung,아이브 장원영,IVE,Wonyoung,11,0.6899,-0.0372,-0.1014
-F03,F,4,ive__yujin,ive__yujin,아이브 안유진,IVE,Yujin,8,0.6336,0.0581,0.1281
-F07,F,9,le_sserafim__hong_eunchae,le_sserafim__hong_eunchae,르세라핌 홍은채,LE SSERAFIM,Hong Eunchae,7,0.6273,-0.0623,0.1506
-F05,F,3,le_sserafim__huh_yunjin,le_sserafim__huh_yunjin,르세라핌 허윤진,LE SSERAFIM,Huh Yunjin,10,0.6693,-0.0063,0.2162
-F01,F,7,le_sserafim__kazuha,le_sserafim__kazuha,르세라핌 카즈하,LE SSERAFIM,Kazuha,8,0.6956,0.2314,-0.0689
-F06,F,2,le_sserafim__kim_chaewon,le_sserafim__kim_chaewon,르세라핌 김채원,LE SSERAFIM,Kim Chaewon,8,0.3621,0.1171,-0.1037
-F01,F,7,le_sserafim__sakura,le_sserafim__sakura,르세라핌 사쿠라,LE SSERAFIM,Sakura,8,0.5833,0.0498,0.0784
-F04,F,5,newjeans__danielle,newjeans__danielle,뉴진스 다니엘,NewJeans,Danielle,20,0.7368,-0.1494,0.0715
-F04,F,5,newjeans__haerin,newjeans__haerin,뉴진스 해린,NewJeans,Haerin,9,0.7522,-0.2872,-0.0237
-F04,F,5,newjeans__hanni,newjeans__hanni,뉴진스 하니,NewJeans,Hanni,12,0.6848,-0.2812,0.1583
-F07,F,9,newjeans__hyein,newjeans__hyein,뉴진스 혜인,NewJeans,Hyein,12,0.6979,-0.1925,0.1063
-F04,F,5,newjeans__minji,newjeans__minji,뉴진스 민지,NewJeans,Minji,14,0.6695,-0.2717,-0.0300
-F10,F,0,nmixx__bae,nmixx__bae,엔믹스 배,NMIXX,Bae,7,0.5333,-0.0809,0.1614
-F05,F,3,nmixx__haewon,nmixx__haewon,엔믹스 해원,NMIXX,Haewon,8,0.6990,0.3029,0.1445
-F07,F,9,nmixx__jiwoo,nmixx__jiwoo,엔믹스 지우,NMIXX,Jiwoo,8,0.5675,0.1643,0.1740
-F02,F,1,nmixx__kyujin,nmixx__kyujin,엔믹스 규진,NMIXX,Kyujin,20,0.6522,-0.2596,-0.0242
-F04,F,5,nmixx__lily,nmixx__lily,엔믹스 릴리,NMIXX,Lily,18,0.7043,-0.0806,0.2785
-F07,F,9,nmixx__sullyoon,nmixx__sullyoon,엔믹스 설윤,NMIXX,Sullyoon,11,0.6608,0.1009,0.2483
-F06,F,2,artms__choerry,artms__choerry,ARTMS 최리,ARTMS,Choerry,7,0.5082,-0.0772,0.0736
-F01,F,7,artms__haseul,artms__haseul,ARTMS 하슬,ARTMS,HaSeul,7,0.6799,0.0971,-0.0339
-F02,F,1,artms__jinsoul,artms__jinsoul,ARTMS 진솔,ARTMS,JinSoul,8,0.5284,-0.2415,-0.2037
-F09,F,8,artms__kim_lip,artms__kim_lip,ARTMS 김립,ARTMS,Kim Lip,8,0.7012,0.3048,-0.0059
-F03,F,4,fifty_fifty__aran,fifty_fifty__aran,FIFTY FIFTY 아란,FIFTY FIFTY,Aran,8,0.6932,0.0971,0.0545
-F03,F,4,fifty_fifty__athena,fifty_fifty__athena,FIFTY FIFTY 아테나,FIFTY FIFTY,Athena,8,0.5916,-0.0415,0.1851
-F03,F,4,fifty_fifty__hana,fifty_fifty__hana,FIFTY FIFTY 하나,FIFTY FIFTY,Hana,6,0.5265,-0.0594,0.1038
-F01,F,7,fifty_fifty__keena,fifty_fifty__keena,FIFTY FIFTY 키나,FIFTY FIFTY,Keena,8,0.5010,-0.1335,-0.1754
-F08,F,6,fifty_fifty__saena,fifty_fifty__saena,FIFTY FIFTY 새나,FIFTY FIFTY,Saena,8,0.6516,0.2252,-0.3347
-F03,F,4,fifty_fifty__sio,fifty_fifty__sio,FIFTY FIFTY 시오,FIFTY FIFTY,Sio,8,0.6461,0.0979,0.1606
-F09,F,8,fifty_fifty__yewon,fifty_fifty__yewon,FIFTY FIFTY 예원,FIFTY FIFTY,Yewon,8,0.6206,0.2302,0.0912
-F06,F,2,h1_key__hwiseo,h1_key__hwiseo,H1-KEY 휘서,H1-KEY,Hwiseo,7,0.4692,0.0003,-0.0841
-F01,F,7,h1_key__riina,h1_key__riina,H1-KEY 리이나,H1-KEY,Riina,8,0.6550,0.0142,-0.0545
-F07,F,9,h1_key__seoi,h1_key__seoi,H1-KEY 서이,H1-KEY,Seoi,6,0.5815,0.0384,0.1765
-F04,F,5,h1_key__sitala,h1_key__sitala,H1-KEY 시탈라,H1-KEY,Sitala,7,0.7741,-0.2374,0.0999
-F01,F,7,h1_key__yel,h1_key__yel,H1-KEY 옐,H1-KEY,Yel,6,0.5538,-0.1236,-0.3519
-F07,F,9,hearts2hearts__a_na,hearts2hearts__a_na,Hearts2Hearts 에이나,Hearts2Hearts,A-na,8,0.6781,0.0714,0.1933
-F05,F,3,hearts2hearts__carmen,hearts2hearts__carmen,Hearts2Hearts 카르멘,Hearts2Hearts,Carmen,8,0.6771,-0.1047,0.2101
-F07,F,9,hearts2hearts__ian,hearts2hearts__ian,Hearts2Hearts 이안,Hearts2Hearts,Ian,8,0.6055,-0.1981,-0.0234
-F07,F,9,hearts2hearts__jiwoo,hearts2hearts__jiwoo,Hearts2Hearts 지우,Hearts2Hearts,Jiwoo,7,0.5422,-0.0080,0.0119
-F07,F,9,hearts2hearts__juun,hearts2hearts__juun,Hearts2Hearts 주은,Hearts2Hearts,Juun,8,0.6156,0.1653,-0.0415
-F01,F,7,hearts2hearts__stella,hearts2hearts__stella,Hearts2Hearts 스텔라,Hearts2Hearts,Stella,8,0.6006,-0.1328,-0.1555
-F05,F,3,hearts2hearts__ye_on,hearts2hearts__ye_on,Hearts2Hearts 예온,Hearts2Hearts,Ye-on,7,0.6331,0.0126,0.1403
-F07,F,9,hearts2hearts__yuha,hearts2hearts__yuha,Hearts2Hearts 유하,Hearts2Hearts,Yuha,8,0.5731,-0.0747,0.2464
-F04,F,5,illit__iroha,illit__iroha,ILLIT 이로하,ILLIT,Iroha,7,0.7152,-0.2114,0.0713
-F04,F,5,illit__minju,illit__minju,ILLIT 민주,ILLIT,Minju,8,0.5969,-0.0434,0.2296
-F01,F,7,illit__moka,illit__moka,ILLIT 모카,ILLIT,Moka,6,0.4359,-0.0508,0.1189
-F01,F,7,illit__wonhee,illit__wonhee,ILLIT 원희,ILLIT,Wonhee,8,0.6408,0.1580,-0.0921
-F07,F,9,illit__yunah,illit__yunah,ILLIT 윤아,ILLIT,Yunah,7,0.6503,-0.0693,0.2311
-F02,F,1,izna__koko,izna__koko,izna 코코,izna,Koko,6,0.5608,-0.1959,-0.1516
-F02,F,1,izna__mai,izna__mai,izna 마이,izna,Mai,5,0.6736,-0.3824,-0.0677
-F01,F,7,katseye__yoonchae,katseye__yoonchae,KATSEYE 윤채,KATSEYE,Yoonchae,7,0.5374,-0.1250,0.0829
-F02,F,1,kep1er__chaehyun,kep1er__chaehyun,Kep1er 채현,Kep1er,Chaehyun,8,0.5678,-0.0320,-0.2457
-F02,F,1,kep1er__dayeon,kep1er__dayeon,Kep1er 다연,Kep1er,Dayeon,8,0.5542,-0.1408,0.0389
-F06,F,2,kep1er__hikaru,kep1er__hikaru,Kep1er 히카루,Kep1er,Hikaru,8,0.5895,0.2460,0.0070
-F09,F,8,kep1er__huening_bahiyyih,kep1er__huening_bahiyyih,Kep1er 휴닝바히에,Kep1er,Huening Bahiyyih,8,0.7649,0.1729,0.1639
-F05,F,3,kep1er__mashiro,kep1er__mashiro,Kep1er 마시로,Kep1er,Mashiro,6,0.6138,-0.1781,0.2323
-F01,F,7,kep1er__xiaoting,kep1er__xiaoting,Kep1er 샤오팅,Kep1er,Xiaoting,8,0.7031,0.0588,0.0428
-F02,F,1,kep1er__yeseo,kep1er__yeseo,Kep1er 예서,Kep1er,Yeseo,7,0.5654,-0.1105,-0.1317
-F08,F,6,kep1er__youngeun,kep1er__youngeun,Kep1er 영은,Kep1er,Youngeun,8,0.5496,0.1662,-0.2727
-F02,F,1,kep1er__yujin,kep1er__yujin,Kep1er 유진,Kep1er,Yujin,8,0.6026,-0.0839,-0.2470
-F04,F,5,kiiikiii__haum,kiiikiii__haum,KiiiKiii 하음,KiiiKiii,Haum,7,0.6186,-0.2249,0.0801
-F01,F,7,kiiikiii__jiyu,kiiikiii__jiyu,KiiiKiii 지유,KiiiKiii,Jiyu,6,0.6127,0.0030,-0.1486
-F04,F,5,kiiikiii__kya,kiiikiii__kya,KiiiKiii 키야,KiiiKiii,Kya,7,0.5507,-0.1231,0.0788
-F02,F,1,kiiikiii__leesol,kiiikiii__leesol,KiiiKiii 이솔,KiiiKiii,Leesol,6,0.7020,-0.1063,-0.1913
-F08,F,6,kiiikiii__sui,kiiikiii__sui,KiiiKiii 수이,KiiiKiii,Sui,8,0.6756,0.0224,-0.0614
-F09,F,8,kiss_of_life__belle,kiss_of_life__belle,KISS OF LIFE 벨,KISS OF LIFE,Belle,8,0.7016,0.1696,0.1369
-F02,F,1,kiss_of_life__haneul,kiss_of_life__haneul,KISS OF LIFE 하늘,KISS OF LIFE,Haneul,8,0.6542,-0.1364,-0.0873
-F03,F,4,kiss_of_life__julie,kiss_of_life__julie,KISS OF LIFE 쥴리,KISS OF LIFE,Julie,8,0.5896,0.0610,-0.1682
-F03,F,4,kiss_of_life__natty,kiss_of_life__natty,KISS OF LIFE 나띠,KISS OF LIFE,Natty,8,0.5965,0.1738,0.0602
-F04,F,5,meovv__anna,meovv__anna,MEOVV 안나,MEOVV,Anna,8,0.5629,-0.2972,0.2384
-F04,F,5,meovv__ella,meovv__ella,MEOVV 엘라,MEOVV,Ella,8,0.6462,-0.3288,-0.0512
-F03,F,4,meovv__gawon,meovv__gawon,MEOVV 가원,MEOVV,Gawon,7,0.5690,-0.0172,0.0224
-F04,F,5,meovv__narin,meovv__narin,MEOVV 나린,MEOVV,Narin,7,0.5868,-0.2219,0.1119
-F01,F,7,meovv__sooin,meovv__sooin,MEOVV 수인,MEOVV,Sooin,7,0.6239,0.0485,-0.0750
-F02,F,1,niziu__ayaka,niziu__ayaka,NiziU 아야카,NiziU,Ayaka,7,0.5932,-0.1891,-0.2220
-F02,F,1,niziu__mako,niziu__mako,NiziU 마코,NiziU,Mako,8,0.6842,-0.2244,-0.2537
-F05,F,3,niziu__maya,niziu__maya,NiziU 마야,NiziU,Maya,8,0.5512,-0.0848,0.1064
-F01,F,7,niziu__mayuka,niziu__mayuka,NiziU 마유카,NiziU,Mayuka,7,0.5054,-0.1111,0.0033
-F05,F,3,niziu__miihi,niziu__miihi,NiziU 미이히,NiziU,Miihi,8,0.5041,0.0997,0.1882
-F04,F,5,niziu__nina,niziu__nina,NiziU 니나,NiziU,Nina,7,0.5721,-0.1729,0.0987
-F05,F,3,niziu__riku,niziu__riku,NiziU 리쿠,NiziU,Riku,8,0.5307,-0.0109,0.0985
-F04,F,5,niziu__rima,niziu__rima,NiziU 리마,NiziU,Rima,8,0.6404,-0.0992,0.4110
-F02,F,1,niziu__rio,niziu__rio,NiziU 리오,NiziU,Rio,7,0.5506,-0.1379,-0.2024
-F02,F,1,qwer__chodan,qwer__chodan,QWER 쵸단,QWER,Chodan,8,0.7142,-0.0455,-0.1393
-F03,F,4,qwer__hina,qwer__hina,QWER 히나,QWER,Hina,8,0.7171,0.0855,-0.1815
-F08,F,6,qwer__magenta,qwer__magenta,QWER 마젠타,QWER,Magenta,7,0.6064,0.1906,-0.2492
-F04,F,5,qwer__siyeon,qwer__siyeon,QWER 시연,QWER,Siyeon,8,0.6111,-0.2229,-0.0370
-F03,F,4,rescene__liv,rescene__liv,RESCENE 리브,RESCENE,Liv,8,0.5124,-0.0355,0.0716
-F05,F,3,rescene__may,rescene__may,RESCENE 메이,RESCENE,May,8,0.4580,-0.1485,0.3282
-F05,F,3,rescene__minami,rescene__minami,RESCENE 미나미,RESCENE,Minami,8,0.6037,-0.0750,0.1725
-F07,F,9,rescene__woni,rescene__woni,RESCENE 원이,RESCENE,Woni,7,0.5872,-0.1180,0.0913
-F05,F,3,rescene__zena,rescene__zena,RESCENE 제나,RESCENE,Zena,8,0.6368,0.1297,0.0654
-F02,F,1,say_my_name__dohee,say_my_name__dohee,SAY MY NAME 도희,SAY MY NAME,Dohee,8,0.6585,0.0780,0.0073
-F08,F,6,say_my_name__hitomi,say_my_name__hitomi,SAY MY NAME 히토미,SAY MY NAME,Hitomi,8,0.6446,0.2895,-0.0692
-F01,F,7,say_my_name__junhwi,say_my_name__junhwi,SAY MY NAME 준휘,SAY MY NAME,Junhwi,8,0.5837,0.1851,0.0202
-F07,F,9,say_my_name__kanny,say_my_name__kanny,SAY MY NAME 카니,SAY MY NAME,Kanny,8,0.5611,-0.0629,0.2082
-F08,F,6,say_my_name__mei,say_my_name__mei,SAY MY NAME 메이,SAY MY NAME,Mei,8,0.5724,0.4006,0.0425
-F10,F,0,say_my_name__seungjoo,say_my_name__seungjoo,SAY MY NAME 승주,SAY MY NAME,Seungjoo,6,0.6375,-0.1045,-0.0239
-F04,F,5,say_my_name__shuie,say_my_name__shuie,SAY MY NAME 슈이,SAY MY NAME,Shuie,7,0.3965,-0.3095,0.0971
-F06,F,2,say_my_name__soha,say_my_name__soha,SAY MY NAME 소하,SAY MY NAME,Soha,7,0.6111,0.0608,0.1882
-F07,F,9,stayc__isa,stayc__isa,STAYC 아이사,STAYC,Isa,8,0.4729,-0.1392,-0.1067
-F05,F,3,stayc__j,stayc__j,STAYC 재이,STAYC,J,8,0.6032,0.1255,0.1474
-F04,F,5,stayc__seeun,stayc__seeun,STAYC 세은,STAYC,Seeun,8,0.5882,-0.1820,0.1672
-F09,F,8,stayc__sieun,stayc__sieun,STAYC 시은,STAYC,Sieun,8,0.6712,0.2370,0.0904
-F01,F,7,stayc__sumin,stayc__sumin,STAYC 수민,STAYC,Sumin,8,0.4869,0.1227,-0.0451
-F05,F,3,stayc__yoon,stayc__yoon,STAYC 윤,STAYC,Yoon,6,0.4958,-0.0160,0.2514
-F07,F,9,viviz__eunha,jung_eunbi,VIVIZ 은하,VIVIZ,Eunha,8,0.6182,0.1005,-0.0858
-F08,F,6,viviz__sinb,hwang_eunbi,VIVIZ 신비,VIVIZ,SinB,8,0.6942,0.1964,-0.1086
-F02,F,1,gfriend__umji,kim_yewon_umji,여자친구 엄지,GFRIEND,Umji,5,0.6618,-0.1944,-0.0433
-F06,F,2,xg__chisa,xg__chisa,XG 치사,XG,Chisa,8,0.5694,-0.0137,-0.0062
-F02,F,1,xg__cocona,xg__cocona,XG 코코나,XG,Cocona,8,0.6327,-0.1835,-0.1658
-F03,F,4,xg__harvey,xg__harvey,XG 하비,XG,Harvey,8,0.5090,-0.0001,0.2591
-F08,F,6,xg__hinata,xg__hinata,XG 히나타,XG,Hinata,8,0.5660,-0.0024,-0.0910
-F02,F,1,xg__juria,xg__juria,XG 쥬리아,XG,Juria,8,0.4928,-0.1739,-0.1596
-F04,F,5,xg__jurin,xg__jurin,XG 주린,XG,Jurin,8,0.6277,-0.1353,0.2991
-F05,F,3,xg__maya,xg__maya,XG 마야,XG,Maya,7,0.4499,0.0174,0.1032
-F07,F,9,adya__chaeeun,adya__chaeeun,ADYA 채은,ADYA,Chaeeun,5,0.5694,-0.0164,0.1112
-F03,F,4,adya__sena,adya__sena,ADYA 세나,ADYA,Sena,8,0.4835,0.0184,0.2506
-F10,F,0,adya__seowon,adya__seowon,ADYA 서원,ADYA,Seowon,7,0.5554,0.1718,-0.0664
-F02,F,1,adya__yeonsu,adya__yeonsu,ADYA 연수,ADYA,Yeonsu,5,0.5789,0.0166,-0.1809
-F08,F,6,arise__alisa,arise__alisa,ARISE 알리사,ARISE,Alisa,5,0.4012,-0.0061,-0.2424
-F10,F,0,arise__jihu,arise__jihu,ARISE 지후,ARISE,Jihu,5,0.6534,0.0389,-0.1739
-F04,F,5,arise__minju,arise__minju,ARISE 민주,ARISE,Minju,7,0.5925,-0.1235,0.3013
-F05,F,3,atheart__arin,atheart__arin,AtHeart 아린,AtHeart,Arin,5,0.6073,0.0472,-0.0499
-F04,F,5,atheart__katelyn,atheart__katelyn,AtHeart 케이틀린,AtHeart,Katelyn,6,0.6327,-0.0645,0.3452
-F04,F,5,atheart__nahyun,atheart__nahyun,AtHeart 나현,AtHeart,Nahyun,6,0.8076,-0.2806,0.1440
-F03,F,4,baby_dont_cry__beni,baby_dont_cry__beni,Baby DONT Cry 베니,Baby DONT Cry,Beni,8,0.5458,0.0024,0.0058
-F07,F,9,baby_dont_cry__kumi,baby_dont_cry__kumi,Baby DONT Cry 쿠미,Baby DONT Cry,Kumi,5,0.5157,0.1119,0.1047
-F07,F,9,baby_dont_cry__mia,baby_dont_cry__mia,Baby DONT Cry 미아,Baby DONT Cry,Mia,6,0.6581,-0.0234,0.0934
-F07,F,9,baby_dont_cry__yihyun,baby_dont_cry__yihyun,Baby DONT Cry 이현,Baby DONT Cry,Yihyun,7,0.7436,-0.1272,0.0342
-F03,F,4,babymonster__ahyeon,babymonster__ahyeon,BABYMONSTER 아현,BABYMONSTER,Ahyeon,8,0.5836,-0.0129,0.2758
-F09,F,8,babymonster__asa,babymonster__asa,BABYMONSTER 아사,BABYMONSTER,Asa,8,0.5597,0.1242,0.2287
-F04,F,5,babymonster__chiquita,babymonster__chiquita,BABYMONSTER 치키타,BABYMONSTER,Chiquita,8,0.5881,-0.4167,0.0507
-F03,F,4,babymonster__pharita,babymonster__pharita,BABYMONSTER 파리타,BABYMONSTER,Pharita,8,0.6343,0.1710,0.0704
-F01,F,7,babymonster__rami,babymonster__rami,BABYMONSTER 라미,BABYMONSTER,Rami,8,0.6355,0.1440,-0.0543
-F08,F,6,babymonster__rora,babymonster__rora,BABYMONSTER 로라,BABYMONSTER,Rora,8,0.5297,0.1072,-0.0970
-F01,F,7,babymonster__ruka,babymonster__ruka,BABYMONSTER 루카,BABYMONSTER,Ruka,7,0.4931,-0.1298,-0.2144
-F09,F,8,badvillain__chloe_young,badvillain__chloe_young,BADVILLAIN 클로이영,BADVILLAIN,Chloe Young,7,0.5338,0.2294,0.1887
-F06,F,2,badvillain__emma,badvillain__emma,BADVILLAIN 엠마,BADVILLAIN,Emma,6,0.5124,0.1099,-0.1991
-F03,F,4,badvillain__ina,badvillain__ina,BADVILLAIN 이나,BADVILLAIN,INA,8,0.3740,0.1988,0.0726
-F01,F,7,badvillain__kelly,badvillain__kelly,BADVILLAIN 켈리,BADVILLAIN,Kelly,5,0.5859,0.0178,-0.0564
-F09,F,8,badvillain__vin,badvillain__vin,BADVILLAIN 빈,BADVILLAIN,Vin,6,0.5407,0.2428,0.0541
-F08,F,6,badvillain__yunseo,badvillain__yunseo,BADVILLAIN 윤서,BADVILLAIN,YunSeo,8,0.4903,0.2794,-0.0940
-F10,F,0,bewave__gowoon,bewave__gowoon,BEWAVE 고운,BEWAVE,Gowoon,8,0.5912,0.1294,0.2723
-F05,F,3,bewave__jiun,bewave__jiun,BEWAVE 지언,BEWAVE,Jiun,13,0.4030,0.0368,0.1561
-F09,F,8,bewave__lena,bewave__lena,BEWAVE 레나,BEWAVE,Lena,6,0.6056,0.0961,0.1334
-F02,F,1,bewave__yunseul,bewave__yunseul,BEWAVE 윤슬,BEWAVE,Yunseul,10,0.5855,-0.1670,-0.2924
-F03,F,4,bewave__zena,bewave__zena,BEWAVE 제나,BEWAVE,Zena,8,0.4647,0.0453,-0.0196
-F05,F,3,billlie__haram,billlie__haram,Billlie 하람,Billlie,Haram,8,0.5942,-0.0832,0.0144
-F05,F,3,billlie__haruna,billlie__haruna,Billlie 하루나,Billlie,Haruna,8,0.5967,0.0140,0.1160
-F10,F,0,billlie__moon_sua,billlie__moon_sua,Billlie 문수아,Billlie,Moon Sua,8,0.5251,-0.3030,-0.0050
-F03,F,4,billlie__sheon,billlie__sheon,Billlie 션,Billlie,Sheon,7,0.6643,-0.0449,-0.1257
-F01,F,7,billlie__siyoon,billlie__siyoon,Billlie 시윤,Billlie,Siyoon,7,0.5726,-0.1188,-0.0626
-F03,F,4,billlie__suhyeon,billlie__suhyeon,Billlie 수현,Billlie,Suhyeon,7,0.6145,0.1345,-0.1128
-F05,F,3,candy_shop__julia,candy_shop__julia,Candy Shop 줄리아,Candy Shop,Julia,6,0.7066,-0.0131,0.1673
-F02,F,1,candy_shop__sarang,candy_shop__sarang,Candy Shop 사랑,Candy Shop,Sarang,6,0.5965,-0.1992,-0.1994
-F01,F,7,candy_shop__soram,candy_shop__soram,Candy Shop 소람,Candy Shop,Soram,7,0.6544,0.1401,0.0463
-F05,F,3,candy_shop__sui,candy_shop__sui,Candy Shop 수이,Candy Shop,Sui,8,0.5657,-0.0169,0.0845
-F03,F,4,candy_shop__yuina,candy_shop__yuina,Candy Shop 유이나,Candy Shop,Yuina,7,0.7303,0.1391,0.0606
-F07,F,9,class_y__boeun,class_y__boeun,CLASS:y 보은,CLASS:y,Boeun,7,0.6480,-0.1870,-0.1747
-F08,F,6,class_y__chaewon,class_y__chaewon,CLASS:y 채원,CLASS:y,Chaewon,7,0.6444,0.2848,-0.2656
-F08,F,6,class_y__hyeju,class_y__hyeju,CLASS:y 혜주,CLASS:y,Hyeju,7,0.6305,0.2917,-0.0685
-F06,F,2,class_y__hyungseo,class_y__hyungseo,CLASS:y 형서,CLASS:y,Hyungseo,6,0.5542,0.0419,0.0418
-F02,F,1,class_y__riwon,class_y__riwon,CLASS:y 리원,CLASS:y,Riwon,7,0.6553,-0.0756,-0.1725
-F02,F,1,craxy__chaey,craxy__chaey,CRAXY 채이,CRAXY,ChaeY,6,0.5992,0.0119,-0.2240
-F03,F,4,craxy__hyejin,craxy__hyejin,CRAXY 혜진,CRAXY,Hyejin,5,0.5173,0.0464,-0.1324
-F01,F,7,craxy__karin,craxy__karin,CRAXY 카린,CRAXY,Karin,7,0.6308,0.0542,-0.0835
-F10,F,0,craxy__swan,craxy__swan,CRAXY 수안,CRAXY,Swan,8,0.5308,0.1070,-0.0671
-F09,F,8,craxy__wooah,craxy__wooah,CRAXY 우아,CRAXY,Wooah,7,0.4843,0.2188,0.1392
-F06,F,2,el7z_up__hwiseo,el7z_up__hwiseo,EL7Z UP 휘서,EL7Z UP,Hwiseo,8,0.5769,0.0083,-0.0759
-F08,F,6,el7z_up__kei,el7z_up__kei,EL7Z UP 케이,EL7Z UP,Kei,8,0.5539,0.1012,-0.1178
-F06,F,2,el7z_up__nana,el7z_up__nana,EL7Z UP 나나,EL7Z UP,Nana,7,0.5764,-0.0278,-0.2888
-F01,F,7,el7z_up__yeeun,el7z_up__yeeun,EL7Z UP 예은,EL7Z UP,Yeeun,7,0.5905,-0.1992,-0.1179
-F09,F,8,el7z_up__yeonhee,el7z_up__yeonhee,EL7Z UP 연희,EL7Z UP,Yeonhee,7,0.6901,0.0861,0.0732
-F01,F,7,el7z_up__yeoreum,el7z_up__yeoreum,EL7Z UP 여름,EL7Z UP,Yeoreum,5,0.6568,-0.0083,-0.2296
-F09,F,8,el7z_up__yuki,el7z_up__yuki,EL7Z UP 유키,EL7Z UP,Yuki,7,0.7415,0.3297,0.2596
-F03,F,4,geenius__yeyoung,geenius__yeyoung,지니어스 예영,Geenius,Yeyoung,6,0.7216,0.0249,0.0103
-F02,F,1,heart_of_woman__chaei,heart_of_woman__chaei,HEART OF WOMAN 채이,HEART OF WOMAN,Chaei,5,0.6319,-0.0408,-0.1728
-F09,F,8,i_met_u__cleo,i_met_u__cleo,I.MET.U 클레오,I.MET.U,Cleo,5,0.4831,-0.0382,-0.0937
-F04,F,5,i_met_u__lea,i_met_u__lea,I.MET.U 리아,I.MET.U,Lea,11,0.4388,-0.2558,0.0824
-F01,F,7,i_met_u__yerin,i_met_u__yerin,I.MET.U 예린,I.MET.U,Yerin,6,0.6033,-0.0514,-0.1608
-F02,F,1,ichillin__chaerin,ichillin__chaerin,ICHILLIN' 채린,ICHILLIN',Chaerin,8,0.6417,-0.2975,-0.2947
-F10,F,0,ichillin__chowon,ichillin__chowon,ICHILLIN' 초원,ICHILLIN',Chowon,6,0.4972,-0.0733,0.0869
-F04,F,5,ichillin__e_ji,ichillin__e_ji,ICHILLIN' 이지,ICHILLIN',E.JI,7,0.4839,-0.0952,0.2075
-F02,F,1,ichillin__jackie,ichillin__jackie,ICHILLIN' 재키,ICHILLIN',Jackie,8,0.5267,-0.0140,-0.0530
-F10,F,0,ichillin__jiyoon,ichillin__jiyoon,ICHILLIN' 지윤,ICHILLIN',Jiyoon,7,0.5236,0.2060,0.0148
-F02,F,1,ichillin__joonie,ichillin__joonie,ICHILLIN' 주니,ICHILLIN',Joonie,7,0.5950,-0.0675,-0.2218
-F06,F,2,ichillin__sohee,ichillin__sohee,ICHILLIN' 소희,ICHILLIN',Sohee,19,0.3851,0.1343,-0.0433
-F09,F,8,ichillin__yeju,ichillin__yeju,ICHILLIN' 예주,ICHILLIN',Yeju,8,0.5684,-0.0724,0.0523
-F01,F,7,iii__ahra,iii__ahra,iii 아라,iii,Ahra,5,0.5737,-0.1514,-0.1605
-F07,F,9,iii__evie,iii__evie,iii 이비,iii,Evie,7,0.5670,0.0254,-0.0002
-F07,F,9,iii__namkhing,iii__namkhing,iii 남킹,iii,Namkhing,5,0.6092,0.0647,0.1436
-F03,F,4,iii__nicole,iii__nicole,iii 니콜,iii,Nicole,8,0.4248,0.0834,0.1688
-F06,F,2,iii__soobin,iii__soobin,iii 수빈,iii,Soobin,8,0.5252,0.1997,0.0581
-F07,F,9,iii__taeri,iii__taeri,iii 태리,iii,Taeri,6,0.5279,-0.1206,-0.1462
-F03,F,4,iii__vivi,iii__vivi,iii 비비,iii,Vivi,8,0.4859,-0.0764,-0.0767
-F01,F,7,iii__yan,iii__yan,iii 얀,iii,Yan,5,0.8517,-0.0873,-0.1560
-F08,F,6,kiiras__doyeon,kiiras__doyeon,키라스 도연,KIIRAS,Doyeon,7,0.7350,0.0093,-0.1358
-F02,F,1,kiiras__harin,kiiras__harin,키라스 하린,KIIRAS,Harin,7,0.6250,-0.1878,-0.0343
-F08,F,6,kiiras__kurumi,kiiras__kurumi,키라스 쿠루미,KIIRAS,Kurumi,6,0.6882,0.0848,-0.2549
-F10,F,0,kiiras__kylie,kiiras__kylie,키라스 카일리,KIIRAS,Kylie,5,0.6284,0.0240,-0.0156
-F02,F,1,kiiras__lingling,kiiras__lingling,키라스 링링,KIIRAS,LingLing,7,0.7399,-0.2414,-0.1089
-F07,F,9,kiiras__roah,kiiras__roah,키라스 로아,KIIRAS,Roah,7,0.7982,-0.0585,-0.1666
-F05,F,3,lightsum__chowon,lightsum__chowon,라잇썸 초원,LIGHTSUM,Chowon,8,0.5060,0.0976,0.1208
-F01,F,7,lightsum__hina,lightsum__hina,라잇썸 히나,LIGHTSUM,Hina,8,0.6336,0.1772,0.0933
-F06,F,2,lightsum__huiyeon,lightsum__huiyeon,라잇썸 희연,LIGHTSUM,Huiyeon,8,0.6417,-0.0022,-0.2210
-F05,F,3,lightsum__jian,lightsum__jian,라잇썸 지안,LIGHTSUM,Jian,8,0.6289,-0.1047,0.1299
-F02,F,1,lightsum__juhyeon,lightsum__juhyeon,라잇썸 주현,LIGHTSUM,Juhyeon,7,0.5559,0.0974,-0.0582
-F05,F,3,lightsum__nayoung,lightsum__nayoung,라잇썸 나영,LIGHTSUM,Nayoung,8,0.5473,0.1417,0.0986
-F02,F,1,lightsum__sangah,lightsum__sangah,라잇썸 상아,LIGHTSUM,Sangah,8,0.5233,-0.3006,-0.0341
-F06,F,2,lightsum__yujeong,lightsum__yujeong,라잇썸 유정,LIGHTSUM,Yujeong,7,0.5533,-0.1821,-0.0524
-F02,F,1,limelight__gaeun,limelight__gaeun,LIMELIGHT 가은,LIMELIGHT,Gaeun,8,0.6228,-0.0432,-0.1388
-F05,F,3,limelight__miu,limelight__miu,LIMELIGHT 미유,LIMELIGHT,MiU,6,0.5584,0.0522,0.1865
-F09,F,8,limelight__suhye,limelight__suhye,LIMELIGHT 수혜,LIMELIGHT,Suhye,8,0.6049,0.2528,-0.1355
-F02,F,1,madein__gaeun,madein__gaeun,MADEIN 가은,MADEIN,Gaeun,8,0.6073,-0.0775,-0.0950
-F04,F,5,madein__mashiro,madein__mashiro,MADEIN 마시로,MADEIN,Mashiro,5,0.6117,-0.2208,0.2588
-F05,F,3,madein__miu,madein__miu,MADEIN 미유,MADEIN,MiU,8,0.5105,0.0578,0.2206
-F09,F,8,madein__suhye,madein__suhye,MADEIN 수혜,MADEIN,Suhye,7,0.6154,0.3174,-0.1433
-F05,F,3,madein__yeseo,madein__yeseo,MADEIN 예서,MADEIN,Yeseo,8,0.5519,-0.0340,0.0778
-F03,F,4,mimiirose__anna,mimiirose__anna,미미로즈 안나,MIMIIROSE,Anna,8,0.7588,0.0953,-0.1059
-F05,F,3,mimiirose__hyori,mimiirose__hyori,미미로즈 효리,MIMIIROSE,Hyori,7,0.6598,0.1658,0.0727
-F01,F,7,mimiirose__jia,mimiirose__jia,미미로즈 지아,MIMIIROSE,Jia,8,0.6752,-0.0946,-0.1511
-F08,F,6,mimiirose__yeonjae,mimiirose__yeonjae,미미로즈 연재,MIMIIROSE,Yeonjae,5,0.6646,0.2171,0.0460
-F03,F,4,mimiirose__yerin,mimiirose__yerin,미미로즈 예린,MIMIIROSE,Yerin,6,0.6787,-0.0720,-0.0515
-F07,F,9,mimiirose__yunju,mimiirose__yunju,미미로즈 윤주,MIMIIROSE,Yunju,6,0.7256,-0.2103,-0.0159
-F10,F,0,odd_youth__kanie,odd_youth__kanie,ODD YOUTH 카니,ODD YOUTH,Kanie,7,0.4869,-0.0749,-0.0442
-F03,F,4,odd_youth__maika,odd_youth__maika,ODD YOUTH 마이카,ODD YOUTH,Maika,6,0.4768,0.1317,0.0786
-F07,F,9,odd_youth__myah,odd_youth__myah,ODD YOUTH 마야,ODD YOUTH,Myah,5,0.5421,-0.0654,0.0348
-F02,F,1,odd_youth__yeeum,odd_youth__yeeum,ODD YOUTH 예음,ODD YOUTH,Yeeum,8,0.6601,-0.1852,-0.1649
-F05,F,3,prikil__nana,prikil__nana,PRIKIL 나나,PRIKIL,Nana,8,0.5753,-0.1495,0.1609
-F01,F,7,prikil__rin,prikil__rin,PRIKIL 린,PRIKIL,Rin,5,0.5484,0.2666,-0.1409
-F05,F,3,prikil__rinko,prikil__rinko,PRIKIL 린코,PRIKIL,Rinko,8,0.5154,0.1427,0.2429
-F03,F,4,prikil__uta,prikil__uta,PRIKIL 우타,PRIKIL,Uta,7,0.6872,-0.0444,-0.1299
-F06,F,2,prikil__yukino,prikil__yukino,PRIKIL 유키노,PRIKIL,Yukino,7,0.5691,0.0365,0.0011
-F10,F,0,queenz_eye__ahyoon,queenz_eye__ahyoon,Queenz Eye 아윤,Queenz Eye,Ahyoon,8,0.6135,-0.0114,-0.0540
-F01,F,7,queenz_eye__damin,queenz_eye__damin,Queenz Eye 다민,Queenz Eye,Damin,7,0.5674,0.0028,-0.1230
-F03,F,4,queenz_eye__hannah,queenz_eye__hannah,Queenz Eye 해나,Queenz Eye,Hannah,5,0.5624,-0.0697,0.0224
-F03,F,4,queenz_eye__narin,queenz_eye__narin,Queenz Eye 나린,Queenz Eye,Narin,7,0.6393,0.1170,0.1707
-F03,F,4,queenz_eye__wonchae,queenz_eye__wonchae,Queenz Eye 원채,Queenz Eye,Wonchae,8,0.5861,-0.1251,-0.2595
-F10,F,0,rocking_doll__juri,rocking_doll__juri,Rocking doll 주리,Rocking doll,Juri,5,0.5338,0.0051,-0.0388
-F06,F,2,secret_number__denise,secret_number__denise,SECRET NUMBER 데니스,SECRET NUMBER,Denise,7,0.6115,0.0409,-0.0238
-F05,F,3,secret_number__dinda,secret_number__dinda,SECRET NUMBER 딘다,SECRET NUMBER,Dinda,5,0.3623,0.0967,0.2413
-F06,F,2,secret_number__dita,secret_number__dita,SECRET NUMBER 디타,SECRET NUMBER,Dita,5,0.6971,0.1469,0.1910
-F07,F,9,secret_number__ebin,secret_number__ebin,SECRET NUMBER 에빈,SECRET NUMBER,Ebin,5,0.6288,-0.1059,0.0793
-F01,F,7,secret_number__jinny,secret_number__jinny,SECRET NUMBER 진희,SECRET NUMBER,Jinny,8,0.6609,0.0988,-0.1572
-F09,F,8,secret_number__min_c,secret_number__min_c,SECRET NUMBER 민씨,SECRET NUMBER,Min C,7,0.5248,0.2588,-0.0387
-F09,F,8,secret_number__minji,secret_number__minji,SECRET NUMBER 민지,SECRET NUMBER,Minji,8,0.6848,0.2848,-0.0306
-F02,F,1,secret_number__soodam,secret_number__soodam,SECRET NUMBER 수담,SECRET NUMBER,Soodam,8,0.7358,-0.0161,-0.2228
-F08,F,6,secret_number__zuu,secret_number__zuu,SECRET NUMBER 주,SECRET NUMBER,Zuu,8,0.7746,0.1841,-0.0673
-F07,F,9,triples__jiyeon,triples__jiyeon,tripleS 지연,tripleS,JiYeon,7,0.5374,-0.0968,-0.0852
-F07,F,9,triples__joobin,triples__joobin,tripleS 주빈,tripleS,JooBin,7,0.7223,0.1080,0.1202
-F08,F,6,triples__kaede,triples__kaede,tripleS 카에데,tripleS,Kaede,6,0.7042,0.2780,-0.1173
-F10,F,0,triples__kotone,triples__kotone,tripleS 코토네,tripleS,Kotone,8,0.5724,-0.0202,-0.0118
-F04,F,5,triples__lynn,triples__lynn,tripleS 린,tripleS,Lynn,8,0.6221,-0.3310,-0.0749
-F07,F,9,triples__mayu,triples__mayu,tripleS 마유,tripleS,Mayu,5,0.5963,-0.0136,0.1081
-F01,F,7,triples__nien,triples__nien,tripleS 니엔,tripleS,Nien,8,0.5433,0.0877,-0.1473
-F02,F,1,triples__seoah,triples__seoah,tripleS 서아,tripleS,SeoAh,7,0.5657,-0.0085,-0.1683
-F07,F,9,triples__sullin,triples__sullin,tripleS 설린,tripleS,Sullin,8,0.5441,0.0733,-0.0167
-F01,F,7,triples__xinyu,triples__xinyu,tripleS 신위,tripleS,Xinyu,7,0.5505,-0.1036,-0.1470
-F06,F,2,udtt__jessica,udtt__jessica,UDTT 제시카,UDTT,Jessica,8,0.4553,-0.1281,-0.1001
-F04,F,5,udtt__koo_hanna,udtt__koo_hanna,UDTT 구한나,UDTT,Koo Hanna,8,0.5683,-0.1461,-0.0189
-F04,F,5,udtt__kwon_yejin,udtt__kwon_yejin,UDTT 권예진,UDTT,Kwon Yejin,5,0.4600,-0.2780,-0.0009
-F03,F,4,unchild__heekie,unchild__heekie,UNCHILD 히키,UNCHILD,Heekie,6,0.3864,0.0466,-0.1485
-F01,F,7,unchild__tina,unchild__tina,UNCHILD 티나,UNCHILD,Tina,6,0.6086,-0.2609,-0.0803
-F02,F,1,unchild__yeeun,unchild__yeeun,UNCHILD 예은,UNCHILD,Yeeun,8,0.5219,-0.2065,-0.1776
-F01,F,7,uspeer__chaena,uspeer__chaena,USPEER 채나,USPEER,Chaena,6,0.5789,-0.0559,-0.1579
-F01,F,7,uspeer__daon,uspeer__daon,USPEER 다온,USPEER,Daon,6,0.4775,0.1795,-0.1743
-F01,F,7,uspeer__roa,uspeer__roa,USPEER 로아,USPEER,Roa,8,0.6490,0.1527,-0.0550
-F01,F,7,uspeer__seoyu,uspeer__seoyu,USPEER 서유,USPEER,Seoyu,7,0.5307,0.1406,-0.1754
-F01,F,7,uspeer__sian,uspeer__sian,USPEER 시안,USPEER,Sian,6,0.6561,0.0144,-0.1799
-F01,F,7,uspeer__soee,uspeer__soee,USPEER 소이,USPEER,Soee,6,0.7127,0.1233,-0.0832
-F07,F,9,uspeer__yeowon,uspeer__yeowon,USPEER 여원,USPEER,Yeowon,7,0.6492,0.1724,0.1598
-F04,F,5,vcha__camila,vcha__camila,VCHA 카밀라,VCHA,Camila,8,0.6292,-0.1630,0.1289
-F02,F,1,vcha__kaylee,vcha__kaylee,VCHA 케일리,VCHA,Kaylee,6,0.4861,-0.0460,-0.2156
-F04,F,5,vcha__kendall,vcha__kendall,VCHA 켄달,VCHA,Kendall,6,0.5234,-0.1580,0.3094
-F05,F,3,vcha__kg,vcha__kg,VCHA 케이지,VCHA,KG,6,0.4975,0.0092,0.1907
-F04,F,5,vcha__savanna,vcha__savanna,VCHA 사바나,VCHA,Savanna,7,0.5829,-0.1435,0.1356
-F02,F,1,vvup__hyunny,vvup__hyunny,VVUP 현희,VVUP,Hyunny,6,0.6174,-0.1029,-0.0277
-F02,F,1,vvup__jiyoon,vvup__jiyoon,VVUP 지윤,VVUP,Jiyoon,6,0.4853,-0.0836,-0.0815
-F05,F,3,vvup__kim,vvup__kim,VVUP 킴,VVUP,Kim,7,0.4690,0.0960,0.0344
-F03,F,4,vvup__paan,vvup__paan,VVUP 팬,VVUP,Paan,6,0.5428,0.0206,-0.1058
-F01,F,7,vvup__suyeon,vvup__suyeon,VVUP 수연,VVUP,Suyeon,8,0.7487,-0.0117,-0.0653
-F02,F,1,we_na__doa,we_na__doa,We;Na 도아,We;Na,DoA,5,0.6440,-0.0267,-0.0710
-F06,F,2,we_na__euna,we_na__euna,We;Na 은아,We;Na,EunA,5,0.4448,0.1416,-0.0945
-F05,F,3,wooah__lucy,wooah__lucy,WOOAH 루시,WOOAH,Lucy,8,0.5782,0.1116,0.1608
-F09,F,8,wooah__minseo,wooah__minseo,WOOAH 민서,WOOAH,Minseo,7,0.5808,0.1948,0.0225
-F06,F,2,wooah__nana,wooah__nana,WOOAH 나나,WOOAH,Nana,8,0.4865,-0.0543,-0.2963
-F05,F,3,wooah__sora,wooah__sora,WOOAH 소라,WOOAH,Sora,7,0.6865,0.1649,0.1334
-F09,F,8,wooah__wooyeon,wooah__wooyeon,WOOAH 우연,WOOAH,Wooyeon,7,0.5372,0.2031,0.0034
-F05,F,3,x_in__aria,x_in__aria,X:IN 아리아,X:IN,Aria,6,0.5709,-0.0070,0.1699
-F01,F,7,x_in__e_sha,x_in__e_sha,X:IN 이샤,X:IN,E.sha,5,0.5253,0.1126,0.0878
-F05,F,3,x_in__nizz,x_in__nizz,X:IN 니즈,X:IN,Nizz,5,0.8086,0.0098,0.1727
-F04,F,5,x_in__nova,x_in__nova,X:IN 노바,X:IN,Nova,7,0.5671,-0.0760,0.0738
-F06,F,2,young_posse__doeun,young_posse__doeun,YOUNG POSSE 도은,YOUNG POSSE,Doeun,7,0.5309,0.0826,-0.0925
-F10,F,0,young_posse__jiana,young_posse__jiana,YOUNG POSSE 지아나,YOUNG POSSE,Jiana,7,0.5939,-0.0740,-0.0660
-F08,F,6,young_posse__jieun,young_posse__jieun,YOUNG POSSE 지은,YOUNG POSSE,Jieun,6,0.5416,0.0160,-0.2487
-F03,F,4,young_posse__sunhye,young_posse__sunhye,YOUNG POSSE 선혜,YOUNG POSSE,Sunhye,6,0.5473,0.1776,-0.0885
-F10,F,0,young_posse__yeonjung,young_posse__yeonjung,YOUNG POSSE 연정,YOUNG POSSE,Yeonjung,8,0.5560,0.1368,0.0101
-F03,F,4,twice__chaeyoung,twice__chaeyoung,트와이스 채영,TWICE,Chaeyoung,7,0.5966,-0.0092,0.1427
-F09,F,8,twice__dahyun,twice__dahyun,트와이스 다현,TWICE,Dahyun,6,0.5707,-0.0592,-0.0094
-F04,F,5,twice__jeongyeon,twice__jeongyeon,트와이스 정연,TWICE,Jeongyeon,9,0.3809,-0.3467,0.2038
-F04,F,5,twice__jihyo,twice__jihyo,트와이스 지효,TWICE,Jihyo,5,0.6164,-0.1192,0.2808
-F05,F,3,twice__mina,twice__mina,트와이스 미나,TWICE,Mina,11,0.5671,0.0955,0.2195
-F07,F,9,twice__nayeon,twice__nayeon,트와이스 나연,TWICE,Nayeon,10,0.5367,-0.0048,0.0044
-F03,F,4,twice__sana,twice__sana,트와이스 사나,TWICE,Sana,14,0.5662,0.0554,0.1363
-F04,F,5,twice__tzuyu,twice__tzuyu,트와이스 쯔위,TWICE,Tzuyu,10,0.6583,-0.2761,0.1044
-F01,F,7,itzy__chaeryeong,itzy__chaeryeong,있지 채령,ITZY,Chaeryeong,11,0.6505,0.1109,-0.0563
-F04,F,5,itzy__lia,itzy__lia,있지 리아,ITZY,Lia,10,0.6179,-0.2612,0.0568
-F05,F,3,itzy__ryujin,itzy__ryujin,있지 류진,ITZY,Ryujin,12,0.6436,-0.1650,0.1867
-F02,F,1,itzy__yeji,itzy__yeji,있지 예지,ITZY,Yeji,15,0.7159,-0.2488,-0.2636
-F04,F,5,itzy__yuna,itzy__yuna,있지 유나,ITZY,Yuna,11,0.6076,-0.3104,0.1632
-F01,F,7,iu__iu,iu__iu,아이유,IU,IU,15,0.6463,0.0904,-0.0386
-F02,F,1,red_velvet__irene,red_velvet__irene,레드벨벳 아이린,Red Velvet,Irene,10,0.5092,-0.2042,-0.1477
-F05,F,3,red_velvet__joy,red_velvet__joy,레드벨벳 조이,Red Velvet,Joy,12,0.4886,0.0123,0.0337
-F10,F,0,red_velvet__seulgi,red_velvet__seulgi,레드벨벳 슬기,Red Velvet,Seulgi,14,0.5475,-0.0614,0.0041
-F06,F,2,red_velvet__wendy,red_velvet__wendy,레드벨벳 웬디,Red Velvet,Wendy,10,0.5668,-0.0631,0.0329
-F06,F,2,red_velvet__yeri,red_velvet__yeri,레드벨벳 예리,Red Velvet,Yeri,12,0.5006,-0.1137,-0.0360
-F04,F,5,blackpink__jennie,blackpink__jennie,블랙핑크 제니,BLACKPINK,Jennie,11,0.5412,-0.3952,0.0927
-F02,F,1,blackpink__jisoo,blackpink__jisoo,블랙핑크 지수,BLACKPINK,Jisoo,10,0.5621,-0.0205,-0.2058
-F07,F,9,blackpink__lisa,blackpink__lisa,블랙핑크 리사,BLACKPINK,Lisa,5,0.5050,0.0185,0.1682
-F06,F,2,blackpink__rose,blackpink__rose,블랙핑크 로제,BLACKPINK,Rosé,10,0.6294,0.1326,-0.0466
-F01,F,7,mamamoo__hwasa,mamamoo__hwasa,마마무 화사,MAMAMOO,Hwasa,8,0.5581,0.0756,-0.0238
-F06,F,2,mamamoo__moonbyul,mamamoo__moonbyul,마마무 문별,MAMAMOO,Moonbyul,12,0.5406,-0.1090,0.0488
-F09,F,8,mamamoo__solar,mamamoo__solar,마마무 솔라,MAMAMOO,Solar,11,0.6880,0.0339,0.1425
-F03,F,4,mamamoo__wheein,mamamoo__wheein,마마무 휘인,MAMAMOO,Wheein,13,0.5940,-0.0853,-0.1321
-F05,F,3,ohmygirl__arin,ohmygirl__arin,오마이걸 아린,OH MY GIRL,Arin,12,0.4985,-0.0570,0.2420
-F08,F,6,ohmygirl__hyojung,ohmygirl__hyojung,오마이걸 효정,OH MY GIRL,Hyojung,12,0.6773,0.0262,-0.1268
-F06,F,2,ohmygirl__jiho,ohmygirl__jiho,오마이걸 지호,OH MY GIRL,Jiho,9,0.5389,0.0449,-0.1022
-F08,F,6,ohmygirl__mimi,ohmygirl__mimi,오마이걸 미미,OH MY GIRL,Mimi,12,0.5405,0.0685,-0.2458
-F06,F,2,ohmygirl__seunghee,ohmygirl__seunghee,오마이걸 승희,OH MY GIRL,Seunghee,12,0.5409,-0.0816,-0.1921
-F04,F,5,ohmygirl__yooa,ohmygirl__yooa,오마이걸 유아,OH MY GIRL,YooA,10,0.5996,-0.1168,0.1013
-F06,F,2,snsd__hyoyeon,snsd__hyoyeon,소녀시대 효연,Girls' Generation,Hyoyeon,10,0.5654,-0.1681,-0.1307
-F03,F,4,snsd__seohyun,snsd__seohyun,소녀시대 서현,Girls' Generation,Seohyun,10,0.6155,0.0284,0.2308
-F08,F,6,snsd__sooyoung,snsd__sooyoung,소녀시대 수영,Girls' Generation,Sooyoung,8,0.5933,0.0196,-0.0240
-F09,F,8,snsd__sunny,snsd__sunny,소녀시대 써니,Girls' Generation,Sunny,8,0.5830,-0.0747,0.0209
-F06,F,2,snsd__taeyeon,snsd__taeyeon,소녀시대 태연,Girls' Generation,Taeyeon,6,0.4712,0.1203,-0.2867
-F06,F,2,snsd__tiffany,snsd__tiffany,소녀시대 티파니,Girls' Generation,Tiffany,10,0.5346,-0.0083,0.0267
-F08,F,6,snsd__yoona,snsd__yoona,소녀시대 윤아,Girls' Generation,Yoona,10,0.5622,0.2627,-0.0802
-F06,F,2,snsd__yuri,snsd__yuri,소녀시대 유리,Girls' Generation,Yuri,10,0.5674,0.0944,0.1214
-F04,F,5,katseye__daniela,katseye__daniela,KATSEYE Daniela Avanzini,KATSEYE,Daniela,10,0.4486,-0.1897,0.0084
-F03,F,4,katseye__lara,katseye__lara,KATSEYE Lara Raj,KATSEYE,Lara,5,0.4890,0.0269,0.0605
-F04,F,5,katseye__manon,katseye__manon,KATSEYE Manon Bannerman,KATSEYE,Manon,10,0.6672,-0.1544,0.0304
-F04,F,5,katseye__megan,katseye__megan,KATSEYE Megan Skiendiel,KATSEYE,Megan,9,0.6177,-0.0984,0.1134
-F03,F,4,katseye__sophia,katseye__sophia,KATSEYE Sophia Laforteza,KATSEYE,Sophia,8,0.4611,0.0438,0.1451
-F03,F,4,bbgirls__eunji,bbgirls__eunji,브브걸 은지,BBGIRLS,Eunji,21,0.4995,-0.0219,0.1364
-F08,F,6,bbgirls__minyoung,bbgirls__minyoung,브브걸 민영,BBGIRLS,Minyoung,5,0.6797,0.1701,-0.0764
-F01,F,7,bbgirls__yuna,bbgirls__yuna,브브걸 유나,BBGIRLS,Yuna,9,0.5168,0.1966,-0.0502
-F06,F,2,exid__elly,exid__elly,이엑스아이디 엘리,EXID,Elly,6,0.5310,0.1386,-0.0843
-F06,F,2,exid__hani,exid__hani,이엑스아이디 하니,EXID,Hani,10,0.5132,0.1443,0.2179
-F09,F,8,exid__hyelin,exid__hyelin,이엑스아이디 혜린,EXID,Hyelin,10,0.6054,-0.0034,0.1008
-F10,F,0,exid__jeonghwa,exid__jeonghwa,이엑스아이디 정화,EXID,Jeonghwa,7,0.6471,0.0268,0.1314
-F03,F,4,exid__solji,exid__solji,이엑스아이디 솔지,EXID,Solji,8,0.6949,0.1820,-0.0581
-F09,F,8,gfriend__sowon,gfriend__sowon,여자친구 소원,GFRIEND,Sowon,5,0.6850,0.0791,0.1447
-F08,F,6,gfriend__yerin,gfriend__yerin,여자친구 예린,GFRIEND,Yerin,13,0.5507,0.0884,-0.2355
-F06,F,2,gfriend__yuju,gfriend__yuju,여자친구 유주,GFRIEND,Yuju,5,0.5469,0.0119,0.0478
-F02,F,1,ladies_code__ashley,ladies_code__ashley,레이디스 코드 애슐리,Ladies' Code,Ashley,12,0.4368,-0.1339,0.0401
-F09,F,8,ladies_code__sojung,ladies_code__sojung,레이디스 코드 소정,Ladies' Code,Sojung,9,0.5242,-0.0203,0.0227
-F02,F,1,ladies_code__zuny,ladies_code__zuny,레이디스 코드 주니,Ladies' Code,Zuny,5,0.6382,0.0022,-0.0192
-F03,F,4,lovelyz__baby_soul,lovelyz__baby_soul,러블리즈 베이비소울,Lovelyz,Baby Soul,6,0.6588,0.1518,-0.0129
-F06,F,2,lovelyz__jiae,lovelyz__jiae,러블리즈 지애,Lovelyz,Jiae,5,0.6006,0.3281,-0.0819
-F08,F,6,lovelyz__jin,lovelyz__jin,러블리즈 진,Lovelyz,Jin,7,0.6974,0.2483,-0.0834
-F06,F,2,lovelyz__jisoo,lovelyz__jisoo,러블리즈 지수,Lovelyz,Jisoo,10,0.6121,0.0550,-0.0819
-F08,F,6,lovelyz__kei,lovelyz__kei,러블리즈 케이,Lovelyz,Kei,6,0.6894,0.0829,-0.1079
-F01,F,7,lovelyz__mijoo,lovelyz__mijoo,러블리즈 미주,Lovelyz,Mijoo,5,0.6357,0.1734,0.0538
-F08,F,6,lovelyz__sujeong,lovelyz__sujeong,러블리즈 수정,Lovelyz,Sujeong,7,0.5830,0.1926,-0.1776
-F01,F,7,lovelyz__yein,lovelyz__yein,러블리즈 예인,Lovelyz,Yein,5,0.6846,0.2127,-0.1127
-F02,F,1,momoland__ahin,momoland__ahin,모모랜드 아인,MOMOLAND,Ahin,9,0.6285,-0.0594,-0.1127
-F06,F,2,momoland__hyebin,momoland__hyebin,모모랜드 혜빈,MOMOLAND,Hyebin,8,0.5392,0.1179,0.1194
-F05,F,3,momoland__jane,momoland__jane,모모랜드 제인,MOMOLAND,Jane,8,0.5588,-0.0084,0.1312
-F08,F,6,momoland__jooe,momoland__jooe,모모랜드 주이,MOMOLAND,JooE,9,0.7058,0.1009,-0.2432
-F04,F,5,momoland__nancy,momoland__nancy,모모랜드 낸시,MOMOLAND,Nancy,7,0.5942,-0.1455,0.2359
-F06,F,2,momoland__nayun,momoland__nayun,모모랜드 나윤,MOMOLAND,Nayun,8,0.6769,0.1974,-0.2136
-F10,F,0,wjsn__bona,wjsn__bona,우주소녀 보나,WJSN,Bona,9,0.6495,-0.1205,0.1401
-F08,F,6,wjsn__dawon,wjsn__dawon,우주소녀 다원,WJSN,Dawon,7,0.5736,0.2835,-0.1316
-F10,F,0,wjsn__dayoung,wjsn__dayoung,우주소녀 다영,WJSN,Dayoung,8,0.6065,0.1523,0.3022
-F10,F,0,wjsn__eunseo,wjsn__eunseo,우주소녀 은서,WJSN,Eunseo,6,0.5386,-0.0088,-0.0462
-F09,F,8,wjsn__exy,wjsn__exy,우주소녀 엑시,WJSN,Exy,5,0.7009,0.2779,0.1623
-F08,F,6,wjsn__luda,wjsn__luda,우주소녀 루다,WJSN,Luda,23,0.4998,0.1293,-0.3646
-F03,F,4,wjsn__seola,wjsn__seola,우주소녀 설아,WJSN,Seola,9,0.6090,0.1777,0.0980
-F06,F,2,wjsn__soobin,wjsn__soobin,우주소녀 수빈,WJSN,Soobin,5,0.6577,0.2317,0.1218
-F03,F,4,wjsn__yeonjung,wjsn__yeonjung,우주소녀 연정,WJSN,Yeonjung,8,0.5710,0.0209,-0.0637
-F01,F,7,wjsn__yeoreum,wjsn__yeoreum,우주소녀 여름,WJSN,Yeoreum,15,0.5866,-0.0681,-0.3634
-M09,M,5,ahof__chih_en,ahof__chih_en,AHOF 즈언,AHOF,Chih En,8,0.7477,-0.2727,0.0906
-M04,M,8,ahof__daisuke,ahof__daisuke,AHOF 다이스케,AHOF,Daisuke,9,0.6502,-0.0193,0.1025
-M06,M,0,ahof__jeongwoo,ahof__jeongwoo,AHOF 정우,AHOF,Jeongwoo,7,0.5797,-0.0587,0.1190
-M05,M,4,ahof__jl,ahof__jl,AHOF 제이엘,AHOF,JL,11,0.5932,-0.1596,0.2857
-M07,M,6,ahof__juwon,ahof__juwon,AHOF 주원,AHOF,Juwon,6,0.4095,0.0567,0.2441
-M05,M,4,ahof__shuaibo,ahof__shuaibo,AHOF 슈아이보,AHOF,Shuaibo,5,0.5640,-0.1718,0.0321
-M03,M,3,ahof__steven,ahof__steven,AHOF 스티븐,AHOF,Steven,12,0.7145,0.0124,-0.1803
-M06,M,0,ahof__woongki,ahof__woongki,AHOF 웅기,AHOF,Woongki,5,0.6418,0.0007,0.2976
-M07,M,6,allhours__hyunbin,allhours__hyunbin,올아워즈 현빈,ALL(H)OURS,Hyunbin,8,0.6104,0.1473,0.1773
-M02,M,7,allhours__kunho,allhours__kunho,올아워즈 건호,ALL(H)OURS,Kunho,8,0.6760,-0.0314,-0.2019
-M01,M,1,allhours__masami,allhours__masami,올아워즈 마사미,ALL(H)OURS,Masami,10,0.6915,-0.2782,-0.1361
-M05,M,4,allhours__minje,allhours__minje,올아워즈 민제,ALL(H)OURS,Minje,12,0.6958,-0.0879,-0.0195
-M05,M,4,allhours__on_n,allhours__on_n,올아워즈 온,ALL(H)OURS,ON:N,12,0.6786,0.0350,0.2298
-M04,M,8,allhours__xayden,allhours__xayden,올아워즈 제이든,ALL(H)OURS,Xayden,8,0.6749,0.1347,0.0914
-M02,M,7,allhours__youmin,allhours__youmin,올아워즈 유민,ALL(H)OURS,Youmin,6,0.7571,0.0912,-0.2643
-M02,M,7,alpha_drive_one__anxin,alpha_drive_one__anxin,알파드라이브원 안신,ALPHA DRIVE ONE,Anxin,10,0.7145,-0.1303,-0.0751
-M08,M,2,alpha_drive_one__arno,alpha_drive_one__arno,알파드라이브원 아르노,ALPHA DRIVE ONE,Arno,8,0.6518,0.0201,-0.1175
-M03,M,3,alpha_drive_one__geonwoo,alpha_drive_one__geonwoo,알파드라이브원 건우,ALPHA DRIVE ONE,Geonwoo,7,0.7191,0.1320,-0.1281
-M06,M,0,alpha_drive_one__junseo,alpha_drive_one__junseo,알파드라이브원 준서,ALPHA DRIVE ONE,Junseo,7,0.7587,-0.0710,0.0723
-M09,M,5,alpha_drive_one__leo,alpha_drive_one__leo,알파드라이브원 리오,ALPHA DRIVE ONE,Leo,10,0.6641,-0.1995,0.0395
-M10,M,9,alpha_drive_one__sanghyeon,alpha_drive_one__sanghyeon,알파드라이브원 상현,ALPHA DRIVE ONE,Sanghyeon,8,0.7181,-0.1271,0.0437
-M05,M,4,alpha_drive_one__sangwon,alpha_drive_one__sangwon,알파드라이브원 상원,ALPHA DRIVE ONE,Sangwon,11,0.6856,-0.0335,0.1168
-M03,M,3,alpha_drive_one__xinlong,alpha_drive_one__xinlong,알파드라이브원 씬롱,ALPHA DRIVE ONE,Xinlong,8,0.6494,-0.0295,-0.1148
-M05,M,4,ampersandone__brian,ampersandone__brian,앰퍼샌드원 브라이언,AMPERS&ONE,Brian,13,0.7074,-0.1292,0.2224
-M01,M,1,ampersandone__jiho,ampersandone__jiho,앰퍼샌드원 지호,AMPERS&ONE,Jiho,7,0.6604,-0.0945,-0.0415
-M02,M,7,ampersandone__kamden,ampersandone__kamden,앰퍼샌드원 캠든,AMPERS&ONE,Kamden,8,0.6949,0.0732,0.0562
-M03,M,3,ampersandone__kyrell,ampersandone__kyrell,앰퍼샌드원 카이렐,AMPERS&ONE,Kyrell,8,0.7029,0.2082,-0.2609
-M01,M,1,ampersandone__mackiah,ampersandone__mackiah,앰퍼샌드원 마카야,AMPERS&ONE,Mackiah,11,0.6342,-0.2975,-0.2226
-M07,M,6,ampersandone__seungmo,ampersandone__seungmo,앰퍼샌드원 승모,AMPERS&ONE,Seungmo,8,0.5907,-0.0015,0.1651
-M07,M,6,ampersandone__siyun,ampersandone__siyun,앰퍼샌드원 시윤,AMPERS&ONE,Siyun,8,0.7474,0.0715,0.1169
-M09,M,5,and2ble__han_yujin,and2ble__han_yujin,앤더블 한유진,AND2BLE,Han Yujin,12,0.6070,-0.2729,0.3210
-M07,M,6,and2ble__kim_gyuvin,and2ble__kim_gyuvin,앤더블 김규빈,AND2BLE,Kim Gyuvin,10,0.7535,-0.2566,0.2063
-M10,M,9,and2ble__ricky,and2ble__ricky,앤더블 리키,AND2BLE,Ricky,8,0.7441,-0.0352,-0.0918
-M06,M,0,and2ble__yoo_seungeon,and2ble__yoo_seungeon,앤더블 유승언,AND2BLE,Yoo Seungeon,7,0.8271,0.0662,0.1596
-M05,M,4,and2ble__zhang_hao,and2ble__zhang_hao,앤더블 장하오,AND2BLE,Zhang Hao,14,0.6608,0.0406,0.2279
-M02,M,7,and_team__ej,and_team__ej,앤팀 의주,&TEAM,EJ,9,0.5655,0.0444,-0.0408
-M10,M,9,and_team__fuma,and_team__fuma,앤팀 후마,&TEAM,Fuma,9,0.6178,0.0940,-0.0509
-M02,M,7,and_team__harua,and_team__harua,앤팀 하루아,&TEAM,Harua,10,0.5959,-0.0457,-0.2518
-M02,M,7,and_team__jo,and_team__jo,앤팀 조,&TEAM,Jo,8,0.6685,0.1285,-0.1161
-M09,M,5,and_team__k,and_team__k,앤팀 케이,&TEAM,K,9,0.5853,-0.2003,-0.0523
-M05,M,4,and_team__maki,and_team__maki,앤팀 마키,&TEAM,Maki,13,0.6652,-0.2011,-0.0302
-M05,M,4,and_team__nicholas,and_team__nicholas,앤팀 니콜라스,&TEAM,Nicholas,12,0.5737,-0.0016,-0.1817
-M09,M,5,and_team__taki,and_team__taki,앤팀 타키,&TEAM,Taki,10,0.6424,-0.1235,-0.0233
-M02,M,7,and_team__yuma,and_team__yuma,앤팀 유마,&TEAM,Yuma,9,0.6019,0.1678,-0.1162
-M04,M,8,arrc__andy,arrc__andy,ARrC 앤디,ARrC,Andy,5,0.6698,0.1978,0.0048
-M01,M,1,arrc__choi_han,arrc__choi_han,ARrC 최한,ARrC,Choi Han,6,0.5811,-0.1374,-0.1269
-M07,M,6,arrc__doha,arrc__doha,ARrC 도하,ARrC,Doha,9,0.6452,-0.0629,0.0833
-M07,M,6,arrc__hyunmin,arrc__hyunmin,ARrC 현민,ARrC,Hyunmin,7,0.5723,0.1594,0.1163
-M05,M,4,arrc__jibeen,arrc__jibeen,ARrC 지빈,ARrC,Jibeen,7,0.6555,-0.1437,-0.2257
-M01,M,1,arrc__kien,arrc__kien,ARrC 끼엔,ARrC,Kien,8,0.5679,-0.3167,-0.0967
-M02,M,7,arrc__rioto,arrc__rioto,ARrC 리오토,ARrC,Rioto,8,0.6141,0.0182,-0.1782
-M05,M,4,axmxp__cru,axmxp__cru,AxMxP 크루,AxMxP,Cru,9,0.8510,-0.2202,0.1178
-M02,M,7,axmxp__ha_yoojoon,axmxp__ha_yoojoon,AxMxP 하유준,AxMxP,Ha Yoojoon,8,0.7334,0.2174,-0.0530
-M02,M,7,axmxp__juhwan,axmxp__juhwan,AxMxP 주환,AxMxP,Juhwan,7,0.6632,0.0889,-0.0909
-M08,M,2,axmxp__kim_shin,axmxp__kim_shin,AxMxP 김신,AxMxP,Kim Shin,5,0.6853,0.1113,0.0153
-M05,M,4,bae173__bit,bae173__bit,BAE173 빛,BAE173,Bit,15,0.6753,-0.1456,0.1052
-M01,M,1,bae173__doha,bae173__doha,BAE173 도하,BAE173,Doha,10,0.7103,-0.1801,0.1279
-M05,M,4,bae173__j_min,bae173__j_min,BAE173 제이민,BAE173,J-Min,18,0.6359,-0.1615,0.1928
-M08,M,2,bae173__junseo,bae173__junseo,BAE173 준서,BAE173,Junseo,18,0.6827,0.0888,-0.0904
-M01,M,1,bae173__muzin,bae173__muzin,BAE173 무진,BAE173,Muzin,5,0.5938,0.0159,-0.2289
-M01,M,1,bae173__yoojun,bae173__yoojun,BAE173 유준,BAE173,Yoojun,22,0.6466,-0.0140,-0.0484
-M06,M,0,bae173__youngseo,bae173__youngseo,BAE173 영서,BAE173,Youngseo,21,0.6987,0.0073,0.0565
-M02,M,7,be_boys__goohyun,be_boys__goohyun,비보이즈 구현,BE BOYS,Goohyun,12,0.8217,0.1693,-0.0067
-M04,M,8,be_boys__hakseong,be_boys__hakseong,비보이즈 학성,BE BOYS,Hakseong,12,0.8359,0.0183,0.2877
-M01,M,1,be_boys__minjoon,be_boys__minjoon,비보이즈 민준,BE BOYS,Minjoon,14,0.7813,-0.1045,-0.0549
-M04,M,8,be_boys__takuma,be_boys__takuma,비보이즈 타쿠마,BE BOYS,Takuma,10,0.8084,0.1705,0.0340
-M04,M,8,be_boys__woncheon,be_boys__woncheon,비보이즈 원천,BE BOYS,Woncheon,12,0.8766,0.2594,0.2068
-M03,M,3,be_boys__yunseo,be_boys__yunseo,비보이즈 윤서,BE BOYS,Yunseo,13,0.8502,0.0920,-0.0264
-M07,M,6,blitzers__chris,blitzers__chris,블리처스 크리스,BLITZERS,Chris,6,0.6016,0.1706,0.0116
-M09,M,5,blitzers__jinhwa,blitzers__jinhwa,블리처스 진화,BLITZERS,Jinhwa,12,0.7281,-0.0535,-0.0070
-M02,M,7,blitzers__juhan,blitzers__juhan,블리처스 주한,BLITZERS,Juhan,9,0.5923,0.1341,-0.0823
-M04,M,8,blitzers__lutan,blitzers__lutan,블리처스 루탄,BLITZERS,Lutan,9,0.6867,0.0638,-0.0061
-M02,M,7,blitzers__sya,blitzers__sya,블리처스 샤,BLITZERS,Sya,9,0.7523,0.0872,-0.1417
-M08,M,2,blitzers__wooju,blitzers__wooju,블리처스 우주,BLITZERS,Wooju,11,0.5823,0.1667,-0.0561
-M05,M,4,boynextdoor__jaehyun,boynextdoor__jaehyun,보이넥스트도어 재현,BOYNEXTDOOR,Jaehyun,25,0.6461,0.0798,0.0233
-M01,M,1,boynextdoor__leehan,boynextdoor__leehan,보이넥스트도어 이한,BOYNEXTDOOR,Leehan,8,0.7164,-0.1946,0.0484
-M07,M,6,boynextdoor__riwoo,boynextdoor__riwoo,보이넥스트도어 리우,BOYNEXTDOOR,Riwoo,11,0.7474,0.1572,0.1774
-M02,M,7,boynextdoor__sungho,boynextdoor__sungho,보이넥스트도어 성호,BOYNEXTDOOR,Sungho,11,0.7477,0.1033,-0.0546
-M06,M,0,boynextdoor__taesan,boynextdoor__taesan,보이넥스트도어 태산,BOYNEXTDOOR,Taesan,10,0.7487,-0.1998,-0.0457
-M02,M,7,boynextdoor__woonhak,boynextdoor__woonhak,보이넥스트도어 운학,BOYNEXTDOOR,Woonhak,10,0.6619,0.2273,-0.0347
-M01,M,1,btob__changsub,btob__changsub,비투비 창섭,BTOB,Changsub,8,0.6319,-0.0073,-0.0460
-M08,M,2,btob__eunkwang,btob__eunkwang,비투비 은광,BTOB,Eunkwang,11,0.7220,0.1797,-0.2004
-M03,M,3,btob__hyunsik,btob__hyunsik,비투비 현식,BTOB,Hyunsik,8,0.6082,0.1057,-0.1396
-M09,M,5,btob__minhyuk,btob__minhyuk,비투비 민혁,BTOB,Minhyuk,10,0.7470,-0.0603,0.2336
-M07,M,6,btob__peniel,btob__peniel,비투비 프니엘,BTOB,Peniel,8,0.7297,-0.0207,0.0608
-M09,M,5,btob__sungjae,btob__sungjae,비투비 성재,BTOB,Sungjae,10,0.7126,-0.2872,0.0785
-M07,M,6,close_your_eyes__jang_yeojun,close_your_eyes__jang_yeojun,클로즈유어아이즈 장여준,CLOSE YOUR EYES,Jang Yeojun,11,0.7026,0.1421,-0.0290
-M05,M,4,close_your_eyes__jeon_minwook,close_your_eyes__jeon_minwook,클로즈유어아이즈 전민욱,CLOSE YOUR EYES,Jeon Minwook,12,0.7219,-0.1915,0.1578
-M07,M,6,close_your_eyes__kenshin,close_your_eyes__kenshin,클로즈유어아이즈 켄신,CLOSE YOUR EYES,Kenshin,12,0.7338,0.1222,0.1042
-M04,M,8,close_your_eyes__kim_sungmin,close_your_eyes__kim_sungmin,클로즈유어아이즈 김성민,CLOSE YOUR EYES,Kim Sungmin,10,0.7266,-0.0090,-0.0265
-M01,M,1,close_your_eyes__ma_jingxiang,close_your_eyes__ma_jingxiang,클로즈유어아이즈 마징시앙,CLOSE YOUR EYES,Ma Jingxiang,14,0.7184,-0.2503,-0.0652
-M07,M,6,close_your_eyes__seo_kyoungbae,close_your_eyes__seo_kyoungbae,클로즈유어아이즈 서경배,CLOSE YOUR EYES,Seo Kyoungbae,12,0.7100,0.0232,0.2202
-M07,M,6,close_your_eyes__song_seungho,close_your_eyes__song_seungho,클로즈유어아이즈 송승호,CLOSE YOUR EYES,Song Seungho,10,0.6301,-0.0427,0.0629
-M03,M,3,cmdm__byunghoon,cmdm__byunghoon,CMDM 병훈,CMDM,Byunghoon,7,0.5616,0.2414,0.0675
-M02,M,7,cmdm__heeju,cmdm__heeju,CMDM 희주,CMDM,Heeju,6,0.5350,-0.0408,-0.0053
-M01,M,1,cmdm__hyunhah,cmdm__hyunhah,CMDM 현하,CMDM,Hyunhah,9,0.6880,-0.0049,-0.1565
-M03,M,3,cmdm__nohyul,cmdm__nohyul,CMDM 노율,CMDM,Nohyul,8,0.7189,0.0055,-0.1359
-M05,M,4,cortis__james,cortis__james,코르티스 제임스,CORTIS,James,11,0.8482,-0.2548,-0.0572
-M09,M,5,cortis__juhoon,cortis__juhoon,코르티스 주훈,CORTIS,Juhoon,9,0.6678,-0.0865,-0.0668
-M01,M,1,cortis__keonho,cortis__keonho,코르티스 건호,CORTIS,Keonho,11,0.6793,-0.2504,-0.2197
-M01,M,1,cortis__martin,cortis__martin,코르티스 마틴,CORTIS,Martin,10,0.8530,-0.1231,-0.1046
-M10,M,9,cortis__seonghyeon,cortis__seonghyeon,코르티스 성현,CORTIS,Seonghyeon,9,0.7273,-0.1086,0.1469
-M01,M,1,cravity__allen,cravity__allen,크래비티 앨런,CRAVITY,Allen,23,0.6044,-0.1038,-0.0305
-M03,M,3,cravity__hyeongjun,cravity__hyeongjun,크래비티 형준,CRAVITY,Hyeongjun,12,0.6419,0.0473,-0.0996
-M08,M,2,cravity__jungmo,cravity__jungmo,크래비티 정모,CRAVITY,Jungmo,16,0.6488,-0.0123,-0.2660
-M07,M,6,cravity__minhee,cravity__minhee,크래비티 민희,CRAVITY,Minhee,17,0.6587,-0.0840,0.1774
-M07,M,6,cravity__seongmin,cravity__seongmin,크래비티 성민,CRAVITY,Seongmin,19,0.5920,0.0620,0.2939
-M01,M,1,cravity__serim,cravity__serim,크래비티 세림,CRAVITY,Serim,22,0.6073,-0.2829,-0.1312
-M08,M,2,cravity__taeyoung,cravity__taeyoung,크래비티 태영,CRAVITY,Taeyoung,8,0.5809,-0.0692,-0.1232
-M04,M,8,cravity__wonjin,cravity__wonjin,크래비티 원진,CRAVITY,Wonjin,23,0.6267,0.1654,0.1622
-M03,M,3,cravity__woobin,cravity__woobin,크래비티 우빈,CRAVITY,Woobin,11,0.6345,0.1946,-0.2432
-M03,M,3,daychild__eden,daychild__eden,데이차일드 이든,DAYCHILD,Eden,6,0.5618,0.1935,-0.0571
-M03,M,3,daychild__siwoo,daychild__siwoo,데이차일드 시우,DAYCHILD,Siwoo,9,0.5883,0.3080,-0.1507
-M08,M,2,dkb__d1,dkb__d1,다크비 디원,DKB,D1,23,0.7018,-0.1503,-0.0376
-M08,M,2,dkb__e_chan,dkb__e_chan,다크비 이찬,DKB,E-Chan,14,0.7088,0.1277,-0.2486
-M08,M,2,dkb__gk,dkb__gk,다크비 지케이,DKB,GK,20,0.6551,0.0541,0.0998
-M04,M,8,dkb__harry_june,dkb__harry_june,다크비 해리준,DKB,Harry June,14,0.7565,0.0031,0.1573
-M03,M,3,dkb__heechan,dkb__heechan,다크비 희찬,DKB,Heechan,18,0.7285,0.0089,-0.0909
-M07,M,6,dkb__junseo,dkb__junseo,다크비 준서,DKB,Junseo,22,0.6759,0.1746,0.0762
-M07,M,6,dkb__lune,dkb__lune,다크비 룬,DKB,Lune,24,0.6653,-0.0127,0.0105
-M03,M,3,dkb__yuku,dkb__yuku,다크비 유쿠,DKB,Yuku,24,0.6719,0.2310,-0.2573
-M10,M,9,dragon_pony__an_taegyu,dragon_pony__an_taegyu,드래곤포니 안태규,Dragon Pony,An Taegyu,8,0.7432,0.1128,0.1505
-M02,M,7,dragon_pony__ko_ganghun,dragon_pony__ko_ganghun,드래곤포니 고강훈,Dragon Pony,Ko Ganghun,9,0.7997,0.2394,0.0006
-M02,M,7,dragon_pony__kwon_sehyuk,dragon_pony__kwon_sehyuk,드래곤포니 권세혁,Dragon Pony,Kwon Sehyuk,12,0.7695,0.0050,-0.1134
-M08,M,2,dragon_pony__pyun_sunghyun,dragon_pony__pyun_sunghyun,드래곤포니 편성현,Dragon Pony,Pyun Sunghyun,8,0.3962,0.1115,-0.0582
-M02,M,7,drippin__changuk,drippin__changuk,드리핀 창욱,DRIPPIN,Changuk,30,0.6572,0.1881,-0.1314
-M01,M,1,drippin__dongyun,drippin__dongyun,드리핀 동윤,DRIPPIN,Dongyun,10,0.6713,-0.1078,0.0823
-M04,M,8,drippin__hyeop,drippin__hyeop,드리핀 협,DRIPPIN,Hyeop,21,0.5905,0.1043,0.0869
-M05,M,4,drippin__junho,drippin__junho,드리핀 준호,DRIPPIN,Junho,14,0.6745,-0.2091,0.0251
-M08,M,2,drippin__minseo,drippin__minseo,드리핀 민서,DRIPPIN,Minseo,16,0.6127,0.1461,-0.0933
-M06,M,0,drippin__yunseong,drippin__yunseong,드리핀 윤성,DRIPPIN,Yunseong,20,0.6592,-0.0943,0.2059
-M10,M,9,dxmon__hee,dxmon__hee,다이몬 히,DXMON,Hee,8,0.6562,-0.2009,0.0454
-M08,M,2,dxmon__minjae,dxmon__minjae,다이몬 민재,DXMON,Minjae,8,0.6660,0.1195,-0.0305
-M10,M,9,dxmon__rex,dxmon__rex,다이몬 렉스,DXMON,Rex,8,0.7203,-0.2666,0.1524
-M08,M,2,dxmon__seita,dxmon__seita,다이몬 세이타,DXMON,Seita,9,0.6768,0.0298,-0.2963
-M03,M,3,dxmon__tk,dxmon__tk,다이몬 TK,DXMON,TK,6,0.6546,0.2758,-0.0961
-M04,M,8,eight_turn__haemin,eight_turn__haemin,에잇턴 해민,8TURN,Haemin,12,0.7022,0.1345,0.1930
-M07,M,6,eight_turn__jaeyun,eight_turn__jaeyun,에잇턴 재윤,8TURN,Jaeyun,8,0.7465,-0.0499,0.1136
-M04,M,8,eight_turn__kyungmin,eight_turn__kyungmin,에잇턴 경민,8TURN,Kyungmin,13,0.7723,0.0272,-0.0005
-M06,M,0,eight_turn__minho,eight_turn__minho,에잇턴 민호,8TURN,Minho,11,0.7415,0.2632,0.1229
-M02,M,7,eight_turn__myungho,eight_turn__myungho,에잇턴 명호,8TURN,Myungho,11,0.7704,-0.0287,-0.0992
-M09,M,5,eight_turn__seungheon,eight_turn__seungheon,에잇턴 승헌,8TURN,Seungheon,10,0.6679,-0.0807,0.1477
-M06,M,0,eight_turn__yoonsung,eight_turn__yoonsung,에잇턴 윤성,8TURN,Yoonsung,10,0.8122,0.1135,0.0419
-M06,M,0,eight_turn__yungyu,eight_turn__yungyu,에잇턴 윤규,8TURN,Yungyu,10,0.7615,0.1194,0.3060
-M03,M,3,eighty_two_major__dogyun,eighty_two_major__dogyun,팔이메이저 도균,82MAJOR,Dogyun,11,0.6695,0.0879,-0.0789
-M08,M,2,eighty_two_major__seokjoon,eighty_two_major__seokjoon,팔이메이저 석준,82MAJOR,Seokjoon,8,0.6248,-0.0704,0.2016
-M06,M,0,eighty_two_major__seongbin,eighty_two_major__seongbin,팔이메이저 성빈,82MAJOR,Seongbin,8,0.4626,-0.1294,0.1848
-M05,M,4,eighty_two_major__seongil,eighty_two_major__seongil,팔이메이저 성일,82MAJOR,Seongil,5,0.5822,-0.0238,0.0651
-M06,M,0,eighty_two_major__seongmo,eighty_two_major__seongmo,팔이메이저 성모,82MAJOR,Seongmo,11,0.5098,0.1494,0.0658
-M03,M,3,eighty_two_major__yechan,eighty_two_major__yechan,팔이메이저 예찬,82MAJOR,Yechan,8,0.5624,-0.0167,-0.1902
-M04,M,8,elast__baekgyeul,elast__baekgyeul,엘라스트 백결,E'LAST,Baekgyeul,18,0.6727,0.2559,0.1479
-M02,M,7,elast__choi_in,elast__choi_in,엘라스트 최인,E'LAST,Choi In,23,0.6411,0.0167,-0.1990
-M03,M,3,elast__rano,elast__rano,엘라스트 라노,E'LAST,Rano,18,0.6757,0.1395,-0.0877
-M05,M,4,elast__romin,elast__romin,엘라스트 로민,E'LAST,Romin,28,0.6654,-0.0835,-0.0985
-M02,M,7,elast__won_hyuk,elast__won_hyuk,엘라스트 원혁,E'LAST,Won Hyuk,19,0.7019,-0.0008,-0.0058
-M04,M,8,elast__wonjun,elast__wonjun,엘라스트 원준,E'LAST,Wonjun,26,0.6648,0.2476,0.3190
-M05,M,4,elast__yejun,elast__yejun,엘라스트 예준,E'LAST,Yejun,18,0.7004,-0.2354,-0.0285
-M05,M,4,enhypen__heeseung,enhypen__heeseung,엔하이픈 희승,ENHYPEN,Heeseung,8,0.6664,-0.1275,-0.0962
-M01,M,1,enhypen__jake,enhypen__jake,엔하이픈 제이크,ENHYPEN,Jake,8,0.6330,-0.1804,-0.1220
-M02,M,7,enhypen__jay,enhypen__jay,엔하이픈 제이,ENHYPEN,Jay,6,0.6338,-0.0003,-0.1094
-M06,M,0,enhypen__jungwon,enhypen__jungwon,엔하이픈 정원,ENHYPEN,Jungwon,11,0.7640,0.1299,0.1017
-M02,M,7,enhypen__ni_ki,enhypen__ni_ki,엔하이픈 니키,ENHYPEN,Ni-ki,8,0.7250,-0.0596,-0.2681
-M06,M,0,enhypen__sunghoon,enhypen__sunghoon,엔하이픈 성훈,ENHYPEN,Sunghoon,8,0.7307,-0.0205,0.0996
-M02,M,7,enhypen__sunoo,enhypen__sunoo,엔하이픈 선우,ENHYPEN,Sunoo,8,0.5593,0.1655,-0.2134
-M01,M,1,epex__a_min,epex__a_min,이펙스 아민,EPEX,A-Min,10,0.7265,-0.1570,-0.0598
-M04,M,8,epex__ayden,epex__ayden,이펙스 에이든,EPEX,Ayden,10,0.7454,-0.0856,0.0932
-M02,M,7,epex__baekseung,epex__baekseung,이펙스 백승,EPEX,Baekseung,11,0.7195,0.0542,-0.0619
-M08,M,2,epex__jeff,epex__jeff,이펙스 제프,EPEX,Jeff,13,0.6754,0.0859,-0.2090
-M01,M,1,epex__mu,epex__mu,이펙스 뮤,EPEX,Mu,8,0.7345,-0.1385,0.0029
-M03,M,3,epex__wish,epex__wish,이펙스 위시,EPEX,Wish,8,0.6783,-0.0594,-0.1112
-M06,M,0,epex__yewang,epex__yewang,이펙스 예왕,EPEX,Yewang,9,0.7087,0.0653,0.3076
-M09,M,5,evnne__keita,evnne__keita,이븐 케이타,EVNNE,Keita,14,0.7059,-0.1572,0.1179
-M06,M,0,evnne__lee_jeonghyeon,evnne__lee_jeonghyeon,이븐 이정현,EVNNE,Lee Jeonghyeon,8,0.6788,-0.0390,0.2937
-M09,M,5,evnne__mun_junghyun,evnne__mun_junghyun,이븐 문정현,EVNNE,Mun Junghyun,11,0.7314,-0.1977,0.0413
-M08,M,2,evnne__park_hanbin,evnne__park_hanbin,이븐 박한빈,EVNNE,Park Hanbin,11,0.7104,0.0864,-0.1648
-M04,M,8,evnne__park_jihoo,evnne__park_jihoo,이븐 박지후,EVNNE,Park Jihoo,11,0.6321,0.2000,0.3840
-M07,M,6,fantasy_boys__hikari,fantasy_boys__hikari,판타지보이즈 히카리,FANTASY BOYS,Hikari,12,0.6357,-0.1512,0.2152
-M09,M,5,fantasy_boys__hikaru,fantasy_boys__hikaru,판타지보이즈 히카루,FANTASY BOYS,Hikaru,7,0.5506,-0.1306,-0.0282
-M09,M,5,fantasy_boys__hong_sungmin,fantasy_boys__hong_sungmin,판타지보이즈 홍성민,FANTASY BOYS,Hong Sungmin,8,0.5576,-0.3350,-0.0157
-M04,M,8,fantasy_boys__kaedan,fantasy_boys__kaedan,판타지보이즈 케이단,FANTASY BOYS,Kaedan,8,0.6681,0.0872,0.2109
-M06,M,0,fantasy_boys__kang_minseo,fantasy_boys__kang_minseo,판타지보이즈 강민서,FANTASY BOYS,Kang Minseo,13,0.7426,0.0182,0.3710
-M05,M,4,fantasy_boys__kim_gyurae,fantasy_boys__kim_gyurae,판타지보이즈 김규래,FANTASY BOYS,Kim Gyurae,12,0.6037,-0.1070,0.2661
-M01,M,1,fantasy_boys__kim_wooseok,fantasy_boys__kim_wooseok,판타지보이즈 김우석,FANTASY BOYS,Kim Wooseok,10,0.7050,0.0794,-0.0568
-M02,M,7,fantasy_boys__lee_hanbin,fantasy_boys__lee_hanbin,판타지보이즈 이한빈,FANTASY BOYS,Lee Hanbin,10,0.6800,-0.0520,-0.1292
-M01,M,1,fantasy_boys__ling_qi,fantasy_boys__ling_qi,판타지보이즈 링치,FANTASY BOYS,Ling Qi,8,0.6315,-0.1678,-0.1901
-M01,M,1,fantasy_boys__oh_hyeontae,fantasy_boys__oh_hyeontae,판타지보이즈 오현태,FANTASY BOYS,Oh Hyeontae,11,0.6883,-0.0304,-0.0364
-M10,M,9,ghost9__jinwoo,ghost9__jinwoo,고스트나인 진우,GHOST9,Jinwoo,11,0.7829,-0.1060,0.1264
-M07,M,6,ghost9__junhyung,ghost9__junhyung,고스트나인 준형,GHOST9,Junhyung,21,0.6659,0.0668,-0.0122
-M03,M,3,ghost9__junseong,ghost9__junseong,고스트나인 준성,GHOST9,Junseong,18,0.6653,0.0396,-0.1599
-M03,M,3,ghost9__kangsung,ghost9__kangsung,고스트나인 강성,GHOST9,Kangsung,11,0.8920,0.0342,-0.0488
-M09,M,5,ghost9__prince,ghost9__prince,고스트나인 프린스,GHOST9,Prince,15,0.7693,-0.2753,0.1789
-M03,M,3,ghost9__shin,ghost9__shin,고스트나인 이신,GHOST9,Shin,16,0.6357,0.0757,-0.0597
-M10,M,9,ghost9__woojin,ghost9__woojin,고스트나인 우진,GHOST9,Woojin,16,0.6200,-0.1418,-0.2075
-M10,M,9,hifi_unicorn__hyunyul,hifi_unicorn__hyunyul,하이파이유니콘 현율,Hi-Fi Un!corn,Hyunyul,12,0.6749,-0.1458,0.0936
-M08,M,2,hifi_unicorn__kiyoon,hifi_unicorn__kiyoon,하이파이유니콘 기윤,Hi-Fi Un!corn,Kiyoon,9,0.7279,0.0610,-0.1440
-M02,M,7,hifi_unicorn__min,hifi_unicorn__min,하이파이유니콘 민,Hi-Fi Un!corn,Min,9,0.6884,-0.0113,0.0140
-M04,M,8,hifi_unicorn__shuto,hifi_unicorn__shuto,하이파이유니콘 슈토,Hi-Fi Un!corn,Shuto,9,0.7290,0.1176,0.0723
-M02,M,7,hifi_unicorn__taemin,hifi_unicorn__taemin,하이파이유니콘 태민,Hi-Fi Un!corn,Taemin,8,0.7046,0.2657,-0.0647
-M01,M,1,hori7on__jeromy,hori7on__jeromy,호라이즌 제로미,HORI7ON,Jeromy,7,0.8365,-0.1620,0.0106
-M07,M,6,hori7on__kim,hori7on__kim,호라이즌 킴,HORI7ON,Kim,11,0.8127,-0.0576,0.1412
-M10,M,9,hori7on__kyler,hori7on__kyler,호라이즌 카일러,HORI7ON,Kyler,11,0.7113,-0.0755,-0.1722
-M01,M,1,hori7on__marcus,hori7on__marcus,호라이즌 마커스,HORI7ON,Marcus,10,0.6532,-0.2071,-0.1203
-M01,M,1,hori7on__reyster,hori7on__reyster,호라이즌 레이스터,HORI7ON,Reyster,8,0.6993,-0.2233,-0.0321
-M01,M,1,hori7on__vinci,hori7on__vinci,호라이즌 빈치,HORI7ON,Vinci,7,0.6727,-0.1758,0.0486
-M01,M,1,hori7on__winston,hori7on__winston,호라이즌 윈스턴,HORI7ON,Winston,10,0.6195,-0.1558,-0.1350
-M02,M,7,hrtz_wav__riaan,hrtz_wav__riaan,hrtz.wav 리안,hrtz.wav,Riaan,5,0.3760,0.2093,-0.2777
-M09,M,5,idid__baek_junhyuk,idid__baek_junhyuk,아이딧 백준혁,IDID,Baek Junhyuk,13,0.8431,-0.0274,0.1034
-M05,M,4,idid__chu_yoochan,idid__chu_yoochan,아이딧 추유찬,IDID,Chu Yoochan,10,0.7604,-0.1225,0.0627
-M06,M,0,idid__jang_yonghoon,idid__jang_yonghoon,아이딧 장용훈,IDID,Jang Yonghoon,12,0.7880,0.1402,0.1893
-M04,M,8,idid__jeong_semin,idid__jeong_semin,아이딧 정세민,IDID,Jeong Semin,12,0.6652,0.0973,0.1812
-M04,M,8,idid__kim_minjae,idid__kim_minjae,아이딧 김민재,IDID,Kim Minjae,6,0.5547,0.1137,0.0707
-M02,M,7,idid__park_seonghyeon,idid__park_seonghyeon,아이딧 박성현,IDID,Park Seonghyeon,12,0.7179,0.0646,-0.0033
-M04,M,8,idid__park_wonbin,idid__park_wonbin,아이딧 박원빈,IDID,Park Wonbin,8,0.8552,0.1311,0.1135
-M03,M,3,idntt__choi_gyeongbeen,idntt__choi_gyeongbeen,idntt 최경빈,idntt,Choi GyeongBeen,8,0.7271,0.2311,-0.0101
-M06,M,0,idntt__choi_taein,idntt__choi_taein,idntt 최태인,idntt,Choi TaeIn,8,0.8767,-0.1108,0.2382
-M10,M,9,idntt__han_yejoon,idntt__han_yejoon,idntt 한예준,idntt,Han YeJoon,7,0.5897,0.0354,-0.0545
-M10,M,9,idntt__hwang_eunsoo,idntt__hwang_eunsoo,idntt 황은수,idntt,Hwang EunSoo,8,0.6377,-0.1265,0.0151
-M03,M,3,idntt__kim_dohun,idntt__kim_dohun,idntt 김도훈,idntt,Kim DoHun,12,0.6717,0.0910,-0.0608
-M03,M,3,idntt__kim_heeju,idntt__kim_heeju,idntt 김희주,idntt,Kim HeeJu,11,0.6730,0.2011,-0.0905
-M04,M,8,idntt__kim_juho,idntt__kim_juho,idntt 김주호,idntt,Kim JuHo,7,0.5197,0.0661,0.0519
-M05,M,4,idntt__kim_seongjun,idntt__kim_seongjun,idntt 김성준,idntt,Kim SeongJun,6,0.7710,-0.0805,0.0065
-M05,M,4,idntt__lee_cheongmyeong,idntt__lee_cheongmyeong,idntt 이청명,idntt,Lee CheongMyeong,10,0.6887,0.0024,0.0594
-M07,M,6,idntt__lee_hwanhee,idntt__lee_hwanhee,idntt 이환희,idntt,Lee HwanHee,8,0.8307,0.1855,0.1230
-M05,M,4,idntt__lee_jaeyoung,idntt__lee_jaeyoung,idntt 이재영,idntt,Lee JaeYoung,8,0.7234,0.1157,0.1200
-M04,M,8,idntt__lee_kyuhyuk,idntt__lee_kyuhyuk,idntt 이규혁,idntt,Lee KyuHyuk,7,0.5910,0.0465,-0.0833
-M08,M,2,idntt__nam_jiwoon,idntt__nam_jiwoon,idntt 남지운,idntt,Nam JiWoon,7,0.6092,0.0956,-0.0681
-M04,M,8,idntt__park_nuri,idntt__park_nuri,idntt 박누리,idntt,Park NuRi,8,0.5296,0.0070,0.0893
-M01,M,1,idntt__towa,idntt__towa,idntt 토와,idntt,Towa,7,0.5910,-0.1572,-0.1445
-M07,M,6,justb__bain,justb__bain,저스트비 배인,JUSTB,Bain,7,0.6625,0.0745,0.2292
-M04,M,8,justb__dy,justb__dy,저스트비 DY,JUSTB,DY,8,0.6180,0.2721,0.0410
-M06,M,0,justb__geonu,justb__geonu,저스트비 건우,JUSTB,Geonu,6,0.5814,0.2841,0.1882
-M01,M,1,justb__jimin,justb__jimin,저스트비 지민,JUSTB,Jimin,9,0.6707,0.0245,-0.2776
-M07,M,6,justb__jm,justb__jm,저스트비 JM,JUSTB,JM,13,0.7177,0.1589,0.1354
-M01,M,1,kickflip__amaru,kickflip__amaru,킥플립 아마루,KickFlip,Amaru,13,0.7305,-0.1134,-0.1147
-M02,M,7,kickflip__donghwa,kickflip__donghwa,킥플립 동화,KickFlip,Donghwa,11,0.6707,-0.0963,-0.3347
-M04,M,8,kickflip__donghyeon,kickflip__donghyeon,킥플립 동현,KickFlip,Donghyeon,11,0.6343,0.1011,0.0131
-M02,M,7,kickflip__juwang,kickflip__juwang,킥플립 주왕,KickFlip,Juwang,10,0.7337,0.1298,-0.1577
-M01,M,1,kickflip__keiju,kickflip__keiju,킥플립 케이주,KickFlip,Keiju,8,0.7508,-0.0668,-0.0292
-M02,M,7,kickflip__kyehoon,kickflip__kyehoon,킥플립 계훈,KickFlip,Kyehoon,13,0.7147,0.2270,0.0260
-M01,M,1,kickflip__minje,kickflip__minje,킥플립 민제,KickFlip,Minje,12,0.6923,-0.1398,-0.0077
-M05,M,4,lngshot__louis,lngshot__louis,LNGSHOT 루이,LNGSHOT,Louis,6,0.5598,-0.0490,-0.0651
-M05,M,4,lngshot__ohyul,lngshot__ohyul,LNGSHOT 오율,LNGSHOT,Ohyul,7,0.5180,-0.0669,0.1007
-M04,M,8,lngshot__woojin,lngshot__woojin,LNGSHOT 우진,LNGSHOT,Woojin,7,0.6126,0.0631,-0.0430
-M03,M,3,lucy__gwangil,lucy__gwangil,루시 광일,LUCY,Gwangil,9,0.6213,0.1988,-0.0339
-M09,M,5,lucy__sangyeop,lucy__sangyeop,루시 상엽,LUCY,Sangyeop,7,0.6265,-0.0552,-0.0506
-M01,M,1,lucy__wonsang,lucy__wonsang,루시 원상,LUCY,Wonsang,8,0.6025,-0.1015,0.0083
-M09,M,5,lucy__yechan,lucy__yechan,루시 예찬,LUCY,Yechan,10,0.6105,-0.1594,-0.1333
-M02,M,7,lun8__chael,lun8__chael,루네이트 카엘,LUN8,Chael,8,0.7190,0.1170,0.0363
-M07,M,6,lun8__dohyun,lun8__dohyun,루네이트 도현,LUN8,Dohyun,10,0.7975,0.1128,0.1480
-M06,M,0,lun8__ian,lun8__ian,루네이트 이안,LUN8,Ian,10,0.7132,-0.1361,0.1713
-M08,M,2,lun8__jinsu,lun8__jinsu,루네이트 진수,LUN8,Jinsu,12,0.7814,0.0146,-0.1002
-M08,M,2,lun8__junwoo,lun8__junwoo,루네이트 준우,LUN8,Junwoo,12,0.7378,0.0989,-0.0528
-M10,M,9,lun8__takuma,lun8__takuma,루네이트 타쿠마,LUN8,Takuma,11,0.7143,-0.0571,-0.0810
-M09,M,5,lun8__yuma,lun8__yuma,루네이트 유우마,LUN8,Yuma,11,0.7793,-0.2630,0.1424
-M01,M,1,mcnd__bic,mcnd__bic,엠씨엔디 빅,MCND,BIC,9,0.6348,-0.1568,-0.0384
-M01,M,1,mcnd__castle_j,mcnd__castle_j,엠씨엔디 캐슬제이,MCND,Castle J,14,0.6376,0.0228,-0.1089
-M04,M,8,mcnd__huijun,mcnd__huijun,엠씨엔디 휘준,MCND,Huijun,11,0.8144,0.0323,0.1134
-M07,M,6,mcnd__minjae,mcnd__minjae,엠씨엔디 민재,MCND,Minjae,16,0.6474,0.0743,0.2114
-M06,M,0,mcnd__win,mcnd__win,엠씨엔디 윈,MCND,Win,8,0.6036,0.1290,0.2974
-M04,M,8,modyssey__fan_zheyi,modyssey__fan_zheyi,MODYSSEY 판저이,MODYSSEY,Fan Zheyi,8,0.6119,-0.0131,0.2987
-M04,M,8,modyssey__li_zihao,modyssey__li_zihao,MODYSSEY 리즈하오,MODYSSEY,Li Zihao,5,0.6619,0.1688,0.1348
-M05,M,4,modyssey__lynnlynn,modyssey__lynnlynn,MODYSSEY 린린,MODYSSEY,LynnLynn,6,0.5540,-0.0661,0.0222
-M07,M,6,modyssey__suren,modyssey__suren,MODYSSEY 수런,MODYSSEY,Suren,5,0.4561,0.1553,0.1415
-M05,M,4,modyssey__yichen,modyssey__yichen,MODYSSEY 이첸,MODYSSEY,Yichen,7,0.6140,0.0380,0.0876
-M09,M,5,monsta_x__hyungwon,monsta_x__hyungwon,몬스타엑스 형원,MONSTA X,Hyungwon,8,0.6575,-0.1551,-0.1625
-M02,M,7,monsta_x__im,monsta_x__im,몬스타엑스 아이엠,MONSTA X,I.M,9,0.6932,0.0792,-0.1052
-M03,M,3,monsta_x__joohoney,monsta_x__joohoney,몬스타엑스 주헌,MONSTA X,Joohoney,10,0.6964,0.1505,-0.0117
-M06,M,0,monsta_x__kihyun,monsta_x__kihyun,몬스타엑스 기현,MONSTA X,Kihyun,11,0.6387,0.1971,0.1950
-M09,M,5,monsta_x__minhyuk,monsta_x__minhyuk,몬스타엑스 민혁,MONSTA X,Minhyuk,8,0.6333,-0.2305,-0.0595
-M06,M,0,monsta_x__shownu,monsta_x__shownu,몬스타엑스 셔누,MONSTA X,Shownu,10,0.6658,0.0397,0.1675
-M03,M,3,n_ssign__doha,n_ssign__doha,엔싸인 도하,n.SSign,Doha,10,0.6464,0.0541,0.0052
-M05,M,4,n_ssign__hanjun,n_ssign__hanjun,엔싸인 한준,n.SSign,Hanjun,10,0.6221,-0.0620,0.0129
-M04,M,8,n_ssign__huiwon,n_ssign__huiwon,엔싸인 희원,n.SSign,Huiwon,12,0.7646,0.1455,0.0796
-M06,M,0,n_ssign__kazuta,n_ssign__kazuta,엔싸인 카즈타,n.SSign,Kazuta,9,0.6384,-0.0975,0.1368
-M01,M,1,n_ssign__laurence,n_ssign__laurence,엔싸인 로렌스,n.SSign,Laurence,14,0.6924,-0.2690,-0.0645
-M07,M,6,n_ssign__robin,n_ssign__robin,엔싸인 로빈,n.SSign,Robin,14,0.6886,0.1074,0.0017
-M10,M,9,n_ssign__sungyun,n_ssign__sungyun,엔싸인 성윤,n.SSign,Sungyun,9,0.6244,-0.3842,0.0955
-M04,M,8,naze__ato,naze__ato,NAZE 아토,NAZE,Ato,6,0.5731,0.2698,0.0992
-M09,M,5,naze__dohyeok,naze__dohyeok,NAZE 도혁,NAZE,Dohyeok,7,0.6689,-0.1729,0.0704
-M09,M,5,naze__kaisei,naze__kaisei,NAZE 카이세이,NAZE,Kaisei,5,0.6821,-0.1749,-0.0989
-M09,M,5,naze__turn,naze__turn,NAZE 턴,NAZE,Turn,7,0.6528,-0.3485,0.0122
-M07,M,6,naze__younki,naze__younki,NAZE 윤기,NAZE,Younki,5,0.4609,0.1242,-0.0743
-M03,M,3,nchive__e_an,nchive__e_an,엔카이브 이안,NCHIVE,E.aN,8,0.7735,0.0859,-0.0889
-M06,M,0,nchive__ha_l,nchive__ha_l,엔카이브 하엘,NCHIVE,HA.L,12,0.8964,-0.0153,0.3006
-M09,M,5,nchive__juyoung,nchive__juyoung,엔카이브 주영,NCHIVE,Juyoung,11,0.7870,-0.0679,0.0799
-M09,M,5,nchive__kangsan,nchive__kangsan,엔카이브 강산,NCHIVE,Kangsan,15,0.8821,-0.0743,-0.1672
-M03,M,3,nchive__n,nchive__n,엔카이브 엔,NCHIVE,N,14,0.7380,0.1451,-0.0456
-M08,M,2,nchive__yuchan,nchive__yuchan,엔카이브 유찬,NCHIVE,Yuchan,10,0.8612,-0.2452,0.0038
-M01,M,1,nct__chenle,nct__chenle,NCT 천러,NCT,Chenle,8,0.6456,-0.2015,0.1228
-M08,M,2,nct__doyoung,nct__doyoung,NCT 도영,NCT,Doyoung,12,0.6754,-0.0080,-0.1492
-M01,M,1,nct__haechan,nct__haechan,NCT 해찬,NCT,Haechan,8,0.5898,-0.0939,-0.2201
-M01,M,1,nct__hendery,nct__hendery,NCT 헨드리,NCT,Hendery,8,0.5098,-0.1912,-0.1344
-M10,M,9,nct__jaehyun,nct__jaehyun,NCT 재현,NCT,Jaehyun,12,0.6531,-0.1303,-0.1120
-M07,M,6,nct__jaemin,nct__jaemin,NCT 재민,NCT,Jaemin,8,0.6678,0.0694,0.3541
-M09,M,5,nct__jeno,nct__jeno,NCT 제노,NCT,Jeno,8,0.7116,-0.1935,-0.0089
-M02,M,7,nct__jisung,nct__jisung,NCT 지성,NCT,Jisung,8,0.6966,0.1275,0.1264
-M09,M,5,nct__johnny,nct__johnny,NCT 쟈니,NCT,Johnny,8,0.6890,-0.1482,-0.0887
-M02,M,7,nct__jungwoo,nct__jungwoo,NCT 정우,NCT,Jungwoo,8,0.7178,0.0011,-0.1473
-M01,M,1,nct__kun,nct__kun,NCT 쿤,NCT,Kun,8,0.7562,-0.2132,0.0647
-M10,M,9,nct__renjun,nct__renjun,NCT 런쥔,NCT,Renjun,14,0.6020,0.0365,0.0042
-M05,M,4,nct__taeyong,nct__taeyong,NCT 태용,NCT,Taeyong,12,0.6798,-0.1760,0.0273
-M07,M,6,nct__ten,nct__ten,NCT 텐,NCT,Ten,8,0.8193,0.0480,-0.0756
-M10,M,9,nct__winwin,nct__winwin,NCT 윈윈,NCT,WinWin,12,0.6312,-0.0852,-0.0437
-M01,M,1,nct__xiaojun,nct__xiaojun,NCT 샤오쥔,NCT,Xiaojun,8,0.6725,-0.2249,-0.1322
-M01,M,1,nct__yangyang,nct__yangyang,NCT 양양,NCT,Yangyang,8,0.5816,-0.2297,-0.2353
-M05,M,4,nct__yuta,nct__yuta,NCT 유타,NCT,Yuta,8,0.6140,-0.1468,0.1294
-M04,M,8,nct_wish__jaehee,nct_wish__jaehee,엔시티위시 재희,NCT WISH,Jaehee,12,0.6883,0.0975,0.0653
-M01,M,1,nct_wish__riku,nct_wish__riku,엔시티위시 리쿠,NCT WISH,Riku,9,0.6267,-0.1953,-0.0154
-M04,M,8,nct_wish__ryo,nct_wish__ryo,엔시티위시 료,NCT WISH,Ryo,8,0.6937,-0.0110,0.0824
-M10,M,9,nct_wish__sakuya,nct_wish__sakuya,엔시티위시 사쿠야,NCT WISH,Sakuya,10,0.5855,0.0486,0.1116
-M08,M,2,nct_wish__sion,nct_wish__sion,엔시티위시 시온,NCT WISH,Sion,8,0.6145,-0.0577,0.0160
-M09,M,5,nct_wish__yushi,nct_wish__yushi,엔시티위시 유우시,NCT WISH,Yushi,11,0.6011,-0.0840,0.0327
-M03,M,3,newbeat__choi_seohyun,newbeat__choi_seohyun,뉴비트 최서현,NEWBEAT,Choi Seohyun,12,0.8068,0.0733,-0.0995
-M07,M,6,newbeat__hong_minsung,newbeat__hong_minsung,뉴비트 홍민성,NEWBEAT,Hong Minsung,12,0.7518,0.0264,0.2560
-M07,M,6,newbeat__jeon_yeoyeojeong,newbeat__jeon_yeoyeojeong,뉴비트 전여여정,NEWBEAT,Jeon Yeoyeojeong,12,0.7774,-0.0748,0.0093
-M05,M,4,newbeat__jo_yunhu,newbeat__jo_yunhu,뉴비트 조윤후,NEWBEAT,Jo Yunhu,13,0.7432,0.0557,-0.1697
-M10,M,9,newbeat__kim_riwoo,newbeat__kim_riwoo,뉴비트 김리우,NEWBEAT,Kim Riwoo,11,0.8060,-0.0515,0.0127
-M02,M,7,newbeat__kim_taeyang,newbeat__kim_taeyang,뉴비트 김태양,NEWBEAT,Kim Taeyang,13,0.8263,-0.0429,0.0580
-M03,M,3,newbeat__park_minseok,newbeat__park_minseok,뉴비트 박민석,NEWBEAT,Park Minseok,10,0.7805,0.1575,-0.0075
-M01,M,1,nexz__haru,nexz__haru,넥스지 하루,NEXZ,Haru,12,0.7383,-0.2069,-0.1331
-M04,M,8,nexz__hyui,nexz__hyui,넥스지 휴이,NEXZ,Hyui,11,0.6421,0.0555,0.0208
-M01,M,1,nexz__seita,nexz__seita,넥스지 세이타,NEXZ,Seita,12,0.6796,-0.3225,-0.0005
-M09,M,5,nexz__so_geon,nexz__so_geon,넥스지 소건,NEXZ,So Geon,15,0.7348,-0.0547,0.0322
-M03,M,3,nexz__tomoya,nexz__tomoya,넥스지 토모야,NEXZ,Tomoya,10,0.7357,0.0342,-0.1786
-M02,M,7,nexz__yu,nexz__yu,넥스지 유우,NEXZ,Yu,11,0.7033,-0.0706,-0.2205
-M03,M,3,nexz__yuki,nexz__yuki,넥스지 유키,NEXZ,Yuki,9,0.6718,-0.0368,-0.1123
-M10,M,9,nine_i__eden,nine_i__eden,나인아이 이든,NINE.i,Eden,8,0.7213,-0.0472,0.0574
-M10,M,9,nine_i__jewon,nine_i__jewon,나인아이 제원,NINE.i,Jewon,8,0.6704,-0.0012,0.1066
-M09,M,5,nine_i__jiho,nine_i__jiho,나인아이 지호,NINE.i,Jiho,8,0.6893,-0.0901,0.1512
-M02,M,7,nine_i__minjun,nine_i__minjun,나인아이 민준,NINE.i,Minjun,10,0.7840,0.0515,-0.1011
-M06,M,0,nine_i__taehun,nine_i__taehun,나인아이 태훈,NINE.i,Taehun,9,0.7022,0.0636,0.1795
-M02,M,7,nine_i__vahn,nine_i__vahn,나인아이 반,NINE.i,Vahn,8,0.7530,-0.0522,-0.1078
-M06,M,0,nine_i__vari,nine_i__vari,나인아이 베리,NINE.i,Vari,10,0.7302,-0.0081,0.3373
-M09,M,5,nouera__fan,nouera__fan,누에라 판,NouerA,Fan,13,0.6986,-0.3840,0.0548
-M04,M,8,nouera__gihyeon,nouera__gihyeon,누에라 기현,NouerA,Gihyeon,8,0.7123,0.1014,0.1031
-M09,M,5,nouera__hyunjun,nouera__hyunjun,누에라 현준,NouerA,Hyunjun,12,0.8590,-0.1905,0.1685
-M03,M,3,nouera__junpyo,nouera__junpyo,누에라 준표,NouerA,Junpyo,10,0.6866,0.0617,-0.0624
-M02,M,7,nouera__lin,nouera__lin,누에라 린,NouerA,Lin,12,0.7276,-0.1660,-0.0574
-M03,M,3,nouera__miraku,nouera__miraku,누에라 미라쿠,NouerA,Miraku,11,0.7832,0.0819,0.0468
-M05,M,4,nouera__yuseop,nouera__yuseop,누에라 유섭,NouerA,Yuseop,11,0.8461,-0.2218,0.0479
-M01,M,1,nowz__hyeonbin,nowz__hyeonbin,나우즈 현빈,NOWZ,Hyeonbin,13,0.8119,-0.2744,-0.0427
-M09,M,5,nowz__jinhyuk,nowz__jinhyuk,나우즈 진혁,NOWZ,Jinhyuk,14,0.6781,-0.0478,0.0660
-M02,M,7,nowz__siyun,nowz__siyun,나우즈 시윤,NOWZ,Siyun,13,0.7379,-0.0581,-0.2545
-M03,M,3,nowz__yeonwoo,nowz__yeonwoo,나우즈 연우,NOWZ,Yeonwoo,14,0.7782,0.1615,-0.2094
-M01,M,1,nowz__yoon,nowz__yoon,나우즈 윤,NOWZ,Yoon,9,0.7204,-0.0553,-0.0447
-M02,M,7,ntx__changhun,ntx__changhun,엔티엑스 창훈,NTX,Changhun,10,0.7360,0.1948,-0.0041
-M03,M,3,ntx__eunho,ntx__eunho,엔티엑스 은호,NTX,Eunho,10,0.8632,0.1072,-0.1783
-M08,M,2,ntx__hojun,ntx__hojun,엔티엑스 호준,NTX,Hojun,10,0.8837,0.1872,-0.0341
-M08,M,2,ntx__hyeongjin,ntx__hyeongjin,엔티엑스 형진,NTX,Hyeongjin,9,0.7220,0.0135,-0.1432
-M03,M,3,ntx__rawhyun,ntx__rawhyun,엔티엑스 로현,NTX,Rawhyun,7,0.6861,0.1107,-0.1500
-M07,M,6,ntx__seungwon,ntx__seungwon,엔티엑스 승원,NTX,Seungwon,7,0.7939,0.0196,0.1600
-M03,M,3,ntx__xiha,ntx__xiha,엔티엑스 시하,NTX,Xiha,7,0.7651,0.1204,-0.1770
-M05,M,4,nxd__daehyun,nxd__daehyun,NXD 대현,NXD,Daehyun,9,0.6100,0.0273,-0.0025
-M03,M,3,nxd__hyeonggeun,nxd__hyeonggeun,NXD 형근,NXD,Hyeonggeun,7,0.5695,0.1586,-0.0194
-M06,M,0,nxd__jaemin,nxd__jaemin,NXD 재민,NXD,Jaemin,6,0.5805,-0.0430,0.0709
-M01,M,1,omega_x__hangyeom,omega_x__hangyeom,오메가엑스 송한겸,OMEGA X,Hangyeom,7,0.5882,-0.2652,-0.1876
-M01,M,1,omega_x__hwichan,omega_x__hwichan,오메가엑스 휘찬,OMEGA X,Hwichan,12,0.7472,-0.1601,-0.0715
-M05,M,4,omega_x__hyuk,omega_x__hyuk,오메가엑스 혁,OMEGA X,Hyuk,8,0.6330,-0.0833,0.1193
-M02,M,7,omega_x__jaehan,omega_x__jaehan,오메가엑스 재한,OMEGA X,Jaehan,8,0.6585,0.2436,-0.2789
-M09,M,5,omega_x__jehyun,omega_x__jehyun,오메가엑스 제현,OMEGA X,Jehyun,10,0.6041,0.0219,0.0115
-M06,M,0,omega_x__junghoon,omega_x__junghoon,오메가엑스 정훈,OMEGA X,Junghoon,12,0.6947,0.1884,0.2973
-M02,M,7,omega_x__kevin,omega_x__kevin,오메가엑스 케빈,OMEGA X,Kevin,12,0.6364,0.0736,-0.1882
-M08,M,2,omega_x__sebin,omega_x__sebin,오메가엑스 세빈,OMEGA X,Sebin,8,0.6322,0.1284,-0.0970
-M08,M,2,omega_x__taedong,omega_x__taedong,오메가엑스 태동,OMEGA X,Taedong,8,0.6692,0.0812,-0.2169
-M07,M,6,omega_x__xen,omega_x__xen,오메가엑스 젠,OMEGA X,Xen,8,0.6303,-0.0177,0.1243
-M10,M,9,omega_x__yechan,omega_x__yechan,오메가엑스 예찬,OMEGA X,Yechan,11,0.6326,-0.0121,0.0044
-M01,M,1,one_pact__jay_chang,one_pact__jay_chang,원팩트 제이창,ONE PACT,Jay Chang,10,0.7592,-0.1851,-0.0850
-M08,M,2,one_pact__jongwoo,one_pact__jongwoo,원팩트 종우,ONE PACT,Jongwoo,9,0.7261,0.2234,-0.1018
-M03,M,3,one_pact__seongmin,one_pact__seongmin,원팩트 성민,ONE PACT,Seongmin,12,0.7679,0.1187,-0.0720
-M07,M,6,one_pact__tag,one_pact__tag,원팩트 태그,ONE PACT,TAG,15,0.7645,-0.0661,0.1771
-M08,M,2,one_pact__yedam,one_pact__yedam,원팩트 예담,ONE PACT,Yedam,9,0.5906,0.1344,-0.2552
-M06,M,0,p1harmony__intak,p1harmony__intak,피원하모니 인탁,P1Harmony,Intak,15,0.6090,0.1059,0.2200
-M02,M,7,p1harmony__jiung,p1harmony__jiung,피원하모니 지웅,P1Harmony,Jiung,19,0.5893,0.2852,0.0380
-M04,M,8,p1harmony__jongseob,p1harmony__jongseob,피원하모니 종섭,P1Harmony,Jongseob,19,0.6576,0.1625,0.0672
-M03,M,3,p1harmony__keeho,p1harmony__keeho,피원하모니 기호,P1Harmony,Keeho,22,0.6917,0.0839,-0.0664
-M04,M,8,p1harmony__soul,p1harmony__soul,피원하모니 소울,P1Harmony,Soul,10,0.5831,0.2138,0.0148
-M08,M,2,p1harmony__theo,p1harmony__theo,피원하모니 테오,P1Harmony,Theo,16,0.6394,0.1349,-0.1034
-M01,M,1,polarix__hangyul,polarix__hangyul,폴라릭스 한결,POLARIX,Hangyul,7,0.5519,-0.0131,-0.3482
-M09,M,5,polarix__lee_daeul,polarix__lee_daeul,폴라릭스 이다을,POLARIX,Lee Daeul,7,0.6598,-0.1269,0.1433
-M10,M,9,polarix__lee_junhyuk,polarix__lee_junhyuk,폴라릭스 이준혁,POLARIX,Lee Junhyuk,6,0.6050,0.0049,-0.1400
-M10,M,9,polarix__pentor,polarix__pentor,폴라릭스 펜떠,POLARIX,Pentor,7,0.6247,-0.2375,-0.0567
-M05,M,4,polarix__shao_ziheng,polarix__shao_ziheng,폴라릭스 샤오쯔헝,POLARIX,Shao Ziheng,8,0.5663,-0.1555,0.0299
-M05,M,4,polarix__xin_che,polarix__xin_che,폴라릭스 신처,POLARIX,Xin Che,8,0.6190,-0.1922,0.0466
-M01,M,1,polarix__xu_shihuan,polarix__xu_shihuan,폴라릭스 허세환,POLARIX,Xu Shihuan,6,0.6717,-0.1501,-0.2179
-M04,M,8,polarix__yang_donghwa,polarix__yang_donghwa,폴라릭스 양동화,POLARIX,Yang Donghwa,7,0.4567,0.1158,0.2033
-M05,M,4,polarix__zai,polarix__zai,폴라릭스 자이,POLARIX,Zai,5,0.3829,-0.0393,0.0018
-M02,M,7,pow__dongyeon,pow__dongyeon,POW 동연,POW,Dongyeon,9,0.6680,0.1206,-0.3400
-M09,M,5,pow__hong,pow__hong,POW 홍,POW,Hong,8,0.5807,-0.1659,0.0877
-M01,M,1,pow__hyunbin,pow__hyunbin,POW 현빈,POW,Hyunbin,11,0.5955,0.0177,-0.1328
-M04,M,8,pow__jungbin,pow__jungbin,POW 정빈,POW,Jungbin,10,0.6170,0.2262,0.1535
-M05,M,4,pow__yorch,pow__yorch,POW 요치,POW,Yorch,7,0.5118,-0.1578,0.1504
-M10,M,9,riize__anton,riize__anton,라이즈 앤톤,RIIZE,Anton,6,0.6794,-0.0664,-0.1832
-M01,M,1,riize__eunseok,riize__eunseok,라이즈 은석,RIIZE,Eunseok,15,0.6901,-0.3131,-0.0670
-M05,M,4,riize__shotaro,riize__shotaro,라이즈 쇼타로,RIIZE,Shotaro,16,0.6798,-0.0405,0.1433
-M01,M,1,riize__sohee,riize__sohee,라이즈 소희,RIIZE,Sohee,12,0.7214,-0.0377,0.0309
-M01,M,1,riize__sungchan,riize__sungchan,라이즈 성찬,RIIZE,Sungchan,17,0.6704,-0.2147,-0.1283
-M05,M,4,riize__wonbin,riize__wonbin,라이즈 원빈,RIIZE,Wonbin,8,0.6834,-0.1317,-0.1859
-M03,M,3,seventeen__dino,seventeen__dino,세븐틴 디노,SEVENTEEN,Dino,8,0.6269,0.0916,-0.0215
-M03,M,3,seventeen__dk,seventeen__dk,세븐틴 도겸,SEVENTEEN,DK,8,0.5843,0.0175,-0.2801
-M03,M,3,seventeen__hoshi,seventeen__hoshi,세븐틴 호시,SEVENTEEN,Hoshi,9,0.7036,0.3323,0.0505
-M08,M,2,seventeen__jeonghan,seventeen__jeonghan,세븐틴 정한,SEVENTEEN,Jeonghan,7,0.5670,-0.0132,-0.2285
-M02,M,7,seventeen__joshua,seventeen__joshua,세븐틴 조슈아,SEVENTEEN,Joshua,11,0.6338,0.1287,-0.1323
-M02,M,7,seventeen__jun,seventeen__jun,세븐틴 준,SEVENTEEN,Jun,13,0.7784,-0.2397,-0.1360
-M01,M,1,seventeen__mingyu,seventeen__mingyu,세븐틴 민규,SEVENTEEN,Mingyu,13,0.5958,-0.2262,-0.1098
-M09,M,5,seventeen__scoups,seventeen__scoups,세븐틴 에스쿱스,SEVENTEEN,S.Coups,12,0.6979,-0.2248,0.1671
-M02,M,7,seventeen__seungkwan,seventeen__seungkwan,세븐틴 승관,SEVENTEEN,Seungkwan,9,0.5936,0.1498,-0.0638
-M04,M,8,seventeen__the8,seventeen__the8,세븐틴 디에잇,SEVENTEEN,The8,12,0.6317,0.2701,0.0602
-M05,M,4,seventeen__vernon,seventeen__vernon,세븐틴 버논,SEVENTEEN,Vernon,8,0.7180,-0.1362,0.0368
-M03,M,3,seventeen__wonwoo,seventeen__wonwoo,세븐틴 원우,SEVENTEEN,Wonwoo,7,0.6515,0.2260,-0.2603
-M03,M,3,seventeen__woozi,seventeen__woozi,세븐틴 우지,SEVENTEEN,Woozi,10,0.7340,0.1855,0.0426
-M03,M,3,sevenus__heejae,sevenus__heejae,세븐어스 희재,SEVENUS,Heejae,13,0.6695,0.1789,-0.0903
-M05,M,4,sevenus__ireah,sevenus__ireah,세븐어스 이레,SEVENUS,Ireah,11,0.8634,0.0246,-0.1222
-M10,M,9,super_junior__donghae,super_junior__donghae,슈퍼주니어 동해,SUPER JUNIOR,Donghae,11,0.6932,-0.1272,-0.0759
-M08,M,2,super_junior__eunhyuk,super_junior__eunhyuk,슈퍼주니어 은혁,SUPER JUNIOR,Eunhyuk,8,0.6614,-0.0326,-0.1617
-M08,M,2,super_junior__heechul,super_junior__heechul,슈퍼주니어 희철,SUPER JUNIOR,Heechul,10,0.7028,-0.0886,-0.0797
-M06,M,0,super_junior__kyuhyun,super_junior__kyuhyun,슈퍼주니어 규현,SUPER JUNIOR,Kyuhyun,9,0.7130,0.0106,0.1493
-M03,M,3,super_junior__leeteuk,super_junior__leeteuk,슈퍼주니어 이특,SUPER JUNIOR,Leeteuk,11,0.7175,0.1694,-0.2429
-M01,M,1,super_junior__ryeowook,super_junior__ryeowook,슈퍼주니어 려욱,SUPER JUNIOR,Ryeowook,8,0.6451,-0.0615,-0.1650
-M01,M,1,super_junior__shindong,super_junior__shindong,슈퍼주니어 신동,SUPER JUNIOR,Shindong,7,0.6402,-0.1107,-0.0499
-M08,M,2,super_junior__siwon,super_junior__siwon,슈퍼주니어 시원,SUPER JUNIOR,Siwon,8,0.6528,0.1026,-0.1176
-M02,M,7,super_junior__yesung,super_junior__yesung,슈퍼주니어 예성,SUPER JUNIOR,Yesung,9,0.5968,0.2021,0.0638
-M04,M,8,tan__changsun,tan__changsun,TAN 창선,TAN,Changsun,13,0.6921,0.1925,0.1480
-M10,M,9,tan__hyunyeop,tan__hyunyeop,TAN 현엽,TAN,Hyunyeop,11,0.6693,-0.2106,0.1999
-M09,M,5,tan__jaejun,tan__jaejun,TAN 재준,TAN,Jaejun,10,0.6421,-0.1057,-0.0174
-M08,M,2,tan__jiseong,tan__jiseong,TAN 지성,TAN,Jiseong,8,0.6945,0.1588,-0.1940
-M05,M,4,tan__jooan,tan__jooan,TAN 주안,TAN,Jooan,9,0.7096,-0.2390,0.0509
-M09,M,5,tan__sunghyuk,tan__sunghyuk,TAN 성혁,TAN,Sunghyuk,13,0.6747,-0.0704,0.0312
-M01,M,1,tan__taehoon,tan__taehoon,TAN 태훈,TAN,Taehoon,11,0.7499,0.0307,-0.1816
-M10,M,9,tempest__eunchan,tempest__eunchan,템페스트 은찬,TEMPEST,Eunchan,12,0.6726,-0.0240,0.2409
-M09,M,5,tempest__hanbin,tempest__hanbin,템페스트 한빈,TEMPEST,Hanbin,9,0.6373,-0.1543,-0.0231
-M06,M,0,tempest__hyeongseop,tempest__hyeongseop,템페스트 형섭,TEMPEST,Hyeongseop,12,0.6628,0.1954,0.1093
-M02,M,7,tempest__hyuk,tempest__hyuk,템페스트 혁,TEMPEST,Hyuk,12,0.6814,0.1024,-0.0779
-M05,M,4,tempest__lew,tempest__lew,템페스트 루,TEMPEST,Lew,13,0.6648,-0.0753,-0.0506
-M01,M,1,tempest__taerae,tempest__taerae,템페스트 태래,TEMPEST,Taerae,10,0.6361,-0.0592,-0.0314
-M08,M,2,the_kingdom__arthur,the_kingdom__arthur,더킹덤 아서,The KingDom,Arthur,8,0.6110,0.1317,-0.0395
-M04,M,8,the_kingdom__dann,the_kingdom__dann,더킹덤 단,The KingDom,Dann,15,0.7872,0.3505,-0.0506
-M01,M,1,the_kingdom__ivan,the_kingdom__ivan,더킹덤 아이반,The KingDom,Ivan,11,0.7718,-0.0565,-0.0297
-M07,M,6,the_kingdom__jahan,the_kingdom__jahan,더킹덤 자한,The KingDom,Jahan,12,0.8844,-0.0566,0.0330
-M03,M,3,the_kingdom__louis,the_kingdom__louis,더킹덤 루이,The KingDom,Louis,11,0.8173,0.1049,0.0672
-M03,M,3,the_kingdom__mujin,the_kingdom__mujin,더킹덤 무진,The KingDom,Mujin,13,0.7772,0.2081,-0.0393
-M07,M,6,the_wind__an_chanwon,the_wind__an_chanwon,더윈드 안찬원,The Wind,An Chanwon,12,0.7705,0.0096,0.2726
-M02,M,7,the_wind__choi_hanbin,the_wind__choi_hanbin,더윈드 최한빈,The Wind,Choi Hanbin,11,0.7714,0.1920,-0.0807
-M10,M,9,the_wind__jang_hyounjoon,the_wind__jang_hyounjoon,더윈드 장현준,The Wind,Jang Hyounjoon,11,0.7838,-0.2030,0.0508
-M07,M,6,the_wind__kim_heesoo,the_wind__kim_heesoo,더윈드 김희수,The Wind,Kim Heesoo,8,0.6444,-0.0478,0.1387
-M03,M,3,the_wind__park_hayuchan,the_wind__park_hayuchan,더윈드 박하유찬,The Wind,Park Hayuchan,11,0.8001,0.3636,0.0384
-M04,M,8,the_wind__thanatorn,the_wind__thanatorn,더윈드 타나톤,The Wind,Thanatorn,8,0.7087,-0.0473,0.1933
-M04,M,8,tiot__choi_woojin,tiot__choi_woojin,티아이오티 최우진,TIOT,Choi Woojin,11,0.8146,-0.0321,0.2459
-M01,M,1,tiot__hong_keonhee,tiot__hong_keonhee,티아이오티 홍건희,TIOT,Hong Keonhee,12,0.7639,-0.0985,0.0206
-M02,M,7,tiot__kim_minseoung,tiot__kim_minseoung,티아이오티 김민성,TIOT,Kim Minseoung,8,0.8157,0.2312,0.0096
-M08,M,2,tiot__kum_junhyeon,tiot__kum_junhyeon,티아이오티 금준현,TIOT,Kum Junhyeon,10,0.7478,-0.0363,-0.0378
-M10,M,9,tiot__shin_yechan,tiot__shin_yechan,티아이오티 신예찬,TIOT,Shin Yechan,10,0.8215,0.0408,0.0967
-M03,M,3,tnx__hwi,tnx__hwi,티엔엑스 휘,TNX,Hwi,6,0.3682,0.1728,-0.0275
-M07,M,6,tnx__hyunsoo,tnx__hyunsoo,티엔엑스 현수,TNX,Hyunsoo,7,0.5811,0.1102,0.0635
-M04,M,8,tnx__junhyeok,tnx__junhyeok,티엔엑스 준혁,TNX,Junhyeok,8,0.5274,0.1932,0.2084
-M03,M,3,tnx__sungjun,tnx__sungjun,티엔엑스 성준,TNX,Sungjun,7,0.6646,0.4264,-0.0588
-M04,M,8,tnx__taehun,tnx__taehun,티엔엑스 태훈,TNX,Taehun,9,0.6127,0.2597,-0.0219
-M01,M,1,treasure__asahi,treasure__asahi,트레저 아사히,TREASURE,Asahi,14,0.5964,-0.2585,-0.0853
-M07,M,6,treasure__choi_hyunsuk,treasure__choi_hyunsuk,트레저 최현석,TREASURE,Choi Hyunsuk,12,0.7019,0.0766,0.1419
-M07,M,6,treasure__doyoung,treasure__doyoung,트레저 도영,TREASURE,Doyoung,16,0.6330,0.0541,0.2139
-M10,M,9,treasure__haruto,treasure__haruto,트레저 하루토,TREASURE,Haruto,10,0.5418,-0.0225,0.2022
-M09,M,5,treasure__jaehyuk,treasure__jaehyuk,트레저 재혁,TREASURE,Jaehyuk,12,0.5618,-0.1025,0.0592
-M06,M,0,treasure__jeongwoo,treasure__jeongwoo,트레저 정우,TREASURE,Jeongwoo,16,0.7397,-0.0509,0.1547
-M03,M,3,treasure__jihoon,treasure__jihoon,트레저 지훈,TREASURE,Jihoon,13,0.6439,-0.0058,-0.1053
-M01,M,1,treasure__junghwan,treasure__junghwan,트레저 정환,TREASURE,Junghwan,10,0.5404,-0.1271,-0.1511
-M07,M,6,treasure__junkyu,treasure__junkyu,트레저 준규,TREASURE,Junkyu,27,0.6314,0.1360,0.1278
-M05,M,4,treasure__yoshi,treasure__yoshi,트레저 요시,TREASURE,Yoshi,8,0.6857,-0.0958,0.0026
-M01,M,1,trendz__eunil,trendz__eunil,트렌드지 은일,TRENDZ,Eunil,11,0.6839,-0.1421,-0.0824
-M06,M,0,trendz__hankook,trendz__hankook,트렌드지 한국,TRENDZ,Hankook,14,0.7384,0.0787,0.2098
-M07,M,6,trendz__havit,trendz__havit,트렌드지 하빛,TRENDZ,Havit,8,0.6387,0.0276,0.1725
-M03,M,3,trendz__leon,trendz__leon,트렌드지 리온,TRENDZ,Leon,12,0.7218,0.1635,-0.3082
-M04,M,8,trendz__ra_l,trendz__ra_l,트렌드지 라엘,TRENDZ,ra.L,7,0.7735,0.2111,0.1876
-M04,M,8,trendz__yechan,trendz__yechan,트렌드지 예찬,TRENDZ,Yechan,9,0.6132,0.0092,0.0245
-M08,M,2,trendz__yoonwoo,trendz__yoonwoo,트렌드지 윤우,TRENDZ,Yoonwoo,11,0.6055,0.0247,-0.1457
-M09,M,5,tws__dohoon,tws__dohoon,투어스 도훈,TWS,Dohoon,11,0.7178,-0.2090,0.1537
-M09,M,5,tws__hanjin,tws__hanjin,투어스 한진,TWS,Hanjin,11,0.7385,-0.3069,0.0969
-M08,M,2,tws__jihoon,tws__jihoon,투어스 지훈,TWS,Jihoon,15,0.6228,-0.0038,-0.1357
-M01,M,1,tws__kyungmin,tws__kyungmin,투어스 경민,TWS,Kyungmin,12,0.6663,-0.0562,-0.0883
-M05,M,4,tws__shinyu,tws__shinyu,투어스 신유,TWS,Shinyu,10,0.6914,-0.1502,0.1079
-M02,M,7,tws__youngjae,tws__youngjae,투어스 영재,TWS,Youngjae,11,0.6364,-0.0345,-0.0870
-M02,M,7,vayonn__masato,vayonn__masato,베이온 마사토,VAYONN,Masato,5,0.7445,-0.0394,-0.1178
-M05,M,4,vayonn__peng_jinyu,vayonn__peng_jinyu,베이온 펑진위,VAYONN,Peng Jinyu,6,0.6200,-0.2119,0.1271
-M05,M,4,vayonn__sun_jiayang,vayonn__sun_jiayang,베이온 쑨지아양,VAYONN,Sun Jiayang,8,0.5956,-0.2612,0.0798
-M05,M,4,waker__ijun,waker__ijun,WAKER 이준,WAKER,Ijun,8,0.5779,-0.1301,0.0261
-M03,M,3,waker__kohyeon,waker__kohyeon,WAKER 고현,WAKER,Kohyeon,8,0.5131,0.2260,-0.2330
-M02,M,7,waker__kwon_hyeop,waker__kwon_hyeop,WAKER 권협,WAKER,Kwon Hyeop,8,0.5817,-0.0907,-0.1366
-M10,M,9,waker__leo,waker__leo,WAKER 리오,WAKER,Leo,7,0.6175,-0.0183,0.0922
-M02,M,7,waker__saebyeol,waker__saebyeol,WAKER 새별,WAKER,Saebyeol,8,0.5774,0.0646,-0.0977
-M07,M,6,waker__sebum,waker__sebum,WAKER 세범,WAKER,Sebum,8,0.5749,-0.0217,0.1351
-M09,M,5,wei__daehyeon,wei__daehyeon,위아이 대현,WEi,Daehyeon,9,0.7225,-0.1244,0.0783
-M06,M,0,wei__donghan,wei__donghan,위아이 동한,WEi,Donghan,8,0.6176,-0.0276,0.0521
-M06,M,0,wei__junseo,wei__junseo,위아이 준서,WEi,Junseo,14,0.6523,-0.0708,0.1138
-M10,M,9,wei__seokhwa,wei__seokhwa,위아이 석화,WEi,Seokhwa,10,0.7096,0.0500,0.0389
-M10,M,9,wei__yohan,wei__yohan,위아이 요한,WEi,Yohan,11,0.6614,-0.0226,0.1354
-M08,M,2,wei__yongha,wei__yongha,위아이 용하,WEi,Yongha,11,0.6806,0.0314,-0.1456
-M03,M,3,whib__haseung,whib__haseung,휘브 하승,WHIB,Haseung,11,0.7343,0.0489,-0.1703
-M08,M,2,whib__jaeha,whib__jaeha,휘브 재하,WHIB,Jaeha,12,0.6975,-0.1807,-0.0488
-M05,M,4,whib__jinbeom,whib__jinbeom,휘브 진범,WHIB,Jinbeom,7,0.6712,-0.2101,0.0248
-M09,M,5,whib__kim_junmin,whib__kim_junmin,휘브 김준민,WHIB,Kim Junmin,6,0.6066,-0.0955,-0.0320
-M09,M,5,whib__leejeong,whib__leejeong,휘브 이정,WHIB,Leejeong,9,0.7208,-0.0460,0.1725
-M01,M,1,whib__ugeon,whib__ugeon,휘브 유건,WHIB,UGeon,11,0.7482,-0.0533,-0.1822
-M02,M,7,whib__wonjun,whib__wonjun,휘브 원준,WHIB,Wonjun,11,0.6118,0.2163,0.0013
-M01,M,1,xdinary_heroes__gaon,xdinary_heroes__gaon,엑스디너리히어로즈 가온,Xdinary Heroes,Gaon,9,0.6447,-0.3061,-0.0575
-M04,M,8,xdinary_heroes__gunil,xdinary_heroes__gunil,엑스디너리히어로즈 건일,Xdinary Heroes,Gunil,8,0.6752,0.3159,0.0974
-M05,M,4,xdinary_heroes__jooyeon,xdinary_heroes__jooyeon,엑스디너리히어로즈 주연,Xdinary Heroes,Jooyeon,7,0.6454,-0.1096,0.0091
-M04,M,8,xdinary_heroes__jun_han,xdinary_heroes__jun_han,엑스디너리히어로즈 준한,Xdinary Heroes,Jun Han,8,0.7057,0.1789,0.0715
-M02,M,7,xdinary_heroes__jungsu,xdinary_heroes__jungsu,엑스디너리히어로즈 정수,Xdinary Heroes,Jungsu,10,0.6046,0.1845,0.0542
-M02,M,7,xdinary_heroes__o_de,xdinary_heroes__o_de,엑스디너리히어로즈 오드,Xdinary Heroes,O.de,11,0.6072,-0.0710,-0.1349
-M01,M,1,xikers__hunter,xikers__hunter,싸이커스 헌터,xikers,Hunter,8,0.6181,-0.0371,-0.1324
-M02,M,7,xikers__hyunwoo,xikers__hyunwoo,싸이커스 현우,xikers,Hyunwoo,14,0.6678,0.2517,0.0429
-M06,M,0,xikers__jinsik,xikers__jinsik,싸이커스 진식,xikers,Jinsik,11,0.6395,-0.1954,0.0889
-M03,M,3,xikers__junghoon,xikers__junghoon,싸이커스 정훈,xikers,Junghoon,8,0.6336,0.1831,0.1885
-M01,M,1,xikers__junmin,xikers__junmin,싸이커스 준민,xikers,Junmin,13,0.6327,-0.0851,-0.2051
-M02,M,7,xikers__minjae,xikers__minjae,싸이커스 민재,xikers,Minjae,12,0.6195,0.0220,0.0872
-M02,M,7,xikers__seeun,xikers__seeun,싸이커스 세은,xikers,Seeun,13,0.7146,0.1021,-0.1772
-M03,M,3,xikers__sumin,xikers__sumin,싸이커스 수민,xikers,Sumin,10,0.7244,0.1338,-0.2168
-M01,M,1,xikers__yechan,xikers__yechan,싸이커스 예찬,xikers,Yechan,14,0.7128,-0.2345,0.0134
-M04,M,8,xikers__yujun,xikers__yujun,싸이커스 유준,xikers,Yujun,12,0.6362,-0.0207,0.1583
-M08,M,2,xlov__haru,xlov__haru,XLOV 하루,XLOV,Haru,9,0.6965,-0.0845,-0.2061
-M07,M,6,xlov__hyun,xlov__hyun,XLOV 현,XLOV,Hyun,7,0.7671,0.0327,-0.0052
-M02,M,7,xlov__rui,xlov__rui,XLOV 루이,XLOV,Rui,7,0.6399,0.0754,-0.0649
-M05,M,4,xlov__wumuti,xlov__wumuti,XLOV 우무티,XLOV,Wumuti,7,0.7035,-0.0518,-0.0506
-M03,M,3,xodiac__beomsoo,xodiac__beomsoo,소디엑 범수,XODIAC,Beomsoo,11,0.7073,0.1250,-0.2673
-M03,M,3,xodiac__davin,xodiac__davin,소디엑 다빈,XODIAC,Davin,14,0.7792,0.1646,-0.0966
-M01,M,1,xodiac__gyumin,xodiac__gyumin,소디엑 규민,XODIAC,Gyumin,8,0.7007,-0.1186,-0.1800
-M01,M,1,xodiac__hyunsik,xodiac__hyunsik,소디엑 현식,XODIAC,Hyunsik,11,0.6968,-0.0019,-0.1009
-M08,M,2,xodiac__leo,xodiac__leo,소디엑 리오,XODIAC,Leo,11,0.7966,-0.0202,-0.2247
-M03,M,3,xodiac__lex,xodiac__lex,소디엑 렉스,XODIAC,Lex,13,0.6621,0.1721,-0.1366
-M05,M,4,xodiac__sing,xodiac__sing,소디엑 씽,XODIAC,Sing,10,0.7339,-0.0653,0.0963
-M08,M,2,xodiac__wain,xodiac__wain,소디엑 웨인,XODIAC,Wain,13,0.7705,0.2082,-0.1864
-M01,M,1,xodiac__zayyan,xodiac__zayyan,소디엑 자얀,XODIAC,Zayyan,10,0.7974,-0.2619,-0.2172
-M04,M,8,younite__dey,younite__dey,유나이트 데이,YOUNITE,DEY,9,0.6617,0.2144,0.0963
-M07,M,6,younite__eunho,younite__eunho,유나이트 은호,YOUNITE,Eunho,12,0.7152,0.0109,0.1095
-M04,M,8,younite__eunsang,younite__eunsang,유나이트 은상,YOUNITE,Eunsang,8,0.7094,0.1569,0.0979
-M01,M,1,younite__hyungseok,younite__hyungseok,유나이트 형석,YOUNITE,Hyungseok,14,0.7775,-0.0688,-0.1530
-M04,M,8,younite__kyungmun,younite__kyungmun,유나이트 경문,YOUNITE,Kyungmun,11,0.7041,0.1495,0.0542
-M03,M,3,younite__sion,younite__sion,유나이트 시온,YOUNITE,Sion,10,0.7417,0.0921,-0.0698
-M01,M,1,younite__steve,younite__steve,유나이트 스티브,YOUNITE,Steve,11,0.7315,-0.1740,-0.0277
-M10,M,9,younite__woono,younite__woono,유나이트 우노,YOUNITE,Woono,11,0.7014,-0.2940,0.0730
-M05,M,4,yuhz__bohyeon,yuhz__bohyeon,YUHZ 보현,YUHZ,Bohyeon,6,0.4811,-0.0700,0.1200
-M08,M,2,yuhz__haruto,yuhz__haruto,YUHZ 하루토,YUHZ,Haruto,6,0.5487,0.0942,-0.0823
-M07,M,6,yuhz__jaeil,yuhz__jaeil,YUHZ 재일,YUHZ,Jaeil,8,0.5848,-0.0896,0.1543
-M10,M,9,yuhz__junseong,yuhz__junseong,YUHZ 준성,YUHZ,Junseong,8,0.4895,-0.2146,0.1723
-M09,M,5,yuhz__kai,yuhz__kai,YUHZ 카이,YUHZ,Kai,6,0.4188,-0.2433,0.0716
-M04,M,8,yuhz__yeontae,yuhz__yeontae,YUHZ 연태,YUHZ,Yeontae,5,0.3996,0.0964,0.1868
-M09,M,5,zerobaseone__kim_jiwoong,zerobaseone__kim_jiwoong,제로베이스원 김지웅,ZEROBASEONE,Kim Jiwoong,11,0.7032,-0.3588,-0.0448
-M07,M,6,zerobaseone__kim_taerae,zerobaseone__kim_taerae,제로베이스원 김태래,ZEROBASEONE,Kim Taerae,14,0.6938,0.0061,-0.0135
-M07,M,6,zerobaseone__park_gunwook,zerobaseone__park_gunwook,제로베이스원 박건욱,ZEROBASEONE,Park Gunwook,13,0.7203,0.1753,0.1231
-M07,M,6,zerobaseone__seok_matthew,zerobaseone__seok_matthew,제로베이스원 석매튜,ZEROBASEONE,Seok Matthew,11,0.7318,0.0115,0.0009
-M10,M,9,zerobaseone__sung_hanbin,zerobaseone__sung_hanbin,제로베이스원 성한빈,ZEROBASEONE,Sung Hanbin,12,0.6997,-0.1494,-0.1300
-M02,M,7,aimers__eunjun,aimers__eunjun,AIMERS 은준,AIMERS,Eunjun,6,0.6390,0.0450,0.0117
-M03,M,3,aimers__seunghwan,aimers__seunghwan,AIMERS 승환,AIMERS,Seunghwan,8,0.6196,0.0758,-0.1336
-M02,M,7,aimers__seunghyun,aimers__seunghyun,AIMERS 승현,AIMERS,Seunghyun,7,0.6079,-0.0185,-0.0861
-M05,M,4,aimers__wooyoung,aimers__wooyoung,AIMERS 우영,AIMERS,Wooyoung,8,0.6001,0.0671,0.0067
-M04,M,8,aimers__yoel,aimers__yoel,AIMERS 요엘,AIMERS,Yoel,7,0.5413,0.1777,0.1532
-M03,M,3,b_d_u__bitsaeon,b_d_u__bitsaeon,B.D.U 빛새온,B.D.U,Bitsaeon,6,0.6324,0.1784,-0.0226
-M01,M,1,b_d_u__jay_chang,b_d_u__jay_chang,B.D.U 제이창,B.D.U,Jay Chang,8,0.8376,-0.1137,-0.1442
-M03,M,3,b_d_u__kim_minseo,b_d_u__kim_minseo,B.D.U 김민서,B.D.U,Kim Minseo,8,0.5921,0.2424,-0.1939
-M07,M,6,b_d_u__seunghun,b_d_u__seunghun,B.D.U 승훈,B.D.U,Seunghun,8,0.6711,0.0417,0.0988
-M09,M,5,jwiiver__chae_gaho,jwiiver__chae_gaho,JWiiver 채가호,JWiiver,Chae Gaho,19,0.3787,-0.0939,-0.0697
-M05,M,4,jwiiver__jukang,jwiiver__jukang,JWiiver 주강,JWiiver,Jukang,6,0.3592,-0.1425,0.1441
-M08,M,2,jwiiver__rihan,jwiiver__rihan,JWiiver 리한,JWiiver,Rihan,6,0.7654,-0.0064,-0.1638
-M01,M,1,nxmercy__youn,nxmercy__youn,NXMERCY 윤,NXMERCY,Youn,8,0.6333,-0.0800,-0.1020
-M05,M,4,vay_onn__peng_jinyu,vay_onn__peng_jinyu,VAY ONN 펑진위,VAY ONN,Peng Jinyu,7,0.5923,-0.2100,0.0979
-M05,M,4,vay_onn__sun_jiayang,vay_onn__sun_jiayang,VAY ONN 쑨지아양,VAY ONN,Sun Jiayang,5,0.3618,-0.2561,-0.0128
-M06,M,0,vi_enx__wonjin,vi_enx__wonjin,VI'ENX 원진,VI'ENX,Wonjin,5,0.4151,0.0073,0.1149
-M06,M,0,vi_enx__yeung,vi_enx__yeung,VI'ENX 예웅,VI'ENX,Yeung,5,0.4236,-0.1569,0.1154
-M06,M,0,vi_enx__younghoon,vi_enx__younghoon,VI'ENX 영훈,VI'ENX,Younghoon,10,0.3874,0.0133,0.1246
-M02,M,7,vvs__allan,vvs__allan,VVS 앨런,VVS,Allan,7,0.8335,0.0225,-0.2178
-M08,M,2,vvs__hyosung,vvs__hyosung,VVS 효성,VVS,Hyosung,7,0.8778,0.0482,-0.1827
-M06,M,0,vvs__minjae,vvs__minjae,VVS 민재,VVS,Minjae,7,0.7613,0.0755,-0.0026
-M01,M,1,vvs__shinhwa,vvs__shinhwa,VVS 신화,VVS,Shinhwa,6,0.6146,0.1086,-0.1811
-M09,M,5,vvs__taeseok,vvs__taeseok,VVS 태석,VVS,Taeseok,7,0.6620,-0.0677,0.1726
-M08,M,2,withus__hwanrok,withus__hwanrok,withus 환록,withus,Hwanrok,7,0.5390,0.1045,-0.2734
-M08,M,2,withus__junhyeok,withus__junhyeok,withus 준혁,withus,Junhyeok,9,0.4636,0.1020,-0.2672
-M02,M,7,adap__hyunsung,adap__hyunsung,ADAP 현성,ADAP,Hyunsung,5,0.4523,0.2149,-0.0629
-M04,M,8,adap__jongho,adap__jongho,ADAP 종호,ADAP,Jongho,10,0.5414,0.0658,0.1095
-M07,M,6,keyvitup__hyunmin,keyvitup__hyunmin,KEYVITUP 현민,KEYVITUP,Hyunmin,9,0.4945,0.1082,0.1213
-M05,M,4,tunexx__donggyu,tunexx__donggyu,TUNEXX 동규,TUNEXX,Donggyu,5,0.7596,-0.0963,-0.0362
-M06,M,0,bts__jhope,bts__jhope,방탄소년단 제이홉,BTS,J-Hope,12,0.6924,0.1550,0.1253
-M01,M,1,bts__jimin,bts__jimin,방탄소년단 지민,BTS,Jimin,15,0.6863,-0.0679,-0.0938
-M06,M,0,bts__jin,bts__jin,방탄소년단 진,BTS,Jin,9,0.5790,-0.0191,0.2019
-M09,M,5,bts__jungkook,bts__jungkook,방탄소년단 정국,BTS,Jungkook,12,0.4600,-0.1194,0.0133
-M03,M,3,bts__rm,bts__rm,방탄소년단 알엠,BTS,RM,11,0.4223,0.3065,-0.1172
-M07,M,6,bts__suga,bts__suga,방탄소년단 슈가,BTS,Suga,10,0.6203,0.1445,-0.0117
-M09,M,5,bts__v,bts__v,방탄소년단 뷔,BTS,V,10,0.4653,-0.2347,0.0870
-M05,M,4,txt__beomgyu,txt__beomgyu,투모로우바이투게더 범규,TXT,Beomgyu,12,0.6856,-0.0649,0.0306
-M02,M,7,txt__hueningkai,txt__hueningkai,투모로우바이투게더 휴닝카이,TXT,Hueningkai,12,0.6744,-0.0608,-0.1964
-M10,M,9,txt__soobin,txt__soobin,투모로우바이투게더 수빈,TXT,Soobin,13,0.6364,-0.0858,0.1727
-M05,M,4,txt__taehyun,txt__taehyun,투모로우바이투게더 태현,TXT,Taehyun,11,0.6638,-0.1508,-0.0807
-M05,M,4,txt__yeonjun,txt__yeonjun,투모로우바이투게더 연준,TXT,Yeonjun,8,0.6423,-0.1227,0.0700
-M06,M,0,infinite__dongwoo,infinite__dongwoo,인피니트 동우,INFINITE,Dongwoo,10,0.6824,0.0665,0.2920
-M02,M,7,infinite__l,infinite__l,인피니트 엘,INFINITE,L,11,0.5542,-0.0734,0.0714
-M06,M,0,infinite__seongjong,infinite__seongjong,인피니트 성종,INFINITE,Seongjong,11,0.7008,0.0112,0.1108
-M07,M,6,infinite__sungkyu,infinite__sungkyu,인피니트 성규,INFINITE,Sungkyu,14,0.6734,0.2349,0.0326
-M04,M,8,infinite__sungyeol,infinite__sungyeol,인피니트 성열,INFINITE,Sungyeol,11,0.5939,0.1814,0.0758
-M04,M,8,infinite__woohyun,infinite__woohyun,인피니트 우현,INFINITE,Woohyun,8,0.5684,0.1072,0.0634
-M01,M,1,stray_kids__bang_chan,stray_kids__bang_chan,스트레이키즈 방찬,Stray Kids,Bang Chan,13,0.5529,-0.0891,-0.1302
-M04,M,8,stray_kids__changbin,stray_kids__changbin,스트레이키즈 창빈,Stray Kids,Changbin,10,0.7275,0.1382,0.1131
-M05,M,4,stray_kids__felix,stray_kids__felix,스트레이키즈 필릭스,Stray Kids,Felix,14,0.6529,-0.0199,0.0793
-M04,M,8,stray_kids__han,stray_kids__han,스트레이키즈 한,Stray Kids,Han,11,0.4715,0.2041,0.0572
-M05,M,4,stray_kids__hyunjin,stray_kids__hyunjin,스트레이키즈 현진,Stray Kids,Hyunjin,9,0.5159,-0.0909,0.0719
-M02,M,7,stray_kids__i_n,stray_kids__i_n,스트레이키즈 아이엔,Stray Kids,I.N,9,0.6453,-0.0917,-0.2322
-M10,M,9,stray_kids__lee_know,stray_kids__lee_know,스트레이키즈 리노,Stray Kids,Lee Know,10,0.6936,-0.2728,-0.0298
-M09,M,5,stray_kids__seungmin,stray_kids__seungmin,스트레이키즈 승민,Stray Kids,Seungmin,13,0.6406,-0.1569,0.0953
-M10,M,9,astro__cha_eunwoo,astro__cha_eunwoo,아스트로 차은우,ASTRO,Cha Eunwoo,9,0.5541,-0.2665,-0.0767
-M04,M,8,astro__jinjin,astro__jinjin,아스트로 진진,ASTRO,JinJin,10,0.6374,0.1822,-0.0817
-M08,M,2,astro__mj,astro__mj,아스트로 엠제이,ASTRO,MJ,12,0.5698,0.2443,-0.1721
-M08,M,2,astro__moonbin,astro__moonbin,아스트로 문빈,ASTRO,Moonbin,8,0.5553,-0.0344,-0.1761
-M06,M,0,astro__rocky,astro__rocky,아스트로 라키,ASTRO,Rocky,12,0.6286,-0.0849,0.1541
-M10,M,9,astro__sanha,astro__sanha,아스트로 산하,ASTRO,Sanha,7,0.5653,0.0501,0.0068
-M04,M,8,exo__baekhyun,exo__baekhyun,엑소 백현,EXO,Baekhyun,9,0.4994,0.1785,0.2333
-M10,M,9,exo__chanyeol,exo__chanyeol,엑소 찬열,EXO,Chanyeol,12,0.6744,-0.0434,0.0728
-M08,M,2,exo__chen,exo__chen,엑소 첸,EXO,Chen,12,0.6873,-0.0878,-0.0986
-M08,M,2,exo__do,exo__do,엑소 디오,EXO,D.O.,13,0.6242,-0.0027,-0.0575
-M07,M,6,exo__kai,exo__kai,엑소 카이,EXO,Kai,10,0.6966,0.0654,-0.1055
-M01,M,1,exo__lay,exo__lay,엑소 레이,EXO,Lay,7,0.5166,-0.1550,-0.2180
-M06,M,0,exo__sehun,exo__sehun,엑소 세훈,EXO,Sehun,11,0.5979,-0.0130,0.2737
-M06,M,0,exo__suho,exo__suho,엑소 수호,EXO,Suho,10,0.5012,0.1204,0.1373
-M09,M,5,exo__xiumin,exo__xiumin,엑소 시우민,EXO,Xiumin,10,0.6586,-0.0293,-0.0754
-M01,M,1,got7__bambam,got7__bambam,갓세븐 뱀뱀,GOT7,BamBam,11,0.6006,-0.0857,-0.0048
-M01,M,1,got7__jackson,got7__jackson,갓세븐 잭슨,GOT7,Jackson,14,0.5463,-0.2144,-0.1324
-M08,M,2,got7__jb,got7__jb,갓세븐 제이비,GOT7,JB,8,0.5946,0.0458,-0.1628
-M08,M,2,got7__jinyoung,got7__jinyoung,갓세븐 진영,GOT7,Jinyoung,10,0.6668,0.0048,-0.0459
-M06,M,0,got7__mark,got7__mark,갓세븐 마크,GOT7,Mark,11,0.5590,-0.0137,0.2164
-M08,M,2,got7__youngjae,got7__youngjae,갓세븐 영재,GOT7,Youngjae,14,0.6356,0.1508,-0.2060
-M06,M,0,got7__yugyeom,got7__yugyeom,갓세븐 유겸,GOT7,Yugyeom,11,0.4856,-0.1456,0.1980
-M01,M,1,highlight__dongwoon,highlight__dongwoon,하이라이트 동운,Highlight,Dongwoon,5,0.4704,-0.2021,-0.1997
-M08,M,2,highlight__doojoon,highlight__doojoon,하이라이트 두준,Highlight,Doojoon,8,0.4906,0.0598,-0.1354
-M05,M,4,highlight__gikwang,highlight__gikwang,하이라이트 기광,Highlight,Gikwang,5,0.5530,-0.0616,0.0737
-M06,M,0,highlight__yoseob,highlight__yoseob,하이라이트 요섭,Highlight,Yoseob,7,0.5738,0.0109,0.3206
-M03,M,3,ikon__bobby,ikon__bobby,아이콘 바비,iKON,Bobby,11,0.6771,0.1884,-0.0009
-M02,M,7,ikon__jay,ikon__jay,아이콘 제이,iKON,Jay,5,0.6981,-0.0572,-0.1122
-M01,M,1,ikon__june,ikon__june,아이콘 준회,iKON,Ju-ne,12,0.6455,-0.1242,-0.0388
-M03,M,3,onf__e_tion,onf__e_tion,온앤오프 이션,ONF,E-Tion,12,0.5419,0.2785,0.0593
-M09,M,5,onf__hyojin,onf__hyojin,온앤오프 효진,ONF,Hyojin,11,0.6391,-0.0445,0.1507
-M07,M,6,onf__j_us,onf__j_us,온앤오프 승준,ONF,J-Us,7,0.5639,0.0930,0.0029
-M09,M,5,onf__laun,onf__laun,온앤오프 라운,ONF,Laun,12,0.5698,-0.1415,-0.0228
-M10,M,9,onf__mk,onf__mk,온앤오프 민균,ONF,MK,9,0.6410,-0.0290,0.1031
-M03,M,3,onf__wyatt,onf__wyatt,온앤오프 와이엇,ONF,Wyatt,9,0.5753,0.0824,-0.0853
-M06,M,0,pentagon__hongseok,pentagon__hongseok,펜타곤 홍석,Pentagon,Hongseok,12,0.6758,0.1505,0.1644
-M02,M,7,pentagon__hui,pentagon__hui,펜타곤 후이,Pentagon,Hui,15,0.5944,0.2395,-0.0808
-M07,M,6,pentagon__jinho,pentagon__jinho,펜타곤 진호,Pentagon,Jinho,11,0.5822,0.1442,0.0298
-M06,M,0,pentagon__kino,pentagon__kino,펜타곤 키노,Pentagon,Kino,11,0.5756,0.0967,0.1385
-M08,M,2,pentagon__shinwon,pentagon__shinwon,펜타곤 신원,Pentagon,Shinwon,13,0.6149,0.0870,-0.1530
-M04,M,8,pentagon__wooseok,pentagon__wooseok,펜타곤 우석,Pentagon,Wooseok,11,0.5897,0.0078,0.1380
-M07,M,6,pentagon__yanan,pentagon__yanan,펜타곤 옌안,Pentagon,Yanan,12,0.6682,-0.0277,-0.0122
-M10,M,9,pentagon__yeo_one,pentagon__yeo_one,펜타곤 여원,Pentagon,Yeo One,8,0.6281,0.0060,0.1195
-M03,M,3,pentagon__yuto,pentagon__yuto,펜타곤 유토,Pentagon,Yuto,8,0.6230,0.0114,-0.0827
-M04,M,8,sf9__chani,sf9__chani,SF9 찬희,SF9,Chani,11,0.6970,0.0784,0.1362
-M10,M,9,sf9__dawon,sf9__dawon,SF9 다원,SF9,Dawon,13,0.6731,-0.0162,-0.0658
-M06,M,0,sf9__hwiyoung,sf9__hwiyoung,SF9 휘영,SF9,Hwiyoung,9,0.5853,-0.0398,-0.0373
-M03,M,3,sf9__inseong,sf9__inseong,SF9 인성,SF9,Inseong,11,0.5404,0.0172,-0.1026
-M06,M,0,sf9__jaeyoon,sf9__jaeyoon,SF9 재윤,SF9,Jaeyoon,13,0.6513,0.0125,0.0444
-M01,M,1,sf9__taeyang,sf9__taeyang,SF9 유태양,SF9,Taeyang,9,0.6402,-0.2479,-0.2506
-M06,M,0,sf9__youngbin,sf9__youngbin,SF9 영빈,SF9,Youngbin,11,0.6332,0.0014,0.2663
-M02,M,7,sf9__zuho,sf9__zuho,SF9 주호,SF9,Zuho,6,0.6464,0.0056,-0.2359
-M10,M,9,the_boyz__eric,the_boyz__eric,더보이즈 에릭,The Boyz,Eric,11,0.5336,-0.1178,-0.0015
-M02,M,7,the_boyz__hyunjae,the_boyz__hyunjae,더보이즈 현재,The Boyz,Hyunjae,13,0.6709,-0.0263,-0.1590
-M06,M,0,the_boyz__jacob,the_boyz__jacob,더보이즈 제이콥,The Boyz,Jacob,15,0.5985,0.0984,0.1301
-M02,M,7,the_boyz__juhaknyeon,the_boyz__juhaknyeon,더보이즈 주학년,The Boyz,JuHaknyeon,10,0.6596,-0.1192,-0.1670
-M08,M,2,the_boyz__juyeon,the_boyz__juyeon,더보이즈 주연,The Boyz,Juyeon,8,0.5322,-0.1057,-0.1551
-M08,M,2,the_boyz__kevin,the_boyz__kevin,더보이즈 케빈,The Boyz,Kevin,6,0.6371,0.2215,-0.0903
-M02,M,7,the_boyz__new,the_boyz__new,더보이즈 뉴,The Boyz,New,9,0.5614,0.1975,0.0375
-M03,M,3,the_boyz__sangyeon,the_boyz__sangyeon,더보이즈 상연,The Boyz,Sangyeon,6,0.6543,0.0540,-0.2457
-M06,M,0,the_boyz__sunwoo,the_boyz__sunwoo,더보이즈 선우,The Boyz,Sunwoo,11,0.6637,-0.0517,0.1292
-M09,M,5,the_boyz__younghoon,the_boyz__younghoon,더보이즈 영훈,The Boyz,Younghoon,9,0.5389,-0.2008,0.0362
-M10,M,9,winner__jinu,winner__jinu,위너 진우,WINNER,Jinu,11,0.5928,-0.0504,0.1017
-M03,M,3,winner__mino,winner__mino,위너 민호,WINNER,Mino,10,0.5034,0.1086,-0.0062
-M03,M,3,winner__seunghoon,winner__seunghoon,위너 승훈,WINNER,Seunghoon,8,0.6840,0.4574,0.0131
-M06,M,0,winner__seungyoon,winner__seungyoon,위너 승윤,WINNER,Seungyoon,11,0.4689,0.2455,0.1643
-M09,M,5,b_a_p__daehyun,b_a_p__daehyun,비에이피 정대현,B.A.P,Daehyun,8,0.5840,-0.2074,0.0976
-M03,M,3,b_a_p__jongup,b_a_p__jongup,비에이피 문종업,B.A.P,Jongup,18,0.5698,0.3112,-0.2303
-M04,M,8,b_a_p__yongguk,b_a_p__yongguk,비에이피 방용국,B.A.P,Yongguk,22,0.4858,0.2251,0.0455
-M06,M,0,b_a_p__youngjae,b_a_p__youngjae,비에이피 유영재,B.A.P,Youngjae,23,0.5794,0.1051,0.1521
-M07,M,6,b_a_p__zelo,b_a_p__zelo,비에이피 젤로,B.A.P,Zelo,6,0.5790,-0.0017,0.0524
-M06,M,0,day6__dowoon,day6__dowoon,데이식스 도운,DAY6,Dowoon,10,0.6148,0.1408,0.3604
-M04,M,8,day6__sungjin,day6__sungjin,데이식스 성진,DAY6,Sungjin,9,0.6298,0.0077,0.0165
-M01,M,1,day6__wonpil,day6__wonpil,데이식스 원필,DAY6,Wonpil,9,0.5368,-0.0964,0.0827
-M06,M,0,day6__young_k,day6__young_k,데이식스 영케이,DAY6,Young K,9,0.5607,0.1805,0.1165
-M08,M,2,n_flying__dongsung,n_flying__dongsung,엔플라잉 서동성,N.Flying,Dongsung,10,0.6094,0.1847,-0.1899
-M07,M,6,n_flying__hun,n_flying__hun,엔플라잉 차훈,N.Flying,Hun,9,0.7122,-0.1349,0.3159
-M01,M,1,n_flying__hweseung,n_flying__hweseung,엔플라잉 유회승,N.Flying,Hweseung,7,0.6186,0.0539,0.0739
-M04,M,8,n_flying__seunghyub,n_flying__seunghyub,엔플라잉 이승협,N.Flying,Seunghyub,8,0.5704,0.0686,0.0946
-M07,M,6,vixx__hyuk,vixx__hyuk,빅스 혁,VIXX,Hyuk,7,0.6203,0.2020,-0.0093
-M01,M,1,vixx__ken,vixx__ken,빅스 켄,VIXX,Ken,6,0.7312,-0.0345,-0.0462
-M03,M,3,vixx__leo,vixx__leo,빅스 레오,VIXX,Leo,6,0.6633,0.1302,-0.1270
-M02,M,7,vixx__n,vixx__n,빅스 엔,VIXX,N,11,0.5888,0.0471,-0.1101
+F02,F,3,aespa__giselle,aespa__giselle,에스파 지젤,aespa,Giselle,8,0.5859,0.1579,-0.0186
+F05,F,6,aespa__karina,aespa__karina,에스파 카리나,aespa,Karina,7,0.5784,-0.2874,-0.1669
+F01,F,0,aespa__ningning,aespa__ningning,에스파 닝닝,aespa,Ningning,8,0.5786,-0.1800,-0.0501
+F04,F,8,aespa__winter,aespa__winter,에스파 윈터,aespa,Winter,8,0.6580,-0.0177,-0.1959
+F08,F,5,ive__gaeul,ive__gaeul,아이브 가을,IVE,Gaeul,8,0.5997,0.2029,0.0340
+F07,F,4,ive__leeseo,ive__leeseo,아이브 이서,IVE,Leeseo,8,0.7052,0.2129,0.1587
+F03,F,1,ive__liz,ive__liz,아이브 리즈,IVE,Liz,18,0.6385,-0.0100,0.1424
+F02,F,3,ive__rei,ive__rei,아이브 레이,IVE,Rei,8,0.6388,0.0886,0.0551
+F07,F,4,ive__wonyoung,ive__wonyoung,아이브 장원영,IVE,Wonyoung,11,0.6899,-0.0345,-0.1174
+F07,F,4,ive__yujin,ive__yujin,아이브 안유진,IVE,Yujin,8,0.6336,0.0788,0.1315
+F06,F,9,le_sserafim__hong_eunchae,le_sserafim__hong_eunchae,르세라핌 홍은채,LE SSERAFIM,Hong Eunchae,7,0.6273,-0.0392,0.1571
+F07,F,4,le_sserafim__huh_yunjin,le_sserafim__huh_yunjin,르세라핌 허윤진,LE SSERAFIM,Huh Yunjin,10,0.6693,0.0189,0.2323
+F04,F,8,le_sserafim__kazuha,le_sserafim__kazuha,르세라핌 카즈하,LE SSERAFIM,Kazuha,8,0.6956,0.2740,-0.1050
+F02,F,3,le_sserafim__kim_chaewon,le_sserafim__kim_chaewon,르세라핌 김채원,LE SSERAFIM,Kim Chaewon,8,0.3621,0.1498,-0.1332
+F07,F,4,le_sserafim__sakura,le_sserafim__sakura,르세라핌 사쿠라,LE SSERAFIM,Sakura,8,0.5833,0.0544,0.0821
+F03,F,1,newjeans__danielle,newjeans__danielle,뉴진스 다니엘,NewJeans,Danielle,20,0.7368,-0.1291,0.0793
+F01,F,0,newjeans__haerin,newjeans__haerin,뉴진스 해린,NewJeans,Haerin,9,0.7522,-0.3014,-0.0056
+F06,F,9,newjeans__hanni,newjeans__hanni,뉴진스 하니,NewJeans,Hanni,12,0.6848,-0.2870,0.1917
+F01,F,0,newjeans__hyein,newjeans__hyein,뉴진스 혜인,NewJeans,Hyein,12,0.6979,-0.1699,0.1182
+F01,F,0,newjeans__minji,newjeans__minji,뉴진스 민지,NewJeans,Minji,14,0.6695,-0.2705,-0.0217
+F03,F,1,nmixx__bae,nmixx__bae,엔믹스 배,NMIXX,Bae,7,0.5333,-0.0899,0.1875
+F02,F,3,nmixx__haewon,nmixx__haewon,엔믹스 해원,NMIXX,Haewon,8,0.6990,0.3534,0.1274
+F03,F,1,nmixx__jiwoo,nmixx__jiwoo,엔믹스 지우,NMIXX,Jiwoo,8,0.5675,0.2095,0.1693
+F05,F,6,nmixx__kyujin,nmixx__kyujin,엔믹스 규진,NMIXX,Kyujin,20,0.6522,-0.2957,-0.0036
+F06,F,9,nmixx__lily,nmixx__lily,엔믹스 릴리,NMIXX,Lily,18,0.7043,-0.0946,0.3298
+F07,F,4,nmixx__sullyoon,nmixx__sullyoon,엔믹스 설윤,NMIXX,Sullyoon,11,0.6608,0.1510,0.2568
+F03,F,1,artms__choerry,artms__choerry,ARTMS 최리,ARTMS,Choerry,7,0.5082,-0.0874,0.0871
+F08,F,5,artms__haseul,artms__haseul,ARTMS 하슬,ARTMS,HaSeul,7,0.6799,0.0862,-0.0465
+F01,F,0,artms__jinsoul,artms__jinsoul,ARTMS 진솔,ARTMS,JinSoul,8,0.5284,-0.2816,-0.2066
+F09,F,2,artms__kim_lip,artms__kim_lip,ARTMS 김립,ARTMS,Kim Lip,8,0.7012,0.3276,-0.0347
+F07,F,4,fifty_fifty__aran,fifty_fifty__aran,FIFTY FIFTY 아란,FIFTY FIFTY,Aran,8,0.6932,0.1072,0.0475
+F07,F,4,fifty_fifty__athena,fifty_fifty__athena,FIFTY FIFTY 아테나,FIFTY FIFTY,Athena,8,0.5916,-0.0115,0.1983
+F06,F,9,fifty_fifty__hana,fifty_fifty__hana,FIFTY FIFTY 하나,FIFTY FIFTY,Hana,6,0.5265,-0.0795,0.1268
+F05,F,6,fifty_fifty__keena,fifty_fifty__keena,FIFTY FIFTY 키나,FIFTY FIFTY,Keena,8,0.5010,-0.1561,-0.1889
+F04,F,8,fifty_fifty__saena,fifty_fifty__saena,FIFTY FIFTY 새나,FIFTY FIFTY,Saena,8,0.6516,0.2142,-0.3883
+F07,F,4,fifty_fifty__sio,fifty_fifty__sio,FIFTY FIFTY 시오,FIFTY FIFTY,Sio,8,0.6461,0.1319,0.1715
+F07,F,4,fifty_fifty__yewon,fifty_fifty__yewon,FIFTY FIFTY 예원,FIFTY FIFTY,Yewon,8,0.6206,0.2596,0.0758
+F02,F,3,h1_key__hwiseo,h1_key__hwiseo,H1-KEY 휘서,H1-KEY,Hwiseo,7,0.4692,-0.0409,-0.0790
+F01,F,0,h1_key__riina,h1_key__riina,H1-KEY 리이나,H1-KEY,Riina,8,0.6550,0.0099,-0.0633
+F02,F,3,h1_key__seoi,h1_key__seoi,H1-KEY 서이,H1-KEY,Seoi,6,0.5815,0.0608,0.1917
+F10,F,7,h1_key__sitala,h1_key__sitala,H1-KEY 시탈라,H1-KEY,Sitala,7,0.7741,-0.2752,0.1351
+F01,F,0,h1_key__yel,h1_key__yel,H1-KEY 옐,H1-KEY,Yel,6,0.5538,-0.1714,-0.3783
+F03,F,1,hearts2hearts__a_na,hearts2hearts__a_na,Hearts2Hearts 에이나,Hearts2Hearts,A-na,8,0.6781,0.1066,0.2039
+F06,F,9,hearts2hearts__carmen,hearts2hearts__carmen,Hearts2Hearts 카르멘,Hearts2Hearts,Carmen,8,0.6771,-0.0929,0.2367
+F01,F,0,hearts2hearts__ian,hearts2hearts__ian,Hearts2Hearts 이안,Hearts2Hearts,Ian,8,0.6055,-0.1915,-0.0155
+F03,F,1,hearts2hearts__jiwoo,hearts2hearts__jiwoo,Hearts2Hearts 지우,Hearts2Hearts,Jiwoo,7,0.5422,0.0081,0.0027
+F04,F,8,hearts2hearts__juun,hearts2hearts__juun,Hearts2Hearts 주은,Hearts2Hearts,Juun,8,0.6156,0.1813,-0.0630
+F01,F,0,hearts2hearts__stella,hearts2hearts__stella,Hearts2Hearts 스텔라,Hearts2Hearts,Stella,8,0.6006,-0.1754,-0.1645
+F06,F,9,hearts2hearts__ye_on,hearts2hearts__ye_on,Hearts2Hearts 예온,Hearts2Hearts,Ye-on,7,0.6331,0.0218,0.1525
+F03,F,1,hearts2hearts__yuha,hearts2hearts__yuha,Hearts2Hearts 유하,Hearts2Hearts,Yuha,8,0.5731,-0.0481,0.2714
+F01,F,0,illit__iroha,illit__iroha,ILLIT 이로하,ILLIT,Iroha,7,0.7152,-0.2081,0.0792
+F07,F,4,illit__minju,illit__minju,ILLIT 민주,ILLIT,Minju,8,0.5969,-0.0170,0.2524
+F03,F,1,illit__moka,illit__moka,ILLIT 모카,ILLIT,Moka,6,0.4359,-0.0393,0.1298
+F04,F,8,illit__wonhee,illit__wonhee,ILLIT 원희,ILLIT,Wonhee,8,0.6408,0.1868,-0.1299
+F03,F,1,illit__yunah,illit__yunah,ILLIT 윤아,ILLIT,Yunah,7,0.6503,-0.0541,0.2554
+F01,F,0,izna__koko,izna__koko,izna 코코,izna,Koko,6,0.5608,-0.2132,-0.1606
+F05,F,6,izna__mai,izna__mai,izna 마이,izna,Mai,5,0.6736,-0.4092,-0.0453
+F01,F,0,katseye__yoonchae,katseye__yoonchae,KATSEYE 윤채,KATSEYE,Yoonchae,7,0.5374,-0.1187,0.0903
+F05,F,6,kep1er__chaehyun,kep1er__chaehyun,Kep1er 채현,Kep1er,Chaehyun,8,0.5678,-0.0677,-0.2662
+F03,F,1,kep1er__dayeon,kep1er__dayeon,Kep1er 다연,Kep1er,Dayeon,8,0.5542,-0.1600,0.0614
+F02,F,3,kep1er__hikaru,kep1er__hikaru,Kep1er 히카루,Kep1er,Hikaru,8,0.5895,0.2656,-0.0036
+F03,F,1,kep1er__huening_bahiyyih,kep1er__huening_bahiyyih,Kep1er 휴닝바히에,Kep1er,Huening Bahiyyih,8,0.7649,0.1992,0.1664
+F03,F,1,kep1er__mashiro,kep1er__mashiro,Kep1er 마시로,Kep1er,Mashiro,6,0.6138,-0.2073,0.2819
+F01,F,0,kep1er__xiaoting,kep1er__xiaoting,Kep1er 샤오팅,Kep1er,Xiaoting,8,0.7031,0.0831,0.0297
+F03,F,1,kep1er__yeseo,kep1er__yeseo,Kep1er 예서,Kep1er,Yeseo,7,0.5654,-0.1580,-0.1240
+F04,F,8,kep1er__youngeun,kep1er__youngeun,Kep1er 영은,Kep1er,Youngeun,8,0.5496,0.1631,-0.3220
+F05,F,6,kep1er__yujin,kep1er__yujin,Kep1er 유진,Kep1er,Yujin,8,0.6026,-0.1238,-0.2674
+F01,F,0,kiiikiii__haum,kiiikiii__haum,KiiiKiii 하음,KiiiKiii,Haum,7,0.6186,-0.2382,0.1007
+F02,F,3,kiiikiii__jiyu,kiiikiii__jiyu,KiiiKiii 지유,KiiiKiii,Jiyu,6,0.6127,-0.0057,-0.1681
+F06,F,9,kiiikiii__kya,kiiikiii__kya,KiiiKiii 키야,KiiiKiii,Kya,7,0.5507,-0.1156,0.0891
+F01,F,0,kiiikiii__leesol,kiiikiii__leesol,KiiiKiii 이솔,KiiiKiii,Leesol,6,0.7020,-0.1304,-0.2034
+F04,F,8,kiiikiii__sui,kiiikiii__sui,KiiiKiii 수이,KiiiKiii,Sui,8,0.6756,0.0256,-0.0818
+F08,F,5,kiss_of_life__belle,kiss_of_life__belle,KISS OF LIFE 벨,KISS OF LIFE,Belle,8,0.7016,0.1875,0.1385
+F01,F,0,kiss_of_life__haneul,kiss_of_life__haneul,KISS OF LIFE 하늘,KISS OF LIFE,Haneul,8,0.6542,-0.1715,-0.0844
+F02,F,3,kiss_of_life__julie,kiss_of_life__julie,KISS OF LIFE 쥴리,KISS OF LIFE,Julie,8,0.5896,0.0402,-0.1907
+F07,F,4,kiss_of_life__natty,kiss_of_life__natty,KISS OF LIFE 나띠,KISS OF LIFE,Natty,8,0.5965,0.2143,0.0422
+F01,F,0,meovv__anna,meovv__anna,MEOVV 안나,MEOVV,Anna,8,0.5629,-0.3116,0.2907
+F01,F,0,meovv__ella,meovv__ella,MEOVV 엘라,MEOVV,Ella,8,0.6462,-0.3672,-0.0331
+F07,F,4,meovv__gawon,meovv__gawon,MEOVV 가원,MEOVV,Gawon,7,0.5690,0.0013,0.0151
+F10,F,7,meovv__narin,meovv__narin,MEOVV 나린,MEOVV,Narin,7,0.5868,-0.2273,0.1482
+F01,F,0,meovv__sooin,meovv__sooin,MEOVV 수인,MEOVV,Sooin,7,0.6239,0.0603,-0.0992
+F05,F,6,niziu__ayaka,niziu__ayaka,NiziU 아야카,NiziU,Ayaka,7,0.5932,-0.2211,-0.2300
+F05,F,6,niziu__mako,niziu__mako,NiziU 마코,NiziU,Mako,8,0.6842,-0.2855,-0.2485
+F10,F,7,niziu__maya,niziu__maya,NiziU 마야,NiziU,Maya,8,0.5512,-0.0919,0.1296
+F10,F,7,niziu__mayuka,niziu__mayuka,NiziU 마유카,NiziU,Mayuka,7,0.5054,-0.1353,0.0152
+F08,F,5,niziu__miihi,niziu__miihi,NiziU 미이히,NiziU,Miihi,8,0.5041,0.1176,0.2113
+F06,F,9,niziu__nina,niziu__nina,NiziU 니나,NiziU,Nina,7,0.5721,-0.1799,0.1209
+F06,F,9,niziu__riku,niziu__riku,NiziU 리쿠,NiziU,Riku,8,0.5307,-0.0135,0.1180
+F03,F,1,niziu__rima,niziu__rima,NiziU 리마,NiziU,Rima,8,0.6404,-0.0562,0.4524
+F05,F,6,niziu__rio,niziu__rio,NiziU 리오,NiziU,Rio,7,0.5506,-0.1646,-0.2082
+F06,F,9,qwer__chodan,qwer__chodan,QWER 쵸단,QWER,Chodan,8,0.7142,-0.0742,-0.1548
+F04,F,8,qwer__hina,qwer__hina,QWER 히나,QWER,Hina,8,0.7171,0.0817,-0.2201
+F04,F,8,qwer__magenta,qwer__magenta,QWER 마젠타,QWER,Magenta,7,0.6064,0.1934,-0.3047
+F06,F,9,qwer__siyeon,qwer__siyeon,QWER 시연,QWER,Siyeon,8,0.6111,-0.2702,-0.0214
+F01,F,0,rescene__liv,rescene__liv,RESCENE 리브,RESCENE,Liv,8,0.5124,-0.0352,0.0838
+F10,F,7,rescene__may,rescene__may,RESCENE 메이,RESCENE,May,8,0.4580,-0.1342,0.3791
+F07,F,4,rescene__minami,rescene__minami,RESCENE 미나미,RESCENE,Minami,8,0.6037,-0.0547,0.1989
+F10,F,7,rescene__woni,rescene__woni,RESCENE 원이,RESCENE,Woni,7,0.5872,-0.1019,0.0988
+F07,F,4,rescene__zena,rescene__zena,RESCENE 제나,RESCENE,Zena,8,0.6368,0.1558,0.0519
+F02,F,3,say_my_name__dohee,say_my_name__dohee,SAY MY NAME 도희,SAY MY NAME,Dohee,8,0.6585,0.0782,-0.0023
+F04,F,8,say_my_name__hitomi,say_my_name__hitomi,SAY MY NAME 히토미,SAY MY NAME,Hitomi,8,0.6446,0.3007,-0.1086
+F07,F,4,say_my_name__junhwi,say_my_name__junhwi,SAY MY NAME 준휘,SAY MY NAME,Junhwi,8,0.5837,0.2240,-0.0108
+F03,F,1,say_my_name__kanny,say_my_name__kanny,SAY MY NAME 카니,SAY MY NAME,Kanny,8,0.5611,-0.0527,0.2289
+F02,F,3,say_my_name__mei,say_my_name__mei,SAY MY NAME 메이,SAY MY NAME,Mei,8,0.5724,0.4561,0.0051
+F05,F,6,say_my_name__seungjoo,say_my_name__seungjoo,SAY MY NAME 승주,SAY MY NAME,Seungjoo,6,0.6375,-0.1109,-0.0214
+F06,F,9,say_my_name__shuie,say_my_name__shuie,SAY MY NAME 슈이,SAY MY NAME,Shuie,7,0.3965,-0.3232,0.1338
+F07,F,4,say_my_name__soha,say_my_name__soha,SAY MY NAME 소하,SAY MY NAME,Soha,7,0.6111,0.0832,0.2031
+F05,F,6,stayc__isa,stayc__isa,STAYC 아이사,STAYC,Isa,8,0.4729,-0.1340,-0.1123
+F03,F,1,stayc__j,stayc__j,STAYC 재이,STAYC,J,8,0.6032,0.1604,0.1579
+F07,F,4,stayc__seeun,stayc__seeun,STAYC 세은,STAYC,Seeun,8,0.5882,-0.1940,0.1977
+F08,F,5,stayc__sieun,stayc__sieun,STAYC 시은,STAYC,Sieun,8,0.6712,0.2440,0.0971
+F02,F,3,stayc__sumin,stayc__sumin,STAYC 수민,STAYC,Sumin,8,0.4869,0.1324,-0.0512
+F03,F,1,stayc__yoon,stayc__yoon,STAYC 윤,STAYC,Yoon,6,0.4958,0.0238,0.2719
+F03,F,1,viviz__eunha,jung_eunbi,VIVIZ 은하,VIVIZ,Eunha,8,0.6182,0.1069,-0.1137
+F04,F,8,viviz__sinb,hwang_eunbi,VIVIZ 신비,VIVIZ,SinB,8,0.6942,0.2061,-0.1422
+F06,F,9,gfriend__umji,kim_yewon_umji,여자친구 엄지,GFRIEND,Umji,5,0.6618,-0.2366,-0.0275
+F02,F,3,xg__chisa,xg__chisa,XG 치사,XG,Chisa,8,0.5694,0.0086,0.0023
+F05,F,6,xg__cocona,xg__cocona,XG 코코나,XG,Cocona,8,0.6327,-0.1940,-0.1600
+F06,F,9,xg__harvey,xg__harvey,XG 하비,XG,Harvey,8,0.5090,0.0381,0.2815
+F04,F,8,xg__hinata,xg__hinata,XG 히나타,XG,Hinata,8,0.5660,0.0000,-0.0947
+F05,F,6,xg__juria,xg__juria,XG 쥬리아,XG,Juria,8,0.4928,-0.2114,-0.1488
+F06,F,9,xg__jurin,xg__jurin,XG 주린,XG,Jurin,8,0.6277,-0.0916,0.3467
+F10,F,7,xg__maya,xg__maya,XG 마야,XG,Maya,7,0.4499,0.0256,0.1274
+F09,F,2,adya__chaeeun,adya__chaeeun,ADYA 채은,ADYA,Chaeeun,5,0.5694,-0.0032,0.1167
+F09,F,2,adya__sena,adya__sena,ADYA 세나,ADYA,Sena,8,0.4835,0.0294,0.2853
+F09,F,2,adya__seowon,adya__seowon,ADYA 서원,ADYA,Seowon,7,0.5554,0.1866,-0.0962
+F05,F,6,adya__yeonsu,adya__yeonsu,ADYA 연수,ADYA,Yeonsu,5,0.5789,0.0094,-0.2010
+F04,F,8,arise__alisa,arise__alisa,ARISE 알리사,ARISE,Alisa,5,0.4012,-0.0070,-0.2715
+F05,F,6,arise__jihu,arise__jihu,ARISE 지후,ARISE,Jihu,5,0.6534,0.0415,-0.1892
+F07,F,4,arise__minju,arise__minju,ARISE 민주,ARISE,Minju,7,0.5925,-0.0910,0.3357
+F07,F,4,atheart__arin,atheart__arin,AtHeart 아린,AtHeart,Arin,5,0.6073,0.0587,-0.0610
+F06,F,9,atheart__katelyn,atheart__katelyn,AtHeart 케이틀린,AtHeart,Katelyn,6,0.6327,-0.0479,0.3881
+F06,F,9,atheart__nahyun,atheart__nahyun,AtHeart 나현,AtHeart,Nahyun,6,0.8076,-0.2792,0.1779
+F07,F,4,baby_dont_cry__beni,baby_dont_cry__beni,Baby DONT Cry 베니,Baby DONT Cry,Beni,8,0.5458,0.0184,-0.0010
+F03,F,1,baby_dont_cry__kumi,baby_dont_cry__kumi,Baby DONT Cry 쿠미,Baby DONT Cry,Kumi,5,0.5157,0.1511,0.0950
+F03,F,1,baby_dont_cry__mia,baby_dont_cry__mia,Baby DONT Cry 미아,Baby DONT Cry,Mia,6,0.6581,-0.0099,0.1029
+F03,F,1,baby_dont_cry__yihyun,baby_dont_cry__yihyun,Baby DONT Cry 이현,Baby DONT Cry,Yihyun,7,0.7436,-0.1087,0.0375
+F07,F,4,babymonster__ahyeon,babymonster__ahyeon,BABYMONSTER 아현,BABYMONSTER,Ahyeon,8,0.5836,0.0233,0.3068
+F09,F,2,babymonster__asa,babymonster__asa,BABYMONSTER 아사,BABYMONSTER,Asa,8,0.5597,0.1786,0.2340
+F05,F,6,babymonster__chiquita,babymonster__chiquita,BABYMONSTER 치키타,BABYMONSTER,Chiquita,8,0.5881,-0.4680,0.0972
+F02,F,3,babymonster__pharita,babymonster__pharita,BABYMONSTER 파리타,BABYMONSTER,Pharita,8,0.6343,0.2283,0.0593
+F08,F,5,babymonster__rami,babymonster__rami,BABYMONSTER 라미,BABYMONSTER,Rami,8,0.6355,0.1461,-0.0685
+F04,F,8,babymonster__rora,babymonster__rora,BABYMONSTER 로라,BABYMONSTER,Rora,8,0.5297,0.1191,-0.1265
+F01,F,0,babymonster__ruka,babymonster__ruka,BABYMONSTER 루카,BABYMONSTER,Ruka,7,0.4931,-0.1274,-0.2402
+F02,F,3,badvillain__chloe_young,badvillain__chloe_young,BADVILLAIN 클로이영,BADVILLAIN,Chloe Young,7,0.5338,0.2718,0.1909
+F02,F,3,badvillain__emma,badvillain__emma,BADVILLAIN 엠마,BADVILLAIN,Emma,6,0.5124,0.1127,-0.2274
+F02,F,3,badvillain__ina,badvillain__ina,BADVILLAIN 이나,BADVILLAIN,INA,8,0.3740,0.2161,0.0704
+F01,F,0,badvillain__kelly,badvillain__kelly,BADVILLAIN 켈리,BADVILLAIN,Kelly,5,0.5859,0.0382,-0.0819
+F09,F,2,badvillain__vin,badvillain__vin,BADVILLAIN 빈,BADVILLAIN,Vin,6,0.5407,0.2577,0.0409
+F04,F,8,badvillain__yunseo,badvillain__yunseo,BADVILLAIN 윤서,BADVILLAIN,YunSeo,8,0.4903,0.3205,-0.1344
+F08,F,5,bewave__gowoon,bewave__gowoon,BEWAVE 고운,BEWAVE,Gowoon,8,0.5912,0.1619,0.2853
+F06,F,9,bewave__jiun,bewave__jiun,BEWAVE 지언,BEWAVE,Jiun,13,0.4030,0.0423,0.1746
+F09,F,2,bewave__lena,bewave__lena,BEWAVE 레나,BEWAVE,Lena,6,0.6056,0.1063,0.1489
+F05,F,6,bewave__yunseul,bewave__yunseul,BEWAVE 윤슬,BEWAVE,Yunseul,10,0.5855,-0.2258,-0.3026
+F07,F,4,bewave__zena,bewave__zena,BEWAVE 제나,BEWAVE,Zena,8,0.4647,0.0509,-0.0290
+F10,F,7,billlie__haram,billlie__haram,Billlie 하람,Billlie,Haram,8,0.5942,-0.0903,0.0236
+F02,F,3,billlie__haruna,billlie__haruna,Billlie 하루나,Billlie,Haruna,8,0.5967,0.0160,0.1277
+F05,F,6,billlie__moon_sua,billlie__moon_sua,Billlie 문수아,Billlie,Moon Sua,8,0.5251,-0.3756,0.0318
+F01,F,0,billlie__sheon,billlie__sheon,Billlie 션,Billlie,Sheon,7,0.6643,-0.0561,-0.1375
+F01,F,0,billlie__siyoon,billlie__siyoon,Billlie 시윤,Billlie,Siyoon,7,0.5726,-0.1271,-0.0619
+F04,F,8,billlie__suhyeon,billlie__suhyeon,Billlie 수현,Billlie,Suhyeon,7,0.6145,0.1519,-0.1347
+F07,F,4,candy_shop__julia,candy_shop__julia,Candy Shop 줄리아,Candy Shop,Julia,6,0.7066,-0.0139,0.1890
+F05,F,6,candy_shop__sarang,candy_shop__sarang,Candy Shop 사랑,Candy Shop,Sarang,6,0.5965,-0.2488,-0.2068
+F07,F,4,candy_shop__soram,candy_shop__soram,Candy Shop 소람,Candy Shop,Soram,7,0.6544,0.1705,0.0299
+F03,F,1,candy_shop__sui,candy_shop__sui,Candy Shop 수이,Candy Shop,Sui,8,0.5657,0.0001,0.0885
+F09,F,2,candy_shop__yuina,candy_shop__yuina,Candy Shop 유이나,Candy Shop,Yuina,7,0.7303,0.1522,0.0483
+F01,F,0,class_y__boeun,class_y__boeun,CLASS:y 보은,CLASS:y,Boeun,7,0.6480,-0.1856,-0.1842
+F04,F,8,class_y__chaewon,class_y__chaewon,CLASS:y 채원,CLASS:y,Chaewon,7,0.6444,0.2894,-0.3208
+F04,F,8,class_y__hyeju,class_y__hyeju,CLASS:y 혜주,CLASS:y,Hyeju,7,0.6305,0.2959,-0.0934
+F09,F,2,class_y__hyungseo,class_y__hyungseo,CLASS:y 형서,CLASS:y,Hyungseo,6,0.5542,0.0338,0.0507
+F04,F,8,class_y__riwon,class_y__riwon,CLASS:y 리원,CLASS:y,Riwon,7,0.6553,-0.1065,-0.1784
+F04,F,8,craxy__chaey,craxy__chaey,CRAXY 채이,CRAXY,ChaeY,6,0.5992,-0.0237,-0.2504
+F07,F,4,craxy__hyejin,craxy__hyejin,CRAXY 혜진,CRAXY,Hyejin,5,0.5173,0.0688,-0.1496
+F02,F,3,craxy__karin,craxy__karin,CRAXY 카린,CRAXY,Karin,7,0.6308,0.0427,-0.0887
+F09,F,2,craxy__swan,craxy__swan,CRAXY 수안,CRAXY,Swan,8,0.5308,0.1284,-0.0870
+F09,F,2,craxy__wooah,craxy__wooah,CRAXY 우아,CRAXY,Wooah,7,0.4843,0.2413,0.1433
+F02,F,3,el7z_up__hwiseo,el7z_up__hwiseo,EL7Z UP 휘서,EL7Z UP,Hwiseo,8,0.5769,-0.0439,-0.0681
+F08,F,5,el7z_up__kei,el7z_up__kei,EL7Z UP 케이,EL7Z UP,Kei,8,0.5539,0.1008,-0.1378
+F05,F,6,el7z_up__nana,el7z_up__nana,EL7Z UP 나나,EL7Z UP,Nana,7,0.5764,-0.0637,-0.3143
+F01,F,0,el7z_up__yeeun,el7z_up__yeeun,EL7Z UP 예은,EL7Z UP,Yeeun,7,0.5905,-0.2350,-0.1054
+F02,F,3,el7z_up__yeonhee,el7z_up__yeonhee,EL7Z UP 연희,EL7Z UP,Yeonhee,7,0.6901,0.0963,0.0789
+F01,F,0,el7z_up__yeoreum,el7z_up__yeoreum,EL7Z UP 여름,EL7Z UP,Yeoreum,5,0.6568,-0.0268,-0.2592
+F08,F,5,el7z_up__yuki,el7z_up__yuki,EL7Z UP 유키,EL7Z UP,Yuki,7,0.7415,0.3927,0.2543
+F02,F,3,geenius__yeyoung,geenius__yeyoung,지니어스 예영,Geenius,Yeyoung,6,0.7216,0.0369,0.0059
+F04,F,8,heart_of_woman__chaei,heart_of_woman__chaei,HEART OF WOMAN 채이,HEART OF WOMAN,Chaei,5,0.6319,-0.0699,-0.1916
+F09,F,2,i_met_u__cleo,i_met_u__cleo,I.MET.U 클레오,I.MET.U,Cleo,5,0.4831,-0.0357,-0.1064
+F06,F,9,i_met_u__lea,i_met_u__lea,I.MET.U 리아,I.MET.U,Lea,11,0.4388,-0.3010,0.1178
+F01,F,0,i_met_u__yerin,i_met_u__yerin,I.MET.U 예린,I.MET.U,Yerin,6,0.6033,-0.0556,-0.1739
+F05,F,6,ichillin__chaerin,ichillin__chaerin,ICHILLIN' 채린,ICHILLIN',Chaerin,8,0.6417,-0.4098,-0.2805
+F08,F,5,ichillin__chowon,ichillin__chowon,ICHILLIN' 초원,ICHILLIN',Chowon,6,0.4972,-0.1011,0.1218
+F06,F,9,ichillin__e_ji,ichillin__e_ji,ICHILLIN' 이지,ICHILLIN',E.JI,7,0.4839,-0.1024,0.2463
+F08,F,5,ichillin__jackie,ichillin__jackie,ICHILLIN' 재키,ICHILLIN',Jackie,8,0.5267,-0.0610,-0.0487
+F09,F,2,ichillin__jiyoon,ichillin__jiyoon,ICHILLIN' 지윤,ICHILLIN',Jiyoon,7,0.5236,0.2320,-0.0012
+F01,F,0,ichillin__joonie,ichillin__joonie,ICHILLIN' 주니,ICHILLIN',Joonie,7,0.5950,-0.1055,-0.2413
+F02,F,3,ichillin__sohee,ichillin__sohee,ICHILLIN' 소희,ICHILLIN',Sohee,19,0.3851,0.1344,-0.0495
+F01,F,0,ichillin__yeju,ichillin__yeju,ICHILLIN' 예주,ICHILLIN',Yeju,8,0.5684,-0.0650,0.0561
+F01,F,0,iii__ahra,iii__ahra,iii 아라,iii,Ahra,5,0.5737,-0.1344,-0.1732
+F01,F,0,iii__evie,iii__evie,iii 이비,iii,Evie,7,0.5670,0.0764,-0.0087
+F07,F,4,iii__namkhing,iii__namkhing,iii 남킹,iii,Namkhing,5,0.6092,0.0820,0.1519
+F02,F,3,iii__nicole,iii__nicole,iii 니콜,iii,Nicole,8,0.4248,0.1195,0.1901
+F02,F,3,iii__soobin,iii__soobin,iii 수빈,iii,Soobin,8,0.5252,0.2157,0.0596
+F03,F,1,iii__taeri,iii__taeri,iii 태리,iii,Taeri,6,0.5279,-0.1363,-0.1636
+F06,F,9,iii__vivi,iii__vivi,iii 비비,iii,Vivi,8,0.4859,-0.0706,-0.0794
+F01,F,0,iii__yan,iii__yan,iii 얀,iii,Yan,5,0.8517,-0.0651,-0.1713
+F04,F,8,kiiras__doyeon,kiiras__doyeon,키라스 도연,KIIRAS,Doyeon,7,0.7350,-0.0015,-0.1523
+F01,F,0,kiiras__harin,kiiras__harin,키라스 하린,KIIRAS,Harin,7,0.6250,-0.2255,-0.0250
+F04,F,8,kiiras__kurumi,kiiras__kurumi,키라스 쿠루미,KIIRAS,Kurumi,6,0.6882,0.0665,-0.2938
+F08,F,5,kiiras__kylie,kiiras__kylie,키라스 카일리,KIIRAS,Kylie,5,0.6284,0.0260,-0.0181
+F05,F,6,kiiras__lingling,kiiras__lingling,키라스 링링,KIIRAS,LingLing,7,0.7399,-0.2707,-0.1072
+F05,F,6,kiiras__roah,kiiras__roah,키라스 로아,KIIRAS,Roah,7,0.7982,-0.0454,-0.1941
+F03,F,1,lightsum__chowon,lightsum__chowon,라잇썸 초원,LIGHTSUM,Chowon,8,0.5060,0.1238,0.1261
+F02,F,3,lightsum__hina,lightsum__hina,라잇썸 히나,LIGHTSUM,Hina,8,0.6336,0.2034,0.0915
+F05,F,6,lightsum__huiyeon,lightsum__huiyeon,라잇썸 희연,LIGHTSUM,Huiyeon,8,0.6417,-0.0509,-0.2314
+F03,F,1,lightsum__jian,lightsum__jian,라잇썸 지안,LIGHTSUM,Jian,8,0.6289,-0.1049,0.1530
+F08,F,5,lightsum__juhyeon,lightsum__juhyeon,라잇썸 주현,LIGHTSUM,Juhyeon,7,0.5559,0.0850,-0.0621
+F03,F,1,lightsum__nayoung,lightsum__nayoung,라잇썸 나영,LIGHTSUM,Nayoung,8,0.5473,0.1436,0.1043
+F01,F,0,lightsum__sangah,lightsum__sangah,라잇썸 상아,LIGHTSUM,Sangah,8,0.5233,-0.3254,-0.0162
+F05,F,6,lightsum__yujeong,lightsum__yujeong,라잇썸 유정,LIGHTSUM,Yujeong,7,0.5533,-0.2341,-0.0333
+F06,F,9,limelight__gaeun,limelight__gaeun,LIMELIGHT 가은,LIMELIGHT,Gaeun,8,0.6228,-0.0628,-0.1431
+F08,F,5,limelight__miu,limelight__miu,LIMELIGHT 미유,LIMELIGHT,MiU,6,0.5584,0.0261,0.2101
+F02,F,3,limelight__suhye,limelight__suhye,LIMELIGHT 수혜,LIMELIGHT,Suhye,8,0.6049,0.2475,-0.1662
+F06,F,9,madein__gaeun,madein__gaeun,MADEIN 가은,MADEIN,Gaeun,8,0.6073,-0.0835,-0.0978
+F03,F,1,madein__mashiro,madein__mashiro,MADEIN 마시로,MADEIN,Mashiro,5,0.6117,-0.2477,0.3098
+F08,F,5,madein__miu,madein__miu,MADEIN 미유,MADEIN,MiU,8,0.5105,0.0444,0.2468
+F02,F,3,madein__suhye,madein__suhye,MADEIN 수혜,MADEIN,Suhye,7,0.6154,0.3311,-0.1866
+F03,F,1,madein__yeseo,madein__yeseo,MADEIN 예서,MADEIN,Yeseo,8,0.5519,-0.0438,0.0871
+F06,F,9,mimiirose__anna,mimiirose__anna,미미로즈 안나,MIMIIROSE,Anna,8,0.7588,0.1033,-0.1329
+F07,F,4,mimiirose__hyori,mimiirose__hyori,미미로즈 효리,MIMIIROSE,Hyori,7,0.6598,0.1812,0.0669
+F01,F,0,mimiirose__jia,mimiirose__jia,미미로즈 지아,MIMIIROSE,Jia,8,0.6752,-0.1189,-0.1638
+F04,F,8,mimiirose__yeonjae,mimiirose__yeonjae,미미로즈 연재,MIMIIROSE,Yeonjae,5,0.6646,0.2557,0.0247
+F01,F,0,mimiirose__yerin,mimiirose__yerin,미미로즈 예린,MIMIIROSE,Yerin,6,0.6787,-0.0540,-0.0561
+F01,F,0,mimiirose__yunju,mimiirose__yunju,미미로즈 윤주,MIMIIROSE,Yunju,6,0.7256,-0.2194,-0.0085
+F05,F,6,odd_youth__kanie,odd_youth__kanie,ODD YOUTH 카니,ODD YOUTH,Kanie,7,0.4869,-0.0880,-0.0429
+F07,F,4,odd_youth__maika,odd_youth__maika,ODD YOUTH 마이카,ODD YOUTH,Maika,6,0.4768,0.1642,0.0700
+F03,F,1,odd_youth__myah,odd_youth__myah,ODD YOUTH 마야,ODD YOUTH,Myah,5,0.5421,-0.0659,0.0471
+F03,F,1,odd_youth__yeeum,odd_youth__yeeum,ODD YOUTH 예음,ODD YOUTH,Yeeum,8,0.6601,-0.2429,-0.1624
+F10,F,7,prikil__nana,prikil__nana,PRIKIL 나나,PRIKIL,Nana,8,0.5753,-0.1283,0.1855
+F04,F,8,prikil__rin,prikil__rin,PRIKIL 린,PRIKIL,Rin,5,0.5484,0.3060,-0.1817
+F07,F,4,prikil__rinko,prikil__rinko,PRIKIL 린코,PRIKIL,Rinko,8,0.5154,0.1853,0.2595
+F05,F,6,prikil__uta,prikil__uta,PRIKIL 우타,PRIKIL,Uta,7,0.6872,-0.0434,-0.1355
+F02,F,3,prikil__yukino,prikil__yukino,PRIKIL 유키노,PRIKIL,Yukino,7,0.5691,0.0577,-0.0002
+F05,F,6,queenz_eye__ahyoon,queenz_eye__ahyoon,Queenz Eye 아윤,Queenz Eye,Ahyoon,8,0.6135,-0.0332,-0.0528
+F04,F,8,queenz_eye__damin,queenz_eye__damin,Queenz Eye 다민,Queenz Eye,Damin,7,0.5674,-0.0110,-0.1324
+F05,F,6,queenz_eye__hannah,queenz_eye__hannah,Queenz Eye 해나,Queenz Eye,Hannah,5,0.5624,-0.0972,0.0367
+F09,F,2,queenz_eye__narin,queenz_eye__narin,Queenz Eye 나린,Queenz Eye,Narin,7,0.6393,0.1372,0.1859
+F05,F,6,queenz_eye__wonchae,queenz_eye__wonchae,Queenz Eye 원채,Queenz Eye,Wonchae,8,0.5861,-0.1548,-0.2698
+F09,F,2,rocking_doll__juri,rocking_doll__juri,Rocking doll 주리,Rocking doll,Juri,5,0.5338,0.0112,-0.0421
+F02,F,3,secret_number__denise,secret_number__denise,SECRET NUMBER 데니스,SECRET NUMBER,Denise,7,0.6115,0.0279,-0.0179
+F02,F,3,secret_number__dinda,secret_number__dinda,SECRET NUMBER 딘다,SECRET NUMBER,Dinda,5,0.3623,0.1237,0.2713
+F02,F,3,secret_number__dita,secret_number__dita,SECRET NUMBER 디타,SECRET NUMBER,Dita,5,0.6971,0.1562,0.2128
+F01,F,0,secret_number__ebin,secret_number__ebin,SECRET NUMBER 에빈,SECRET NUMBER,Ebin,5,0.6288,-0.0556,0.0869
+F04,F,8,secret_number__jinny,secret_number__jinny,SECRET NUMBER 진희,SECRET NUMBER,Jinny,8,0.6609,0.0837,-0.1815
+F02,F,3,secret_number__min_c,secret_number__min_c,SECRET NUMBER 민씨,SECRET NUMBER,Min C,7,0.5248,0.2528,-0.0506
+F02,F,3,secret_number__minji,secret_number__minji,SECRET NUMBER 민지,SECRET NUMBER,Minji,8,0.6848,0.2805,-0.0431
+F05,F,6,secret_number__soodam,secret_number__soodam,SECRET NUMBER 수담,SECRET NUMBER,Soodam,8,0.7358,-0.0547,-0.2429
+F02,F,3,secret_number__zuu,secret_number__zuu,SECRET NUMBER 주,SECRET NUMBER,Zuu,8,0.7746,0.1749,-0.0836
+F01,F,0,triples__jiyeon,triples__jiyeon,tripleS 지연,tripleS,JiYeon,7,0.5374,-0.0710,-0.0913
+F03,F,1,triples__joobin,triples__joobin,tripleS 주빈,tripleS,JooBin,7,0.7223,0.1684,0.1220
+F04,F,8,triples__kaede,triples__kaede,tripleS 카에데,tripleS,Kaede,6,0.7042,0.3079,-0.1581
+F05,F,6,triples__kotone,triples__kotone,tripleS 코토네,tripleS,Kotone,8,0.5724,-0.0386,-0.0047
+F01,F,0,triples__lynn,triples__lynn,tripleS 린,tripleS,Lynn,8,0.6221,-0.3517,-0.0525
+F03,F,1,triples__mayu,triples__mayu,tripleS 마유,tripleS,Mayu,5,0.5963,0.0285,0.1182
+F04,F,8,triples__nien,triples__nien,tripleS 니엔,tripleS,Nien,8,0.5433,0.0926,-0.1625
+F01,F,0,triples__seoah,triples__seoah,tripleS 서아,tripleS,SeoAh,7,0.5657,0.0047,-0.1896
+F03,F,1,triples__sullin,triples__sullin,tripleS 설린,tripleS,Sullin,8,0.5441,0.1271,-0.0350
+F01,F,0,triples__xinyu,triples__xinyu,tripleS 신위,tripleS,Xinyu,7,0.5505,-0.1115,-0.1634
+F10,F,7,udtt__jessica,udtt__jessica,UDTT 제시카,UDTT,Jessica,8,0.4553,-0.1535,-0.0940
+F10,F,7,udtt__koo_hanna,udtt__koo_hanna,UDTT 구한나,UDTT,Koo Hanna,8,0.5683,-0.1693,-0.0096
+F06,F,9,udtt__kwon_yejin,udtt__kwon_yejin,UDTT 권예진,UDTT,Kwon Yejin,5,0.4600,-0.3037,0.0272
+F01,F,0,unchild__heekie,unchild__heekie,UNCHILD 히키,UNCHILD,Heekie,6,0.3864,0.0413,-0.1629
+F01,F,0,unchild__tina,unchild__tina,UNCHILD 티나,UNCHILD,Tina,6,0.6086,-0.2598,-0.0840
+F01,F,0,unchild__yeeun,unchild__yeeun,UNCHILD 예은,UNCHILD,Yeeun,8,0.5219,-0.2465,-0.1731
+F01,F,0,uspeer__chaena,uspeer__chaena,USPEER 채나,USPEER,Chaena,6,0.5789,-0.0622,-0.1787
+F04,F,8,uspeer__daon,uspeer__daon,USPEER 다온,USPEER,Daon,6,0.4775,0.1903,-0.2169
+F02,F,3,uspeer__roa,uspeer__roa,USPEER 로아,USPEER,Roa,8,0.6490,0.1787,-0.0808
+F01,F,0,uspeer__seoyu,uspeer__seoyu,USPEER 서유,USPEER,Seoyu,7,0.5307,0.1630,-0.2266
+F01,F,0,uspeer__sian,uspeer__sian,USPEER 시안,USPEER,Sian,6,0.6561,0.0273,-0.2140
+F04,F,8,uspeer__soee,uspeer__soee,USPEER 소이,USPEER,Soee,6,0.7127,0.1460,-0.1100
+F03,F,1,uspeer__yeowon,uspeer__yeowon,USPEER 여원,USPEER,Yeowon,7,0.6492,0.2295,0.1523
+F10,F,7,vcha__camila,vcha__camila,VCHA 카밀라,VCHA,Camila,8,0.6292,-0.1398,0.1486
+F05,F,6,vcha__kaylee,vcha__kaylee,VCHA 케일리,VCHA,Kaylee,6,0.4861,-0.0643,-0.2403
+F06,F,9,vcha__kendall,vcha__kendall,VCHA 켄달,VCHA,Kendall,6,0.5234,-0.1491,0.3571
+F03,F,1,vcha__kg,vcha__kg,VCHA 케이지,VCHA,KG,6,0.4975,0.0327,0.2031
+F06,F,9,vcha__savanna,vcha__savanna,VCHA 사바나,VCHA,Savanna,7,0.5829,-0.1311,0.1578
+F01,F,0,vvup__hyunny,vvup__hyunny,VVUP 현희,VVUP,Hyunny,6,0.6174,-0.1019,-0.0312
+F01,F,0,vvup__jiyoon,vvup__jiyoon,VVUP 지윤,VVUP,Jiyoon,6,0.4853,-0.1069,-0.0833
+F02,F,3,vvup__kim,vvup__kim,VVUP 킴,VVUP,Kim,7,0.4690,0.1296,0.0308
+F06,F,9,vvup__paan,vvup__paan,VVUP 팬,VVUP,Paan,6,0.5428,0.0295,-0.1233
+F02,F,3,vvup__suyeon,vvup__suyeon,VVUP 수연,VVUP,Suyeon,8,0.7487,-0.0416,-0.0668
+F06,F,9,we_na__doa,we_na__doa,We;Na 도아,We;Na,DoA,5,0.6440,-0.0754,-0.0558
+F04,F,8,we_na__euna,we_na__euna,We;Na 은아,We;Na,EunA,5,0.4448,0.1378,-0.1095
+F08,F,5,wooah__lucy,wooah__lucy,WOOAH 루시,WOOAH,Lucy,8,0.5782,0.1309,0.1804
+F04,F,8,wooah__minseo,wooah__minseo,WOOAH 민서,WOOAH,Minseo,7,0.5808,0.2194,0.0089
+F05,F,6,wooah__nana,wooah__nana,WOOAH 나나,WOOAH,Nana,8,0.4865,-0.0836,-0.3168
+F03,F,1,wooah__sora,wooah__sora,WOOAH 소라,WOOAH,Sora,7,0.6865,0.1873,0.1394
+F02,F,3,wooah__wooyeon,wooah__wooyeon,WOOAH 우연,WOOAH,Wooyeon,7,0.5372,0.2186,-0.0063
+F09,F,2,x_in__aria,x_in__aria,X:IN 아리아,X:IN,Aria,6,0.5709,0.0027,0.1832
+F07,F,4,x_in__e_sha,x_in__e_sha,X:IN 이샤,X:IN,E.sha,5,0.5253,0.1581,0.0834
+F10,F,7,x_in__nizz,x_in__nizz,X:IN 니즈,X:IN,Nizz,5,0.8086,0.0534,0.1748
+F06,F,9,x_in__nova,x_in__nova,X:IN 노바,X:IN,Nova,7,0.5671,-0.0774,0.0792
+F05,F,6,young_posse__doeun,young_posse__doeun,YOUNG POSSE 도은,YOUNG POSSE,Doeun,7,0.5309,0.0805,-0.1116
+F05,F,6,young_posse__jiana,young_posse__jiana,YOUNG POSSE 지아나,YOUNG POSSE,Jiana,7,0.5939,-0.0977,-0.0592
+F04,F,8,young_posse__jieun,young_posse__jieun,YOUNG POSSE 지은,YOUNG POSSE,Jieun,6,0.5416,-0.0197,-0.2804
+F02,F,3,young_posse__sunhye,young_posse__sunhye,YOUNG POSSE 선혜,YOUNG POSSE,Sunhye,6,0.5473,0.2076,-0.1144
+F08,F,5,young_posse__yeonjung,young_posse__yeonjung,YOUNG POSSE 연정,YOUNG POSSE,Yeonjung,8,0.5560,0.1246,0.0116
+F07,F,4,twice__chaeyoung,twice__chaeyoung,트와이스 채영,TWICE,Chaeyoung,7,0.5966,-0.0043,0.1593
+F01,F,0,twice__dahyun,twice__dahyun,트와이스 다현,TWICE,Dahyun,6,0.5707,-0.0711,-0.0129
+F06,F,9,twice__jeongyeon,twice__jeongyeon,트와이스 정연,TWICE,Jeongyeon,9,0.3809,-0.3834,0.2637
+F07,F,4,twice__jihyo,twice__jihyo,트와이스 지효,TWICE,Jihyo,5,0.6164,-0.1051,0.3186
+F03,F,1,twice__mina,twice__mina,트와이스 미나,TWICE,Mina,11,0.5671,0.1050,0.2488
+F10,F,7,twice__nayeon,twice__nayeon,트와이스 나연,TWICE,Nayeon,10,0.5367,0.0119,0.0020
+F07,F,4,twice__sana,twice__sana,트와이스 사나,TWICE,Sana,14,0.5662,0.0950,0.1421
+F06,F,9,twice__tzuyu,twice__tzuyu,트와이스 쯔위,TWICE,Tzuyu,10,0.6583,-0.2935,0.1352
+F07,F,4,itzy__chaeryeong,itzy__chaeryeong,있지 채령,ITZY,Chaeryeong,11,0.6505,0.1078,-0.0696
+F06,F,9,itzy__lia,itzy__lia,있지 리아,ITZY,Lia,10,0.6179,-0.2997,0.0871
+F03,F,1,itzy__ryujin,itzy__ryujin,있지 류진,ITZY,Ryujin,12,0.6436,-0.1764,0.2270
+F05,F,6,itzy__yeji,itzy__yeji,있지 예지,ITZY,Yeji,15,0.7159,-0.2838,-0.2709
+F06,F,9,itzy__yuna,itzy__yuna,있지 유나,ITZY,Yuna,11,0.6076,-0.3524,0.2140
+F03,F,1,iu__iu,iu__iu,아이유,IU,IU,15,0.6463,0.1123,-0.0582
+F05,F,6,red_velvet__irene,red_velvet__irene,레드벨벳 아이린,Red Velvet,Irene,10,0.5092,-0.2606,-0.1400
+F10,F,7,red_velvet__joy,red_velvet__joy,레드벨벳 조이,Red Velvet,Joy,12,0.4886,0.0353,0.0314
+F08,F,5,red_velvet__seulgi,red_velvet__seulgi,레드벨벳 슬기,Red Velvet,Seulgi,14,0.5475,-0.0983,0.0214
+F03,F,1,red_velvet__wendy,red_velvet__wendy,레드벨벳 웬디,Red Velvet,Wendy,10,0.5668,-0.0750,0.0518
+F10,F,7,red_velvet__yeri,red_velvet__yeri,레드벨벳 예리,Red Velvet,Yeri,12,0.5006,-0.1325,-0.0294
+F10,F,7,blackpink__jennie,blackpink__jennie,블랙핑크 제니,BLACKPINK,Jennie,11,0.5412,-0.4194,0.1386
+F05,F,6,blackpink__jisoo,blackpink__jisoo,블랙핑크 지수,BLACKPINK,Jisoo,10,0.5621,-0.0319,-0.2308
+F10,F,7,blackpink__lisa,blackpink__lisa,블랙핑크 리사,BLACKPINK,Lisa,5,0.5050,0.0850,0.1584
+F04,F,8,blackpink__rose,blackpink__rose,블랙핑크 로제,BLACKPINK,Rosé,10,0.6294,0.1259,-0.0536
+F10,F,7,mamamoo__hwasa,mamamoo__hwasa,마마무 화사,MAMAMOO,Hwasa,8,0.5581,0.0991,-0.0413
+F10,F,7,mamamoo__moonbyul,mamamoo__moonbyul,마마무 문별,MAMAMOO,Moonbyul,12,0.5406,-0.1466,0.0825
+F09,F,2,mamamoo__solar,mamamoo__solar,마마무 솔라,MAMAMOO,Solar,11,0.6880,0.0618,0.1483
+F05,F,6,mamamoo__wheein,mamamoo__wheein,마마무 휘인,MAMAMOO,Wheein,13,0.5940,-0.1231,-0.1299
+F03,F,1,ohmygirl__arin,ohmygirl__arin,오마이걸 아린,OH MY GIRL,Arin,12,0.4985,-0.0494,0.2732
+F09,F,2,ohmygirl__hyojung,ohmygirl__hyojung,오마이걸 효정,OH MY GIRL,Hyojung,12,0.6773,-0.0011,-0.1440
+F08,F,5,ohmygirl__jiho,ohmygirl__jiho,오마이걸 지호,OH MY GIRL,Jiho,9,0.5389,0.0141,-0.1057
+F04,F,8,ohmygirl__mimi,ohmygirl__mimi,오마이걸 미미,OH MY GIRL,Mimi,12,0.5405,0.0531,-0.2833
+F05,F,6,ohmygirl__seunghee,ohmygirl__seunghee,오마이걸 승희,OH MY GIRL,Seunghee,12,0.5409,-0.1187,-0.2005
+F02,F,3,ohmygirl__yooa,ohmygirl__yooa,오마이걸 유아,OH MY GIRL,YooA,10,0.5996,-0.1310,0.1246
+F05,F,6,snsd__hyoyeon,snsd__hyoyeon,소녀시대 효연,Girls' Generation,Hyoyeon,10,0.5654,-0.2174,-0.1165
+F08,F,5,snsd__seohyun,snsd__seohyun,소녀시대 서현,Girls' Generation,Seohyun,10,0.6155,0.0427,0.2530
+F04,F,8,snsd__sooyoung,snsd__sooyoung,소녀시대 수영,Girls' Generation,Sooyoung,8,0.5933,0.0318,-0.0374
+F09,F,2,snsd__sunny,snsd__sunny,소녀시대 써니,Girls' Generation,Sunny,8,0.5830,-0.1129,0.0330
+F05,F,6,snsd__taeyeon,snsd__taeyeon,소녀시대 태연,Girls' Generation,Taeyeon,6,0.4712,0.0892,-0.3200
+F07,F,4,snsd__tiffany,snsd__tiffany,소녀시대 티파니,Girls' Generation,Tiffany,10,0.5346,-0.0122,0.0301
+F04,F,8,snsd__yoona,snsd__yoona,소녀시대 윤아,Girls' Generation,Yoona,10,0.5622,0.2695,-0.1130
+F02,F,3,snsd__yuri,snsd__yuri,소녀시대 유리,Girls' Generation,Yuri,10,0.5674,0.0847,0.1419
+F10,F,7,katseye__daniela,katseye__daniela,KATSEYE Daniela Avanzini,KATSEYE,Daniela,10,0.4486,-0.1784,0.0174
+F08,F,5,katseye__lara,katseye__lara,KATSEYE Lara Raj,KATSEYE,Lara,5,0.4890,0.0601,0.0574
+F06,F,9,katseye__manon,katseye__manon,KATSEYE Manon Bannerman,KATSEYE,Manon,10,0.6672,-0.1392,0.0373
+F06,F,9,katseye__megan,katseye__megan,KATSEYE Megan Skiendiel,KATSEYE,Megan,9,0.6177,-0.0647,0.1284
+F07,F,4,katseye__sophia,katseye__sophia,KATSEYE Sophia Laforteza,KATSEYE,Sophia,8,0.4611,0.0964,0.1444
+F06,F,9,bbgirls__eunji,bbgirls__eunji,브브걸 은지,BBGIRLS,Eunji,21,0.4995,-0.0165,0.1587
+F04,F,8,bbgirls__minyoung,bbgirls__minyoung,브브걸 민영,BBGIRLS,Minyoung,5,0.6797,0.1765,-0.1000
+F08,F,5,bbgirls__yuna,bbgirls__yuna,브브걸 유나,BBGIRLS,Yuna,9,0.5168,0.2195,-0.0742
+F04,F,8,exid__elly,exid__elly,이엑스아이디 엘리,EXID,Elly,6,0.5310,0.1321,-0.1007
+F02,F,3,exid__hani,exid__hani,이엑스아이디 하니,EXID,Hani,10,0.5132,0.1574,0.2420
+F08,F,5,exid__hyelin,exid__hyelin,이엑스아이디 혜린,EXID,Hyelin,10,0.6054,-0.0272,0.1279
+F03,F,1,exid__jeonghwa,exid__jeonghwa,이엑스아이디 정화,EXID,Jeonghwa,7,0.6471,0.0137,0.1526
+F04,F,8,exid__solji,exid__solji,이엑스아이디 솔지,EXID,Solji,8,0.6949,0.1872,-0.0783
+F08,F,5,gfriend__sowon,gfriend__sowon,여자친구 소원,GFRIEND,Sowon,5,0.6850,0.0884,0.1533
+F04,F,8,gfriend__yerin,gfriend__yerin,여자친구 예린,GFRIEND,Yerin,13,0.5507,0.0928,-0.2788
+F10,F,7,gfriend__yuju,gfriend__yuju,여자친구 유주,GFRIEND,Yuju,5,0.5469,0.0100,0.0563
+F06,F,9,ladies_code__ashley,ladies_code__ashley,레이디스 코드 애슐리,Ladies' Code,Ashley,12,0.4368,-0.1775,0.0725
+F02,F,3,ladies_code__sojung,ladies_code__sojung,레이디스 코드 소정,Ladies' Code,Sojung,9,0.5242,-0.0539,0.0395
+F08,F,5,ladies_code__zuny,ladies_code__zuny,레이디스 코드 주니,Ladies' Code,Zuny,5,0.6382,-0.0150,-0.0148
+F02,F,3,lovelyz__baby_soul,lovelyz__baby_soul,러블리즈 베이비소울,Lovelyz,Baby Soul,6,0.6588,0.1491,-0.0191
+F02,F,3,lovelyz__jiae,lovelyz__jiae,러블리즈 지애,Lovelyz,Jiae,5,0.6006,0.3381,-0.1109
+F09,F,2,lovelyz__jin,lovelyz__jin,러블리즈 진,Lovelyz,Jin,7,0.6974,0.2400,-0.1056
+F02,F,3,lovelyz__jisoo,lovelyz__jisoo,러블리즈 지수,Lovelyz,Jisoo,10,0.6121,0.0308,-0.0807
+F08,F,5,lovelyz__kei,lovelyz__kei,러블리즈 케이,Lovelyz,Kei,6,0.6894,0.0623,-0.1216
+F09,F,2,lovelyz__mijoo,lovelyz__mijoo,러블리즈 미주,Lovelyz,Mijoo,5,0.6357,0.1793,0.0476
+F02,F,3,lovelyz__sujeong,lovelyz__sujeong,러블리즈 수정,Lovelyz,Sujeong,7,0.5830,0.1731,-0.2071
+F08,F,5,lovelyz__yein,lovelyz__yein,러블리즈 예인,Lovelyz,Yein,5,0.6846,0.2145,-0.1440
+F03,F,1,momoland__ahin,momoland__ahin,모모랜드 아인,MOMOLAND,Ahin,9,0.6285,-0.0840,-0.1198
+F07,F,4,momoland__hyebin,momoland__hyebin,모모랜드 혜빈,MOMOLAND,Hyebin,8,0.5392,0.1314,0.1279
+F03,F,1,momoland__jane,momoland__jane,모모랜드 제인,MOMOLAND,Jane,8,0.5588,-0.0279,0.1593
+F04,F,8,momoland__jooe,momoland__jooe,모모랜드 주이,MOMOLAND,JooE,9,0.7058,0.0721,-0.2703
+F03,F,1,momoland__nancy,momoland__nancy,모모랜드 낸시,MOMOLAND,Nancy,7,0.5942,-0.1454,0.2731
+F04,F,8,momoland__nayun,momoland__nayun,모모랜드 나윤,MOMOLAND,Nayun,8,0.6769,0.1766,-0.2449
+F03,F,1,wjsn__bona,wjsn__bona,우주소녀 보나,WJSN,Bona,9,0.6495,-0.1411,0.1703
+F09,F,2,wjsn__dawon,wjsn__dawon,우주소녀 다원,WJSN,Dawon,7,0.5736,0.2880,-0.1706
+F08,F,5,wjsn__dayoung,wjsn__dayoung,우주소녀 다영,WJSN,Dayoung,8,0.6065,0.1656,0.3406
+F08,F,5,wjsn__eunseo,wjsn__eunseo,우주소녀 은서,WJSN,Eunseo,6,0.5386,-0.0635,-0.0348
+F08,F,5,wjsn__exy,wjsn__exy,우주소녀 엑시,WJSN,Exy,5,0.7009,0.2870,0.1638
+F04,F,8,wjsn__luda,wjsn__luda,우주소녀 루다,WJSN,Luda,23,0.4998,0.0958,-0.4156
+F09,F,2,wjsn__seola,wjsn__seola,우주소녀 설아,WJSN,Seola,9,0.6090,0.1960,0.0964
+F02,F,3,wjsn__soobin,wjsn__soobin,우주소녀 수빈,WJSN,Soobin,5,0.6577,0.2414,0.1323
+F06,F,9,wjsn__yeonjung,wjsn__yeonjung,우주소녀 연정,WJSN,Yeonjung,8,0.5710,-0.0211,-0.0588
+F05,F,6,wjsn__yeoreum,wjsn__yeoreum,우주소녀 여름,WJSN,Yeoreum,15,0.5866,-0.1110,-0.3928
+M09,M,3,ahof__chih_en,ahof__chih_en,AHOF 즈언,AHOF,Chih En,8,0.7477,-0.2884,-0.1170
+M07,M,4,ahof__daisuke,ahof__daisuke,AHOF 다이스케,AHOF,Daisuke,9,0.6502,-0.0181,-0.1376
+M09,M,3,ahof__jeongwoo,ahof__jeongwoo,AHOF 정우,AHOF,Jeongwoo,7,0.5797,-0.0328,-0.1487
+M07,M,4,ahof__jl,ahof__jl,AHOF 제이엘,AHOF,JL,11,0.5932,-0.1644,-0.3124
+M01,M,2,ahof__juwon,ahof__juwon,AHOF 주원,AHOF,Juwon,6,0.4095,0.0908,-0.2463
+M10,M,5,ahof__shuaibo,ahof__shuaibo,AHOF 슈아이보,AHOF,Shuaibo,5,0.5640,-0.1765,-0.0530
+M06,M,7,ahof__steven,ahof__steven,AHOF 스티븐,AHOF,Steven,12,0.7145,-0.0024,0.2205
+M01,M,2,ahof__woongki,ahof__woongki,AHOF 웅기,AHOF,Woongki,5,0.6418,0.0474,-0.3361
+M06,M,7,allhours__hyunbin,allhours__hyunbin,올아워즈 현빈,ALL(H)OURS,Hyunbin,8,0.6104,0.1781,-0.2018
+M09,M,3,allhours__kunho,allhours__kunho,올아워즈 건호,ALL(H)OURS,Kunho,8,0.6760,-0.0408,0.1896
+M08,M,8,allhours__masami,allhours__masami,올아워즈 마사미,ALL(H)OURS,Masami,10,0.6915,-0.3022,0.0972
+M10,M,5,allhours__minje,allhours__minje,올아워즈 민제,ALL(H)OURS,Minje,12,0.6958,-0.1000,0.0060
+M05,M,0,allhours__on_n,allhours__on_n,올아워즈 온,ALL(H)OURS,ON:N,12,0.6786,0.0704,-0.2389
+M03,M,1,allhours__xayden,allhours__xayden,올아워즈 제이든,ALL(H)OURS,Xayden,8,0.6749,0.1541,-0.0875
+M02,M,9,allhours__youmin,allhours__youmin,올아워즈 유민,ALL(H)OURS,Youmin,6,0.7571,0.0804,0.2886
+M02,M,9,alpha_drive_one__anxin,alpha_drive_one__anxin,알파드라이브원 안신,ALPHA DRIVE ONE,Anxin,10,0.7145,-0.1387,0.0902
+M10,M,5,alpha_drive_one__arno,alpha_drive_one__arno,알파드라이브원 아르노,ALPHA DRIVE ONE,Arno,8,0.6518,0.0096,0.1449
+M05,M,0,alpha_drive_one__geonwoo,alpha_drive_one__geonwoo,알파드라이브원 건우,ALPHA DRIVE ONE,Geonwoo,7,0.7191,0.1484,0.1623
+M01,M,2,alpha_drive_one__junseo,alpha_drive_one__junseo,알파드라이브원 준서,ALPHA DRIVE ONE,Junseo,7,0.7587,-0.0553,-0.0858
+M05,M,0,alpha_drive_one__leo,alpha_drive_one__leo,알파드라이브원 리오,ALPHA DRIVE ONE,Leo,10,0.6641,-0.2168,-0.0471
+M07,M,4,alpha_drive_one__sanghyeon,alpha_drive_one__sanghyeon,알파드라이브원 상현,ALPHA DRIVE ONE,Sanghyeon,8,0.7181,-0.1321,-0.0721
+M01,M,2,alpha_drive_one__sangwon,alpha_drive_one__sangwon,알파드라이브원 상원,ALPHA DRIVE ONE,Sangwon,11,0.6856,-0.0121,-0.1443
+M05,M,0,alpha_drive_one__xinlong,alpha_drive_one__xinlong,알파드라이브원 씬롱,ALPHA DRIVE ONE,Xinlong,8,0.6494,-0.0412,0.1260
+M07,M,4,ampersandone__brian,ampersandone__brian,앰퍼샌드원 브라이언,AMPERS&ONE,Brian,13,0.7074,-0.1071,-0.2596
+M08,M,8,ampersandone__jiho,ampersandone__jiho,앰퍼샌드원 지호,AMPERS&ONE,Jiho,7,0.6604,-0.1110,0.0300
+M06,M,7,ampersandone__kamden,ampersandone__kamden,앰퍼샌드원 캠든,AMPERS&ONE,Kamden,8,0.6949,0.0849,-0.0319
+M05,M,0,ampersandone__kyrell,ampersandone__kyrell,앰퍼샌드원 카이렐,AMPERS&ONE,Kyrell,8,0.7029,0.1790,0.2948
+M08,M,8,ampersandone__mackiah,ampersandone__mackiah,앰퍼샌드원 마카야,AMPERS&ONE,Mackiah,11,0.6342,-0.3535,0.2225
+M09,M,3,ampersandone__seungmo,ampersandone__seungmo,앰퍼샌드원 승모,AMPERS&ONE,Seungmo,8,0.5907,0.0051,-0.1777
+M01,M,2,ampersandone__siyun,ampersandone__siyun,앰퍼샌드원 시윤,AMPERS&ONE,Siyun,8,0.7474,0.0900,-0.1072
+M09,M,3,and2ble__han_yujin,and2ble__han_yujin,앤더블 한유진,AND2BLE,Han Yujin,12,0.6070,-0.2796,-0.3751
+M01,M,2,and2ble__kim_gyuvin,and2ble__kim_gyuvin,앤더블 김규빈,AND2BLE,Kim Gyuvin,10,0.7535,-0.2533,-0.2448
+M02,M,9,and2ble__ricky,and2ble__ricky,앤더블 리키,AND2BLE,Ricky,8,0.7441,-0.0453,0.0968
+M06,M,7,and2ble__yoo_seungeon,and2ble__yoo_seungeon,앤더블 유승언,AND2BLE,Yoo Seungeon,7,0.8271,0.0827,-0.1631
+M09,M,3,and2ble__zhang_hao,and2ble__zhang_hao,앤더블 장하오,AND2BLE,Zhang Hao,14,0.6608,0.0539,-0.2128
+M06,M,7,and_team__ej,and_team__ej,앤팀 의주,&TEAM,EJ,9,0.5655,0.0580,0.0658
+M06,M,7,and_team__fuma,and_team__fuma,앤팀 후마,&TEAM,Fuma,9,0.6178,0.0970,0.0575
+M09,M,3,and_team__harua,and_team__harua,앤팀 하루아,&TEAM,Harua,10,0.5959,-0.0608,0.2943
+M06,M,7,and_team__jo,and_team__jo,앤팀 조,&TEAM,Jo,8,0.6685,0.1374,0.1369
+M09,M,3,and_team__k,and_team__k,앤팀 케이,&TEAM,K,9,0.5853,-0.2208,0.0525
+M08,M,8,and_team__maki,and_team__maki,앤팀 마키,&TEAM,Maki,13,0.6652,-0.2233,-0.0032
+M10,M,5,and_team__nicholas,and_team__nicholas,앤팀 니콜라스,&TEAM,Nicholas,12,0.5737,-0.0139,0.2122
+M04,M,6,and_team__taki,and_team__taki,앤팀 타키,&TEAM,Taki,10,0.6424,-0.1346,0.0089
+M02,M,9,and_team__yuma,and_team__yuma,앤팀 유마,&TEAM,Yuma,9,0.6019,0.1795,0.1416
+M03,M,1,arrc__andy,arrc__andy,ARrC 앤디,ARrC,Andy,5,0.6698,0.2177,-0.0010
+M08,M,8,arrc__choi_han,arrc__choi_han,ARrC 최한,ARrC,Choi Han,6,0.5811,-0.1655,0.1195
+M08,M,8,arrc__doha,arrc__doha,ARrC 도하,ARrC,Doha,9,0.6452,-0.0662,-0.1078
+M03,M,1,arrc__hyunmin,arrc__hyunmin,ARrC 현민,ARrC,Hyunmin,7,0.5723,0.1926,-0.1143
+M09,M,3,arrc__jibeen,arrc__jibeen,ARrC 지빈,ARrC,Jibeen,7,0.6555,-0.1880,0.2547
+M08,M,8,arrc__kien,arrc__kien,ARrC 끼엔,ARrC,Kien,8,0.5679,-0.3676,0.1018
+M02,M,9,arrc__rioto,arrc__rioto,ARrC 리오토,ARrC,Rioto,8,0.6141,0.0054,0.1932
+M10,M,5,axmxp__cru,axmxp__cru,AxMxP 크루,AxMxP,Cru,9,0.8510,-0.2285,-0.1611
+M06,M,7,axmxp__ha_yoojoon,axmxp__ha_yoojoon,AxMxP 하유준,AxMxP,Ha Yoojoon,8,0.7334,0.2341,0.0895
+M04,M,6,axmxp__juhwan,axmxp__juhwan,AxMxP 주환,AxMxP,Juhwan,7,0.6632,0.0705,0.0997
+M03,M,1,axmxp__kim_shin,axmxp__kim_shin,AxMxP 김신,AxMxP,Kim Shin,5,0.6853,0.1199,0.0006
+M07,M,4,bae173__bit,bae173__bit,BAE173 빛,BAE173,Bit,15,0.6753,-0.1663,-0.1202
+M07,M,4,bae173__doha,bae173__doha,BAE173 도하,BAE173,Doha,10,0.7103,-0.1839,-0.1475
+M10,M,5,close_your_eyes__jeon_minwook,jeon_minwook,클로즈유어아이즈 전민욱,CLOSE YOUR EYES,Jeon Minwook,12,0.7219,-0.1775,-0.1698
+M02,M,9,bae173__junseo,bae173__junseo,BAE173 준서,BAE173,Junseo,18,0.6827,0.1046,0.1205
+M03,M,1,bae173__muzin,bae173__muzin,BAE173 무진,BAE173,Muzin,5,0.5938,0.0048,0.2539
+M08,M,8,bae173__yoojun,bae173__yoojun,BAE173 유준,BAE173,Yoojun,22,0.6466,-0.0269,0.0520
+M01,M,2,bae173__youngseo,bae173__youngseo,BAE173 영서,BAE173,Youngseo,21,0.6987,0.0246,-0.0696
+M06,M,7,be_boys__goohyun,be_boys__goohyun,비보이즈 구현,BE BOYS,Goohyun,12,0.8217,0.2014,0.0310
+M01,M,2,be_boys__hakseong,be_boys__hakseong,비보이즈 학성,BE BOYS,Hakseong,12,0.8359,0.0486,-0.3261
+M04,M,6,be_boys__minjoon,be_boys__minjoon,비보이즈 민준,BE BOYS,Minjoon,14,0.7813,-0.1278,0.0441
+M03,M,1,be_boys__takuma,be_boys__takuma,비보이즈 타쿠마,BE BOYS,Takuma,10,0.8084,0.1995,-0.0341
+M04,M,6,be_boys__woncheon,be_boys__woncheon,비보이즈 원천,BE BOYS,Woncheon,12,0.8766,0.2993,-0.1997
+M05,M,0,be_boys__yunseo,be_boys__yunseo,비보이즈 윤서,BE BOYS,Yunseo,13,0.8502,0.0986,0.0683
+M02,M,9,blitzers__chris,blitzers__chris,블리처스 크리스,BLITZERS,Chris,6,0.6016,0.1980,-0.0086
+M05,M,0,blitzers__jinhwa,blitzers__jinhwa,블리처스 진화,BLITZERS,Jinhwa,12,0.7281,-0.0601,0.0254
+M01,M,2,blitzers__juhan,blitzers__juhan,블리처스 주한,BLITZERS,Juhan,9,0.5923,0.1522,0.0983
+M02,M,9,blitzers__lutan,blitzers__lutan,블리처스 루탄,BLITZERS,Lutan,9,0.6867,0.0641,0.0016
+M04,M,6,blitzers__sya,blitzers__sya,블리처스 샤,BLITZERS,Sya,9,0.7523,0.0583,0.1420
+M03,M,1,blitzers__wooju,blitzers__wooju,블리처스 우주,BLITZERS,Wooju,11,0.5823,0.1751,0.0719
+M06,M,7,boynextdoor__jaehyun,boynextdoor__jaehyun,보이넥스트도어 재현,BOYNEXTDOOR,Jaehyun,25,0.6461,0.0978,-0.0177
+M04,M,6,boynextdoor__leehan,boynextdoor__leehan,보이넥스트도어 이한,BOYNEXTDOOR,Leehan,8,0.7164,-0.2115,-0.1070
+M03,M,1,boynextdoor__riwoo,boynextdoor__riwoo,보이넥스트도어 리우,BOYNEXTDOOR,Riwoo,11,0.7474,0.1762,-0.1629
+M06,M,7,boynextdoor__sungho,boynextdoor__sungho,보이넥스트도어 성호,BOYNEXTDOOR,Sungho,11,0.7477,0.1282,0.0737
+M10,M,5,boynextdoor__taesan,boynextdoor__taesan,보이넥스트도어 태산,BOYNEXTDOOR,Taesan,10,0.7487,-0.1952,0.0174
+M06,M,7,boynextdoor__woonhak,boynextdoor__woonhak,보이넥스트도어 운학,BOYNEXTDOOR,Woonhak,10,0.6619,0.2642,0.0599
+M04,M,6,btob__changsub,btob__changsub,비투비 창섭,BTOB,Changsub,8,0.6319,-0.0481,0.0489
+M02,M,9,btob__eunkwang,btob__eunkwang,비투비 은광,BTOB,Eunkwang,11,0.7220,0.1683,0.2592
+M03,M,1,btob__hyunsik,btob__hyunsik,비투비 현식,BTOB,Hyunsik,8,0.6082,0.1013,0.1654
+M05,M,0,btob__minhyuk,btob__minhyuk,비투비 민혁,BTOB,Minhyuk,10,0.7470,-0.0586,-0.2520
+M04,M,6,btob__peniel,btob__peniel,비투비 프니엘,BTOB,Peniel,8,0.7297,-0.0423,-0.0738
+M07,M,4,btob__sungjae,btob__sungjae,비투비 성재,BTOB,Sungjae,10,0.7126,-0.3009,-0.1088
+M02,M,9,close_your_eyes__jang_yeojun,close_your_eyes__jang_yeojun,클로즈유어아이즈 장여준,CLOSE YOUR EYES,Jang Yeojun,11,0.7026,0.1684,0.0604
+M01,M,2,close_your_eyes__kenshin,close_your_eyes__kenshin,클로즈유어아이즈 켄신,CLOSE YOUR EYES,Kenshin,12,0.7338,0.1404,-0.1191
+M07,M,4,close_your_eyes__kim_sungmin,close_your_eyes__kim_sungmin,클로즈유어아이즈 김성민,CLOSE YOUR EYES,Kim Sungmin,10,0.7266,-0.0066,0.0168
+M08,M,8,close_your_eyes__ma_jingxiang,close_your_eyes__ma_jingxiang,클로즈유어아이즈 마징시앙,CLOSE YOUR EYES,Ma Jingxiang,14,0.7184,-0.2740,0.0533
+M01,M,2,close_your_eyes__seo_kyoungbae,close_your_eyes__seo_kyoungbae,클로즈유어아이즈 서경배,CLOSE YOUR EYES,Seo Kyoungbae,12,0.7100,0.0630,-0.2532
+M09,M,3,close_your_eyes__song_seungho,close_your_eyes__song_seungho,클로즈유어아이즈 송승호,CLOSE YOUR EYES,Song Seungho,10,0.6301,-0.0316,-0.0779
+M05,M,0,cmdm__byunghoon,cmdm__byunghoon,CMDM 병훈,CMDM,Byunghoon,7,0.5616,0.2725,-0.0580
+M06,M,7,cmdm__heeju,cmdm__heeju,CMDM 희주,CMDM,Heeju,6,0.5350,-0.0457,0.0085
+M02,M,9,cmdm__hyunhah,cmdm__hyunhah,CMDM 현하,CMDM,Hyunhah,9,0.6880,-0.0029,0.1635
+M05,M,0,cmdm__nohyul,cmdm__nohyul,CMDM 노율,CMDM,Nohyul,8,0.7189,0.0056,0.1359
+M10,M,5,cortis__james,cortis__james,코르티스 제임스,CORTIS,James,11,0.8482,-0.2651,0.0208
+M09,M,3,cortis__juhoon,cortis__juhoon,코르티스 주훈,CORTIS,Juhoon,9,0.6678,-0.1066,0.0827
+M08,M,8,cortis__keonho,cortis__keonho,코르티스 건호,CORTIS,Keonho,11,0.6793,-0.3038,0.2224
+M10,M,5,cortis__martin,cortis__martin,코르티스 마틴,CORTIS,Martin,10,0.8530,-0.1595,0.0822
+M07,M,4,cortis__seonghyeon,cortis__seonghyeon,코르티스 성현,CORTIS,Seonghyeon,9,0.7273,-0.1097,-0.1710
+M08,M,8,cravity__allen,cravity__allen,크래비티 앨런,CRAVITY,Allen,23,0.6044,-0.1338,0.0401
+M02,M,9,cravity__hyeongjun,cravity__hyeongjun,크래비티 형준,CRAVITY,Hyeongjun,12,0.6419,0.0503,0.1387
+M02,M,9,cravity__jungmo,cravity__jungmo,크래비티 정모,CRAVITY,Jungmo,16,0.6488,-0.0324,0.3015
+M01,M,2,cravity__minhee,cravity__minhee,크래비티 민희,CRAVITY,Minhee,17,0.6587,-0.0777,-0.1963
+M01,M,2,cravity__seongmin,cravity__seongmin,크래비티 성민,CRAVITY,Seongmin,19,0.5920,0.0970,-0.3295
+M08,M,8,cravity__serim,cravity__serim,크래비티 세림,CRAVITY,Serim,22,0.6073,-0.3314,0.1154
+M02,M,9,cravity__taeyoung,cravity__taeyoung,크래비티 태영,CRAVITY,Taeyoung,8,0.5809,-0.0889,0.1320
+M04,M,6,cravity__wonjin,cravity__wonjin,크래비티 원진,CRAVITY,Wonjin,23,0.6267,0.1777,-0.1741
+M02,M,9,cravity__woobin,cravity__woobin,크래비티 우빈,CRAVITY,Woobin,11,0.6345,0.1841,0.2896
+M03,M,1,daychild__eden,daychild__eden,데이차일드 이든,DAYCHILD,Eden,6,0.5618,0.2089,0.0969
+M03,M,1,daychild__siwoo,daychild__siwoo,데이차일드 시우,DAYCHILD,Siwoo,9,0.5883,0.3423,0.1806
+M07,M,4,dkb__d1,dkb__d1,다크비 디원,DKB,D1,23,0.7018,-0.1606,0.0311
+M04,M,6,dkb__e_chan,dkb__e_chan,다크비 이찬,DKB,E-Chan,14,0.7088,0.1226,0.2536
+M01,M,2,dkb__gk,dkb__gk,다크비 지케이,DKB,GK,20,0.6551,0.0653,-0.1073
+M01,M,2,dkb__harry_june,dkb__harry_june,다크비 해리준,DKB,Harry June,14,0.7565,0.0195,-0.2000
+M03,M,1,dkb__heechan,dkb__heechan,다크비 희찬,DKB,Heechan,18,0.7285,-0.0008,0.0948
+M01,M,2,dkb__junseo,dkb__junseo,다크비 준서,DKB,Junseo,22,0.6759,0.1943,-0.0608
+M02,M,9,dkb__lune,dkb__lune,다크비 룬,DKB,Lune,24,0.6653,-0.0004,-0.0292
+M03,M,1,dkb__yuku,dkb__yuku,다크비 유쿠,DKB,Yuku,24,0.6719,0.2230,0.3026
+M05,M,0,dragon_pony__an_taegyu,dragon_pony__an_taegyu,드래곤포니 안태규,Dragon Pony,An Taegyu,8,0.7432,0.1367,-0.1663
+M06,M,7,dragon_pony__ko_ganghun,dragon_pony__ko_ganghun,드래곤포니 고강훈,Dragon Pony,Ko Ganghun,9,0.7997,0.2691,0.0206
+M03,M,1,dragon_pony__kwon_sehyuk,dragon_pony__kwon_sehyuk,드래곤포니 권세혁,Dragon Pony,Kwon Sehyuk,12,0.7695,0.0107,0.1302
+M02,M,9,dragon_pony__pyun_sunghyun,dragon_pony__pyun_sunghyun,드래곤포니 편성현,Dragon Pony,Pyun Sunghyun,8,0.3962,0.1280,0.0554
+M02,M,9,drippin__changuk,drippin__changuk,드리핀 창욱,DRIPPIN,Changuk,30,0.6572,0.1943,0.1627
+M08,M,8,drippin__dongyun,drippin__dongyun,드리핀 동윤,DRIPPIN,Dongyun,10,0.6713,-0.1332,-0.0752
+M03,M,1,drippin__hyeop,drippin__hyeop,드리핀 협,DRIPPIN,Hyeop,21,0.5905,0.1270,-0.0586
+M07,M,4,drippin__junho,drippin__junho,드리핀 준호,DRIPPIN,Junho,14,0.6745,-0.2365,-0.0253
+M04,M,6,drippin__minseo,drippin__minseo,드리핀 민서,DRIPPIN,Minseo,16,0.6127,0.1454,0.1216
+M01,M,2,drippin__yunseong,drippin__yunseong,드리핀 윤성,DRIPPIN,Yunseong,20,0.6592,-0.0993,-0.2338
+M07,M,4,dxmon__hee,dxmon__hee,다이몬 히,DXMON,Hee,8,0.6562,-0.2304,-0.0814
+M04,M,6,dxmon__minjae,dxmon__minjae,다이몬 민재,DXMON,Minjae,8,0.6660,0.1006,0.0498
+M07,M,4,dxmon__rex,dxmon__rex,다이몬 렉스,DXMON,Rex,8,0.7203,-0.2779,-0.2191
+M02,M,9,dxmon__seita,dxmon__seita,다이몬 세이타,DXMON,Seita,9,0.6768,0.0092,0.3294
+M03,M,1,dxmon__tk,dxmon__tk,다이몬 TK,DXMON,TK,6,0.6546,0.3021,0.1474
+M03,M,1,eight_turn__haemin,eight_turn__haemin,에잇턴 해민,8TURN,Haemin,12,0.7022,0.1551,-0.1900
+M04,M,6,eight_turn__jaeyun,eight_turn__jaeyun,에잇턴 재윤,8TURN,Jaeyun,8,0.7465,-0.0604,-0.1352
+M04,M,6,eight_turn__kyungmin,eight_turn__kyungmin,에잇턴 경민,8TURN,Kyungmin,13,0.7723,0.0263,-0.0086
+M06,M,7,eight_turn__minho,eight_turn__minho,에잇턴 민호,8TURN,Minho,11,0.7415,0.2978,-0.1117
+M02,M,9,eight_turn__myungho,eight_turn__myungho,에잇턴 명호,8TURN,Myungho,11,0.7704,-0.0136,0.1061
+M09,M,3,eight_turn__seungheon,eight_turn__seungheon,에잇턴 승헌,8TURN,Seungheon,10,0.6679,-0.0852,-0.1851
+M01,M,2,eight_turn__yoonsung,eight_turn__yoonsung,에잇턴 윤성,8TURN,Yoonsung,10,0.8122,0.1210,-0.0471
+M01,M,2,eight_turn__yungyu,eight_turn__yungyu,에잇턴 윤규,8TURN,Yungyu,10,0.7615,0.1577,-0.3498
+M05,M,0,eighty_two_major__dogyun,eighty_two_major__dogyun,팔이메이저 도균,82MAJOR,Dogyun,11,0.6695,0.0984,0.1091
+M01,M,2,eighty_two_major__seokjoon,eighty_two_major__seokjoon,팔이메이저 석준,82MAJOR,Seokjoon,8,0.6248,-0.0448,-0.2493
+M09,M,3,eighty_two_major__seongbin,eighty_two_major__seongbin,팔이메이저 성빈,82MAJOR,Seongbin,8,0.4626,-0.1006,-0.2227
+M10,M,5,eighty_two_major__seongil,eighty_two_major__seongil,팔이메이저 성일,82MAJOR,Seongil,5,0.5822,-0.0199,-0.0862
+M06,M,7,eighty_two_major__seongmo,eighty_two_major__seongmo,팔이메이저 성모,82MAJOR,Seongmo,11,0.5098,0.1807,-0.0620
+M03,M,1,eighty_two_major__yechan,eighty_two_major__yechan,팔이메이저 예찬,82MAJOR,Yechan,8,0.5624,-0.0290,0.2317
+M01,M,2,elast__baekgyeul,elast__baekgyeul,엘라스트 백결,E'LAST,Baekgyeul,18,0.6727,0.2863,-0.1470
+M02,M,9,elast__choi_in,elast__choi_in,엘라스트 최인,E'LAST,Choi In,23,0.6411,0.0228,0.2095
+M05,M,0,elast__rano,elast__rano,엘라스트 라노,E'LAST,Rano,18,0.6757,0.1636,0.0957
+M05,M,0,elast__romin,elast__romin,엘라스트 로민,E'LAST,Romin,28,0.6654,-0.0995,0.0949
+M01,M,2,elast__won_hyuk,elast__won_hyuk,엘라스트 원혁,E'LAST,Won Hyuk,19,0.7019,0.0081,-0.0175
+M01,M,2,elast__wonjun,elast__wonjun,엘라스트 원준,E'LAST,Wonjun,26,0.6648,0.3210,-0.3523
+M08,M,8,elast__yejun,elast__yejun,엘라스트 예준,E'LAST,Yejun,18,0.7004,-0.2423,-0.0108
+M09,M,3,enhypen__heeseung,enhypen__heeseung,엔하이픈 희승,ENHYPEN,Heeseung,8,0.6664,-0.1463,0.0834
+M09,M,3,enhypen__jake,enhypen__jake,엔하이픈 제이크,ENHYPEN,Jake,8,0.6330,-0.2044,0.1328
+M06,M,7,enhypen__jay,enhypen__jay,엔하이픈 제이,ENHYPEN,Jay,6,0.6338,-0.0027,0.1249
+M06,M,7,enhypen__jungwon,enhypen__jungwon,엔하이픈 정원,ENHYPEN,Jungwon,11,0.7640,0.1662,-0.1199
+M02,M,9,enhypen__ni_ki,enhypen__ni_ki,엔하이픈 니키,ENHYPEN,Ni-ki,8,0.7250,-0.0763,0.2897
+M02,M,9,enhypen__sunghoon,enhypen__sunghoon,엔하이픈 성훈,ENHYPEN,Sunghoon,8,0.7307,-0.0017,-0.1071
+M06,M,7,enhypen__sunoo,enhypen__sunoo,엔하이픈 선우,ENHYPEN,Sunoo,8,0.5593,0.1766,0.2701
+M08,M,8,epex__a_min,epex__a_min,이펙스 아민,EPEX,A-Min,10,0.7265,-0.1845,0.0485
+M07,M,4,epex__ayden,epex__ayden,이펙스 에이든,EPEX,Ayden,10,0.7454,-0.0947,-0.1258
+M06,M,7,epex__baekseung,epex__baekseung,이펙스 백승,EPEX,Baekseung,11,0.7195,0.0591,0.0798
+M02,M,9,epex__jeff,epex__jeff,이펙스 제프,EPEX,Jeff,13,0.6754,0.0723,0.2335
+M08,M,8,epex__mu,epex__mu,이펙스 뮤,EPEX,Mu,8,0.7345,-0.1634,-0.0167
+M05,M,0,epex__wish,epex__wish,이펙스 위시,EPEX,Wish,8,0.6783,-0.0881,0.1317
+M01,M,2,epex__yewang,epex__yewang,이펙스 예왕,EPEX,Yewang,9,0.7087,0.0997,-0.3430
+M09,M,3,evnne__keita,evnne__keita,이븐 케이타,EVNNE,Keita,14,0.7059,-0.1558,-0.1697
+M01,M,2,evnne__lee_jeonghyeon,evnne__lee_jeonghyeon,이븐 이정현,EVNNE,Lee Jeonghyeon,8,0.6788,-0.0077,-0.3119
+M09,M,3,evnne__mun_junghyun,evnne__mun_junghyun,이븐 문정현,EVNNE,Mun Junghyun,11,0.7314,-0.2114,-0.0710
+M02,M,9,evnne__park_hanbin,evnne__park_hanbin,이븐 박한빈,EVNNE,Park Hanbin,11,0.7104,0.0988,0.1977
+M01,M,2,evnne__park_jihoo,evnne__park_jihoo,이븐 박지후,EVNNE,Park Jihoo,11,0.6321,0.2606,-0.4011
+M01,M,2,fantasy_boys__hikari,fantasy_boys__hikari,판타지보이즈 히카리,FANTASY BOYS,Hikari,12,0.6357,-0.1420,-0.2654
+M07,M,4,fantasy_boys__hikaru,fantasy_boys__hikaru,판타지보이즈 히카루,FANTASY BOYS,Hikaru,7,0.5506,-0.1784,0.0335
+M07,M,4,fantasy_boys__hong_sungmin,fantasy_boys__hong_sungmin,판타지보이즈 홍성민,FANTASY BOYS,Hong Sungmin,8,0.5576,-0.3708,-0.0164
+M04,M,6,fantasy_boys__kaedan,fantasy_boys__kaedan,판타지보이즈 케이단,FANTASY BOYS,Kaedan,8,0.6681,0.0931,-0.2261
+M01,M,2,fantasy_boys__kang_minseo,fantasy_boys__kang_minseo,판타지보이즈 강민서,FANTASY BOYS,Kang Minseo,13,0.7426,0.0658,-0.4041
+M07,M,4,fantasy_boys__kim_gyurae,fantasy_boys__kim_gyurae,판타지보이즈 김규래,FANTASY BOYS,Kim Gyurae,12,0.6037,-0.0665,-0.2926
+M04,M,6,fantasy_boys__kim_wooseok,fantasy_boys__kim_wooseok,판타지보이즈 김우석,FANTASY BOYS,Kim Wooseok,10,0.7050,0.0733,0.0705
+M07,M,4,fantasy_boys__lee_hanbin,fantasy_boys__lee_hanbin,판타지보이즈 이한빈,FANTASY BOYS,Lee Hanbin,10,0.6800,-0.0631,0.1323
+M08,M,8,fantasy_boys__ling_qi,fantasy_boys__ling_qi,판타지보이즈 링치,FANTASY BOYS,Ling Qi,8,0.6315,-0.1997,0.1940
+M03,M,1,fantasy_boys__oh_hyeontae,fantasy_boys__oh_hyeontae,판타지보이즈 오현태,FANTASY BOYS,Oh Hyeontae,11,0.6883,-0.0244,0.0431
+M07,M,4,ghost9__jinwoo,ghost9__jinwoo,고스트나인 진우,GHOST9,Jinwoo,11,0.7829,-0.1109,-0.1241
+M05,M,0,ghost9__junhyung,ghost9__junhyung,고스트나인 준형,GHOST9,Junhyung,21,0.6659,0.0782,0.0268
+M03,M,1,ghost9__junseong,ghost9__junseong,고스트나인 준성,GHOST9,Junseong,18,0.6653,0.0204,0.2026
+M05,M,0,ghost9__kangsung,ghost9__kangsung,고스트나인 강성,GHOST9,Kangsung,11,0.8920,0.0332,0.0741
+M01,M,2,ghost9__prince,ghost9__prince,고스트나인 프린스,GHOST9,Prince,15,0.7693,-0.2735,-0.2277
+M05,M,0,ghost9__shin,ghost9__shin,고스트나인 이신,GHOST9,Shin,16,0.6357,0.0746,0.0811
+M02,M,9,ghost9__woojin,ghost9__woojin,고스트나인 우진,GHOST9,Woojin,16,0.6200,-0.1734,0.2054
+M01,M,2,hifi_unicorn__hyunyul,hifi_unicorn__hyunyul,하이파이유니콘 현율,Hi-Fi Un!corn,Hyunyul,12,0.6749,-0.1339,-0.1324
+M02,M,9,hifi_unicorn__kiyoon,hifi_unicorn__kiyoon,하이파이유니콘 기윤,Hi-Fi Un!corn,Kiyoon,9,0.7279,0.0450,0.1633
+M06,M,7,hifi_unicorn__min,hifi_unicorn__min,하이파이유니콘 민,Hi-Fi Un!corn,Min,9,0.6884,0.0027,-0.0101
+M03,M,1,hifi_unicorn__shuto,hifi_unicorn__shuto,하이파이유니콘 슈토,Hi-Fi Un!corn,Shuto,9,0.7290,0.1414,-0.0722
+M06,M,7,hifi_unicorn__taemin,hifi_unicorn__taemin,하이파이유니콘 태민,Hi-Fi Un!corn,Taemin,8,0.7046,0.2995,0.0770
+M07,M,4,hori7on__jeromy,hori7on__jeromy,호라이즌 제로미,HORI7ON,Jeromy,7,0.8365,-0.1843,-0.0209
+M07,M,4,hori7on__kim,hori7on__kim,호라이즌 킴,HORI7ON,Kim,11,0.8127,-0.0775,-0.1697
+M02,M,9,hori7on__kyler,hori7on__kyler,호라이즌 카일러,HORI7ON,Kyler,11,0.7113,-0.1001,0.1851
+M08,M,8,hori7on__marcus,hori7on__marcus,호라이즌 마커스,HORI7ON,Marcus,10,0.6532,-0.2571,0.1150
+M08,M,8,hori7on__reyster,hori7on__reyster,호라이즌 레이스터,HORI7ON,Reyster,8,0.6993,-0.2552,0.0069
+M08,M,8,hori7on__vinci,hori7on__vinci,호라이즌 빈치,HORI7ON,Vinci,7,0.6727,-0.1888,-0.0843
+M08,M,8,hori7on__winston,hori7on__winston,호라이즌 윈스턴,HORI7ON,Winston,10,0.6195,-0.1862,0.1332
+M02,M,9,hrtz_wav__riaan,hrtz_wav__riaan,hrtz.wav 리안,hrtz.wav,Riaan,5,0.3760,0.2151,0.3350
+M09,M,3,idid__baek_junhyuk,idid__baek_junhyuk,아이딧 백준혁,IDID,Baek Junhyuk,13,0.8431,-0.0162,-0.1056
+M07,M,4,idid__chu_yoochan,idid__chu_yoochan,아이딧 추유찬,IDID,Chu Yoochan,10,0.7604,-0.1334,-0.0759
+M03,M,1,idid__jang_yonghoon,idid__jang_yonghoon,아이딧 장용훈,IDID,Jang Yonghoon,12,0.7880,0.1884,-0.1867
+M07,M,4,idid__jeong_semin,idid__jeong_semin,아이딧 정세민,IDID,Jeong Semin,12,0.6652,0.1275,-0.1933
+M03,M,1,idid__kim_minjae,idid__kim_minjae,아이딧 김민재,IDID,Kim Minjae,6,0.5547,0.1148,-0.0503
+M06,M,7,idid__park_seonghyeon,idid__park_seonghyeon,아이딧 박성현,IDID,Park Seonghyeon,12,0.7179,0.0879,0.0135
+M04,M,6,idid__park_wonbin,idid__park_wonbin,아이딧 박원빈,IDID,Park Wonbin,8,0.8552,0.1584,-0.1384
+M03,M,1,idntt__choi_gyeongbeen,idntt__choi_gyeongbeen,idntt 최경빈,idntt,Choi GyeongBeen,8,0.7271,0.2574,0.0405
+M01,M,2,idntt__choi_taein,idntt__choi_taein,idntt 최태인,idntt,Choi TaeIn,8,0.8767,-0.0982,-0.2876
+M03,M,1,idntt__han_yejoon,idntt__han_yejoon,idntt 한예준,idntt,Han YeJoon,7,0.5897,0.0280,0.0781
+M07,M,4,idntt__hwang_eunsoo,idntt__hwang_eunsoo,idntt 황은수,idntt,Hwang EunSoo,8,0.6377,-0.1436,-0.0319
+M03,M,1,idntt__kim_dohun,idntt__kim_dohun,idntt 김도훈,idntt,Kim DoHun,12,0.6717,0.1009,0.0780
+M03,M,1,idntt__kim_heeju,idntt__kim_heeju,idntt 김희주,idntt,Kim HeeJu,11,0.6730,0.2074,0.1092
+M04,M,6,idntt__kim_juho,idntt__kim_juho,idntt 김주호,idntt,Kim JuHo,7,0.5197,0.0890,-0.0614
+M10,M,5,idntt__kim_seongjun,idntt__kim_seongjun,idntt 김성준,idntt,Kim SeongJun,6,0.7710,-0.0881,-0.0287
+M05,M,0,idntt__lee_cheongmyeong,idntt__lee_cheongmyeong,idntt 이청명,idntt,Lee CheongMyeong,10,0.6887,0.0112,-0.0717
+M01,M,2,idntt__lee_hwanhee,idntt__lee_hwanhee,idntt 이환희,idntt,Lee HwanHee,8,0.8307,0.2243,-0.1159
+M03,M,1,idntt__lee_jaeyoung,idntt__lee_jaeyoung,idntt 이재영,idntt,Lee JaeYoung,8,0.7234,0.1386,-0.1076
+M04,M,6,idntt__lee_kyuhyuk,idntt__lee_kyuhyuk,idntt 이규혁,idntt,Lee KyuHyuk,7,0.5910,0.0454,0.0917
+M02,M,9,idntt__nam_jiwoon,idntt__nam_jiwoon,idntt 남지운,idntt,Nam JiWoon,7,0.6092,0.1126,0.0995
+M04,M,6,idntt__park_nuri,idntt__park_nuri,idntt 박누리,idntt,Park NuRi,8,0.5296,0.0169,-0.1152
+M08,M,8,idntt__towa,idntt__towa,idntt 토와,idntt,Towa,7,0.5910,-0.2037,0.1620
+M01,M,2,justb__bain,justb__bain,저스트비 배인,JUSTB,Bain,7,0.6625,0.0812,-0.2325
+M06,M,7,justb__dy,justb__dy,저스트비 DY,JUSTB,DY,8,0.6180,0.3044,-0.0489
+M06,M,7,justb__geonu,justb__geonu,저스트비 건우,JUSTB,Geonu,6,0.5814,0.3319,-0.2041
+M04,M,6,justb__jimin,justb__jimin,저스트비 지민,JUSTB,Jimin,9,0.6707,-0.0001,0.2931
+M05,M,0,justb__jm,justb__jm,저스트비 JM,JUSTB,JM,13,0.7177,0.1891,-0.1386
+M08,M,8,kickflip__amaru,kickflip__amaru,킥플립 아마루,KickFlip,Amaru,13,0.7305,-0.1241,0.1155
+M02,M,9,kickflip__donghwa,kickflip__donghwa,킥플립 동화,KickFlip,Donghwa,11,0.6707,-0.1230,0.3381
+M04,M,6,kickflip__donghyeon,kickflip__donghyeon,킥플립 동현,KickFlip,Donghyeon,11,0.6343,0.0948,0.0041
+M06,M,7,kickflip__juwang,kickflip__juwang,킥플립 주왕,KickFlip,Juwang,10,0.7337,0.1456,0.1660
+M07,M,4,kickflip__keiju,kickflip__keiju,킥플립 케이주,KickFlip,Keiju,8,0.7508,-0.0736,0.0359
+M06,M,7,kickflip__kyehoon,kickflip__kyehoon,킥플립 계훈,KickFlip,Kyehoon,13,0.7147,0.2518,0.0003
+M08,M,8,kickflip__minje,kickflip__minje,킥플립 민제,KickFlip,Minje,12,0.6923,-0.1420,-0.0003
+M10,M,5,lngshot__louis,lngshot__louis,LNGSHOT 루이,LNGSHOT,Louis,6,0.5598,-0.0592,0.0644
+M09,M,3,lngshot__ohyul,lngshot__ohyul,LNGSHOT 오율,LNGSHOT,Ohyul,7,0.5180,-0.0571,-0.1179
+M04,M,6,lngshot__woojin,lngshot__woojin,LNGSHOT 우진,LNGSHOT,Woojin,7,0.6126,0.0578,0.0407
+M04,M,6,lucy__gwangil,lucy__gwangil,루시 광일,LUCY,Gwangil,9,0.6213,0.1954,0.0457
+M05,M,0,lucy__sangyeop,lucy__sangyeop,루시 상엽,LUCY,Sangyeop,7,0.6265,-0.0630,0.0599
+M02,M,9,lucy__wonsang,lucy__wonsang,루시 원상,LUCY,Wonsang,8,0.6025,-0.1231,-0.0192
+M05,M,0,lucy__yechan,lucy__yechan,루시 예찬,LUCY,Yechan,10,0.6105,-0.1820,0.1318
+M06,M,7,lun8__chael,lun8__chael,루네이트 카엘,LUN8,Chael,8,0.7190,0.1459,-0.0315
+M03,M,1,lun8__dohyun,lun8__dohyun,루네이트 도현,LUN8,Dohyun,10,0.7975,0.1458,-0.1353
+M01,M,2,lun8__ian,lun8__ian,루네이트 이안,LUN8,Ian,10,0.7132,-0.1378,-0.2084
+M04,M,6,lun8__jinsu,lun8__jinsu,루네이트 진수,LUN8,Jinsu,12,0.7814,-0.0108,0.1308
+M04,M,6,lun8__junwoo,lun8__junwoo,루네이트 준우,LUN8,Junwoo,12,0.7378,0.0945,0.0760
+M05,M,0,lun8__takuma,lun8__takuma,루네이트 타쿠마,LUN8,Takuma,11,0.7143,-0.0646,0.0867
+M09,M,3,lun8__yuma,lun8__yuma,루네이트 유우마,LUN8,Yuma,11,0.7793,-0.2532,-0.1890
+M08,M,8,mcnd__bic,mcnd__bic,엠씨엔디 빅,MCND,BIC,9,0.6348,-0.1859,0.0327
+M08,M,8,mcnd__castle_j,mcnd__castle_j,엠씨엔디 캐슬제이,MCND,Castle J,14,0.6376,-0.0005,0.1237
+M03,M,1,mcnd__huijun,mcnd__huijun,엠씨엔디 휘준,MCND,Huijun,11,0.8144,0.0262,-0.1133
+M01,M,2,mcnd__minjae,mcnd__minjae,엠씨엔디 민재,MCND,Minjae,16,0.6474,0.0916,-0.2189
+M01,M,2,mcnd__win,mcnd__win,엠씨엔디 윈,MCND,Win,8,0.6036,0.1770,-0.3339
+M07,M,4,modyssey__fan_zheyi,modyssey__fan_zheyi,MODYSSEY 판저이,MODYSSEY,Fan Zheyi,8,0.6119,0.0041,-0.3154
+M03,M,1,modyssey__li_zihao,modyssey__li_zihao,MODYSSEY 리즈하오,MODYSSEY,Li Zihao,5,0.6619,0.1926,-0.1321
+M10,M,5,modyssey__lynnlynn,modyssey__lynnlynn,MODYSSEY 린린,MODYSSEY,LynnLynn,6,0.5540,-0.0609,-0.0400
+M10,M,5,modyssey__suren,modyssey__suren,MODYSSEY 수런,MODYSSEY,Suren,5,0.4561,0.1811,-0.1435
+M09,M,3,modyssey__yichen,modyssey__yichen,MODYSSEY 이첸,MODYSSEY,Yichen,7,0.6140,0.0720,-0.0967
+M09,M,3,monsta_x__hyungwon,monsta_x__hyungwon,몬스타엑스 형원,MONSTA X,Hyungwon,8,0.6575,-0.1807,0.1630
+M02,M,9,monsta_x__im,monsta_x__im,몬스타엑스 아이엠,MONSTA X,I.M,9,0.6932,0.0669,0.1280
+M01,M,2,monsta_x__joohoney,monsta_x__joohoney,몬스타엑스 주헌,MONSTA X,Joohoney,10,0.6964,0.1526,0.0536
+M01,M,2,monsta_x__kihyun,monsta_x__kihyun,몬스타엑스 기현,MONSTA X,Kihyun,11,0.6387,0.2438,-0.2137
+M09,M,3,monsta_x__minhyuk,monsta_x__minhyuk,몬스타엑스 민혁,MONSTA X,Minhyuk,8,0.6333,-0.2600,0.0512
+M09,M,3,monsta_x__shownu,monsta_x__shownu,몬스타엑스 셔누,MONSTA X,Shownu,10,0.6658,0.0562,-0.1835
+M05,M,0,n_ssign__doha,n_ssign__doha,엔싸인 도하,n.SSign,Doha,10,0.6464,0.0658,0.0127
+M03,M,1,n_ssign__hanjun,n_ssign__hanjun,엔싸인 한준,n.SSign,Hanjun,10,0.6221,-0.0757,0.0003
+M03,M,1,n_ssign__huiwon,n_ssign__huiwon,엔싸인 희원,n.SSign,Huiwon,12,0.7646,0.1605,-0.0854
+M09,M,3,n_ssign__kazuta,n_ssign__kazuta,엔싸인 카즈타,n.SSign,Kazuta,9,0.6384,-0.1053,-0.1736
+M08,M,8,n_ssign__laurence,n_ssign__laurence,엔싸인 로렌스,n.SSign,Laurence,14,0.6924,-0.3089,0.0376
+M10,M,5,n_ssign__robin,n_ssign__robin,엔싸인 로빈,n.SSign,Robin,14,0.6886,0.1335,-0.0031
+M07,M,4,n_ssign__sungyun,n_ssign__sungyun,엔싸인 성윤,n.SSign,Sungyun,9,0.6244,-0.4382,-0.1246
+M03,M,1,naze__ato,naze__ato,NAZE 아토,NAZE,Ato,6,0.5731,0.3127,-0.0598
+M09,M,3,naze__dohyeok,naze__dohyeok,NAZE 도혁,NAZE,Dohyeok,7,0.6689,-0.1792,-0.0703
+M08,M,8,naze__kaisei,naze__kaisei,NAZE 카이세이,NAZE,Kaisei,5,0.6821,-0.2007,0.0826
+M09,M,3,naze__turn,naze__turn,NAZE 턴,NAZE,Turn,7,0.6528,-0.3839,-0.0360
+M04,M,6,naze__younki,naze__younki,NAZE 윤기,NAZE,Younki,5,0.4609,0.1171,0.0947
+M05,M,0,nchive__e_an,nchive__e_an,엔카이브 이안,NCHIVE,E.aN,8,0.7735,0.0856,0.0961
+M01,M,2,nchive__ha_l,nchive__ha_l,엔카이브 하엘,NCHIVE,HA.L,12,0.8964,0.0173,-0.3376
+M07,M,4,nchive__juyoung,nchive__juyoung,엔카이브 주영,NCHIVE,Juyoung,11,0.7870,-0.0568,-0.1043
+M05,M,0,nchive__kangsan,nchive__kangsan,엔카이브 강산,NCHIVE,Kangsan,15,0.8821,-0.0917,0.1695
+M06,M,7,nchive__n,nchive__n,엔카이브 엔,NCHIVE,N,14,0.7380,0.1561,0.0884
+M07,M,4,nchive__yuchan,nchive__yuchan,엔카이브 유찬,NCHIVE,Yuchan,10,0.8612,-0.2657,-0.0283
+M07,M,4,nct__chenle,nct__chenle,NCT 천러,NCT,Chenle,8,0.6456,-0.2131,-0.1333
+M05,M,0,nct__doyoung,nct__doyoung,NCT 도영,NCT,Doyoung,12,0.6754,-0.0239,0.1941
+M08,M,8,nct__haechan,nct__haechan,NCT 해찬,NCT,Haechan,8,0.5898,-0.1161,0.2351
+M08,M,8,nct__hendery,nct__hendery,NCT 헨드리,NCT,Hendery,8,0.5098,-0.2303,0.1167
+M05,M,0,nct__jaehyun,nct__jaehyun,NCT 재현,NCT,Jaehyun,12,0.6531,-0.1546,0.1018
+M01,M,2,nct__jaemin,nct__jaemin,NCT 재민,NCT,Jaemin,8,0.6678,0.1032,-0.3764
+M05,M,0,nct__jeno,nct__jeno,NCT 제노,NCT,Jeno,8,0.7116,-0.2261,-0.0266
+M06,M,7,nct__jisung,nct__jisung,NCT 지성,NCT,Jisung,8,0.6966,0.1693,-0.1291
+M08,M,8,nct__johnny,nct__johnny,NCT 쟈니,NCT,Johnny,8,0.6890,-0.1712,0.0850
+M02,M,9,nct__jungwoo,nct__jungwoo,NCT 정우,NCT,Jungwoo,8,0.7178,0.0115,0.1700
+M08,M,8,nct__kun,nct__kun,NCT 쿤,NCT,Kun,8,0.7562,-0.2361,-0.0838
+M04,M,6,nct__renjun,nct__renjun,NCT 런쥔,NCT,Renjun,14,0.6020,0.0200,-0.0034
+M09,M,3,nct__taeyong,nct__taeyong,NCT 태용,NCT,Taeyong,12,0.6798,-0.1964,-0.0250
+M10,M,5,nct__ten,nct__ten,NCT 텐,NCT,Ten,8,0.8193,0.0302,0.0676
+M07,M,4,nct__winwin,nct__winwin,NCT 윈윈,NCT,WinWin,12,0.6312,-0.0876,0.0402
+M02,M,9,nct__xiaojun,nct__xiaojun,NCT 샤오쥔,NCT,Xiaojun,8,0.6725,-0.2579,0.1274
+M08,M,8,nct__yangyang,nct__yangyang,NCT 양양,NCT,Yangyang,8,0.5816,-0.2679,0.2353
+M10,M,5,nct__yuta,nct__yuta,NCT 유타,NCT,Yuta,8,0.6140,-0.1453,-0.1577
+M03,M,1,nct_wish__jaehee,nct_wish__jaehee,엔시티위시 재희,NCT WISH,Jaehee,12,0.6883,0.1107,-0.0649
+M08,M,8,nct_wish__riku,nct_wish__riku,엔시티위시 리쿠,NCT WISH,Riku,9,0.6267,-0.2008,0.0038
+M04,M,6,nct_wish__ryo,nct_wish__ryo,엔시티위시 료,NCT WISH,Ryo,8,0.6937,-0.0068,-0.1226
+M07,M,4,nct_wish__sakuya,nct_wish__sakuya,엔시티위시 사쿠야,NCT WISH,Sakuya,10,0.5855,0.0508,-0.1022
+M04,M,6,nct_wish__sion,nct_wish__sion,엔시티위시 시온,NCT WISH,Sion,8,0.6145,-0.0665,-0.0287
+M05,M,0,nct_wish__yushi,nct_wish__yushi,엔시티위시 유우시,NCT WISH,Yushi,11,0.6011,-0.0736,-0.0504
+M04,M,6,newbeat__choi_seohyun,newbeat__choi_seohyun,뉴비트 최서현,NEWBEAT,Choi Seohyun,12,0.8068,0.0496,0.1293
+M01,M,2,newbeat__hong_minsung,newbeat__hong_minsung,뉴비트 홍민성,NEWBEAT,Hong Minsung,12,0.7518,0.0434,-0.3128
+M01,M,2,newbeat__jeon_yeoyeojeong,newbeat__jeon_yeoyeojeong,뉴비트 전여여정,NEWBEAT,Jeon Yeoyeojeong,12,0.7774,-0.0746,-0.0061
+M10,M,5,newbeat__jo_yunhu,newbeat__jo_yunhu,뉴비트 조윤후,NEWBEAT,Jo Yunhu,13,0.7432,0.0565,0.1866
+M07,M,4,newbeat__kim_riwoo,newbeat__kim_riwoo,뉴비트 김리우,NEWBEAT,Kim Riwoo,11,0.8060,-0.0622,-0.0006
+M07,M,4,newbeat__kim_taeyang,newbeat__kim_taeyang,뉴비트 김태양,NEWBEAT,Kim Taeyang,13,0.8263,-0.0298,-0.0712
+M05,M,0,newbeat__park_minseok,newbeat__park_minseok,뉴비트 박민석,NEWBEAT,Park Minseok,10,0.7805,0.1669,0.0256
+M08,M,8,nexz__haru,nexz__haru,넥스지 하루,NEXZ,Haru,12,0.7383,-0.2247,0.1189
+M03,M,1,nexz__hyui,nexz__hyui,넥스지 휴이,NEXZ,Hyui,11,0.6421,0.0795,-0.0405
+M07,M,4,nexz__seita,nexz__seita,넥스지 세이타,NEXZ,Seita,12,0.6796,-0.3707,-0.0122
+M09,M,3,nexz__so_geon,nexz__so_geon,넥스지 소건,NEXZ,So Geon,15,0.7348,-0.0449,-0.0398
+M03,M,1,nexz__tomoya,nexz__tomoya,넥스지 토모야,NEXZ,Tomoya,10,0.7357,0.0275,0.1931
+M02,M,9,nexz__yu,nexz__yu,넥스지 유우,NEXZ,Yu,11,0.7033,-0.0900,0.2113
+M05,M,0,nexz__yuki,nexz__yuki,넥스지 유키,NEXZ,Yuki,9,0.6718,-0.0314,0.0994
+M07,M,4,nine_i__eden,nine_i__eden,나인아이 이든,NINE.i,Eden,8,0.7213,-0.0552,-0.0783
+M01,M,2,nine_i__jewon,nine_i__jewon,나인아이 제원,NINE.i,Jewon,8,0.6704,0.0065,-0.1169
+M09,M,3,nine_i__jiho,nine_i__jiho,나인아이 지호,NINE.i,Jiho,8,0.6893,-0.0770,-0.1677
+M02,M,9,nine_i__minjun,nine_i__minjun,나인아이 민준,NINE.i,Minjun,10,0.7840,0.0723,0.1209
+M01,M,2,nine_i__taehun,nine_i__taehun,나인아이 태훈,NINE.i,Taehun,9,0.7022,0.0794,-0.2052
+M06,M,7,nine_i__vahn,nine_i__vahn,나인아이 반,NINE.i,Vahn,8,0.7530,-0.0645,0.1018
+M01,M,2,nine_i__vari,nine_i__vari,나인아이 베리,NINE.i,Vari,10,0.7302,0.0260,-0.3656
+M08,M,8,nouera__fan,nouera__fan,누에라 판,NouerA,Fan,13,0.6986,-0.4128,-0.1083
+M04,M,6,nouera__gihyeon,nouera__gihyeon,누에라 기현,NouerA,Gihyeon,8,0.7123,0.1177,-0.1156
+M07,M,4,nouera__hyunjun,nouera__hyunjun,누에라 현준,NouerA,Hyunjun,12,0.8590,-0.1975,-0.2092
+M07,M,4,nouera__junpyo,nouera__junpyo,누에라 준표,NouerA,Junpyo,10,0.6866,0.0602,0.0500
+M06,M,7,nouera__lin,nouera__lin,누에라 린,NouerA,Lin,12,0.7276,-0.1773,0.0581
+M05,M,0,nouera__miraku,nouera__miraku,누에라 미라쿠,NouerA,Miraku,11,0.7832,0.0936,-0.0548
+M10,M,5,nouera__yuseop,nouera__yuseop,누에라 유섭,NouerA,Yuseop,11,0.8461,-0.2381,-0.0840
+M08,M,8,nowz__hyeonbin,nowz__hyeonbin,나우즈 현빈,NOWZ,Hyeonbin,13,0.8119,-0.3009,0.0146
+M09,M,3,nowz__jinhyuk,nowz__jinhyuk,나우즈 진혁,NOWZ,Jinhyuk,14,0.6781,-0.0571,-0.0862
+M06,M,7,nowz__siyun,nowz__siyun,나우즈 시윤,NOWZ,Siyun,13,0.7379,-0.0829,0.2530
+M04,M,6,nowz__yeonwoo,nowz__yeonwoo,나우즈 연우,NOWZ,Yeonwoo,14,0.7782,0.1470,0.2317
+M02,M,9,nowz__yoon,nowz__yoon,나우즈 윤,NOWZ,Yoon,9,0.7204,-0.0626,0.0386
+M06,M,7,ntx__changhun,ntx__changhun,엔티엑스 창훈,NTX,Changhun,10,0.7360,0.2203,0.0136
+M02,M,9,ntx__eunho,ntx__eunho,엔티엑스 은호,NTX,Eunho,10,0.8632,0.0903,0.2259
+M04,M,6,ntx__hojun,ntx__hojun,엔티엑스 호준,NTX,Hojun,10,0.8837,0.2083,0.0456
+M02,M,9,ntx__hyeongjin,ntx__hyeongjin,엔티엑스 형진,NTX,Hyeongjin,9,0.7220,0.0263,0.1343
+M05,M,0,ntx__rawhyun,ntx__rawhyun,엔티엑스 로현,NTX,Rawhyun,7,0.6861,0.1282,0.1514
+M09,M,3,ntx__seungwon,ntx__seungwon,엔티엑스 승원,NTX,Seungwon,7,0.7939,0.0370,-0.1676
+M05,M,0,ntx__xiha,ntx__xiha,엔티엑스 시하,NTX,Xiha,7,0.7651,0.1291,0.1944
+M05,M,0,nxd__daehyun,nxd__daehyun,NXD 대현,NXD,Daehyun,9,0.6100,0.0331,0.0263
+M03,M,1,nxd__hyeonggeun,nxd__hyeonggeun,NXD 형근,NXD,Hyeonggeun,7,0.5695,0.1732,0.0492
+M01,M,2,nxd__jaemin,nxd__jaemin,NXD 재민,NXD,Jaemin,6,0.5805,-0.0233,-0.0851
+M07,M,4,omega_x__hangyeom,omega_x__hangyeom,오메가엑스 송한겸,OMEGA X,Hangyeom,7,0.5882,-0.3143,0.1851
+M08,M,8,omega_x__hwichan,omega_x__hwichan,오메가엑스 휘찬,OMEGA X,Hwichan,12,0.7472,-0.1858,0.0553
+M07,M,4,omega_x__hyuk,omega_x__hyuk,오메가엑스 혁,OMEGA X,Hyuk,8,0.6330,-0.0885,-0.1115
+M06,M,7,omega_x__jaehan,omega_x__jaehan,오메가엑스 재한,OMEGA X,Jaehan,8,0.6585,0.2567,0.3427
+M05,M,0,omega_x__jehyun,omega_x__jehyun,오메가엑스 제현,OMEGA X,Jehyun,10,0.6041,0.0396,-0.0208
+M01,M,2,omega_x__junghoon,omega_x__junghoon,오메가엑스 정훈,OMEGA X,Junghoon,12,0.6947,0.2270,-0.3072
+M09,M,3,omega_x__kevin,omega_x__kevin,오메가엑스 케빈,OMEGA X,Kevin,12,0.6364,0.0565,0.1878
+M05,M,0,omega_x__sebin,omega_x__sebin,오메가엑스 세빈,OMEGA X,Sebin,8,0.6322,0.1361,0.1197
+M02,M,9,omega_x__taedong,omega_x__taedong,오메가엑스 태동,OMEGA X,Taedong,8,0.6692,0.0564,0.2420
+M01,M,2,omega_x__xen,omega_x__xen,오메가엑스 젠,OMEGA X,Xen,8,0.6303,0.0065,-0.1350
+M06,M,7,omega_x__yechan,omega_x__yechan,오메가엑스 예찬,OMEGA X,Yechan,11,0.6326,-0.0233,0.0031
+M08,M,8,one_pact__jay_chang,one_pact__jay_chang,원팩트 제이창,ONE PACT,Jay Chang,10,0.7592,-0.1998,0.0594
+M04,M,6,one_pact__jongwoo,one_pact__jongwoo,원팩트 종우,ONE PACT,Jongwoo,9,0.7261,0.2393,0.1145
+M05,M,0,one_pact__seongmin,one_pact__seongmin,원팩트 성민,ONE PACT,Seongmin,12,0.7679,0.1159,0.0789
+M01,M,2,one_pact__tag,one_pact__tag,원팩트 태그,ONE PACT,TAG,15,0.7645,-0.0430,-0.2101
+M02,M,9,one_pact__yedam,one_pact__yedam,원팩트 예담,ONE PACT,Yedam,9,0.5906,0.1369,0.3071
+M01,M,2,p1harmony__intak,p1harmony__intak,피원하모니 인탁,P1Harmony,Intak,15,0.6090,0.1445,-0.2435
+M06,M,7,p1harmony__jiung,p1harmony__jiung,피원하모니 지웅,P1Harmony,Jiung,19,0.5893,0.3199,-0.0293
+M04,M,6,p1harmony__jongseob,p1harmony__jongseob,피원하모니 종섭,P1Harmony,Jongseob,19,0.6576,0.1626,-0.0625
+M03,M,1,p1harmony__keeho,p1harmony__keeho,피원하모니 기호,P1Harmony,Keeho,22,0.6917,0.0928,0.0754
+M04,M,6,p1harmony__soul,p1harmony__soul,피원하모니 소울,P1Harmony,Soul,10,0.5831,0.2278,-0.0254
+M04,M,6,p1harmony__theo,p1harmony__theo,피원하모니 테오,P1Harmony,Theo,16,0.6394,0.1264,0.1260
+M08,M,8,polarix__hangyul,polarix__hangyul,폴라릭스 한결,POLARIX,Hangyul,7,0.5519,-0.0609,0.3975
+M07,M,4,polarix__lee_daeul,polarix__lee_daeul,폴라릭스 이다을,POLARIX,Lee Daeul,7,0.6598,-0.1351,-0.1488
+M05,M,0,polarix__lee_junhyuk,polarix__lee_junhyuk,폴라릭스 이준혁,POLARIX,Lee Junhyuk,6,0.6050,-0.0197,0.1679
+M10,M,5,polarix__pentor,polarix__pentor,폴라릭스 펜떠,POLARIX,Pentor,7,0.6247,-0.2728,0.0404
+M10,M,5,polarix__shao_ziheng,polarix__shao_ziheng,폴라릭스 샤오쯔헝,POLARIX,Shao Ziheng,8,0.5663,-0.1485,-0.0434
+M07,M,4,polarix__xin_che,polarix__xin_che,폴라릭스 신처,POLARIX,Xin Che,8,0.6190,-0.2093,-0.0630
+M08,M,8,polarix__xu_shihuan,polarix__xu_shihuan,폴라릭스 허세환,POLARIX,Xu Shihuan,6,0.6717,-0.1948,0.2315
+M03,M,1,polarix__yang_donghwa,polarix__yang_donghwa,폴라릭스 양동화,POLARIX,Yang Donghwa,7,0.4567,0.1495,-0.2392
+M10,M,5,polarix__zai,polarix__zai,폴라릭스 자이,POLARIX,Zai,5,0.3829,-0.0400,-0.0172
+M02,M,9,pow__dongyeon,pow__dongyeon,POW 동연,POW,Dongyeon,9,0.6680,0.1216,0.3780
+M05,M,0,pow__hong,pow__hong,POW 홍,POW,Hong,8,0.5807,-0.1696,-0.1410
+M08,M,8,pow__hyunbin,pow__hyunbin,POW 현빈,POW,Hyunbin,11,0.5955,0.0057,0.1561
+M03,M,1,pow__jungbin,pow__jungbin,POW 정빈,POW,Jungbin,10,0.6170,0.2678,-0.1392
+M07,M,4,pow__yorch,pow__yorch,POW 요치,POW,Yorch,7,0.5118,-0.1682,-0.1807
+M02,M,9,riize__anton,riize__anton,라이즈 앤톤,RIIZE,Anton,6,0.6794,-0.0842,0.1725
+M08,M,8,riize__eunseok,riize__eunseok,라이즈 은석,RIIZE,Eunseok,15,0.6901,-0.3447,0.0444
+M01,M,2,riize__shotaro,riize__shotaro,라이즈 쇼타로,RIIZE,Shotaro,16,0.6798,-0.0192,-0.1731
+M03,M,1,riize__sohee,riize__sohee,라이즈 소희,RIIZE,Sohee,12,0.7214,-0.0359,-0.0313
+M10,M,5,riize__sungchan,riize__sungchan,라이즈 성찬,RIIZE,Sungchan,17,0.6704,-0.2491,0.1526
+M10,M,5,riize__wonbin,riize__wonbin,라이즈 원빈,RIIZE,Wonbin,8,0.6834,-0.1554,0.2002
+M05,M,0,seventeen__dino,seventeen__dino,세븐틴 디노,SEVENTEEN,Dino,8,0.6269,0.0993,0.0575
+M03,M,1,seventeen__dk,seventeen__dk,세븐틴 도겸,SEVENTEEN,DK,8,0.5843,-0.0055,0.3119
+M05,M,0,seventeen__hoshi,seventeen__hoshi,세븐틴 호시,SEVENTEEN,Hoshi,9,0.7036,0.3724,-0.0190
+M02,M,9,seventeen__jeonghan,seventeen__jeonghan,세븐틴 정한,SEVENTEEN,Jeonghan,7,0.5670,-0.0378,0.2510
+M06,M,7,seventeen__joshua,seventeen__joshua,세븐틴 조슈아,SEVENTEEN,Joshua,11,0.6338,0.1204,0.1686
+M10,M,5,seventeen__jun,seventeen__jun,세븐틴 준,SEVENTEEN,Jun,13,0.7784,-0.2738,0.1219
+M08,M,8,seventeen__mingyu,seventeen__mingyu,세븐틴 민규,SEVENTEEN,Mingyu,13,0.5958,-0.2642,0.1169
+M07,M,4,seventeen__scoups,seventeen__scoups,세븐틴 에스쿱스,SEVENTEEN,S.Coups,12,0.6979,-0.2347,-0.1880
+M06,M,7,seventeen__seungkwan,seventeen__seungkwan,세븐틴 승관,SEVENTEEN,Seungkwan,9,0.5936,0.1559,0.0812
+M04,M,6,seventeen__the8,seventeen__the8,세븐틴 디에잇,SEVENTEEN,The8,12,0.6317,0.2913,-0.0420
+M07,M,4,seventeen__vernon,seventeen__vernon,세븐틴 버논,SEVENTEEN,Vernon,8,0.7180,-0.1359,-0.0581
+M04,M,6,seventeen__wonwoo,seventeen__wonwoo,세븐틴 원우,SEVENTEEN,Wonwoo,7,0.6515,0.2252,0.3068
+M05,M,0,seventeen__woozi,seventeen__woozi,세븐틴 우지,SEVENTEEN,Woozi,10,0.7340,0.2066,-0.0273
+M04,M,6,sevenus__heejae,sevenus__heejae,세븐어스 희재,SEVENUS,Heejae,13,0.6695,0.1873,0.0907
+M10,M,5,sevenus__ireah,sevenus__ireah,세븐어스 이레,SEVENUS,Ireah,11,0.8634,0.0118,0.1350
+M05,M,0,super_junior__donghae,super_junior__donghae,슈퍼주니어 동해,SUPER JUNIOR,Donghae,11,0.6932,-0.1527,0.0616
+M02,M,9,super_junior__eunhyuk,super_junior__eunhyuk,슈퍼주니어 은혁,SUPER JUNIOR,Eunhyuk,8,0.6614,-0.0715,0.1775
+M02,M,9,super_junior__heechul,super_junior__heechul,슈퍼주니어 희철,SUPER JUNIOR,Heechul,10,0.7028,-0.1092,0.0926
+M09,M,3,super_junior__kyuhyun,super_junior__kyuhyun,슈퍼주니어 규현,SUPER JUNIOR,Kyuhyun,9,0.7130,0.0201,-0.1625
+M06,M,7,super_junior__leeteuk,super_junior__leeteuk,슈퍼주니어 이특,SUPER JUNIOR,Leeteuk,11,0.7175,0.1684,0.2514
+M08,M,8,super_junior__ryeowook,super_junior__ryeowook,슈퍼주니어 려욱,SUPER JUNIOR,Ryeowook,8,0.6451,-0.0986,0.2004
+M08,M,8,super_junior__shindong,super_junior__shindong,슈퍼주니어 신동,SUPER JUNIOR,Shindong,7,0.6402,-0.1568,0.0501
+M04,M,6,super_junior__siwon,super_junior__siwon,슈퍼주니어 시원,SUPER JUNIOR,Siwon,8,0.6528,0.0811,0.1445
+M06,M,7,super_junior__yesung,super_junior__yesung,슈퍼주니어 예성,SUPER JUNIOR,Yesung,9,0.5968,0.2171,-0.0602
+M04,M,6,tan__changsun,tan__changsun,TAN 창선,TAN,Changsun,13,0.6921,0.1958,-0.1649
+M07,M,4,tan__hyunyeop,tan__hyunyeop,TAN 현엽,TAN,Hyunyeop,11,0.6693,-0.2301,-0.2486
+M09,M,3,tan__jaejun,tan__jaejun,TAN 재준,TAN,Jaejun,10,0.6421,-0.1191,0.0229
+M04,M,6,tan__jiseong,tan__jiseong,TAN 지성,TAN,Jiseong,8,0.6945,0.1568,0.2211
+M10,M,5,tan__jooan,tan__jooan,TAN 주안,TAN,Jooan,9,0.7096,-0.2657,-0.0514
+M05,M,0,tan__sunghyuk,tan__sunghyuk,TAN 성혁,TAN,Sunghyuk,13,0.6747,-0.0675,-0.0547
+M04,M,6,tan__taehoon,tan__taehoon,TAN 태훈,TAN,Taehoon,11,0.7499,-0.0048,0.2112
+M07,M,4,tempest__eunchan,tempest__eunchan,템페스트 은찬,TEMPEST,Eunchan,12,0.6726,-0.0077,-0.2421
+M10,M,5,tempest__hanbin,tempest__hanbin,템페스트 한빈,TEMPEST,Hanbin,9,0.6373,-0.1537,0.0239
+M06,M,7,tempest__hyeongseop,tempest__hyeongseop,템페스트 형섭,TEMPEST,Hyeongseop,12,0.6628,0.2276,-0.0896
+M02,M,9,tempest__hyuk,tempest__hyuk,템페스트 혁,TEMPEST,Hyuk,12,0.6814,0.1131,0.0891
+M09,M,3,tempest__lew,tempest__lew,템페스트 루,TEMPEST,Lew,13,0.6648,-0.0874,0.0392
+M08,M,8,tempest__taerae,tempest__taerae,템페스트 태래,TEMPEST,Taerae,10,0.6361,-0.0755,0.0268
+M03,M,1,the_kingdom__arthur,the_kingdom__arthur,더킹덤 아서,The KingDom,Arthur,8,0.6110,0.1381,0.0658
+M03,M,1,the_kingdom__dann,the_kingdom__dann,더킹덤 단,The KingDom,Dann,15,0.7872,0.3941,0.0885
+M08,M,8,the_kingdom__ivan,the_kingdom__ivan,더킹덤 아이반,The KingDom,Ivan,11,0.7718,-0.0576,0.0247
+M02,M,9,the_kingdom__jahan,the_kingdom__jahan,더킹덤 자한,The KingDom,Jahan,12,0.8844,-0.0524,-0.0240
+M05,M,0,the_kingdom__louis,the_kingdom__louis,더킹덤 루이,The KingDom,Louis,11,0.8173,0.1098,-0.0698
+M03,M,1,the_kingdom__mujin,the_kingdom__mujin,더킹덤 무진,The KingDom,Mujin,13,0.7772,0.2193,0.0791
+M01,M,2,the_wind__an_chanwon,the_wind__an_chanwon,더윈드 안찬원,The Wind,An Chanwon,12,0.7705,0.0263,-0.2884
+M02,M,9,the_wind__choi_hanbin,the_wind__choi_hanbin,더윈드 최한빈,The Wind,Choi Hanbin,11,0.7714,0.2150,0.1212
+M07,M,4,the_wind__jang_hyounjoon,the_wind__jang_hyounjoon,더윈드 장현준,The Wind,Jang Hyounjoon,11,0.7838,-0.2113,-0.0947
+M01,M,2,the_wind__kim_heesoo,the_wind__kim_heesoo,더윈드 김희수,The Wind,Kim Heesoo,8,0.6444,-0.0384,-0.1587
+M03,M,1,the_wind__park_hayuchan,the_wind__park_hayuchan,더윈드 박하유찬,The Wind,Park Hayuchan,11,0.8001,0.4035,-0.0015
+M09,M,3,the_wind__thanatorn,the_wind__thanatorn,더윈드 타나톤,The Wind,Thanatorn,8,0.7087,-0.0566,-0.2007
+M07,M,4,tiot__choi_woojin,tiot__choi_woojin,티아이오티 최우진,TIOT,Choi Woojin,11,0.8146,-0.0193,-0.2819
+M08,M,8,tiot__hong_keonhee,tiot__hong_keonhee,티아이오티 홍건희,TIOT,Hong Keonhee,12,0.7639,-0.1184,-0.0288
+M01,M,2,tiot__kim_minseoung,tiot__kim_minseoung,티아이오티 김민성,TIOT,Kim Minseoung,8,0.8157,0.2557,0.0077
+M02,M,9,tiot__kum_junhyeon,tiot__kum_junhyeon,티아이오티 금준현,TIOT,Kum Junhyeon,10,0.7478,-0.0359,0.0222
+M03,M,1,tiot__shin_yechan,tiot__shin_yechan,티아이오티 신예찬,TIOT,Shin Yechan,10,0.8215,0.0630,-0.0752
+M06,M,7,tnx__hwi,tnx__hwi,티엔엑스 휘,TNX,Hwi,6,0.3682,0.1939,0.0563
+M05,M,0,tnx__hyunsoo,tnx__hyunsoo,티엔엑스 현수,TNX,Hyunsoo,7,0.5811,0.1231,-0.0621
+M03,M,1,tnx__junhyeok,tnx__junhyeok,티엔엑스 준혁,TNX,Junhyeok,8,0.5274,0.2340,-0.2279
+M03,M,1,tnx__sungjun,tnx__sungjun,티엔엑스 성준,TNX,Sungjun,7,0.6646,0.4655,0.1015
+M02,M,9,tnx__taehun,tnx__taehun,티엔엑스 태훈,TNX,Taehun,9,0.6127,0.2733,0.0422
+M08,M,8,treasure__asahi,treasure__asahi,트레저 아사히,TREASURE,Asahi,14,0.5964,-0.3040,0.0744
+M09,M,3,treasure__choi_hyunsuk,treasure__choi_hyunsuk,트레저 최현석,TREASURE,Choi Hyunsuk,12,0.7019,0.0842,-0.1451
+M01,M,2,treasure__doyoung,treasure__doyoung,트레저 도영,TREASURE,Doyoung,16,0.6330,0.0867,-0.2193
+M07,M,4,treasure__haruto,treasure__haruto,트레저 하루토,TREASURE,Haruto,10,0.5418,-0.0113,-0.2293
+M05,M,0,treasure__jaehyuk,treasure__jaehyuk,트레저 재혁,TREASURE,Jaehyuk,12,0.5618,-0.1156,-0.0678
+M01,M,2,treasure__jeongwoo,treasure__jeongwoo,트레저 정우,TREASURE,Jeongwoo,16,0.7397,-0.0324,-0.1741
+M05,M,0,treasure__jihoon,treasure__jihoon,트레저 지훈,TREASURE,Jihoon,13,0.6439,-0.0174,0.1354
+M08,M,8,treasure__junghwan,treasure__junghwan,트레저 정환,TREASURE,Junghwan,10,0.5404,-0.1601,0.1526
+M06,M,7,treasure__junkyu,treasure__junkyu,트레저 준규,TREASURE,Junkyu,27,0.6314,0.1604,-0.1190
+M05,M,0,treasure__yoshi,treasure__yoshi,트레저 요시,TREASURE,Yoshi,8,0.6857,-0.1072,-0.0085
+M02,M,9,trendz__eunil,trendz__eunil,트렌드지 은일,TRENDZ,Eunil,11,0.6839,-0.1724,0.0668
+M01,M,2,trendz__hankook,trendz__hankook,트렌드지 한국,TRENDZ,Hankook,14,0.7384,0.1130,-0.2538
+M01,M,2,trendz__havit,trendz__havit,트렌드지 하빛,TRENDZ,Havit,8,0.6387,0.0463,-0.2090
+M02,M,9,trendz__leon,trendz__leon,트렌드지 리온,TRENDZ,Leon,12,0.7218,0.1437,0.3565
+M03,M,1,trendz__ra_l,trendz__ra_l,트렌드지 라엘,TRENDZ,ra.L,7,0.7735,0.2289,-0.1921
+M03,M,1,trendz__yechan,trendz__yechan,트렌드지 예찬,TRENDZ,Yechan,9,0.6132,-0.0050,-0.0154
+M04,M,6,trendz__yoonwoo,trendz__yoonwoo,트렌드지 윤우,TRENDZ,Yoonwoo,11,0.6055,-0.0099,0.1465
+M09,M,3,tws__dohoon,tws__dohoon,투어스 도훈,TWS,Dohoon,11,0.7178,-0.2086,-0.1718
+M09,M,3,tws__hanjin,tws__hanjin,투어스 한진,TWS,Hanjin,11,0.7385,-0.3107,-0.1262
+M02,M,9,tws__jihoon,tws__jihoon,투어스 지훈,TWS,Jihoon,15,0.6228,-0.0195,0.1554
+M08,M,8,tws__kyungmin,tws__kyungmin,투어스 경민,TWS,Kyungmin,12,0.6663,-0.0519,0.0845
+M07,M,4,tws__shinyu,tws__shinyu,투어스 신유,TWS,Shinyu,10,0.6914,-0.1260,-0.1181
+M06,M,7,tws__youngjae,tws__youngjae,투어스 영재,TWS,Youngjae,11,0.6364,-0.0337,0.0780
+M10,M,5,vayonn__masato,vayonn__masato,베이온 마사토,VAYONN,Masato,5,0.7445,-0.0569,0.1425
+M07,M,4,vayonn__peng_jinyu,vayonn__peng_jinyu,베이온 펑진위,VAYONN,Peng Jinyu,6,0.6200,-0.2055,-0.1510
+M10,M,5,vayonn__sun_jiayang,vayonn__sun_jiayang,베이온 쑨지아양,VAYONN,Sun Jiayang,8,0.5956,-0.2721,-0.0822
+M10,M,5,waker__ijun,waker__ijun,WAKER 이준,WAKER,Ijun,8,0.5779,-0.1291,-0.0271
+M06,M,7,waker__kohyeon,waker__kohyeon,WAKER 고현,WAKER,Kohyeon,8,0.5131,0.2206,0.3012
+M02,M,9,waker__kwon_hyeop,waker__kwon_hyeop,WAKER 권협,WAKER,Kwon Hyeop,8,0.5817,-0.1169,0.1468
+M05,M,0,waker__leo,waker__leo,WAKER 리오,WAKER,Leo,7,0.6175,-0.0151,-0.0890
+M09,M,3,waker__saebyeol,waker__saebyeol,WAKER 새별,WAKER,Saebyeol,8,0.5774,0.0546,0.1263
+M01,M,2,waker__sebum,waker__sebum,WAKER 세범,WAKER,Sebum,8,0.5749,-0.0071,-0.1523
+M09,M,3,wei__daehyeon,wei__daehyeon,위아이 대현,WEi,Daehyeon,9,0.7225,-0.1275,-0.1057
+M01,M,2,wei__donghan,wei__donghan,위아이 동한,WEi,Donghan,8,0.6176,-0.0288,-0.0598
+M01,M,2,wei__junseo,wei__junseo,위아이 준서,WEi,Junseo,14,0.6523,-0.0571,-0.1293
+M07,M,4,wei__seokhwa,wei__seokhwa,위아이 석화,WEi,Seokhwa,10,0.7096,0.0503,0.0049
+M07,M,4,wei__yohan,wei__yohan,위아이 요한,WEi,Yohan,11,0.6614,-0.0134,-0.1509
+M02,M,9,wei__yongha,wei__yongha,위아이 용하,WEi,Yongha,11,0.6806,0.0191,0.1687
+M05,M,0,whib__haseung,whib__haseung,휘브 하승,WHIB,Haseung,11,0.7343,0.0335,0.1951
+M07,M,4,whib__jaeha,whib__jaeha,휘브 재하,WHIB,Jaeha,12,0.6975,-0.2197,0.0422
+M10,M,5,whib__jinbeom,whib__jinbeom,휘브 진범,WHIB,Jinbeom,7,0.6712,-0.2090,-0.0683
+M05,M,0,whib__kim_junmin,whib__kim_junmin,휘브 김준민,WHIB,Kim Junmin,6,0.6066,-0.1051,0.0273
+M09,M,3,whib__leejeong,whib__leejeong,휘브 이정,WHIB,Leejeong,9,0.7208,-0.0261,-0.1961
+M08,M,8,whib__ugeon,whib__ugeon,휘브 유건,WHIB,UGeon,11,0.7482,-0.0705,0.1766
+M06,M,7,whib__wonjun,whib__wonjun,휘브 원준,WHIB,Wonjun,11,0.6118,0.2586,0.0020
+M07,M,4,xdinary_heroes__gaon,xdinary_heroes__gaon,엑스디너리히어로즈 가온,Xdinary Heroes,Gaon,9,0.6447,-0.3528,0.0347
+M03,M,1,xdinary_heroes__gunil,xdinary_heroes__gunil,엑스디너리히어로즈 건일,Xdinary Heroes,Gunil,8,0.6752,0.3646,-0.1179
+M09,M,3,xdinary_heroes__jooyeon,xdinary_heroes__jooyeon,엑스디너리히어로즈 주연,Xdinary Heroes,Jooyeon,7,0.6454,-0.1103,-0.0624
+M03,M,1,xdinary_heroes__jun_han,xdinary_heroes__jun_han,엑스디너리히어로즈 준한,Xdinary Heroes,Jun Han,8,0.7057,0.2045,-0.0712
+M06,M,7,xdinary_heroes__jungsu,xdinary_heroes__jungsu,엑스디너리히어로즈 정수,Xdinary Heroes,Jungsu,10,0.6046,0.2119,-0.0278
+M05,M,0,xdinary_heroes__o_de,xdinary_heroes__o_de,엑스디너리히어로즈 오드,Xdinary Heroes,O.de,11,0.6072,-0.1060,0.1374
+M04,M,6,xikers__hunter,xikers__hunter,싸이커스 헌터,xikers,Hunter,8,0.6181,-0.0576,0.1513
+M06,M,7,xikers__hyunwoo,xikers__hyunwoo,싸이커스 현우,xikers,Hyunwoo,14,0.6678,0.2920,0.0100
+M09,M,3,xikers__jinsik,xikers__jinsik,싸이커스 진식,xikers,Jinsik,11,0.6395,-0.1893,-0.1150
+M05,M,0,xikers__junghoon,xikers__junghoon,싸이커스 정훈,xikers,Junghoon,8,0.6336,0.2105,-0.1714
+M02,M,9,xikers__junmin,xikers__junmin,싸이커스 준민,xikers,Junmin,13,0.6327,-0.1277,0.2571
+M09,M,3,xikers__minjae,xikers__minjae,싸이커스 민재,xikers,Minjae,12,0.6195,0.0420,-0.1172
+M02,M,9,xikers__seeun,xikers__seeun,싸이커스 세은,xikers,Seeun,13,0.7146,0.1028,0.1819
+M04,M,6,xikers__sumin,xikers__sumin,싸이커스 수민,xikers,Sumin,10,0.7244,0.1208,0.2333
+M08,M,8,xikers__yechan,xikers__yechan,싸이커스 예찬,xikers,Yechan,14,0.7128,-0.2619,-0.0328
+M03,M,1,xikers__yujun,xikers__yujun,싸이커스 유준,xikers,Yujun,12,0.6362,-0.0187,-0.1456
+M02,M,9,xlov__haru,xlov__haru,XLOV 하루,XLOV,Haru,9,0.6965,-0.0933,0.1992
+M10,M,5,xlov__hyun,xlov__hyun,XLOV 현,XLOV,Hyun,7,0.7671,0.0469,-0.0051
+M10,M,5,xlov__rui,xlov__rui,XLOV 루이,XLOV,Rui,7,0.6399,0.0918,0.0499
+M10,M,5,xlov__wumuti,xlov__wumuti,XLOV 우무티,XLOV,Wumuti,7,0.7035,-0.0581,0.0311
+M02,M,9,xodiac__beomsoo,xodiac__beomsoo,소디엑 범수,XODIAC,Beomsoo,11,0.7073,0.1225,0.2731
+M03,M,1,xodiac__davin,xodiac__davin,소디엑 다빈,XODIAC,Davin,14,0.7792,0.1686,0.1009
+M08,M,8,xodiac__gyumin,xodiac__gyumin,소디엑 규민,XODIAC,Gyumin,8,0.7007,-0.1556,0.1914
+M08,M,8,xodiac__hyunsik,xodiac__hyunsik,소디엑 현식,XODIAC,Hyunsik,11,0.6968,-0.0303,0.1244
+M02,M,9,xodiac__leo,xodiac__leo,소디엑 리오,XODIAC,Leo,11,0.7966,-0.0548,0.2377
+M03,M,1,xodiac__lex,xodiac__lex,소디엑 렉스,XODIAC,Lex,13,0.6621,0.1973,0.1709
+M09,M,3,xodiac__sing,xodiac__sing,소디엑 씽,XODIAC,Sing,10,0.7339,-0.0498,-0.1383
+M02,M,9,xodiac__wain,xodiac__wain,소디엑 웨인,XODIAC,Wain,13,0.7705,0.2086,0.2127
+M08,M,8,xodiac__zayyan,xodiac__zayyan,소디엑 자얀,XODIAC,Zayyan,10,0.7974,-0.3138,0.1975
+M03,M,1,younite__dey,younite__dey,유나이트 데이,YOUNITE,DEY,9,0.6617,0.2379,-0.0884
+M07,M,4,younite__eunho,younite__eunho,유나이트 은호,YOUNITE,Eunho,12,0.7152,0.0120,-0.0949
+M06,M,7,younite__eunsang,younite__eunsang,유나이트 은상,YOUNITE,Eunsang,8,0.7094,0.1837,-0.0944
+M02,M,9,younite__hyungseok,younite__hyungseok,유나이트 형석,YOUNITE,Hyungseok,14,0.7775,-0.0972,0.1383
+M04,M,6,younite__kyungmun,younite__kyungmun,유나이트 경문,YOUNITE,Kyungmun,11,0.7041,0.1637,-0.0589
+M05,M,0,younite__sion,younite__sion,유나이트 시온,YOUNITE,Sion,10,0.7417,0.1030,0.0906
+M08,M,8,younite__steve,younite__steve,유나이트 스티브,YOUNITE,Steve,11,0.7315,-0.1971,0.0305
+M07,M,4,younite__woono,younite__woono,유나이트 우노,YOUNITE,Woono,11,0.7014,-0.3242,-0.0976
+M10,M,5,yuhz__bohyeon,yuhz__bohyeon,YUHZ 보현,YUHZ,Bohyeon,6,0.4811,-0.0565,-0.1293
+M02,M,9,yuhz__haruto,yuhz__haruto,YUHZ 하루토,YUHZ,Haruto,6,0.5487,0.1114,0.1093
+M01,M,2,yuhz__jaeil,yuhz__jaeil,YUHZ 재일,YUHZ,Jaeil,8,0.5848,-0.0797,-0.1742
+M07,M,4,yuhz__junseong,yuhz__junseong,YUHZ 준성,YUHZ,Junseong,8,0.4895,-0.2303,-0.1889
+M10,M,5,yuhz__kai,yuhz__kai,YUHZ 카이,YUHZ,Kai,6,0.4188,-0.2466,-0.0926
+M03,M,1,yuhz__yeontae,yuhz__yeontae,YUHZ 연태,YUHZ,Yeontae,5,0.3996,0.1307,-0.1869
+M07,M,4,zerobaseone__kim_jiwoong,zerobaseone__kim_jiwoong,제로베이스원 김지웅,ZEROBASEONE,Kim Jiwoong,11,0.7032,-0.3932,0.0353
+M03,M,1,zerobaseone__kim_taerae,zerobaseone__kim_taerae,제로베이스원 김태래,ZEROBASEONE,Kim Taerae,14,0.6938,0.0216,0.0113
+M06,M,7,zerobaseone__park_gunwook,zerobaseone__park_gunwook,제로베이스원 박건욱,ZEROBASEONE,Park Gunwook,13,0.7203,0.2231,-0.1074
+M04,M,6,zerobaseone__seok_matthew,zerobaseone__seok_matthew,제로베이스원 석매튜,ZEROBASEONE,Seok Matthew,11,0.7318,-0.0073,0.0057
+M05,M,0,zerobaseone__sung_hanbin,zerobaseone__sung_hanbin,제로베이스원 성한빈,ZEROBASEONE,Sung Hanbin,12,0.6997,-0.1697,0.1536
+M06,M,7,aimers__eunjun,aimers__eunjun,AIMERS 은준,AIMERS,Eunjun,6,0.6390,0.0346,0.0327
+M05,M,0,aimers__seunghwan,aimers__seunghwan,AIMERS 승환,AIMERS,Seunghwan,8,0.6196,0.0687,0.1165
+M02,M,9,aimers__seunghyun,aimers__seunghyun,AIMERS 승현,AIMERS,Seunghyun,7,0.6079,-0.0161,0.0876
+M06,M,7,aimers__wooyoung,aimers__wooyoung,AIMERS 우영,AIMERS,Wooyoung,8,0.6001,0.0846,-0.0157
+M03,M,1,aimers__yoel,aimers__yoel,AIMERS 요엘,AIMERS,Yoel,7,0.5413,0.2270,-0.1687
+M03,M,1,b_d_u__bitsaeon,b_d_u__bitsaeon,B.D.U 빛새온,B.D.U,Bitsaeon,6,0.6324,0.1958,0.0366
+M08,M,8,b_d_u__jay_chang,b_d_u__jay_chang,B.D.U 제이창,B.D.U,Jay Chang,8,0.8376,-0.1171,0.1295
+M03,M,1,b_d_u__kim_minseo,b_d_u__kim_minseo,B.D.U 김민서,B.D.U,Kim Minseo,8,0.5921,0.2585,0.2384
+M01,M,2,b_d_u__seunghun,b_d_u__seunghun,B.D.U 승훈,B.D.U,Seunghun,8,0.6711,0.0660,-0.1073
+M09,M,3,jwiiver__chae_gaho,jwiiver__chae_gaho,JWiiver 채가호,JWiiver,Chae Gaho,19,0.3787,-0.1062,0.0843
+M09,M,3,jwiiver__jukang,jwiiver__jukang,JWiiver 주강,JWiiver,Jukang,6,0.3592,-0.1264,-0.1852
+M02,M,9,jwiiver__rihan,jwiiver__rihan,JWiiver 리한,JWiiver,Rihan,6,0.7654,-0.0216,0.1920
+M02,M,9,nxmercy__youn,nxmercy__youn,NXMERCY 윤,NXMERCY,Youn,8,0.6333,-0.1034,0.1007
+M07,M,4,vay_onn__peng_jinyu,vay_onn__peng_jinyu,VAY ONN 펑진위,VAY ONN,Peng Jinyu,7,0.5923,-0.2016,-0.1240
+M10,M,5,vay_onn__sun_jiayang,vay_onn__sun_jiayang,VAY ONN 쑨지아양,VAY ONN,Sun Jiayang,5,0.3618,-0.2754,0.0224
+M01,M,2,vi_enx__wonjin,vi_enx__wonjin,VI'ENX 원진,VI'ENX,Wonjin,5,0.4151,0.0307,-0.1397
+M01,M,2,vi_enx__yeung,vi_enx__yeung,VI'ENX 예웅,VI'ENX,Yeung,5,0.4236,-0.1460,-0.1574
+M09,M,3,vi_enx__younghoon,vi_enx__younghoon,VI'ENX 영훈,VI'ENX,Younghoon,10,0.3874,0.0364,-0.1180
+M02,M,9,vvs__allan,vvs__allan,VVS 앨런,VVS,Allan,7,0.8335,-0.0017,0.2028
+M02,M,9,vvs__hyosung,vvs__hyosung,VVS 효성,VVS,Hyosung,7,0.8778,0.0496,0.2000
+M01,M,2,vvs__minjae,vvs__minjae,VVS 민재,VVS,Minjae,7,0.7613,0.0890,-0.0010
+M04,M,6,vvs__shinhwa,vvs__shinhwa,VVS 신화,VVS,Shinhwa,6,0.6146,0.0738,0.2112
+M05,M,0,vvs__taeseok,vvs__taeseok,VVS 태석,VVS,Taeseok,7,0.6620,-0.0663,-0.1829
+M02,M,9,withus__hwanrok,withus__hwanrok,withus 환록,withus,Hwanrok,7,0.5390,0.0933,0.3226
+M02,M,9,withus__junhyeok,withus__junhyeok,withus 준혁,withus,Junhyeok,9,0.4636,0.0975,0.3162
+M06,M,7,adap__hyunsung,adap__hyunsung,ADAP 현성,ADAP,Hyunsung,5,0.4523,0.2287,0.0887
+M01,M,2,adap__jongho,adap__jongho,ADAP 종호,ADAP,Jongho,10,0.5414,0.0789,-0.1302
+M01,M,2,keyvitup__hyunmin,keyvitup__hyunmin,KEYVITUP 현민,KEYVITUP,Hyunmin,9,0.4945,0.1213,-0.1330
+M05,M,0,tunexx__donggyu,tunexx__donggyu,TUNEXX 동규,TUNEXX,Donggyu,5,0.7596,-0.1101,0.0237
+M01,M,2,bts__jhope,bts__jhope,방탄소년단 제이홉,BTS,J-Hope,12,0.6924,0.1875,-0.1328
+M04,M,6,bts__jimin,bts__jimin,방탄소년단 지민,BTS,Jimin,15,0.6863,-0.0874,0.1202
+M09,M,3,bts__jin,bts__jin,방탄소년단 진,BTS,Jin,9,0.5790,-0.0050,-0.2332
+M09,M,3,bts__jungkook,bts__jungkook,방탄소년단 정국,BTS,Jungkook,12,0.4600,-0.1464,-0.0490
+M06,M,7,bts__rm,bts__rm,방탄소년단 알엠,BTS,RM,11,0.4223,0.3281,0.1547
+M01,M,2,bts__suga,bts__suga,방탄소년단 슈가,BTS,Suga,10,0.6203,0.1611,0.0234
+M09,M,3,bts__v,bts__v,방탄소년단 뷔,BTS,V,10,0.4653,-0.2596,-0.0997
+M09,M,3,txt__beomgyu,txt__beomgyu,투모로우바이투게더 범규,TXT,Beomgyu,12,0.6856,-0.0620,-0.0373
+M02,M,9,txt__hueningkai,txt__hueningkai,투모로우바이투게더 휴닝카이,TXT,Hueningkai,12,0.6744,-0.0732,0.2179
+M07,M,4,txt__soobin,txt__soobin,투모로우바이투게더 수빈,TXT,Soobin,13,0.6364,-0.0840,-0.2152
+M09,M,3,txt__taehyun,txt__taehyun,투모로우바이투게더 태현,TXT,Taehyun,11,0.6638,-0.1701,0.0564
+M10,M,5,txt__yeonjun,txt__yeonjun,투모로우바이투게더 연준,TXT,Yeonjun,8,0.6423,-0.1211,-0.0703
+M01,M,2,infinite__dongwoo,infinite__dongwoo,인피니트 동우,INFINITE,Dongwoo,10,0.6824,0.1090,-0.3322
+M07,M,4,infinite__l,infinite__l,인피니트 엘,INFINITE,L,11,0.5542,-0.0763,-0.0717
+M09,M,3,infinite__seongjong,infinite__seongjong,인피니트 성종,INFINITE,Seongjong,11,0.7008,0.0162,-0.1264
+M06,M,7,infinite__sungkyu,infinite__sungkyu,인피니트 성규,INFINITE,Sungkyu,14,0.6734,0.2401,0.0057
+M03,M,1,infinite__sungyeol,infinite__sungyeol,인피니트 성열,INFINITE,Sungyeol,11,0.5939,0.1877,-0.0574
+M03,M,1,infinite__woohyun,infinite__woohyun,인피니트 우현,INFINITE,Woohyun,8,0.5684,0.1172,-0.0593
+M04,M,6,stray_kids__bang_chan,stray_kids__bang_chan,스트레이키즈 방찬,Stray Kids,Bang Chan,13,0.5529,-0.1261,0.1309
+M04,M,6,stray_kids__changbin,stray_kids__changbin,스트레이키즈 창빈,Stray Kids,Changbin,10,0.7275,0.1406,-0.1154
+M10,M,5,stray_kids__felix,stray_kids__felix,스트레이키즈 필릭스,Stray Kids,Felix,14,0.6529,-0.0062,-0.0964
+M04,M,6,stray_kids__han,stray_kids__han,스트레이키즈 한,Stray Kids,Han,11,0.4715,0.2288,-0.0474
+M07,M,4,stray_kids__hyunjin,stray_kids__hyunjin,스트레이키즈 현진,Stray Kids,Hyunjin,9,0.5159,-0.0847,-0.0956
+M02,M,9,stray_kids__i_n,stray_kids__i_n,스트레이키즈 아이엔,Stray Kids,I.N,9,0.6453,-0.1253,0.2605
+M07,M,4,stray_kids__lee_know,stray_kids__lee_know,스트레이키즈 리노,Stray Kids,Lee Know,10,0.6936,-0.3025,0.0114
+M08,M,8,stray_kids__seungmin,stray_kids__seungmin,스트레이키즈 승민,Stray Kids,Seungmin,13,0.6406,-0.1680,-0.1054
+M07,M,4,astro__cha_eunwoo,astro__cha_eunwoo,아스트로 차은우,ASTRO,Cha Eunwoo,9,0.5541,-0.3147,0.0785
+M04,M,6,astro__jinjin,astro__jinjin,아스트로 진진,ASTRO,JinJin,10,0.6374,0.1611,0.1103
+M02,M,9,astro__mj,astro__mj,아스트로 엠제이,ASTRO,MJ,12,0.5698,0.2559,0.2261
+M02,M,9,astro__moonbin,astro__moonbin,아스트로 문빈,ASTRO,Moonbin,8,0.5553,-0.0547,0.1892
+M01,M,2,astro__rocky,astro__rocky,아스트로 라키,ASTRO,Rocky,12,0.6286,-0.0629,-0.1991
+M06,M,7,astro__sanha,astro__sanha,아스트로 산하,ASTRO,Sanha,7,0.5653,0.0645,-0.0031
+M01,M,2,exo__baekhyun,exo__baekhyun,엑소 백현,EXO,Baekhyun,9,0.4994,0.1948,-0.2376
+M04,M,6,exo__chanyeol,exo__chanyeol,엑소 찬열,EXO,Chanyeol,12,0.6744,-0.0681,-0.0901
+M05,M,0,exo__chen,exo__chen,엑소 첸,EXO,Chen,12,0.6873,-0.1199,0.1157
+M02,M,9,exo__do,exo__do,엑소 디오,EXO,D.O.,13,0.6242,-0.0177,0.0817
+M02,M,9,exo__kai,exo__kai,엑소 카이,EXO,Kai,10,0.6966,0.0608,0.1311
+M10,M,5,exo__lay,exo__lay,엑소 레이,EXO,Lay,7,0.5166,-0.2087,0.2281
+M09,M,3,exo__sehun,exo__sehun,엑소 세훈,EXO,Sehun,11,0.5979,-0.0003,-0.3178
+M01,M,2,exo__suho,exo__suho,엑소 수호,EXO,Suho,10,0.5012,0.1398,-0.1247
+M05,M,0,exo__xiumin,exo__xiumin,엑소 시우민,EXO,Xiumin,10,0.6586,-0.0524,0.1016
+M04,M,6,got7__bambam,got7__bambam,갓세븐 뱀뱀,GOT7,BamBam,11,0.6006,-0.1061,-0.0007
+M09,M,3,got7__jackson,got7__jackson,갓세븐 잭슨,GOT7,Jackson,14,0.5463,-0.2495,0.1038
+M02,M,9,got7__jb,got7__jb,갓세븐 제이비,GOT7,JB,8,0.5946,0.0215,0.1919
+M03,M,1,got7__jinyoung,got7__jinyoung,갓세븐 진영,GOT7,Jinyoung,10,0.6668,-0.0014,0.0593
+M01,M,2,got7__mark,got7__mark,갓세븐 마크,GOT7,Mark,11,0.5590,0.0144,-0.2421
+M03,M,1,got7__youngjae,got7__youngjae,갓세븐 영재,GOT7,Youngjae,14,0.6356,0.1436,0.2403
+M04,M,6,got7__yugyeom,got7__yugyeom,갓세븐 유겸,GOT7,Yugyeom,11,0.4856,-0.1533,-0.2658
+M08,M,8,highlight__dongwoon,highlight__dongwoon,하이라이트 동운,Highlight,Dongwoon,5,0.4704,-0.2432,0.1898
+M05,M,0,highlight__doojoon,highlight__doojoon,하이라이트 두준,Highlight,Doojoon,8,0.4906,0.0468,0.1524
+M10,M,5,highlight__gikwang,highlight__gikwang,하이라이트 기광,Highlight,Gikwang,5,0.5530,-0.0814,-0.0844
+M01,M,2,highlight__yoseob,highlight__yoseob,하이라이트 요섭,Highlight,Yoseob,7,0.5738,0.0332,-0.3737
+M06,M,7,ikon__bobby,ikon__bobby,아이콘 바비,iKON,Bobby,11,0.6771,0.2086,0.0249
+M06,M,7,ikon__jay,ikon__jay,아이콘 제이,iKON,Jay,5,0.6981,-0.0600,0.0982
+M08,M,8,ikon__june,ikon__june,아이콘 준회,iKON,Ju-ne,12,0.6455,-0.1554,0.0406
+M05,M,0,onf__e_tion,onf__e_tion,온앤오프 이션,ONF,E-Tion,12,0.5419,0.3060,-0.0254
+M05,M,0,onf__hyojin,onf__hyojin,온앤오프 효진,ONF,Hyojin,11,0.6391,-0.0424,-0.1519
+M06,M,7,onf__j_us,onf__j_us,온앤오프 승준,ONF,J-Us,7,0.5639,0.0846,-0.0119
+M03,M,1,onf__laun,onf__laun,온앤오프 라운,ONF,Laun,12,0.5698,-0.1680,0.0128
+M10,M,5,onf__mk,onf__mk,온앤오프 민균,ONF,MK,9,0.6410,-0.0141,-0.1021
+M03,M,1,onf__wyatt,onf__wyatt,온앤오프 와이엇,ONF,Wyatt,9,0.5753,0.0725,0.1061
+M03,M,1,pentagon__hongseok,pentagon__hongseok,펜타곤 홍석,Pentagon,Hongseok,12,0.6758,0.1933,-0.1471
+M06,M,7,pentagon__hui,pentagon__hui,펜타곤 후이,Pentagon,Hui,15,0.5944,0.2700,0.0889
+M06,M,7,pentagon__jinho,pentagon__jinho,펜타곤 진호,Pentagon,Jinho,11,0.5822,0.1558,-0.0236
+M06,M,7,pentagon__kino,pentagon__kino,펜타곤 키노,Pentagon,Kino,11,0.5756,0.1117,-0.1428
+M04,M,6,pentagon__shinwon,pentagon__shinwon,펜타곤 신원,Pentagon,Shinwon,13,0.6149,0.0687,0.1856
+M04,M,6,pentagon__wooseok,pentagon__wooseok,펜타곤 우석,Pentagon,Wooseok,11,0.5897,-0.0087,-0.1568
+M02,M,9,pentagon__yanan,pentagon__yanan,펜타곤 옌안,Pentagon,Yanan,12,0.6682,-0.0376,-0.0131
+M01,M,2,pentagon__yeo_one,pentagon__yeo_one,펜타곤 여원,Pentagon,Yeo One,8,0.6281,0.0122,-0.1298
+M09,M,3,pentagon__yuto,pentagon__yuto,펜타곤 유토,Pentagon,Yuto,8,0.6230,0.0034,0.0687
+M04,M,6,sf9__chani,sf9__chani,SF9 찬희,SF9,Chani,11,0.6970,0.0857,-0.1744
+M06,M,7,sf9__dawon,sf9__dawon,SF9 다원,SF9,Dawon,13,0.6731,-0.0300,0.0848
+M09,M,3,sf9__hwiyoung,sf9__hwiyoung,SF9 휘영,SF9,Hwiyoung,9,0.5853,-0.0387,0.0073
+M05,M,0,sf9__inseong,sf9__inseong,SF9 인성,SF9,Inseong,11,0.5404,0.0074,0.1411
+M01,M,2,sf9__jaeyoon,sf9__jaeyoon,SF9 재윤,SF9,Jaeyoon,13,0.6513,0.0128,-0.0518
+M08,M,8,sf9__taeyang,sf9__taeyang,SF9 유태양,SF9,Taeyang,9,0.6402,-0.2823,0.2263
+M01,M,2,sf9__youngbin,sf9__youngbin,SF9 영빈,SF9,Youngbin,11,0.6332,0.0166,-0.3059
+M06,M,7,sf9__zuho,sf9__zuho,SF9 주호,SF9,Zuho,6,0.6464,-0.0339,0.2702
+M09,M,3,the_boyz__eric,the_boyz__eric,더보이즈 에릭,The Boyz,Eric,11,0.5336,-0.1306,-0.0302
+M04,M,6,the_boyz__hyunjae,the_boyz__hyunjae,더보이즈 현재,The Boyz,Hyunjae,13,0.6709,-0.0368,0.1642
+M01,M,2,the_boyz__jacob,the_boyz__jacob,더보이즈 제이콥,The Boyz,Jacob,15,0.5985,0.1242,-0.1360
+M02,M,9,the_boyz__juhaknyeon,the_boyz__juhaknyeon,더보이즈 주학년,The Boyz,JuHaknyeon,10,0.6596,-0.1399,0.1896
+M02,M,9,the_boyz__juyeon,the_boyz__juyeon,더보이즈 주연,The Boyz,Juyeon,8,0.5322,-0.1201,0.1671
+M05,M,0,the_boyz__kevin,the_boyz__kevin,더보이즈 케빈,The Boyz,Kevin,6,0.6371,0.2146,0.1352
+M06,M,7,the_boyz__new,the_boyz__new,더보이즈 뉴,The Boyz,New,9,0.5614,0.2183,-0.0042
+M04,M,6,the_boyz__sangyeon,the_boyz__sangyeon,더보이즈 상연,The Boyz,Sangyeon,6,0.6543,0.0290,0.2804
+M01,M,2,the_boyz__sunwoo,the_boyz__sunwoo,더보이즈 선우,The Boyz,Sunwoo,11,0.6637,-0.0279,-0.1291
+M09,M,3,the_boyz__younghoon,the_boyz__younghoon,더보이즈 영훈,The Boyz,Younghoon,9,0.5389,-0.2163,-0.0434
+M05,M,0,winner__jinu,winner__jinu,위너 진우,WINNER,Jinu,11,0.5928,-0.0344,-0.1325
+M05,M,0,winner__mino,winner__mino,위너 민호,WINNER,Mino,10,0.5034,0.1017,-0.0009
+M06,M,7,winner__seunghoon,winner__seunghoon,위너 승훈,WINNER,Seunghoon,8,0.6840,0.4901,0.0192
+M09,M,3,winner__seungyoon,winner__seungyoon,위너 승윤,WINNER,Seungyoon,11,0.4689,0.2769,-0.1581
+M04,M,6,b_a_p__daehyun,b_a_p__daehyun,비에이피 정대현,B.A.P,Daehyun,8,0.5840,-0.2537,-0.1069
+M04,M,6,b_a_p__jongup,b_a_p__jongup,비에이피 문종업,B.A.P,Jongup,18,0.5698,0.3259,0.2575
+M04,M,6,b_a_p__yongguk,b_a_p__yongguk,비에이피 방용국,B.A.P,Yongguk,22,0.4858,0.2282,-0.0413
+M06,M,7,b_a_p__youngjae,b_a_p__youngjae,비에이피 유영재,B.A.P,Youngjae,23,0.5794,0.1302,-0.1639
+M01,M,2,b_a_p__zelo,b_a_p__zelo,비에이피 젤로,B.A.P,Zelo,6,0.5790,-0.0137,-0.0538
+M09,M,3,day6__dowoon,day6__dowoon,데이식스 도운,DAY6,Dowoon,10,0.6148,0.1780,-0.3808
+M04,M,6,day6__sungjin,day6__sungjin,데이식스 성진,DAY6,Sungjin,9,0.6298,-0.0371,-0.0243
+M08,M,8,day6__wonpil,day6__wonpil,데이식스 원필,DAY6,Wonpil,9,0.5368,-0.1180,-0.1109
+M01,M,2,day6__young_k,day6__young_k,데이식스 영케이,DAY6,Young K,9,0.5607,0.2107,-0.1197
+M03,M,1,n_flying__dongsung,n_flying__dongsung,엔플라잉 서동성,N.Flying,Dongsung,10,0.6094,0.1812,0.2289
+M01,M,2,n_flying__hun,n_flying__hun,엔플라잉 차훈,N.Flying,Hun,9,0.7122,-0.1350,-0.3432
+M04,M,6,n_flying__hweseung,n_flying__hweseung,엔플라잉 유회승,N.Flying,Hweseung,7,0.6186,0.0388,-0.0585
+M04,M,6,n_flying__seunghyub,n_flying__seunghyub,엔플라잉 이승협,N.Flying,Seunghyub,8,0.5704,0.0702,-0.0886
+M06,M,7,vixx__hyuk,vixx__hyuk,빅스 혁,VIXX,Hyuk,7,0.6203,0.2083,0.0310
+M08,M,8,vixx__ken,vixx__ken,빅스 켄,VIXX,Ken,6,0.7312,-0.0595,0.0593
+M04,M,6,vixx__leo,vixx__leo,빅스 레오,VIXX,Leo,6,0.6633,0.1123,0.1447
+M02,M,9,vixx__n,vixx__n,빅스 엔,VIXX,N,11,0.5888,0.0465,0.1747

@@ -72,7 +72,7 @@ def _is_low_quality(member, min_image_count: int, min_confidence: float) -> bool
 def main() -> None:
     st.set_page_config(page_title="아이돌 얼굴 추천기", page_icon="✨", layout="wide")
     st.title("아이돌 얼굴 추천기")
-    st.caption("좋아하는 멤버를 고르면 비슷한 느낌의 다른 아이돌을 찾아드립니다.")
+    st.caption("좋아하는 멤버를 고르면 얼굴이 비슷한 다른 아이돌을 찾아드립니다.")
 
     arcface_members = _load_members_arcface()
     farl_members = _load_members_farl()
@@ -113,20 +113,18 @@ def main() -> None:
     )
 
     with st.expander("설정 바꾸기", expanded=False):
-        engine_options = ["얼굴 + 분위기 섞어서 (추천)"]
+        engine_options = ["얼굴만 (닮은 사람)"]
         if farl_members:
-            engine_options.append("얼굴만 (닮은 사람)")
+            engine_options.append("얼굴 + 분위기 섞어서")
             engine_options.append("분위기만 (이미지 톤)")
-        else:
-            engine_options = ["얼굴만 (닮은 사람)"]
 
         engine_label = st.radio(
             "추천 기준",
             options=engine_options,
             index=0,
             help=(
-                "· 얼굴 + 분위기: 얼굴 생김새와 분위기를 모두 고려 (기본)\n"
-                "· 얼굴만: 눈·코·입 배치 등 골격이 닮은 사람 위주\n"
+                "· 얼굴만: 눈·코·입 배치 등 얼굴 임베딩이 닮은 사람 위주 (기본)\n"
+                "· 얼굴 + 분위기: 얼굴 생김새와 이미지 분위기를 함께 고려\n"
                 "· 분위기만: 이미지 톤·스타일이 비슷한 사람 위주"
             ),
         )
@@ -169,14 +167,14 @@ def main() -> None:
     }
     gender_mode = gender_map[gender_display]
 
-    if engine_label.startswith("얼굴 + 분위기"):
-        primary = arcface_members
-        secondary = farl_members if farl_members else None
-        weights = (1.0, 0.5) if farl_members else (1.0,)
-    elif engine_label.startswith("얼굴만"):
+    if engine_label.startswith("얼굴만"):
         primary = arcface_members
         secondary = None
         weights = (1.0,)
+    elif engine_label.startswith("얼굴 + 분위기"):
+        primary = arcface_members
+        secondary = farl_members if farl_members else None
+        weights = (1.0, 0.5) if farl_members else (1.0,)
     else:
         primary = farl_members if farl_members else arcface_members
         secondary = None
