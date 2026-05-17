@@ -14,13 +14,14 @@ if str(_REPO_ROOT) not in sys.path:
 import pandas as pd
 import streamlit as st
 
-from src.recommend import load_member_vectors, recommend_from_members
+from src.recommend import load_member_aliases, load_member_vectors, recommend_from_members
 
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DEFAULT_VECTORS_PATH = ROOT_DIR / "data" / "member_vectors.csv"
 FARL_VECTORS_PATH = ROOT_DIR / "data" / "member_vectors_farl.csv"
 DEFAULT_MEMBERS_PATH = ROOT_DIR / "data" / "members.csv"
+MEMBER_ALIASES_PATH = ROOT_DIR / "data" / "member_aliases.csv"
 DEFAULT_MIN_IMAGE_COUNT = 5
 DEFAULT_MIN_CONFIDENCE = 0.35
 
@@ -35,6 +36,11 @@ def _load_members_farl():
     if FARL_VECTORS_PATH.exists():
         return load_member_vectors(FARL_VECTORS_PATH)
     return []
+
+
+@st.cache_data
+def _load_member_aliases():
+    return load_member_aliases(MEMBER_ALIASES_PATH)
 
 
 def _clean_label(text: str) -> str:
@@ -70,6 +76,7 @@ def main() -> None:
 
     arcface_members = _load_members_arcface()
     farl_members = _load_members_farl()
+    member_aliases = _load_member_aliases()
 
     if not arcface_members:
         st.warning("추천에 필요한 데이터 파일이 아직 준비되지 않았어요.")
@@ -209,6 +216,7 @@ def main() -> None:
         gender_filter=gender_mode,
         min_image_count=min_image_count,
         min_confidence=min_confidence,
+        member_aliases=member_aliases,
     )
 
     if not rows:

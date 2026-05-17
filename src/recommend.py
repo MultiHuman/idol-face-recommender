@@ -95,6 +95,28 @@ def load_member_vectors(csv_path: str | Path) -> list[MemberVector]:
     return members
 
 
+def load_member_aliases(csv_path: str | Path) -> dict[str, str]:
+    """Load member_id -> person alias mapping for cross-group duplicate members."""
+    path = Path(csv_path)
+    if not path.exists():
+        return {}
+
+    aliases: dict[str, str] = {}
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            member_id = (row.get("member_id") or "").strip()
+            alias_id = (
+                row.get("alias_id")
+                or row.get("person_id")
+                or row.get("canonical_id")
+                or ""
+            ).strip()
+            if member_id and alias_id:
+                aliases[member_id] = alias_id
+    return aliases
+
+
 def _ensure_same_dimension(members: Iterable[MemberVector]) -> None:
     sizes = {member.vector.size for member in members}
     if len(sizes) > 1:
@@ -198,6 +220,35 @@ def compute_scores(
     return out
 
 
+def _alias_for(member_id: str, member_aliases: dict[str, str] | None) -> str:
+    if not member_aliases:
+        return member_id
+    return member_aliases.get(member_id, member_id)
+
+
+def _dedupe_rows_by_alias(
+    rows: list[dict[str, float | str | int]],
+    member_aliases: dict[str, str] | None,
+    liked_ids: set[str],
+) -> list[dict[str, float | str | int]]:
+    if not member_aliases:
+        return rows
+
+    liked_aliases = {_alias_for(member_id, member_aliases) for member_id in liked_ids}
+    seen_aliases: set[str] = set()
+    deduped: list[dict[str, float | str | int]] = []
+
+    for row in rows:
+        member_id = str(row.get("member_id", ""))
+        alias_id = _alias_for(member_id, member_aliases)
+        if alias_id in liked_aliases or alias_id in seen_aliases:
+            continue
+        seen_aliases.add(alias_id)
+        deduped.append(row)
+
+    return deduped
+
+
 def _fused_embedding(
     mid: str,
     members_by_id: dict[str, MemberVector],
@@ -293,6 +344,7 @@ def recommend_from_members(
     gender_filter: str = "auto",
     min_image_count: int = 0,
     min_confidence: float = 0.0,
+    member_aliases: dict[str, str] | None = None,
 ) -> list[dict[str, str | int | float]]:
     """gender_filter: 'auto' = liked 멤버들의 다수 성별과 일치하는 멤버만, 'off' = 필터 없음, 'F'/'M' = 강제 지정."""
     if not members:
@@ -351,6 +403,7 @@ def recommend_from_members(
         )
 
     rows.sort(key=lambda item: float(item["score"]), reverse=True)
+    rows = _dedupe_rows_by_alias(rows, member_aliases, liked_ids)
     pool = rows[: max(top_k, pool_size)]
 
     if mmr_lambda >= 1.0 and max_per_group <= 0:
@@ -398,6 +451,7 @@ def main() -> None:
     parser.add_argument("--vectors-secondary", default=None, help="Secondary (예: FaRL) member vectors.")
     parser.add_argument("--vectors-tertiary", default=None, help="Tertiary (예: landmark) member vectors.")
     parser.add_argument("--weights", nargs="+", type=float, default=[1.0], help="각 source 의 z-score 합산 가중치.")
+    parser.add_argument("--aliases", default="data/member_aliases.csv", help="member_id -> person alias CSV for cross-group dedup.")
     parser.add_argument("--like", nargs="+", required=True)
     parser.add_argument("--top-k", type=int, default=10)
     parser.add_argument("--pool-size", type=int, default=50, help="MMR 적용 전 1차 상위 풀 크기.")
@@ -419,6 +473,7 @@ def main() -> None:
     primary = load_member_vectors(args.vectors)
     secondary = load_member_vectors(args.vectors_secondary) if args.vectors_secondary else None
     tertiary = load_member_vectors(args.vectors_tertiary) if args.vectors_tertiary else None
+    member_aliases = load_member_aliases(args.aliases) if args.aliases else {}
 
     if not primary:
         raise SystemExit(f"No member vectors found at: {args.vectors}")
@@ -437,6 +492,7 @@ def main() -> None:
         gender_filter=args.gender_filter,
         min_image_count=args.min_image_count,
         min_confidence=args.min_confidence,
+        member_aliases=member_aliases,
     )
     print(_format_rows(rows))
 
